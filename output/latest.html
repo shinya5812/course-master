@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>COURSE MASTER 予測結果 2026年06月07日</title>
+
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: "Hiragino Kaku Gothic ProN", "Meiryo", sans-serif;
+         background: #f5f5f5; color: #222; padding: 16px; }
+  h1   { font-size: 1.4rem; color: #333; margin-bottom: 4px; }
+  .run-date { font-size: 0.85rem; color: #888; margin-bottom: 16px; }
+
+  .race-card { background: #fff; border-radius: 8px; padding: 16px 20px;
+               margin-bottom: 20px; box-shadow: 0 1px 4px rgba(0,0,0,.12); }
+
+  .race-header { display: flex; align-items: baseline; flex-wrap: wrap;
+                 gap: 8px; margin-bottom: 12px; }
+  .grade-badge { color: #fff; font-weight: bold; font-size: .8rem;
+                 padding: 2px 8px; border-radius: 4px; }
+  .race-name   { font-size: 1.2rem; font-weight: bold; }
+  .race-meta   { font-size: 0.85rem; color: #555; }
+  .run-time    { color: #aaa; }
+
+  .chaos-bar-wrap  { margin-bottom: 12px; }
+  .chaos-label     { font-size: .85rem; display: block; margin-bottom: 4px; }
+  .chaos-bar-bg    { background: #e0e0e0; border-radius: 4px; height: 10px; }
+  .chaos-bar-fill  { height: 10px; border-radius: 4px; transition: width .3s; }
+
+  .pred-table { width: 100%; border-collapse: collapse; margin-bottom: 12px;
+                font-size: .9rem; }
+  .pred-table th { background: #f0f0f0; padding: 6px 10px; text-align: center;
+                   border-bottom: 2px solid #ddd; }
+  .pred-table td { padding: 7px 10px; border-bottom: 1px solid #eee; text-align: center; }
+  .pred-table tr:last-child td { border-bottom: none; }
+  .mark-cell  { font-size: 1.2rem; font-weight: bold; width: 36px; }
+  .mark-honmei { color: #c62828; }
+  .mark-niban  { color: #1565c0; }
+  .mark-sanban { color: #2e7d32; }
+  .horse-name  { text-align: left; font-weight: bold; }
+  .edge-val    { font-family: monospace; }
+
+  .judge-strong { background: #c62828; color: #fff; padding: 2px 6px;
+                  border-radius: 3px; font-size: .8rem; white-space: nowrap; }
+  .judge-ok     { background: #1565c0; color: #fff; padding: 2px 6px;
+                  border-radius: 3px; font-size: .8rem; white-space: nowrap; }
+  .judge-hold   { background: #f57f17; color: #fff; padding: 2px 6px;
+                  border-radius: 3px; font-size: .8rem; white-space: nowrap; }
+  .judge-ng     { color: #999; font-size: .8rem; }
+  .judge-watch  { color: #888; font-size: .8rem; }
+
+  .verdict-box { display: flex; align-items: center; gap: 8px; padding: 10px 14px;
+                 border-radius: 6px; margin-bottom: 8px; font-size: .95rem; }
+  .verdict-strong { background: #fce4ec; border: 1.5px solid #c62828; }
+  .verdict-ok     { background: #e3f2fd; border: 1.5px solid #1565c0; }
+  .verdict-hold   { background: #fff8e1; border: 1.5px solid #f57f17; }
+  .verdict-ng     { background: #fafafa; border: 1px solid #ccc; }
+  .verdict-watch  { background: #fafafa; border: 1px solid #ccc; }
+  .verdict-icon   { font-size: 1.1rem; }
+  .verdict-text   { line-height: 1.4; }
+
+  .umaren-list { list-style: none; font-size: .88rem; color: #444; padding: 4px 0; }
+  .umaren-list li { padding: 2px 0; }
+  .umaren-list li::before { content: "▶ "; color: #1565c0; }
+  .umaren-note { font-size: .85rem; color: #888; }
+</style>
+
+</head>
+<body>
+  <h1>COURSE MASTER 予測結果</h1>
+  <p class="run-date">2026年06月07日</p>
+
+<section class="race-card">
+  <div class="race-header">
+    <span class="grade-badge" style="background:#d32f2f">G1</span>
+    <span class="race-name">安田記念 G1</span>
+    <span class="race-meta">東京&nbsp;芝&nbsp;1600m&nbsp;
+      馬場:<strong>良</strong>&nbsp;17頭&nbsp;
+      <span class="run-time">(09:35実行)</span>
+    </span>
+  </div>
+
+  <div class="chaos-bar-wrap">
+    <span class="chaos-label">荒れ指数&nbsp;<strong>56.9</strong>&nbsp;波乱の可能性あり</span>
+    <div class="chaos-bar-bg">
+      <div class="chaos-bar-fill" style="width:57%;background:#e53935"></div>
+    </div>
+  </div>
+
+  <table class="pred-table">
+    <thead>
+      <tr><th>印</th><th>馬番</th><th>馬名</th><th>人気</th><th>オッズ</th><th>エッジ</th><th>判定</th></tr>
+    </thead>
+    <tbody>
+<tr><td class="mark-cell mark-honmei">◎</td><td>17</td><td class="horse-name">トロヴァトーレ</td><td>2人気</td><td>4.7倍</td><td class="edge-val">-0.021</td><td><span class="judge-ng">🔴 見送り</span></td></tr>
+<tr><td class="mark-cell mark-niban">○</td><td>16</td><td class="horse-name">パンジャタワー</td><td>4人気</td><td>9.0倍</td><td class="edge-val">+0.024</td><td><span class="judge-watch">🟡 様子見</span></td></tr>
+<tr><td class="mark-cell mark-niban">○</td><td>1</td><td class="horse-name">レーベンスティール</td><td>3人気</td><td>8.7倍</td><td class="edge-val">+0.015</td><td><span class="judge-watch">🟡 様子見</span></td></tr>
+<tr><td class="mark-cell mark-niban">○</td><td>11</td><td class="horse-name">ワールズエンド</td><td>7人気</td><td>20.0倍</td><td class="edge-val">+0.052</td><td><span class="judge-watch">🟡 様子見</span></td></tr>
+<tr><td class="mark-cell mark-sanban">▲</td><td>4</td><td class="horse-name">シックスペンス</td><td>8人気</td><td>24.7倍</td><td class="edge-val">+0.056</td><td><span class="judge-watch">🟡 様子見</span></td></tr>
+<tr><td class="mark-cell mark-sanban">▲</td><td>10</td><td class="horse-name">ルクソールカフェ</td><td>14人気</td><td>71.4倍</td><td class="edge-val">+0.059</td><td><span class="judge-watch">🟡 様子見</span></td></tr>
+<tr><td class="mark-cell mark-sanban">▲</td><td>14</td><td class="horse-name">ガイアフォース</td><td>1人気</td><td>2.8倍</td><td class="edge-val">-0.233</td><td></td></tr>
+<tr><td class="mark-cell mark-sanban">▲</td><td>13</td><td class="horse-name">セイウンハーデス</td><td>6人気</td><td>12.4倍</td><td class="edge-val">-0.017</td><td></td></tr>
+<tr><td class="mark-cell mark-sanban">▲</td><td>6</td><td class="horse-name">ステレンボッシュ</td><td>5人気</td><td>9.3倍</td><td class="edge-val">-0.045</td><td></td></tr>
+    </tbody>
+  </table>
+
+  <div class="verdict-box verdict-ng">
+    <span class="verdict-icon"></span>
+    <span class="verdict-text">🔴 見送り  ◎トロヴァトーレ（エッジ-0.021・市場過大評価）</span>
+  </div>
+  <p class="umaren-note">馬連: 馬連対象外（◎エッジ基準未達）</p>
+</section>
+
+</body>
+</html>

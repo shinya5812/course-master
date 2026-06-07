@@ -65,6 +65,23 @@ try {
         Send-Toast "COURSE MASTER 予測完了" "HTMLレポート: $htmlFile"
         Start-Process $htmlFile
         Write-MainLog "HTML report opened: prediction_$date.html"
+
+        # latest.html へコピー + latest_data.json 生成
+        $latestHtml = "$BASE\output\latest.html"
+        Copy-Item $htmlFile $latestHtml -Force
+        Write-MainLog "Copied to latest.html"
+
+        $pyOut = & python "$BASE\make_latest.py" 2>&1
+        $pyOut | Out-File -Append -Encoding UTF8 $logFile
+        Write-MainLog "make_latest.py: $pyOut"
+
+        # GitHub push
+        Set-Location $BASE
+        git add "output\latest.html" "output\latest_data.json"
+        $commitMsg = "prediction: $todayISO 予測更新（土）"
+        git commit -m $commitMsg
+        git push origin main
+        Write-MainLog "GitHub push completed"
     }
 } catch {
     $errMsg = "$_"

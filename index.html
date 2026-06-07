@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>COURSE MASTER - データドリブン競馬予測</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Hiragino Sans', 'Yu Gothic', 'Meiryo', sans-serif;
+      background: #1a1a2e;
+      color: #e0e0e0;
+      min-height: 100vh;
+    }
+
+    /* ヘッダー */
+    header {
+      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+      border-bottom: 2px solid #c9a84c;
+      padding: 1.4rem 2rem;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 1.9rem;
+      color: #c9a84c;
+      letter-spacing: 0.25em;
+      font-weight: 700;
+    }
+    header p {
+      color: #777;
+      font-size: 0.8rem;
+      margin-top: 0.3rem;
+      letter-spacing: 0.12em;
+    }
+
+    /* ファーストビュー */
+    .hero {
+      min-height: calc(100vh - 76px);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem 1.5rem;
+    }
+
+    .section-label {
+      font-size: 0.72rem;
+      color: #c9a84c;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      margin-bottom: 1rem;
+    }
+
+    /* 予測カード */
+    .prediction-card {
+      background: #16213e;
+      border: 1px solid #c9a84c;
+      border-radius: 14px;
+      padding: 2rem 2.2rem;
+      max-width: 680px;
+      width: 100%;
+      box-shadow: 0 6px 30px rgba(201, 168, 76, 0.12);
+    }
+
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 1.4rem;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid #2a2a4a;
+    }
+    .race-name {
+      font-size: 1.15rem;
+      color: #c9a84c;
+      font-weight: 700;
+    }
+    .race-meta {
+      font-size: 0.78rem;
+      color: #666;
+      margin-top: 0.25rem;
+    }
+    .race-date {
+      font-size: 0.82rem;
+      color: #888;
+      white-space: nowrap;
+      padding-left: 1rem;
+    }
+
+    .honmei-row {
+      display: flex;
+      align-items: baseline;
+      gap: 0.8rem;
+      margin-bottom: 0.8rem;
+    }
+    .honmei-mark {
+      font-size: 2.2rem;
+      color: #c9a84c;
+      font-weight: 900;
+      line-height: 1;
+    }
+    .horse-name {
+      font-size: 1.7rem;
+      color: #fff;
+      font-weight: 700;
+    }
+
+    .horse-meta {
+      display: flex;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+      margin-top: 0.3rem;
+    }
+    .badge {
+      background: #0f3460;
+      border: 1px solid #1e4a80;
+      border-radius: 4px;
+      padding: 0.22rem 0.65rem;
+      font-size: 0.78rem;
+      color: #9ab;
+    }
+    .badge.edge-positive {
+      background: #0d2a0d;
+      border-color: #1a5a1a;
+      color: #5edd5e;
+    }
+    .badge.edge-negative {
+      background: #2a0d0d;
+      border-color: #5a1a1a;
+      color: #dd5e5e;
+    }
+    .badge.verdict-strong {
+      background: #1a2a0d;
+      border-color: #3a5a1a;
+      color: #9ee05e;
+    }
+
+    .adi-row {
+      margin-top: 1.2rem;
+      padding-top: 1rem;
+      border-top: 1px solid #2a2a4a;
+      font-size: 0.82rem;
+      color: #666;
+    }
+
+    /* 準備中 */
+    .no-prediction {
+      text-align: center;
+      padding: 2.5rem 1rem;
+      color: #555;
+    }
+    .no-prediction .icon { font-size: 2.8rem; margin-bottom: 0.8rem; }
+    .no-prediction .main-text { font-size: 1rem; color: #777; }
+    .no-prediction .sub-text { font-size: 0.78rem; color: #444; margin-top: 0.4rem; }
+
+    .scroll-hint {
+      margin-top: 1.8rem;
+      color: #444;
+      font-size: 0.78rem;
+      animation: bounce 2.2s infinite;
+    }
+    @keyframes bounce {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(6px); }
+    }
+
+    /* 実績セクション */
+    .stats-section {
+      background: #13132a;
+      padding: 4rem 2rem;
+      border-top: 1px solid #252540;
+    }
+    .stats-section h2 {
+      text-align: center;
+      color: #c9a84c;
+      font-size: 1.1rem;
+      letter-spacing: 0.12em;
+      margin-bottom: 2.2rem;
+    }
+
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+      gap: 1.2rem;
+      max-width: 750px;
+      margin: 0 auto 1.8rem;
+    }
+    .stat-card {
+      background: #1a1a2e;
+      border: 1px solid #252545;
+      border-radius: 10px;
+      padding: 1.4rem;
+      text-align: center;
+    }
+    .stat-label { font-size: 0.75rem; color: #777; margin-bottom: 0.5rem; }
+    .stat-value { font-size: 2rem; color: #c9a84c; font-weight: 700; }
+    .stat-sub { font-size: 0.72rem; color: #555; margin-top: 0.3rem; }
+
+    .data-note {
+      text-align: center;
+      color: #484868;
+      font-size: 0.75rem;
+    }
+
+    /* フッター */
+    footer {
+      background: #0e0e1e;
+      border-top: 1px solid #1e1e3e;
+      padding: 1.4rem 2rem;
+      text-align: center;
+      color: #444;
+      font-size: 0.75rem;
+      line-height: 2;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>COURSE MASTER</h1>
+  <p>データドリブン競馬予測システム</p>
+</header>
+
+<div class="hero">
+  <div class="section-label">Latest Prediction</div>
+  <div class="prediction-card" id="predCard">
+    <div class="no-prediction" id="noData">
+      <div class="icon">🏇</div>
+      <div class="main-text">次回予測準備中</div>
+      <div class="sub-text">毎週土日 9:30 頃更新</div>
+    </div>
+  </div>
+  <div class="scroll-hint">▼ スクロールで実績を表示</div>
+</div>
+
+<section class="stats-section">
+  <h2>予測実績（バックテスト 2015–2026）</h2>
+  <div class="stats-grid">
+    <div class="stat-card">
+      <div class="stat-label">◎ 単勝的中率（重賞）</div>
+      <div class="stat-value">35.3%</div>
+      <div class="stat-sub">1,544レース検証</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-label">穴馬戦略 単勝回収率</div>
+      <div class="stat-value">227%</div>
+      <div class="stat-sub">◎4番人気以上 150R</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-label">穴馬戦略 黒字年率</div>
+      <div class="stat-value">75%</div>
+      <div class="stat-sub">12年中9年黒字</div>
+    </div>
+  </div>
+  <div class="data-note">2015〜2026年 552,365件のレースデータを基に予測</div>
+</section>
+
+<footer>
+  毎週土日 9:30 自動更新<br>
+  予測はエンターテインメント目的です。馬券購入は自己判断・自己責任でお願いします。
+</footer>
+
+<script>
+  fetch('output/latest_data.json')
+    .then(function(r) {
+      if (!r.ok) throw new Error('no data');
+      return r.json();
+    })
+    .then(function(d) {
+      var edgeClass = d.edge >= 0.06 ? 'edge-positive' : (d.edge < 0 ? 'edge-negative' : '');
+      var verdictClass = (d.verdict && d.verdict.indexOf('強推奨') !== -1) ? 'verdict-strong' : '';
+      var edgeSign = d.edge >= 0 ? '+' : '';
+      var surface = d.surface ? d.surface + d.distance + 'm' : '';
+      document.getElementById('predCard').innerHTML =
+        '<div class="card-header">' +
+          '<div>' +
+            '<div class="race-name">' + d.race_name + '</div>' +
+            '<div class="race-meta">' + d.venue + ' ' + surface + '</div>' +
+          '</div>' +
+          '<div class="race-date">' + d.race_date + '</div>' +
+        '</div>' +
+        '<div class="honmei-row">' +
+          '<span class="honmei-mark">◎</span>' +
+          '<span class="horse-name">' + d.horse_name + '</span>' +
+        '</div>' +
+        '<div class="horse-meta">' +
+          '<span class="badge">' + d.popularity + '番人気</span>' +
+          '<span class="badge">' + d.odds + '倍</span>' +
+          '<span class="badge ' + edgeClass + '">エッジ ' + edgeSign + d.edge.toFixed(3) + '</span>' +
+          '<span class="badge ' + verdictClass + '">' + d.verdict + '</span>' +
+        '</div>' +
+        '<div class="adi-row">荒れ指数: ' + d.adi.toFixed(1) + '&nbsp;&nbsp;|&nbsp;&nbsp;' + d.adi_label + '</div>';
+    })
+    .catch(function() {
+      // no-prediction のまま表示
+    });
+</script>
+
+</body>
+</html>
