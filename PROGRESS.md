@@ -206,3 +206,22 @@
 - [ ] 2200m超サンプル累計: 5R（目標30R）
 
 ---
+
+## 2026-06-08（Vercel公開確認・CLAUDE.md更新）
+
+### 完了タスク
+- Vercel公開URL確認: **https://course-master-fawn.vercel.app**
+- CLAUDE.md: GitHub/Vercel連携情報・自動更新フローを追記
+- index.html表示確認済み
+
+### 結果・数値
+- Vercel URL: https://course-master-fawn.vercel.app
+- GitHub: https://github.com/shinya5812/course-master.git
+- mainブランチpush → Vercel自動デプロイ
+
+### 次のアクション
+- [ ] **6/13（土）**: 週次フロー実行時に自動push→Vercel自動デプロイを実動確認
+- [ ] TARGET JV CSV更新（2026-04-20〜分・最優先継続課題）
+- [ ] 2200m超サンプル累計: 5R（目標30R）
+
+---

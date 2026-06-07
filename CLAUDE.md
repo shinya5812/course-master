@@ -1245,3 +1245,37 @@ verify: pkl読み込みテストを実行して統計件数を確認
 - [ ] TARGET JV CSV更新（2026-04-20〜分・最優先継続課題）
 - [ ] 2200m超サンプル累計: 5R（目標30R）
 - [ ] 補正案Z（G2穴馬戦略優先）検証
+
+---
+
+## GitHub / Vercel 連携情報（2026-06-08 設定完了）
+
+| 項目 | 内容 |
+|------|------|
+| GitHubリポジトリ | https://github.com/shinya5812/course-master.git |
+| Vercel公開URL | **https://course-master-fawn.vercel.app** |
+| デプロイトリガー | mainブランチへのpushで自動デプロイ |
+| トップページ | index.html（ダーク×ゴールドデザイン） |
+| 予測データ | output/latest_data.json（make_latest.pyが生成） |
+| 予測HTML | output/latest.html（run_saturday/sunday.ps1が自動コピー） |
+
+### 自動更新フロー
+1. run_saturday.ps1 / run_sunday.ps1 が予測HTMLを生成
+2. output/latest.html へコピー + make_latest.py で latest_data.json 生成
+3. git add + commit + push origin main
+4. Vercel が自動デプロイ → https://course-master-fawn.vercel.app に反映
+
+---
+
+## 2026-06-08（GitHub初回push・Vercel公開完了）
+
+### 完了タスク
+- GitHub初回push完了（orphan branch / ブランチ整理 / data/除外）
+- Vercel連携・デプロイ完了
+- index.html公開確認済み（https://course-master-fawn.vercel.app）
+- run_saturday/sunday.ps1 に git push 自動化組み込み済み
+
+### 次のアクション
+- [ ] **6/13（土）**: 週次フロー実行時に自動push→Vercel自動デプロイを実動確認
+- [ ] TARGET JV CSV更新（2026-04-20〜分・最優先継続課題）
+- [ ] 2200m超サンプル累計: 5R（目標30R）
