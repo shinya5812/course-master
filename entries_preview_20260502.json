@@ -1,0 +1,73 @@
+{
+  "generated": "2026-04-28",
+  "note": "特別登録馬はJRA公式・WebFetch未取得（403エラー）。5/2朝8:30にPlaywright MCPで取得すること。本ファイルは当日更新用テンプレート。",
+  "races": {
+    "keio_cup_sprint": {
+      "name": "京王杯スプリングC",
+      "grade": "G2",
+      "venue": "東京",
+      "surface": "芝",
+      "distance": 1400,
+      "scheduled_date": "2026-05-02",
+      "race_no": 11,
+      "note": "特別登録馬: 5/2朝に取得",
+      "entries": [],
+      "trend_summary": {
+        "past_winners_by_year": [
+          {"year": 2025, "horse": "トウシンマカオ", "popularity": 2, "odds": 4.1, "sire": "ビッグアーサー", "blood_cat": "速力系"},
+          {"year": 2024, "horse": "ウインマーベル", "popularity": 1, "odds": 3.7, "sire": "アイルハヴアナザー", "blood_cat": "スタミナ系"},
+          {"year": 2023, "horse": "レッドモンレーヴ", "popularity": 2, "odds": 5.2, "sire": "ロードカナロア", "blood_cat": "マイラー系"},
+          {"year": 2022, "horse": "メイケイエール", "popularity": 1, "odds": 3.1, "sire": "ミッキーアイル", "blood_cat": "速力系"},
+          {"year": 2021, "horse": "ラウダシオン", "popularity": 1, "odds": 4.1, "sire": "リアルインパクト", "blood_cat": "スタミナ系"}
+        ],
+        "key_stat": "過去5年で1-2番人気が全勝(5/5)。堅い決着傾向。"
+      }
+    },
+    "unicorn_s": {
+      "name": "ユニコーンS",
+      "grade": "G3",
+      "venue": "京都",
+      "surface": "ダ",
+      "distance": 1900,
+      "scheduled_date": "2026-05-03",
+      "race_no": 11,
+      "note": "2023年より京都ダート1900mに移行（旧:東京ダート1600m）。特別登録馬: 5/3朝に取得",
+      "entries": [],
+      "trend_summary": {
+        "past_winners_by_year": [
+          {"year": 2025, "horse": "アウトレンジ", "popularity": 4, "odds": 6.0, "sire": "レガーロ", "blood_cat": "未分類"},
+          {"year": 2024, "horse": "ミトノオー", "popularity": 5, "odds": 8.8, "sire": "ロゴタイプ", "blood_cat": "スタミナ系"},
+          {"year": 2023, "horse": "グロリアムンディ", "popularity": 1, "odds": 2.8, "sire": "キングカメハメハ", "blood_cat": "スタミナ系"}
+        ],
+        "key_stat": "3年で1番人気1勝(33%)。4-5番人気の穴馬が2勝。波乱傾向あり。"
+      }
+    },
+    "tenno_sho_spring": {
+      "name": "天皇賞（春）",
+      "grade": "G1",
+      "venue": "京都",
+      "surface": "芝",
+      "distance": 3200,
+      "scheduled_date": "2026-05-03",
+      "race_no": 11,
+      "note": "距離2200m超→エンジン予測は実施するがベット保留ルール適用。特別登録馬: 5/3朝に取得",
+      "entries": [],
+      "bet_rule": "2200m以上のためベット保留（検証専用）",
+      "trend_summary": {
+        "past_winners_by_year": [
+          {"year": 2025, "horse": "ヘデントール", "popularity": 1, "odds": 3.1, "sire": "ルーラーシップ", "blood_cat": "スタミナ系", "venue": "京都"},
+          {"year": 2024, "horse": "テーオーロイヤル", "popularity": 1, "odds": 2.8, "sire": "リオンディーズ", "blood_cat": "スタミナ系", "venue": "京都"},
+          {"year": 2023, "horse": "ジャスティンパレス", "popularity": 2, "odds": 4.3, "sire": "ディープインパクト", "blood_cat": "スタミナ系", "venue": "京都"},
+          {"year": 2022, "horse": "タイトルホルダー", "popularity": 2, "odds": 4.9, "sire": "ドゥラメンテ", "blood_cat": "スタミナ系", "venue": "阪神"},
+          {"year": 2021, "horse": "ワールドプレミア", "popularity": 3, "odds": 5.2, "sire": "ディープインパクト", "blood_cat": "スタミナ系", "venue": "阪神"}
+        ],
+        "key_stat": "過去5年で1-3番人気が全勝。スタミナ系父馬が5/5。超堅い決着。"
+      }
+    }
+  },
+  "update_procedure": {
+    "step1": "python grade_race_predictor.py --race '<JSON>' で各重賞予測実行",
+    "step2": "python result_checker.py --save '{...}' で購入候補保存",
+    "target_race": "京王杯SC（東京芝1400m G2）が主要ベット対象。ユニコーンSはADI高め注意。天皇賞春はベット保留。"
+  }
+}

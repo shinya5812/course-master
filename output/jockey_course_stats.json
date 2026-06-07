@@ -1,0 +1,4226 @@
+{
+  "キング|中山|ダ|middle": {
+    "lift": 1.8803991275525098,
+    "raw_lift": 1.8804,
+    "win_rate": 12.82,
+    "rides": 39
+  },
+  "キング|中山|ダ|sprint": {
+    "lift": 2.0,
+    "raw_lift": 3.0,
+    "win_rate": 22.22,
+    "rides": 36
+  },
+  "キング|中山|芝|middle": {
+    "lift": 1.6042303561100553,
+    "raw_lift": 1.6042,
+    "win_rate": 11.54,
+    "rides": 26
+  },
+  "キング|東京|芝|mile": {
+    "lift": 1.872372302074067,
+    "raw_lift": 1.8724,
+    "win_rate": 12.9,
+    "rides": 31
+  },
+  "シュタル|中山|芝|mile": {
+    "lift": 2.0,
+    "raw_lift": 3.0,
+    "win_rate": 30.77,
+    "rides": 26
+  },
+  "シュタル|京都|ダ|mile": {
+    "lift": 2.0,
+    "raw_lift": 2.1993,
+    "win_rate": 15.0,
+    "rides": 40
+  },
+  "シュタル|京都|芝|long": {
+    "lift": 2.0,
+    "raw_lift": 2.4334,
+    "win_rate": 20.59,
+    "rides": 34
+  },
+  "シュタル|東京|芝|middle": {
+    "lift": 2.0,
+    "raw_lift": 2.0133,
+    "win_rate": 16.0,
+    "rides": 25
+  },
+  "シュタル|阪神|ダ|mile": {
+    "lift": 1.6525123849964616,
+    "raw_lift": 1.6525,
+    "win_rate": 11.11,
+    "rides": 36
+  },
+  "シュタル|阪神|芝|middle": {
+    "lift": 1.7506591337099815,
+    "raw_lift": 1.7507,
+    "win_rate": 14.58,
+    "rides": 48
+  },
+  "マーカン|中山|ダ|middle": {
+    "lift": 1.7886723408426313,
+    "raw_lift": 1.7887,
+    "win_rate": 12.2,
+    "rides": 82
+  },
+  "マーカン|中山|ダ|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.3724,
+    "win_rate": 15.22,
+    "rides": 46
+  },
+  "マーカン|中山|芝|mile": {
+    "lift": 2.0,
+    "raw_lift": 2.8758,
+    "win_rate": 20.0,
+    "rides": 35
+  },
+  "マーカン|中山|芝|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.5563,
+    "win_rate": 17.24,
+    "rides": 29
+  },
+  "マーカン|東京|ダ|mile": {
+    "lift": 2.0,
+    "raw_lift": 3.1687,
+    "win_rate": 20.83,
+    "rides": 72
+  },
+  "マーカン|東京|芝|middle": {
+    "lift": 2.0,
+    "raw_lift": 2.0972,
+    "win_rate": 16.67,
+    "rides": 42
+  },
+  "マーカン|東京|芝|mile": {
+    "lift": 1.6383257643148086,
+    "raw_lift": 1.6383,
+    "win_rate": 11.29,
+    "rides": 62
+  },
+  "ムルザバ|中京|ダ|middle": {
+    "lift": 2.0,
+    "raw_lift": 3.0,
+    "win_rate": 25.0,
+    "rides": 28
+  },
+  "ムルザバ|阪神|ダ|middle": {
+    "lift": 1.86648313833448,
+    "raw_lift": 1.8665,
+    "win_rate": 14.29,
+    "rides": 56
+  },
+  "ムルザバ|阪神|ダ|mile": {
+    "lift": 2.0,
+    "raw_lift": 2.1247,
+    "win_rate": 14.29,
+    "rides": 28
+  },
+  "ムルザバ|阪神|芝|middle": {
+    "lift": 1.765370555001662,
+    "raw_lift": 1.7654,
+    "win_rate": 14.71,
+    "rides": 34
+  },
+  "ムーア|京都|ダ|middle": {
+    "lift": 1.5697138184791497,
+    "raw_lift": 1.5697,
+    "win_rate": 12.0,
+    "rides": 25
+  },
+  "ムーア|京都|芝|middle": {
+    "lift": 1.9834394904458594,
+    "raw_lift": 1.9834,
+    "win_rate": 16.67,
+    "rides": 30
+  },
+  "ムーア|京都|芝|mile": {
+    "lift": 2.0,
+    "raw_lift": 2.706,
+    "win_rate": 19.44,
+    "rides": 36
+  },
+  "ムーア|東京|ダ|mile": {
+    "lift": 2.0,
+    "raw_lift": 2.9439,
+    "win_rate": 19.35,
+    "rides": 62
+  },
+  "ムーア|東京|芝|middle": {
+    "lift": 2.0,
+    "raw_lift": 2.7103,
+    "win_rate": 21.54,
+    "rides": 65
+  },
+  "ムーア|東京|芝|mile": {
+    "lift": 2.0,
+    "raw_lift": 2.612,
+    "win_rate": 18.0,
+    "rides": 50
+  },
+  "モレイラ|中山|ダ|middle": {
+    "lift": 2.0,
+    "raw_lift": 3.0,
+    "win_rate": 31.82,
+    "rides": 22
+  },
+  "モレイラ|中山|ダ|sprint": {
+    "lift": 2.0,
+    "raw_lift": 3.0,
+    "win_rate": 28.57,
+    "rides": 21
+  },
+  "モレイラ|中山|芝|middle": {
+    "lift": 2.0,
+    "raw_lift": 3.0,
+    "win_rate": 41.67,
+    "rides": 24
+  },
+  "モレイラ|中山|芝|mile": {
+    "lift": 2.0,
+    "raw_lift": 3.0,
+    "win_rate": 29.17,
+    "rides": 24
+  },
+  "モレイラ|京都|芝|middle": {
+    "lift": 2.0,
+    "raw_lift": 3.0,
+    "win_rate": 35.0,
+    "rides": 20
+  },
+  "モレイラ|札幌|ダ|middle": {
+    "lift": 2.0,
+    "raw_lift": 5.0924,
+    "win_rate": 39.06,
+    "rides": 64
+  },
+  "モレイラ|札幌|芝|middle": {
+    "lift": 2.0,
+    "raw_lift": 3.9475,
+    "win_rate": 32.31,
+    "rides": 65
+  },
+  "モレイラ|札幌|芝|mile": {
+    "lift": 2.0,
+    "raw_lift": 3.0,
+    "win_rate": 28.12,
+    "rides": 32
+  },
+  "モレイラ|札幌|芝|sprint": {
+    "lift": 2.0,
+    "raw_lift": 3.0,
+    "win_rate": 25.71,
+    "rides": 35
+  },
+  "モレイラ|東京|ダ|mile": {
+    "lift": 2.0,
+    "raw_lift": 3.6418,
+    "win_rate": 23.94,
+    "rides": 71
+  },
+  "モレイラ|東京|芝|middle": {
+    "lift": 2.0,
+    "raw_lift": 4.0362,
+    "win_rate": 32.08,
+    "rides": 53
+  },
+  "モレイラ|東京|芝|mile": {
+    "lift": 2.0,
+    "raw_lift": 4.003,
+    "win_rate": 27.59,
+    "rides": 58
+  },
+  "ルメール|中京|ダ|middle": {
+    "lift": 2.0,
+    "raw_lift": 3.0628,
+    "win_rate": 22.99,
+    "rides": 87
+  },
+  "ルメール|中京|ダ|mile": {
+    "lift": 2.0,
+    "raw_lift": 2.2041,
+    "win_rate": 14.55,
+    "rides": 55
+  },
+  "ルメール|中京|ダ|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.4432,
+    "win_rate": 16.22,
+    "rides": 37
+  },
+  "ルメール|中京|芝|long": {
+    "lift": 2.0,
+    "raw_lift": 3.0,
+    "win_rate": 32.26,
+    "rides": 31
+  },
+  "ルメール|中京|芝|middle": {
+    "lift": 2.0,
+    "raw_lift": 2.5666,
+    "win_rate": 19.74,
+    "rides": 76
+  },
+  "ルメール|中京|芝|mile": {
+    "lift": 2.0,
+    "raw_lift": 2.0777,
+    "win_rate": 14.53,
+    "rides": 117
+  },
+  "ルメール|中京|芝|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.2842,
+    "win_rate": 14.71,
+    "rides": 34
+  },
+  "ルメール|中山|ダ|middle": {
+    "lift": 2.0,
+    "raw_lift": 3.8043,
+    "win_rate": 25.94,
+    "rides": 320
+  },
+  "ルメール|中山|ダ|sprint": {
+    "lift": 2.0,
+    "raw_lift": 3.6637,
+    "win_rate": 23.5,
+    "rides": 200
+  },
+  "ルメール|中山|芝|long": {
+    "lift": 2.0,
+    "raw_lift": 3.0508,
+    "win_rate": 22.94,
+    "rides": 109
+  },
+  "ルメール|中山|芝|middle": {
+    "lift": 2.0,
+    "raw_lift": 3.94,
+    "win_rate": 28.34,
+    "rides": 307
+  },
+  "ルメール|中山|芝|mile": {
+    "lift": 2.0,
+    "raw_lift": 3.864,
+    "win_rate": 26.87,
+    "rides": 227
+  },
+  "ルメール|中山|芝|sprint": {
+    "lift": 2.0,
+    "raw_lift": 3.9018,
+    "win_rate": 26.32,
+    "rides": 76
+  },
+  "ルメール|京都|ダ|middle": {
+    "lift": 2.0,
+    "raw_lift": 3.0071,
+    "win_rate": 22.99,
+    "rides": 174
+  },
+  "ルメール|京都|ダ|mile": {
+    "lift": 2.0,
+    "raw_lift": 2.3459,
+    "win_rate": 16.0,
+    "rides": 100
+  },
+  "ルメール|京都|ダ|sprint": {
+    "lift": 2.0,
+    "raw_lift": 3.4531,
+    "win_rate": 23.38,
+    "rides": 77
+  },
+  "ルメール|京都|芝|long": {
+    "lift": 2.0,
+    "raw_lift": 3.989,
+    "win_rate": 33.75,
+    "rides": 80
+  },
+  "ルメール|京都|芝|middle": {
+    "lift": 2.0,
+    "raw_lift": 2.722,
+    "win_rate": 22.87,
+    "rides": 188
+  },
+  "ルメール|京都|芝|mile": {
+    "lift": 2.0,
+    "raw_lift": 2.8993,
+    "win_rate": 20.83,
+    "rides": 192
+  },
+  "ルメール|京都|芝|sprint": {
+    "lift": 1.5131098045447324,
+    "raw_lift": 1.5131,
+    "win_rate": 10.34,
+    "rides": 29
+  },
+  "ルメール|函館|ダ|middle": {
+    "lift": 2.0,
+    "raw_lift": 3.0844,
+    "win_rate": 25.0,
+    "rides": 56
+  },
+  "ルメール|函館|芝|long": {
+    "lift": 2.0,
+    "raw_lift": 3.0,
+    "win_rate": 40.0,
+    "rides": 20
+  },
+  "ルメール|函館|芝|middle": {
+    "lift": 2.0,
+    "raw_lift": 2.7607,
+    "win_rate": 22.33,
+    "rides": 103
+  },
+  "ルメール|新潟|ダ|middle": {
+    "lift": 2.0,
+    "raw_lift": 3.5715,
+    "win_rate": 26.19,
+    "rides": 42
+  },
+  "ルメール|新潟|芝|middle": {
+    "lift": 2.0,
+    "raw_lift": 5.5298,
+    "win_rate": 40.32,
+    "rides": 62
+  },
+  "ルメール|新潟|芝|mile": {
+    "lift": 2.0,
+    "raw_lift": 4.3937,
+    "win_rate": 28.36,
+    "rides": 67
+  },
+  "ルメール|札幌|ダ|middle": {
+    "lift": 2.0,
+    "raw_lift": 3.3482,
+    "win_rate": 25.68,
+    "rides": 183
+  },
+  "ルメール|札幌|ダ|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.7512,
+    "win_rate": 23.91,
+    "rides": 46
+  },
+  "ルメール|札幌|芝|long": {
+    "lift": 2.0,
+    "raw_lift": 3.0,
+    "win_rate": 28.21,
+    "rides": 39
+  },
+  "ルメール|札幌|芝|middle": {
+    "lift": 2.0,
+    "raw_lift": 2.9621,
+    "win_rate": 24.24,
+    "rides": 231
+  },
+  "ルメール|札幌|芝|mile": {
+    "lift": 2.0,
+    "raw_lift": 2.4246,
+    "win_rate": 20.0,
+    "rides": 95
+  },
+  "ルメール|札幌|芝|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.959,
+    "win_rate": 21.74,
+    "rides": 92
+  },
+  "ルメール|東京|ダ|long": {
+    "lift": 2.0,
+    "raw_lift": 3.7805,
+    "win_rate": 26.9,
+    "rides": 145
+  },
+  "ルメール|東京|ダ|mile": {
+    "lift": 2.0,
+    "raw_lift": 4.0164,
+    "win_rate": 26.41,
+    "rides": 871
+  },
+  "ルメール|東京|芝|long": {
+    "lift": 2.0,
+    "raw_lift": 4.2876,
+    "win_rate": 34.09,
+    "rides": 220
+  },
+  "ルメール|東京|芝|middle": {
+    "lift": 2.0,
+    "raw_lift": 3.7188,
+    "win_rate": 29.55,
+    "rides": 582
+  },
+  "ルメール|東京|芝|mile": {
+    "lift": 2.0,
+    "raw_lift": 4.2481,
+    "win_rate": 29.27,
+    "rides": 731
+  },
+  "ルメール|阪神|ダ|middle": {
+    "lift": 2.0,
+    "raw_lift": 2.6015,
+    "win_rate": 19.91,
+    "rides": 226
+  },
+  "ルメール|阪神|ダ|mile": {
+    "lift": 1.9067450596113016,
+    "raw_lift": 1.9067,
+    "win_rate": 12.82,
+    "rides": 117
+  },
+  "ルメール|阪神|ダ|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.582,
+    "win_rate": 17.57,
+    "rides": 74
+  },
+  "ルメール|阪神|芝|long": {
+    "lift": 2.0,
+    "raw_lift": 3.1498,
+    "win_rate": 27.16,
+    "rides": 81
+  },
+  "ルメール|阪神|芝|middle": {
+    "lift": 2.0,
+    "raw_lift": 2.8559,
+    "win_rate": 23.79,
+    "rides": 248
+  },
+  "ルメール|阪神|芝|mile": {
+    "lift": 2.0,
+    "raw_lift": 3.0319,
+    "win_rate": 21.67,
+    "rides": 240
+  },
+  "ルメール|阪神|芝|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.7094,
+    "win_rate": 20.59,
+    "rides": 34
+  },
+  "レーン|東京|ダ|long": {
+    "lift": 2.0,
+    "raw_lift": 2.6773,
+    "win_rate": 19.05,
+    "rides": 42
+  },
+  "レーン|東京|ダ|mile": {
+    "lift": 2.0,
+    "raw_lift": 3.4872,
+    "win_rate": 22.93,
+    "rides": 205
+  },
+  "レーン|東京|芝|long": {
+    "lift": 2.0,
+    "raw_lift": 2.5494,
+    "win_rate": 20.27,
+    "rides": 74
+  },
+  "レーン|東京|芝|middle": {
+    "lift": 2.0,
+    "raw_lift": 3.4104,
+    "win_rate": 27.1,
+    "rides": 107
+  },
+  "レーン|東京|芝|mile": {
+    "lift": 2.0,
+    "raw_lift": 3.6494,
+    "win_rate": 25.15,
+    "rides": 167
+  },
+  "三浦皇成|中京|ダ|mile": {
+    "lift": 1.8367176923877955,
+    "raw_lift": 1.8367,
+    "win_rate": 12.12,
+    "rides": 33
+  },
+  "三浦皇成|中山|ダ|middle": {
+    "lift": 1.676241507989666,
+    "raw_lift": 1.6762,
+    "win_rate": 11.43,
+    "rides": 630
+  },
+  "三浦皇成|中山|ダ|sprint": {
+    "lift": 1.7322430655763987,
+    "raw_lift": 1.7322,
+    "win_rate": 11.11,
+    "rides": 585
+  },
+  "三浦皇成|京都|ダ|middle": {
+    "lift": 2.0,
+    "raw_lift": 2.1212,
+    "win_rate": 16.22,
+    "rides": 37
+  },
+  "三浦皇成|函館|芝|sprint": {
+    "lift": 1.9993489583333335,
+    "raw_lift": 1.9993,
+    "win_rate": 15.62,
+    "rides": 64
+  },
+  "三浦皇成|新潟|ダ|middle": {
+    "lift": 1.7659053758277075,
+    "raw_lift": 1.7659,
+    "win_rate": 12.95,
+    "rides": 139
+  },
+  "三浦皇成|新潟|ダ|sprint": {
+    "lift": 1.6739933180938984,
+    "raw_lift": 1.674,
+    "win_rate": 11.57,
+    "rides": 121
+  },
+  "三浦皇成|新潟|芝|middle": {
+    "lift": 1.5337820290858726,
+    "raw_lift": 1.5338,
+    "win_rate": 11.18,
+    "rides": 152
+  },
+  "三浦皇成|札幌|ダ|middle": {
+    "lift": 2.0,
+    "raw_lift": 2.3703,
+    "win_rate": 18.18,
+    "rides": 55
+  },
+  "三浦皇成|東京|ダ|mile": {
+    "lift": 1.6017664266426643,
+    "raw_lift": 1.6018,
+    "win_rate": 10.53,
+    "rides": 1111
+  },
+  "三浦皇成|福島|ダ|sprint": {
+    "lift": 2.0,
+    "raw_lift": 3.1664,
+    "win_rate": 20.69,
+    "rides": 58
+  },
+  "三浦皇成|福島|芝|middle": {
+    "lift": 1.531999041227229,
+    "raw_lift": 1.532,
+    "win_rate": 10.71,
+    "rides": 140
+  },
+  "三浦皇成|福島|芝|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.3433,
+    "win_rate": 15.85,
+    "rides": 82
+  },
+  "三浦皇成|阪神|ダ|mile": {
+    "lift": 2.0,
+    "raw_lift": 2.8329,
+    "win_rate": 19.05,
+    "rides": 21
+  },
+  "中井裕二|新潟|ダ|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.0669,
+    "win_rate": 14.29,
+    "rides": 70
+  },
+  "中村将之|中山|ダ|long": {
+    "lift": 1.7069774971669096,
+    "raw_lift": 1.707,
+    "win_rate": 13.79,
+    "rides": 29
+  },
+  "丸山元気|新潟|ダ|middle": {
+    "lift": 1.697013264869491,
+    "raw_lift": 1.697,
+    "win_rate": 12.44,
+    "rides": 225
+  },
+  "丹内祐次|新潟|芝|sprint": {
+    "lift": 1.72450948609889,
+    "raw_lift": 1.7245,
+    "win_rate": 10.6,
+    "rides": 151
+  },
+  "丹内祐次|福島|芝|long": {
+    "lift": 1.5193932827735648,
+    "raw_lift": 1.5194,
+    "win_rate": 12.31,
+    "rides": 65
+  },
+  "亀田温心|新潟|ダ|sprint": {
+    "lift": 1.5070921985815604,
+    "raw_lift": 1.5071,
+    "win_rate": 10.42,
+    "rides": 96
+  },
+  "亀田温心|札幌|芝|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.2686,
+    "win_rate": 16.67,
+    "rides": 42
+  },
+  "亀田温心|東京|ダ|mile": {
+    "lift": 1.5209935897435896,
+    "raw_lift": 1.521,
+    "win_rate": 10.0,
+    "rides": 20
+  },
+  "五十嵐雄|中山|ダ|long": {
+    "lift": 1.8907146583202925,
+    "raw_lift": 1.8907,
+    "win_rate": 15.28,
+    "rides": 72
+  },
+  "五十嵐雄|新潟|芝|long": {
+    "lift": 1.6177418807479553,
+    "raw_lift": 1.6177,
+    "win_rate": 12.66,
+    "rides": 158
+  },
+  "五十嵐雄|東京|ダ|long": {
+    "lift": 1.9677944325481802,
+    "raw_lift": 1.9678,
+    "win_rate": 14.0,
+    "rides": 50
+  },
+  "五十嵐雄|福島|芝|long": {
+    "lift": 1.7344313816785009,
+    "raw_lift": 1.7344,
+    "win_rate": 14.05,
+    "rides": 121
+  },
+  "今村聖奈|新潟|ダ|middle": {
+    "lift": 1.8048591708827306,
+    "raw_lift": 1.8049,
+    "win_rate": 13.24,
+    "rides": 68
+  },
+  "今村聖奈|新潟|ダ|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.5007,
+    "win_rate": 17.28,
+    "rides": 81
+  },
+  "伊藤工真|中京|ダ|mile": {
+    "lift": 1.8183505154639177,
+    "raw_lift": 1.8184,
+    "win_rate": 12.0,
+    "rides": 25
+  },
+  "伴啓太|中京|芝|long": {
+    "lift": 2.0,
+    "raw_lift": 2.6297,
+    "win_rate": 20.83,
+    "rides": 24
+  },
+  "佐々木大|中山|芝|mile": {
+    "lift": 1.977113702623907,
+    "raw_lift": 1.9771,
+    "win_rate": 13.75,
+    "rides": 80
+  },
+  "佐々木大|函館|ダ|sprint": {
+    "lift": 1.9543770715539093,
+    "raw_lift": 1.9544,
+    "win_rate": 17.39,
+    "rides": 46
+  },
+  "佐々木大|函館|芝|middle": {
+    "lift": 1.5999362346564643,
+    "raw_lift": 1.5999,
+    "win_rate": 12.94,
+    "rides": 85
+  },
+  "佐々木大|函館|芝|sprint": {
+    "lift": 1.5668367346938776,
+    "raw_lift": 1.5668,
+    "win_rate": 12.24,
+    "rides": 98
+  },
+  "佐々木大|小倉|ダ|middle": {
+    "lift": 1.8690677791086694,
+    "raw_lift": 1.8691,
+    "win_rate": 12.68,
+    "rides": 71
+  },
+  "佐々木大|新潟|ダ|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.322,
+    "win_rate": 16.05,
+    "rides": 81
+  },
+  "佐々木大|札幌|芝|mile": {
+    "lift": 1.7318789584799437,
+    "raw_lift": 1.7319,
+    "win_rate": 14.29,
+    "rides": 42
+  },
+  "佐々木大|札幌|芝|sprint": {
+    "lift": 1.5409059659307922,
+    "raw_lift": 1.5409,
+    "win_rate": 11.32,
+    "rides": 53
+  },
+  "佐々木大|福島|芝|middle": {
+    "lift": 1.8885019627706725,
+    "raw_lift": 1.8885,
+    "win_rate": 13.21,
+    "rides": 53
+  },
+  "内田博幸|中京|ダ|middle": {
+    "lift": 2.0,
+    "raw_lift": 2.0187,
+    "win_rate": 15.15,
+    "rides": 33
+  },
+  "内田博幸|新潟|芝|long": {
+    "lift": 1.5214477211796245,
+    "raw_lift": 1.5214,
+    "win_rate": 11.9,
+    "rides": 42
+  },
+  "内田博幸|福島|芝|long": {
+    "lift": 1.7635814889336017,
+    "raw_lift": 1.7636,
+    "win_rate": 14.29,
+    "rides": 28
+  },
+  "勝浦正樹|新潟|ダ|middle": {
+    "lift": 1.5023498183242314,
+    "raw_lift": 1.5023,
+    "win_rate": 11.02,
+    "rides": 118
+  },
+  "北村友一|中京|ダ|middle": {
+    "lift": 2.0,
+    "raw_lift": 2.1383,
+    "win_rate": 16.05,
+    "rides": 162
+  },
+  "北村友一|中京|芝|middle": {
+    "lift": 1.9088347901466445,
+    "raw_lift": 1.9088,
+    "win_rate": 14.68,
+    "rides": 109
+  },
+  "北村友一|中京|芝|mile": {
+    "lift": 1.6444694960212203,
+    "raw_lift": 1.6445,
+    "win_rate": 11.5,
+    "rides": 200
+  },
+  "北村友一|中山|芝|long": {
+    "lift": 1.9952238805970148,
+    "raw_lift": 1.9952,
+    "win_rate": 15.0,
+    "rides": 20
+  },
+  "北村友一|京都|芝|middle": {
+    "lift": 1.6711532728011926,
+    "raw_lift": 1.6712,
+    "win_rate": 14.04,
+    "rides": 235
+  },
+  "北村友一|京都|芝|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.1742,
+    "win_rate": 14.86,
+    "rides": 74
+  },
+  "北村友一|函館|ダ|middle": {
+    "lift": 1.857258064516129,
+    "raw_lift": 1.8573,
+    "win_rate": 15.05,
+    "rides": 93
+  },
+  "北村友一|函館|ダ|sprint": {
+    "lift": 1.9375289933508586,
+    "raw_lift": 1.9375,
+    "win_rate": 17.24,
+    "rides": 29
+  },
+  "北村友一|函館|芝|sprint": {
+    "lift": 1.557753623188406,
+    "raw_lift": 1.5578,
+    "win_rate": 12.17,
+    "rides": 115
+  },
+  "北村友一|小倉|芝|middle": {
+    "lift": 1.663317790703264,
+    "raw_lift": 1.6633,
+    "win_rate": 12.29,
+    "rides": 293
+  },
+  "北村友一|新潟|ダ|middle": {
+    "lift": 2.0,
+    "raw_lift": 2.1819,
+    "win_rate": 16.0,
+    "rides": 75
+  },
+  "北村友一|新潟|芝|long": {
+    "lift": 1.5975201072386058,
+    "raw_lift": 1.5975,
+    "win_rate": 12.5,
+    "rides": 24
+  },
+  "北村友一|新潟|芝|middle": {
+    "lift": 2.0,
+    "raw_lift": 2.1247,
+    "win_rate": 15.49,
+    "rides": 71
+  },
+  "北村友一|新潟|芝|sprint": {
+    "lift": 1.6550906720398246,
+    "raw_lift": 1.6551,
+    "win_rate": 10.17,
+    "rides": 59
+  },
+  "北村友一|札幌|ダ|middle": {
+    "lift": 2.0,
+    "raw_lift": 2.4444,
+    "win_rate": 18.75,
+    "rides": 48
+  },
+  "北村友一|東京|ダ|mile": {
+    "lift": 1.5209935897435896,
+    "raw_lift": 1.521,
+    "win_rate": 10.0,
+    "rides": 80
+  },
+  "北村友一|福島|ダ|middle": {
+    "lift": 1.6006546644844517,
+    "raw_lift": 1.6007,
+    "win_rate": 11.11,
+    "rides": 36
+  },
+  "北村友一|福島|芝|sprint": {
+    "lift": 1.84762118491921,
+    "raw_lift": 1.8476,
+    "win_rate": 12.5,
+    "rides": 32
+  },
+  "北村友一|阪神|ダ|mile": {
+    "lift": 1.5526352628263458,
+    "raw_lift": 1.5526,
+    "win_rate": 10.44,
+    "rides": 182
+  },
+  "北村友一|阪神|芝|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.1574,
+    "win_rate": 16.39,
+    "rides": 61
+  },
+  "北村宏司|新潟|ダ|middle": {
+    "lift": 1.5887433478320476,
+    "raw_lift": 1.5887,
+    "win_rate": 11.65,
+    "rides": 103
+  },
+  "北村宏司|福島|ダ|middle": {
+    "lift": 2.0,
+    "raw_lift": 2.0101,
+    "win_rate": 13.95,
+    "rides": 86
+  },
+  "北村宏司|福島|ダ|sprint": {
+    "lift": 1.8663698541747324,
+    "raw_lift": 1.8664,
+    "win_rate": 12.2,
+    "rides": 41
+  },
+  "北村宏司|福島|芝|middle": {
+    "lift": 1.5051218650653477,
+    "raw_lift": 1.5051,
+    "win_rate": 10.53,
+    "rides": 95
+  },
+  "北村宏司|福島|芝|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.3755,
+    "win_rate": 16.07,
+    "rides": 56
+  },
+  "古川吉洋|函館|芝|long": {
+    "lift": 2.0,
+    "raw_lift": 2.3106,
+    "win_rate": 19.23,
+    "rides": 26
+  },
+  "古川吉洋|新潟|ダ|sprint": {
+    "lift": 1.9955979457079969,
+    "raw_lift": 1.9956,
+    "win_rate": 13.79,
+    "rides": 29
+  },
+  "古川吉洋|札幌|ダ|sprint": {
+    "lift": 1.64360119047619,
+    "raw_lift": 1.6436,
+    "win_rate": 14.29,
+    "rides": 56
+  },
+  "古川吉洋|福島|芝|middle": {
+    "lift": 1.9859246830723343,
+    "raw_lift": 1.9859,
+    "win_rate": 13.89,
+    "rides": 36
+  },
+  "古川吉洋|福島|芝|sprint": {
+    "lift": 1.8099146301249402,
+    "raw_lift": 1.8099,
+    "win_rate": 12.24,
+    "rides": 49
+  },
+  "古川奈穂|中京|ダ|middle": {
+    "lift": 1.5372916057326704,
+    "raw_lift": 1.5373,
+    "win_rate": 11.54,
+    "rides": 52
+  },
+  "古川奈穂|函館|ダ|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.3136,
+    "win_rate": 20.59,
+    "rides": 34
+  },
+  "古川奈穂|福島|ダ|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.1109,
+    "win_rate": 13.79,
+    "rides": 29
+  },
+  "古川奈穂|福島|芝|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.8425,
+    "win_rate": 19.23,
+    "rides": 26
+  },
+  "吉村誠之|中京|ダ|sprint": {
+    "lift": 1.8262072782620726,
+    "raw_lift": 1.8262,
+    "win_rate": 12.12,
+    "rides": 33
+  },
+  "吉村誠之|阪神|芝|mile": {
+    "lift": 2.0,
+    "raw_lift": 2.0646,
+    "win_rate": 14.75,
+    "rides": 61
+  },
+  "吉田豊|新潟|芝|long": {
+    "lift": 1.681600112882743,
+    "raw_lift": 1.6816,
+    "win_rate": 13.16,
+    "rides": 38
+  },
+  "吉田隼人|中京|芝|mile": {
+    "lift": 1.5253050397877987,
+    "raw_lift": 1.5253,
+    "win_rate": 10.67,
+    "rides": 225
+  },
+  "吉田隼人|函館|ダ|middle": {
+    "lift": 1.5248595505617974,
+    "raw_lift": 1.5249,
+    "win_rate": 12.36,
+    "rides": 178
+  },
+  "吉田隼人|函館|ダ|sprint": {
+    "lift": 1.7558856502242155,
+    "raw_lift": 1.7559,
+    "win_rate": 15.62,
+    "rides": 64
+  },
+  "吉田隼人|函館|芝|long": {
+    "lift": 2.0,
+    "raw_lift": 2.9305,
+    "win_rate": 24.39,
+    "rides": 41
+  },
+  "吉田隼人|小倉|ダ|middle": {
+    "lift": 1.611460987452526,
+    "raw_lift": 1.6115,
+    "win_rate": 10.93,
+    "rides": 183
+  },
+  "吉田隼人|新潟|ダ|middle": {
+    "lift": 1.5322150264672367,
+    "raw_lift": 1.5322,
+    "win_rate": 11.24,
+    "rides": 178
+  },
+  "吉田隼人|新潟|ダ|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.322,
+    "win_rate": 16.05,
+    "rides": 162
+  },
+  "吉田隼人|新潟|芝|long": {
+    "lift": 2.0,
+    "raw_lift": 2.0047,
+    "win_rate": 15.69,
+    "rides": 51
+  },
+  "吉田隼人|新潟|芝|mile": {
+    "lift": 1.801567710363345,
+    "raw_lift": 1.8016,
+    "win_rate": 11.63,
+    "rides": 129
+  },
+  "吉田隼人|札幌|ダ|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.0919,
+    "win_rate": 18.18,
+    "rides": 44
+  },
+  "吉田隼人|福島|ダ|middle": {
+    "lift": 1.6622183054261614,
+    "raw_lift": 1.6622,
+    "win_rate": 11.54,
+    "rides": 156
+  },
+  "吉田隼人|福島|ダ|sprint": {
+    "lift": 1.5831964969896006,
+    "raw_lift": 1.5832,
+    "win_rate": 10.34,
+    "rides": 87
+  },
+  "吉田隼人|福島|芝|middle": {
+    "lift": 2.0,
+    "raw_lift": 2.1869,
+    "win_rate": 15.29,
+    "rides": 170
+  },
+  "吉田隼人|阪神|ダ|middle": {
+    "lift": 1.6119627103797782,
+    "raw_lift": 1.612,
+    "win_rate": 12.34,
+    "rides": 154
+  },
+  "吉田隼人|阪神|ダ|sprint": {
+    "lift": 1.8896590149320256,
+    "raw_lift": 1.8897,
+    "win_rate": 12.86,
+    "rides": 70
+  },
+  "和田竜二|中山|芝|middle": {
+    "lift": 1.7379162191192266,
+    "raw_lift": 1.7379,
+    "win_rate": 12.5,
+    "rides": 40
+  },
+  "和田竜二|東京|芝|long": {
+    "lift": 1.5244637813907336,
+    "raw_lift": 1.5245,
+    "win_rate": 12.12,
+    "rides": 33
+  },
+  "団野大成|中京|芝|sprint": {
+    "lift": 1.863896103896104,
+    "raw_lift": 1.8639,
+    "win_rate": 12.0,
+    "rides": 50
+  },
+  "団野大成|京都|芝|sprint": {
+    "lift": 1.6876993973768168,
+    "raw_lift": 1.6877,
+    "win_rate": 11.54,
+    "rides": 52
+  },
+  "団野大成|函館|ダ|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.0432,
+    "win_rate": 18.18,
+    "rides": 33
+  },
+  "団野大成|小倉|ダ|sprint": {
+    "lift": 1.9542572463768118,
+    "raw_lift": 1.9543,
+    "win_rate": 14.58,
+    "rides": 48
+  },
+  "団野大成|新潟|ダ|sprint": {
+    "lift": 1.8085106382978722,
+    "raw_lift": 1.8085,
+    "win_rate": 12.5,
+    "rides": 48
+  },
+  "団野大成|新潟|芝|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.17,
+    "win_rate": 13.33,
+    "rides": 30
+  },
+  "団野大成|福島|ダ|middle": {
+    "lift": 1.694810821218831,
+    "raw_lift": 1.6948,
+    "win_rate": 11.76,
+    "rides": 51
+  },
+  "団野大成|福島|ダ|sprint": {
+    "lift": 1.5304232804232805,
+    "raw_lift": 1.5304,
+    "win_rate": 10.0,
+    "rides": 30
+  },
+  "団野大成|福島|芝|sprint": {
+    "lift": 1.9974283080207675,
+    "raw_lift": 1.9974,
+    "win_rate": 13.51,
+    "rides": 37
+  },
+  "国分恭介|札幌|芝|middle": {
+    "lift": 1.5664877757901012,
+    "raw_lift": 1.5665,
+    "win_rate": 12.82,
+    "rides": 39
+  },
+  "坂井瑠星|中京|ダ|middle": {
+    "lift": 1.8093226306154064,
+    "raw_lift": 1.8093,
+    "win_rate": 13.58,
+    "rides": 243
+  },
+  "坂井瑠星|中京|ダ|mile": {
+    "lift": 1.9081456026473207,
+    "raw_lift": 1.9081,
+    "win_rate": 12.59,
+    "rides": 135
+  },
+  "坂井瑠星|中京|ダ|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.2775,
+    "win_rate": 15.12,
+    "rides": 86
+  },
+  "坂井瑠星|中京|芝|middle": {
+    "lift": 1.8876682753365508,
+    "raw_lift": 1.8877,
+    "win_rate": 14.52,
+    "rides": 124
+  },
+  "坂井瑠星|中京|芝|mile": {
+    "lift": 1.8080124394036408,
+    "raw_lift": 1.808,
+    "win_rate": 12.64,
+    "rides": 174
+  },
+  "坂井瑠星|中京|芝|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.0135,
+    "win_rate": 12.96,
+    "rides": 54
+  },
+  "坂井瑠星|中山|ダ|middle": {
+    "lift": 1.7255427288128913,
+    "raw_lift": 1.7255,
+    "win_rate": 11.76,
+    "rides": 51
+  },
+  "坂井瑠星|京都|ダ|middle": {
+    "lift": 1.9865050711412353,
+    "raw_lift": 1.9865,
+    "win_rate": 15.19,
+    "rides": 349
+  },
+  "坂井瑠星|京都|ダ|mile": {
+    "lift": 2.0,
+    "raw_lift": 2.1367,
+    "win_rate": 14.57,
+    "rides": 199
+  },
+  "坂井瑠星|京都|芝|sprint": {
+    "lift": 1.6784769962982549,
+    "raw_lift": 1.6785,
+    "win_rate": 11.48,
+    "rides": 61
+  },
+  "坂井瑠星|小倉|ダ|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.9314,
+    "win_rate": 21.88,
+    "rides": 32
+  },
+  "坂井瑠星|小倉|芝|middle": {
+    "lift": 1.624507042253521,
+    "raw_lift": 1.6245,
+    "win_rate": 12.0,
+    "rides": 100
+  },
+  "坂井瑠星|小倉|芝|sprint": {
+    "lift": 2.0,
+    "raw_lift": 3.3103,
+    "win_rate": 21.25,
+    "rides": 80
+  },
+  "坂井瑠星|新潟|ダ|middle": {
+    "lift": 1.6282643266338397,
+    "raw_lift": 1.6283,
+    "win_rate": 11.94,
+    "rides": 67
+  },
+  "坂井瑠星|新潟|芝|long": {
+    "lift": 2.0,
+    "raw_lift": 2.556,
+    "win_rate": 20.0,
+    "rides": 20
+  },
+  "坂井瑠星|新潟|芝|middle": {
+    "lift": 1.9907151952461803,
+    "raw_lift": 1.9907,
+    "win_rate": 14.52,
+    "rides": 62
+  },
+  "坂井瑠星|新潟|芝|mile": {
+    "lift": 1.6139044072004967,
+    "raw_lift": 1.6139,
+    "win_rate": 10.42,
+    "rides": 48
+  },
+  "坂井瑠星|新潟|芝|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.9063,
+    "win_rate": 17.86,
+    "rides": 28
+  },
+  "坂井瑠星|福島|ダ|middle": {
+    "lift": 1.964439815503645,
+    "raw_lift": 1.9644,
+    "win_rate": 13.64,
+    "rides": 22
+  },
+  "坂井瑠星|福島|芝|middle": {
+    "lift": 2.0,
+    "raw_lift": 2.2878,
+    "win_rate": 16.0,
+    "rides": 25
+  },
+  "坂井瑠星|阪神|ダ|middle": {
+    "lift": 1.6700112290361138,
+    "raw_lift": 1.67,
+    "win_rate": 12.78,
+    "rides": 399
+  },
+  "坂井瑠星|阪神|ダ|mile": {
+    "lift": 1.5319428118422134,
+    "raw_lift": 1.5319,
+    "win_rate": 10.3,
+    "rides": 233
+  },
+  "坂井瑠星|阪神|芝|long": {
+    "lift": 1.6372378516624042,
+    "raw_lift": 1.6372,
+    "win_rate": 14.12,
+    "rides": 85
+  },
+  "坂井瑠星|阪神|芝|mile": {
+    "lift": 1.5377571146801916,
+    "raw_lift": 1.5378,
+    "win_rate": 10.99,
+    "rides": 273
+  },
+  "坂井瑠星|阪神|芝|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.3087,
+    "win_rate": 17.54,
+    "rides": 57
+  },
+  "城戸義政|札幌|ダ|sprint": {
+    "lift": 1.605377906976744,
+    "raw_lift": 1.6054,
+    "win_rate": 13.95,
+    "rides": 43
+  },
+  "大野拓弥|函館|芝|sprint": {
+    "lift": 1.7649425287356322,
+    "raw_lift": 1.7649,
+    "win_rate": 13.79,
+    "rides": 87
+  },
+  "富田暁|福島|芝|sprint": {
+    "lift": 1.5215703875805258,
+    "raw_lift": 1.5216,
+    "win_rate": 10.29,
+    "rides": 68
+  },
+  "小崎綾也|函館|芝|sprint": {
+    "lift": 1.5994791666666668,
+    "raw_lift": 1.5995,
+    "win_rate": 12.5,
+    "rides": 32
+  },
+  "小崎綾也|新潟|ダ|sprint": {
+    "lift": 1.6823354774863928,
+    "raw_lift": 1.6823,
+    "win_rate": 11.63,
+    "rides": 43
+  },
+  "小林凌大|函館|ダ|sprint": {
+    "lift": 1.9978076731439962,
+    "raw_lift": 1.9978,
+    "win_rate": 17.78,
+    "rides": 45
+  },
+  "小林勝太|新潟|ダ|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.1434,
+    "win_rate": 14.81,
+    "rides": 27
+  },
+  "小林美駒|函館|ダ|sprint": {
+    "lift": 1.5500231946806866,
+    "raw_lift": 1.55,
+    "win_rate": 13.79,
+    "rides": 29
+  },
+  "小林美駒|小倉|ダ|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.1441,
+    "win_rate": 16.0,
+    "rides": 25
+  },
+  "小林美駒|福島|芝|middle": {
+    "lift": 1.9722286507752835,
+    "raw_lift": 1.9722,
+    "win_rate": 13.79,
+    "rides": 29
+  },
+  "小林美駒|福島|芝|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.1556,
+    "win_rate": 14.58,
+    "rides": 48
+  },
+  "小沢大仁|福島|ダ|middle": {
+    "lift": 1.858824771659363,
+    "raw_lift": 1.8588,
+    "win_rate": 12.9,
+    "rides": 62
+  },
+  "岩田康誠|中京|芝|mile": {
+    "lift": 1.5185559024436048,
+    "raw_lift": 1.5186,
+    "win_rate": 10.62,
+    "rides": 113
+  },
+  "岩田康誠|中山|ダ|middle": {
+    "lift": 1.6418410292809227,
+    "raw_lift": 1.6418,
+    "win_rate": 11.19,
+    "rides": 134
+  },
+  "岩田康誠|京都|ダ|sprint": {
+    "lift": 1.6087923709498022,
+    "raw_lift": 1.6088,
+    "win_rate": 10.89,
+    "rides": 202
+  },
+  "岩田康誠|函館|ダ|sprint": {
+    "lift": 1.9186262714645086,
+    "raw_lift": 1.9186,
+    "win_rate": 17.07,
+    "rides": 82
+  },
+  "岩田康誠|函館|芝|middle": {
+    "lift": 2.0,
+    "raw_lift": 2.003,
+    "win_rate": 16.2,
+    "rides": 179
+  },
+  "岩田康誠|小倉|ダ|middle": {
+    "lift": 1.79815463843788,
+    "raw_lift": 1.7982,
+    "win_rate": 12.2,
+    "rides": 41
+  },
+  "岩田康誠|小倉|芝|sprint": {
+    "lift": 1.8113662423191133,
+    "raw_lift": 1.8114,
+    "win_rate": 11.63,
+    "rides": 43
+  },
+  "岩田康誠|新潟|ダ|middle": {
+    "lift": 1.8182284980744545,
+    "raw_lift": 1.8182,
+    "win_rate": 13.33,
+    "rides": 75
+  },
+  "岩田康誠|札幌|ダ|sprint": {
+    "lift": 1.5979456018518516,
+    "raw_lift": 1.5979,
+    "win_rate": 13.89,
+    "rides": 36
+  },
+  "岩田康誠|阪神|ダ|middle": {
+    "lift": 1.6894890476303486,
+    "raw_lift": 1.6895,
+    "win_rate": 12.93,
+    "rides": 464
+  },
+  "岩田望来|中京|ダ|middle": {
+    "lift": 1.6272603256610454,
+    "raw_lift": 1.6273,
+    "win_rate": 12.21,
+    "rides": 262
+  },
+  "岩田望来|中京|ダ|mile": {
+    "lift": 1.7882329085825275,
+    "raw_lift": 1.7882,
+    "win_rate": 11.8,
+    "rides": 161
+  },
+  "岩田望来|中京|ダ|sprint": {
+    "lift": 1.7251385548468052,
+    "raw_lift": 1.7251,
+    "win_rate": 11.45,
+    "rides": 131
+  },
+  "岩田望来|中京|芝|middle": {
+    "lift": 2.0,
+    "raw_lift": 2.3718,
+    "win_rate": 18.24,
+    "rides": 159
+  },
+  "岩田望来|中京|芝|mile": {
+    "lift": 1.828276588786745,
+    "raw_lift": 1.8283,
+    "win_rate": 12.79,
+    "rides": 219
+  },
+  "岩田望来|中京|芝|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.0135,
+    "win_rate": 12.96,
+    "rides": 54
+  },
+  "岩田望来|中山|ダ|middle": {
+    "lift": 2.0,
+    "raw_lift": 2.408,
+    "win_rate": 16.42,
+    "rides": 67
+  },
+  "岩田望来|中山|芝|mile": {
+    "lift": 1.597667638483965,
+    "raw_lift": 1.5977,
+    "win_rate": 11.11,
+    "rides": 27
+  },
+  "岩田望来|京都|ダ|middle": {
+    "lift": 1.538935116156029,
+    "raw_lift": 1.5389,
+    "win_rate": 11.76,
+    "rides": 306
+  },
+  "岩田望来|京都|ダ|mile": {
+    "lift": 2.0,
+    "raw_lift": 2.2366,
+    "win_rate": 15.25,
+    "rides": 177
+  },
+  "岩田望来|京都|ダ|sprint": {
+    "lift": 1.6544235727440149,
+    "raw_lift": 1.6544,
+    "win_rate": 11.2,
+    "rides": 125
+  },
+  "岩田望来|京都|芝|middle": {
+    "lift": 1.7000909918107368,
+    "raw_lift": 1.7001,
+    "win_rate": 14.29,
+    "rides": 203
+  },
+  "岩田望来|京都|芝|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.2312,
+    "win_rate": 15.25,
+    "rides": 59
+  },
+  "岩田望来|小倉|ダ|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.0304,
+    "win_rate": 15.15,
+    "rides": 33
+  },
+  "岩田望来|新潟|ダ|middle": {
+    "lift": 1.593901605454879,
+    "raw_lift": 1.5939,
+    "win_rate": 11.69,
+    "rides": 77
+  },
+  "岩田望来|新潟|ダ|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.0669,
+    "win_rate": 14.29,
+    "rides": 70
+  },
+  "岩田望来|新潟|芝|middle": {
+    "lift": 1.7540927172582623,
+    "raw_lift": 1.7541,
+    "win_rate": 12.79,
+    "rides": 86
+  },
+  "岩田望来|阪神|ダ|middle": {
+    "lift": 1.9612493903911976,
+    "raw_lift": 1.9612,
+    "win_rate": 15.01,
+    "rides": 453
+  },
+  "岩田望来|阪神|ダ|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.1311,
+    "win_rate": 14.5,
+    "rides": 200
+  },
+  "岩田望来|阪神|芝|long": {
+    "lift": 1.5763050513578163,
+    "raw_lift": 1.5763,
+    "win_rate": 13.59,
+    "rides": 103
+  },
+  "岩田望来|阪神|芝|mile": {
+    "lift": 1.5595265678097003,
+    "raw_lift": 1.5595,
+    "win_rate": 11.14,
+    "rides": 332
+  },
+  "岩田望来|阪神|芝|sprint": {
+    "lift": 1.6005206025697831,
+    "raw_lift": 1.6005,
+    "win_rate": 12.16,
+    "rides": 74
+  },
+  "川又賢治|福島|芝|middle": {
+    "lift": 2.0,
+    "raw_lift": 3.0473,
+    "win_rate": 21.31,
+    "rides": 61
+  },
+  "川田将雅|中京|ダ|middle": {
+    "lift": 2.0,
+    "raw_lift": 2.9184,
+    "win_rate": 21.9,
+    "rides": 210
+  },
+  "川田将雅|中京|ダ|mile": {
+    "lift": 2.0,
+    "raw_lift": 3.6768,
+    "win_rate": 24.26,
+    "rides": 136
+  },
+  "川田将雅|中京|ダ|sprint": {
+    "lift": 2.0,
+    "raw_lift": 4.1851,
+    "win_rate": 27.78,
+    "rides": 54
+  },
+  "川田将雅|中京|芝|long": {
+    "lift": 2.0,
+    "raw_lift": 4.314,
+    "win_rate": 34.18,
+    "rides": 79
+  },
+  "川田将雅|中京|芝|middle": {
+    "lift": 2.0,
+    "raw_lift": 3.9544,
+    "win_rate": 30.41,
+    "rides": 171
+  },
+  "川田将雅|中京|芝|mile": {
+    "lift": 2.0,
+    "raw_lift": 3.2233,
+    "win_rate": 22.54,
+    "rides": 244
+  },
+  "川田将雅|中京|芝|sprint": {
+    "lift": 2.0,
+    "raw_lift": 4.5684,
+    "win_rate": 29.41,
+    "rides": 51
+  },
+  "川田将雅|中山|ダ|middle": {
+    "lift": 2.0,
+    "raw_lift": 3.7387,
+    "win_rate": 25.49,
+    "rides": 51
+  },
+  "川田将雅|中山|ダ|sprint": {
+    "lift": 2.0,
+    "raw_lift": 3.5078,
+    "win_rate": 22.5,
+    "rides": 40
+  },
+  "川田将雅|中山|芝|long": {
+    "lift": 2.0,
+    "raw_lift": 2.8003,
+    "win_rate": 21.05,
+    "rides": 38
+  },
+  "川田将雅|中山|芝|middle": {
+    "lift": 2.0,
+    "raw_lift": 2.7807,
+    "win_rate": 20.0,
+    "rides": 75
+  },
+  "川田将雅|中山|芝|mile": {
+    "lift": 2.0,
+    "raw_lift": 2.5808,
+    "win_rate": 17.95,
+    "rides": 39
+  },
+  "川田将雅|中山|芝|sprint": {
+    "lift": 2.0,
+    "raw_lift": 3.0,
+    "win_rate": 25.0,
+    "rides": 24
+  },
+  "川田将雅|京都|ダ|middle": {
+    "lift": 2.0,
+    "raw_lift": 2.2578,
+    "win_rate": 17.26,
+    "rides": 365
+  },
+  "川田将雅|京都|ダ|mile": {
+    "lift": 2.0,
+    "raw_lift": 2.5466,
+    "win_rate": 17.37,
+    "rides": 190
+  },
+  "川田将雅|京都|ダ|sprint": {
+    "lift": 2.0,
+    "raw_lift": 3.1225,
+    "win_rate": 21.14,
+    "rides": 123
+  },
+  "川田将雅|京都|芝|long": {
+    "lift": 2.0,
+    "raw_lift": 2.5986,
+    "win_rate": 21.99,
+    "rides": 141
+  },
+  "川田将雅|京都|芝|middle": {
+    "lift": 2.0,
+    "raw_lift": 3.2555,
+    "win_rate": 27.36,
+    "rides": 329
+  },
+  "川田将雅|京都|芝|mile": {
+    "lift": 2.0,
+    "raw_lift": 3.1192,
+    "win_rate": 22.41,
+    "rides": 348
+  },
+  "川田将雅|京都|芝|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.0175,
+    "win_rate": 13.79,
+    "rides": 58
+  },
+  "川田将雅|小倉|ダ|middle": {
+    "lift": 2.0,
+    "raw_lift": 4.0635,
+    "win_rate": 27.56,
+    "rides": 127
+  },
+  "川田将雅|小倉|ダ|sprint": {
+    "lift": 2.0,
+    "raw_lift": 3.0,
+    "win_rate": 28.57,
+    "rides": 21
+  },
+  "川田将雅|小倉|芝|middle": {
+    "lift": 2.0,
+    "raw_lift": 4.1603,
+    "win_rate": 30.73,
+    "rides": 205
+  },
+  "川田将雅|小倉|芝|sprint": {
+    "lift": 2.0,
+    "raw_lift": 3.0189,
+    "win_rate": 19.38,
+    "rides": 129
+  },
+  "川田将雅|新潟|ダ|middle": {
+    "lift": 2.0,
+    "raw_lift": 2.7273,
+    "win_rate": 20.0,
+    "rides": 35
+  },
+  "川田将雅|新潟|芝|middle": {
+    "lift": 2.0,
+    "raw_lift": 4.4834,
+    "win_rate": 32.69,
+    "rides": 52
+  },
+  "川田将雅|新潟|芝|mile": {
+    "lift": 2.0,
+    "raw_lift": 3.4781,
+    "win_rate": 22.45,
+    "rides": 49
+  },
+  "川田将雅|札幌|芝|middle": {
+    "lift": 2.0,
+    "raw_lift": 3.0,
+    "win_rate": 28.57,
+    "rides": 35
+  },
+  "川田将雅|東京|ダ|long": {
+    "lift": 2.0,
+    "raw_lift": 2.4597,
+    "win_rate": 17.5,
+    "rides": 40
+  },
+  "川田将雅|東京|ダ|mile": {
+    "lift": 2.0,
+    "raw_lift": 3.1768,
+    "win_rate": 20.89,
+    "rides": 158
+  },
+  "川田将雅|東京|芝|long": {
+    "lift": 1.7079640513729515,
+    "raw_lift": 1.708,
+    "win_rate": 13.58,
+    "rides": 81
+  },
+  "川田将雅|東京|芝|middle": {
+    "lift": 2.0,
+    "raw_lift": 2.2021,
+    "win_rate": 17.5,
+    "rides": 160
+  },
+  "川田将雅|東京|芝|mile": {
+    "lift": 2.0,
+    "raw_lift": 2.8866,
+    "win_rate": 19.89,
+    "rides": 186
+  },
+  "川田将雅|阪神|ダ|middle": {
+    "lift": 2.0,
+    "raw_lift": 2.988,
+    "win_rate": 22.87,
+    "rides": 446
+  },
+  "川田将雅|阪神|ダ|mile": {
+    "lift": 2.0,
+    "raw_lift": 4.4739,
+    "win_rate": 30.08,
+    "rides": 246
+  },
+  "川田将雅|阪神|ダ|sprint": {
+    "lift": 2.0,
+    "raw_lift": 3.8065,
+    "win_rate": 25.9,
+    "rides": 139
+  },
+  "川田将雅|阪神|芝|long": {
+    "lift": 2.0,
+    "raw_lift": 2.6508,
+    "win_rate": 22.86,
+    "rides": 140
+  },
+  "川田将雅|阪神|芝|middle": {
+    "lift": 2.0,
+    "raw_lift": 2.9102,
+    "win_rate": 24.24,
+    "rides": 429
+  },
+  "川田将雅|阪神|芝|mile": {
+    "lift": 2.0,
+    "raw_lift": 3.0951,
+    "win_rate": 22.12,
+    "rides": 425
+  },
+  "川須栄彦|新潟|ダ|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.1594,
+    "win_rate": 14.93,
+    "rides": 67
+  },
+  "川須栄彦|新潟|芝|mile": {
+    "lift": 1.6482427988430604,
+    "raw_lift": 1.6482,
+    "win_rate": 10.64,
+    "rides": 47
+  },
+  "川須栄彦|福島|ダ|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.5507,
+    "win_rate": 16.67,
+    "rides": 36
+  },
+  "幸英明|中京|芝|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.1993,
+    "win_rate": 14.16,
+    "rides": 113
+  },
+  "幸英明|小倉|ダ|sprint": {
+    "lift": 1.6408923817974395,
+    "raw_lift": 1.6409,
+    "win_rate": 12.24,
+    "rides": 147
+  },
+  "戸崎圭太|中京|ダ|middle": {
+    "lift": 2.0,
+    "raw_lift": 3.0929,
+    "win_rate": 23.21,
+    "rides": 56
+  },
+  "戸崎圭太|中京|ダ|mile": {
+    "lift": 2.0,
+    "raw_lift": 2.8412,
+    "win_rate": 18.75,
+    "rides": 32
+  },
+  "戸崎圭太|中山|ダ|long": {
+    "lift": 2.0,
+    "raw_lift": 2.2918,
+    "win_rate": 18.52,
+    "rides": 54
+  },
+  "戸崎圭太|中山|ダ|middle": {
+    "lift": 2.0,
+    "raw_lift": 2.2683,
+    "win_rate": 15.47,
+    "rides": 666
+  },
+  "戸崎圭太|中山|ダ|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.8254,
+    "win_rate": 18.12,
+    "rides": 618
+  },
+  "戸崎圭太|中山|芝|long": {
+    "lift": 1.8902120974076981,
+    "raw_lift": 1.8902,
+    "win_rate": 14.21,
+    "rides": 190
+  },
+  "戸崎圭太|中山|芝|middle": {
+    "lift": 2.0,
+    "raw_lift": 2.0831,
+    "win_rate": 14.98,
+    "rides": 574
+  },
+  "戸崎圭太|中山|芝|mile": {
+    "lift": 2.0,
+    "raw_lift": 2.1113,
+    "win_rate": 14.68,
+    "rides": 395
+  },
+  "戸崎圭太|中山|芝|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.205,
+    "win_rate": 14.87,
+    "rides": 195
+  },
+  "戸崎圭太|京都|ダ|mile": {
+    "lift": 1.7454881495977383,
+    "raw_lift": 1.7455,
+    "win_rate": 11.9,
+    "rides": 42
+  },
+  "戸崎圭太|京都|ダ|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.0516,
+    "win_rate": 13.89,
+    "rides": 36
+  },
+  "戸崎圭太|京都|芝|long": {
+    "lift": 1.688473520249221,
+    "raw_lift": 1.6885,
+    "win_rate": 14.29,
+    "rides": 28
+  },
+  "戸崎圭太|京都|芝|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.194,
+    "win_rate": 15.0,
+    "rides": 20
+  },
+  "戸崎圭太|新潟|ダ|middle": {
+    "lift": 2.0,
+    "raw_lift": 2.6608,
+    "win_rate": 19.51,
+    "rides": 164
+  },
+  "戸崎圭太|新潟|ダ|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.2908,
+    "win_rate": 15.83,
+    "rides": 120
+  },
+  "戸崎圭太|新潟|芝|long": {
+    "lift": 2.0,
+    "raw_lift": 2.2035,
+    "win_rate": 17.24,
+    "rides": 58
+  },
+  "戸崎圭太|新潟|芝|middle": {
+    "lift": 2.0,
+    "raw_lift": 2.432,
+    "win_rate": 17.73,
+    "rides": 203
+  },
+  "戸崎圭太|新潟|芝|mile": {
+    "lift": 2.0,
+    "raw_lift": 3.2156,
+    "win_rate": 20.75,
+    "rides": 212
+  },
+  "戸崎圭太|東京|ダ|long": {
+    "lift": 2.0,
+    "raw_lift": 2.008,
+    "win_rate": 14.29,
+    "rides": 231
+  },
+  "戸崎圭太|東京|ダ|mile": {
+    "lift": 2.0,
+    "raw_lift": 2.3136,
+    "win_rate": 15.21,
+    "rides": 1328
+  },
+  "戸崎圭太|東京|芝|long": {
+    "lift": 1.5789089164404027,
+    "raw_lift": 1.5789,
+    "win_rate": 12.55,
+    "rides": 231
+  },
+  "戸崎圭太|東京|芝|middle": {
+    "lift": 2.0,
+    "raw_lift": 2.2325,
+    "win_rate": 17.74,
+    "rides": 620
+  },
+  "戸崎圭太|東京|芝|mile": {
+    "lift": 2.0,
+    "raw_lift": 2.2007,
+    "win_rate": 15.17,
+    "rides": 844
+  },
+  "戸崎圭太|福島|ダ|middle": {
+    "lift": 2.0,
+    "raw_lift": 2.9274,
+    "win_rate": 20.32,
+    "rides": 187
+  },
+  "戸崎圭太|福島|ダ|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.7007,
+    "win_rate": 17.65,
+    "rides": 102
+  },
+  "戸崎圭太|福島|芝|long": {
+    "lift": 2.0,
+    "raw_lift": 2.1285,
+    "win_rate": 17.24,
+    "rides": 29
+  },
+  "戸崎圭太|福島|芝|middle": {
+    "lift": 2.0,
+    "raw_lift": 2.9971,
+    "win_rate": 20.96,
+    "rides": 229
+  },
+  "戸崎圭太|福島|芝|sprint": {
+    "lift": 2.0,
+    "raw_lift": 3.4035,
+    "win_rate": 23.03,
+    "rides": 152
+  },
+  "戸崎圭太|阪神|ダ|middle": {
+    "lift": 1.7616245350572621,
+    "raw_lift": 1.7616,
+    "win_rate": 13.48,
+    "rides": 89
+  },
+  "戸崎圭太|阪神|ダ|mile": {
+    "lift": 2.0,
+    "raw_lift": 3.7973,
+    "win_rate": 25.53,
+    "rides": 47
+  },
+  "戸崎圭太|阪神|ダ|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.2611,
+    "win_rate": 15.38,
+    "rides": 39
+  },
+  "戸崎圭太|阪神|芝|middle": {
+    "lift": 1.6881355932203392,
+    "raw_lift": 1.6881,
+    "win_rate": 14.06,
+    "rides": 64
+  },
+  "斎藤新|中山|ダ|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.1881,
+    "win_rate": 14.04,
+    "rides": 57
+  },
+  "斎藤新|新潟|ダ|middle": {
+    "lift": 1.6940017062805477,
+    "raw_lift": 1.694,
+    "win_rate": 12.42,
+    "rides": 161
+  },
+  "斎藤新|札幌|ダ|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.301,
+    "win_rate": 20.0,
+    "rides": 20
+  },
+  "斎藤新|福島|ダ|middle": {
+    "lift": 1.5164096821431647,
+    "raw_lift": 1.5164,
+    "win_rate": 10.53,
+    "rides": 133
+  },
+  "斎藤新|福島|ダ|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.1256,
+    "win_rate": 13.89,
+    "rides": 72
+  },
+  "斎藤新|福島|芝|long": {
+    "lift": 1.7635814889336017,
+    "raw_lift": 1.7636,
+    "win_rate": 14.29,
+    "rides": 28
+  },
+  "木幡育也|福島|ダ|middle": {
+    "lift": 1.5164096821431647,
+    "raw_lift": 1.5164,
+    "win_rate": 10.53,
+    "rides": 76
+  },
+  "杉原誠人|函館|芝|sprint": {
+    "lift": 1.5994791666666668,
+    "raw_lift": 1.5995,
+    "win_rate": 12.5,
+    "rides": 24
+  },
+  "松山弘平|中京|ダ|middle": {
+    "lift": 1.5748456165898121,
+    "raw_lift": 1.5748,
+    "win_rate": 11.82,
+    "rides": 423
+  },
+  "松山弘平|中京|ダ|mile": {
+    "lift": 2.0,
+    "raw_lift": 2.3182,
+    "win_rate": 15.3,
+    "rides": 268
+  },
+  "松山弘平|中京|ダ|sprint": {
+    "lift": 1.9928849266748807,
+    "raw_lift": 1.9929,
+    "win_rate": 13.23,
+    "rides": 189
+  },
+  "松山弘平|中京|芝|long": {
+    "lift": 1.5299973801414724,
+    "raw_lift": 1.53,
+    "win_rate": 12.12,
+    "rides": 99
+  },
+  "松山弘平|中京|芝|middle": {
+    "lift": 1.8132979891457788,
+    "raw_lift": 1.8133,
+    "win_rate": 13.94,
+    "rides": 251
+  },
+  "松山弘平|中京|芝|mile": {
+    "lift": 1.5501067477518278,
+    "raw_lift": 1.5501,
+    "win_rate": 10.84,
+    "rides": 369
+  },
+  "松山弘平|中山|芝|middle": {
+    "lift": 2.0,
+    "raw_lift": 2.2165,
+    "win_rate": 15.94,
+    "rides": 69
+  },
+  "松山弘平|京都|ダ|middle": {
+    "lift": 1.6797365633805774,
+    "raw_lift": 1.6797,
+    "win_rate": 12.84,
+    "rides": 623
+  },
+  "松山弘平|京都|ダ|mile": {
+    "lift": 1.7849513599364701,
+    "raw_lift": 1.785,
+    "win_rate": 12.17,
+    "rides": 345
+  },
+  "松山弘平|京都|ダ|sprint": {
+    "lift": 1.8857411543434817,
+    "raw_lift": 1.8857,
+    "win_rate": 12.77,
+    "rides": 282
+  },
+  "松山弘平|京都|芝|mile": {
+    "lift": 1.6235993550987504,
+    "raw_lift": 1.6236,
+    "win_rate": 11.67,
+    "rides": 480
+  },
+  "松山弘平|小倉|ダ|middle": {
+    "lift": 1.8614783566021373,
+    "raw_lift": 1.8615,
+    "win_rate": 12.62,
+    "rides": 301
+  },
+  "松山弘平|小倉|ダ|sprint": {
+    "lift": 1.7152795031055903,
+    "raw_lift": 1.7153,
+    "win_rate": 12.8,
+    "rides": 125
+  },
+  "松山弘平|小倉|芝|middle": {
+    "lift": 1.939066761310569,
+    "raw_lift": 1.9391,
+    "win_rate": 14.32,
+    "rides": 377
+  },
+  "松山弘平|小倉|芝|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.237,
+    "win_rate": 14.36,
+    "rides": 383
+  },
+  "松山弘平|新潟|ダ|middle": {
+    "lift": 2.0,
+    "raw_lift": 2.8709,
+    "win_rate": 21.05,
+    "rides": 38
+  },
+  "松山弘平|東京|ダ|mile": {
+    "lift": 1.8597301533982755,
+    "raw_lift": 1.8597,
+    "win_rate": 12.23,
+    "rides": 229
+  },
+  "松山弘平|東京|芝|middle": {
+    "lift": 1.5978835978835977,
+    "raw_lift": 1.5979,
+    "win_rate": 12.7,
+    "rides": 126
+  },
+  "松山弘平|阪神|ダ|middle": {
+    "lift": 1.5885505398666409,
+    "raw_lift": 1.5886,
+    "win_rate": 12.16,
+    "rides": 732
+  },
+  "松山弘平|阪神|ダ|mile": {
+    "lift": 2.0,
+    "raw_lift": 2.0197,
+    "win_rate": 13.58,
+    "rides": 405
+  },
+  "松山弘平|阪神|ダ|sprint": {
+    "lift": 1.7422388080933568,
+    "raw_lift": 1.7422,
+    "win_rate": 11.85,
+    "rides": 329
+  },
+  "松岡正海|福島|ダ|sprint": {
+    "lift": 1.5696649029982364,
+    "raw_lift": 1.5697,
+    "win_rate": 10.26,
+    "rides": 39
+  },
+  "松本大輝|福島|ダ|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.4165,
+    "win_rate": 15.79,
+    "rides": 38
+  },
+  "松若風馬|中京|ダ|sprint": {
+    "lift": 1.6976011319055888,
+    "raw_lift": 1.6976,
+    "win_rate": 11.27,
+    "rides": 142
+  },
+  "松若風馬|小倉|ダ|sprint": {
+    "lift": 1.5129733520336606,
+    "raw_lift": 1.513,
+    "win_rate": 11.29,
+    "rides": 124
+  },
+  "松若風馬|新潟|ダ|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.1277,
+    "win_rate": 14.71,
+    "rides": 34
+  },
+  "松若風馬|福島|ダ|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.9431,
+    "win_rate": 19.23,
+    "rides": 26
+  },
+  "松若風馬|福島|芝|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.5339,
+    "win_rate": 17.14,
+    "rides": 35
+  },
+  "柴田善臣|新潟|芝|long": {
+    "lift": 2.0,
+    "raw_lift": 2.0448,
+    "win_rate": 16.0,
+    "rides": 25
+  },
+  "柴田大知|中山|ダ|long": {
+    "lift": 2.0,
+    "raw_lift": 2.2501,
+    "win_rate": 18.18,
+    "rides": 33
+  },
+  "柴田裕一|新潟|ダ|sprint": {
+    "lift": 2.0,
+    "raw_lift": 3.0,
+    "win_rate": 22.58,
+    "rides": 31
+  },
+  "森一馬|中京|芝|long": {
+    "lift": 1.5778097982708934,
+    "raw_lift": 1.5778,
+    "win_rate": 12.5,
+    "rides": 56
+  },
+  "森一馬|京都|ダ|long": {
+    "lift": 2.0,
+    "raw_lift": 3.0,
+    "win_rate": 34.38,
+    "rides": 32
+  },
+  "森一馬|新潟|芝|long": {
+    "lift": 2.0,
+    "raw_lift": 2.0613,
+    "win_rate": 16.13,
+    "rides": 93
+  },
+  "森一馬|福島|芝|long": {
+    "lift": 1.72830985915493,
+    "raw_lift": 1.7283,
+    "win_rate": 14.0,
+    "rides": 50
+  },
+  "森一馬|阪神|ダ|long": {
+    "lift": 1.6614469151268398,
+    "raw_lift": 1.6614,
+    "win_rate": 16.13,
+    "rides": 62
+  },
+  "横山典弘|中京|ダ|middle": {
+    "lift": 1.6425855513307985,
+    "raw_lift": 1.6426,
+    "win_rate": 12.33,
+    "rides": 73
+  },
+  "横山典弘|中京|ダ|sprint": {
+    "lift": 2.0,
+    "raw_lift": 3.0,
+    "win_rate": 21.21,
+    "rides": 33
+  },
+  "横山典弘|中京|芝|long": {
+    "lift": 2.0,
+    "raw_lift": 2.295,
+    "win_rate": 18.18,
+    "rides": 22
+  },
+  "横山典弘|中京|芝|mile": {
+    "lift": 1.5140895615540646,
+    "raw_lift": 1.5141,
+    "win_rate": 10.59,
+    "rides": 85
+  },
+  "横山典弘|中山|ダ|middle": {
+    "lift": 2.0,
+    "raw_lift": 2.3752,
+    "win_rate": 16.19,
+    "rides": 247
+  },
+  "横山典弘|中山|ダ|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.1229,
+    "win_rate": 13.62,
+    "rides": 235
+  },
+  "横山典弘|中山|芝|long": {
+    "lift": 1.6440046956230083,
+    "raw_lift": 1.644,
+    "win_rate": 12.36,
+    "rides": 89
+  },
+  "横山典弘|京都|ダ|middle": {
+    "lift": 1.538935116156029,
+    "raw_lift": 1.5389,
+    "win_rate": 11.76,
+    "rides": 68
+  },
+  "横山典弘|小倉|芝|middle": {
+    "lift": 1.746781765864001,
+    "raw_lift": 1.7468,
+    "win_rate": 12.9,
+    "rides": 31
+  },
+  "横山典弘|新潟|芝|middle": {
+    "lift": 2.0,
+    "raw_lift": 2.0069,
+    "win_rate": 14.63,
+    "rides": 41
+  },
+  "横山典弘|札幌|芝|mile": {
+    "lift": 2.0,
+    "raw_lift": 2.6212,
+    "win_rate": 21.62,
+    "rides": 37
+  },
+  "横山典弘|札幌|芝|sprint": {
+    "lift": 1.8148448043184886,
+    "raw_lift": 1.8148,
+    "win_rate": 13.33,
+    "rides": 45
+  },
+  "横山典弘|東京|ダ|long": {
+    "lift": 1.7094739278893456,
+    "raw_lift": 1.7095,
+    "win_rate": 12.16,
+    "rides": 74
+  },
+  "横山典弘|東京|ダ|mile": {
+    "lift": 2.0,
+    "raw_lift": 2.0019,
+    "win_rate": 13.16,
+    "rides": 623
+  },
+  "横山典弘|福島|ダ|middle": {
+    "lift": 2.0,
+    "raw_lift": 2.058,
+    "win_rate": 14.29,
+    "rides": 49
+  },
+  "横山典弘|福島|ダ|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.1863,
+    "win_rate": 14.29,
+    "rides": 28
+  },
+  "横山典弘|阪神|芝|mile": {
+    "lift": 1.5672820512820513,
+    "raw_lift": 1.5673,
+    "win_rate": 11.2,
+    "rides": 125
+  },
+  "横山和生|中京|ダ|middle": {
+    "lift": 1.6314114999612013,
+    "raw_lift": 1.6314,
+    "win_rate": 12.24,
+    "rides": 49
+  },
+  "横山和生|中山|ダ|middle": {
+    "lift": 1.7600535833891493,
+    "raw_lift": 1.7601,
+    "win_rate": 12.0,
+    "rides": 425
+  },
+  "横山和生|函館|ダ|middle": {
+    "lift": 1.5221590909090907,
+    "raw_lift": 1.5222,
+    "win_rate": 12.34,
+    "rides": 154
+  },
+  "横山和生|小倉|ダ|middle": {
+    "lift": 1.5253311760542017,
+    "raw_lift": 1.5253,
+    "win_rate": 10.34,
+    "rides": 58
+  },
+  "横山和生|小倉|芝|middle": {
+    "lift": 1.9091428915372577,
+    "raw_lift": 1.9091,
+    "win_rate": 14.1,
+    "rides": 78
+  },
+  "横山和生|小倉|芝|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.043,
+    "win_rate": 13.11,
+    "rides": 61
+  },
+  "横山和生|新潟|芝|middle": {
+    "lift": 1.627062890276539,
+    "raw_lift": 1.6271,
+    "win_rate": 11.86,
+    "rides": 59
+  },
+  "横山和生|札幌|芝|middle": {
+    "lift": 1.5084697100200977,
+    "raw_lift": 1.5085,
+    "win_rate": 12.35,
+    "rides": 162
+  },
+  "横山和生|札幌|芝|mile": {
+    "lift": 1.7074862970929023,
+    "raw_lift": 1.7075,
+    "win_rate": 14.08,
+    "rides": 71
+  },
+  "横山和生|福島|芝|middle": {
+    "lift": 1.755975509242906,
+    "raw_lift": 1.756,
+    "win_rate": 12.28,
+    "rides": 57
+  },
+  "横山和生|阪神|ダ|middle": {
+    "lift": 2.0,
+    "raw_lift": 2.1776,
+    "win_rate": 16.67,
+    "rides": 36
+  },
+  "横山武史|中京|ダ|mile": {
+    "lift": 1.65735073024055,
+    "raw_lift": 1.6574,
+    "win_rate": 10.94,
+    "rides": 64
+  },
+  "横山武史|中京|芝|sprint": {
+    "lift": 1.7922077922077924,
+    "raw_lift": 1.7922,
+    "win_rate": 11.54,
+    "rides": 26
+  },
+  "横山武史|中山|ダ|long": {
+    "lift": 1.5968499167045285,
+    "raw_lift": 1.5968,
+    "win_rate": 12.9,
+    "rides": 31
+  },
+  "横山武史|中山|ダ|middle": {
+    "lift": 2.0,
+    "raw_lift": 2.2517,
+    "win_rate": 15.35,
+    "rides": 469
+  },
+  "横山武史|中山|ダ|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.1947,
+    "win_rate": 14.08,
+    "rides": 412
+  },
+  "横山武史|中山|芝|long": {
+    "lift": 1.662686567164179,
+    "raw_lift": 1.6627,
+    "win_rate": 12.5,
+    "rides": 104
+  },
+  "横山武史|中山|芝|middle": {
+    "lift": 2.0,
+    "raw_lift": 2.1157,
+    "win_rate": 15.22,
+    "rides": 322
+  },
+  "横山武史|中山|芝|mile": {
+    "lift": 2.0,
+    "raw_lift": 2.0036,
+    "win_rate": 13.93,
+    "rides": 244
+  },
+  "横山武史|中山|芝|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.3091,
+    "win_rate": 15.57,
+    "rides": 122
+  },
+  "横山武史|函館|ダ|middle": {
+    "lift": 1.5421874999999998,
+    "raw_lift": 1.5422,
+    "win_rate": 12.5,
+    "rides": 192
+  },
+  "横山武史|函館|ダ|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.1959,
+    "win_rate": 19.54,
+    "rides": 87
+  },
+  "横山武史|函館|芝|long": {
+    "lift": 2.0,
+    "raw_lift": 2.3106,
+    "win_rate": 19.23,
+    "rides": 26
+  },
+  "横山武史|函館|芝|middle": {
+    "lift": 1.6706950853292317,
+    "raw_lift": 1.6707,
+    "win_rate": 13.51,
+    "rides": 185
+  },
+  "横山武史|函館|芝|sprint": {
+    "lift": 1.9106900452488689,
+    "raw_lift": 1.9107,
+    "win_rate": 14.93,
+    "rides": 221
+  },
+  "横山武史|小倉|ダ|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.9132,
+    "win_rate": 21.74,
+    "rides": 23
+  },
+  "横山武史|小倉|芝|sprint": {
+    "lift": 1.9074795531360458,
+    "raw_lift": 1.9075,
+    "win_rate": 12.24,
+    "rides": 49
+  },
+  "横山武史|新潟|芝|middle": {
+    "lift": 2.0,
+    "raw_lift": 2.07,
+    "win_rate": 15.09,
+    "rides": 53
+  },
+  "横山武史|札幌|ダ|middle": {
+    "lift": 1.8836238606707814,
+    "raw_lift": 1.8836,
+    "win_rate": 14.45,
+    "rides": 263
+  },
+  "横山武史|札幌|芝|middle": {
+    "lift": 2.0,
+    "raw_lift": 2.358,
+    "win_rate": 19.3,
+    "rides": 228
+  },
+  "横山武史|札幌|芝|mile": {
+    "lift": 2.0,
+    "raw_lift": 2.2148,
+    "win_rate": 18.27,
+    "rides": 104
+  },
+  "横山武史|札幌|芝|sprint": {
+    "lift": 1.701417004048583,
+    "raw_lift": 1.7014,
+    "win_rate": 12.5,
+    "rides": 128
+  },
+  "横山武史|東京|ダ|mile": {
+    "lift": 1.6156229329598066,
+    "raw_lift": 1.6156,
+    "win_rate": 10.62,
+    "rides": 659
+  },
+  "横山武史|東京|芝|middle": {
+    "lift": 1.6750541125541123,
+    "raw_lift": 1.6751,
+    "win_rate": 13.31,
+    "rides": 308
+  },
+  "横山武史|東京|芝|mile": {
+    "lift": 1.5887830665409512,
+    "raw_lift": 1.5888,
+    "win_rate": 10.95,
+    "rides": 411
+  },
+  "横山武史|福島|ダ|middle": {
+    "lift": 1.8469092282512902,
+    "raw_lift": 1.8469,
+    "win_rate": 12.82,
+    "rides": 78
+  },
+  "横山武史|阪神|ダ|mile": {
+    "lift": 2.0,
+    "raw_lift": 2.5865,
+    "win_rate": 17.39,
+    "rides": 23
+  },
+  "横山琉人|新潟|芝|middle": {
+    "lift": 1.5237573099415205,
+    "raw_lift": 1.5238,
+    "win_rate": 11.11,
+    "rides": 72
+  },
+  "武藤雅|中山|ダ|long": {
+    "lift": 1.9960623958806605,
+    "raw_lift": 1.9961,
+    "win_rate": 16.13,
+    "rides": 31
+  },
+  "武豊|中京|ダ|middle": {
+    "lift": 2.0,
+    "raw_lift": 2.4295,
+    "win_rate": 18.24,
+    "rides": 170
+  },
+  "武豊|中京|ダ|mile": {
+    "lift": 1.6704007359904756,
+    "raw_lift": 1.6704,
+    "win_rate": 11.02,
+    "rides": 127
+  },
+  "武豊|中京|ダ|sprint": {
+    "lift": 1.6976011319055888,
+    "raw_lift": 1.6976,
+    "win_rate": 11.27,
+    "rides": 71
+  },
+  "武豊|中京|芝|long": {
+    "lift": 1.6829971181556198,
+    "raw_lift": 1.683,
+    "win_rate": 13.33,
+    "rides": 45
+  },
+  "武豊|中京|芝|middle": {
+    "lift": 1.8744413705043625,
+    "raw_lift": 1.8744,
+    "win_rate": 14.41,
+    "rides": 111
+  },
+  "武豊|中京|芝|sprint": {
+    "lift": 1.9415584415584417,
+    "raw_lift": 1.9416,
+    "win_rate": 12.5,
+    "rides": 64
+  },
+  "武豊|中山|ダ|middle": {
+    "lift": 2.0,
+    "raw_lift": 2.2139,
+    "win_rate": 15.09,
+    "rides": 53
+  },
+  "武豊|中山|ダ|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.021,
+    "win_rate": 12.96,
+    "rides": 54
+  },
+  "武豊|中山|芝|long": {
+    "lift": 2.0,
+    "raw_lift": 3.0,
+    "win_rate": 28.57,
+    "rides": 28
+  },
+  "武豊|中山|芝|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.1181,
+    "win_rate": 14.29,
+    "rides": 35
+  },
+  "武豊|京都|ダ|middle": {
+    "lift": 2.0,
+    "raw_lift": 2.4026,
+    "win_rate": 18.37,
+    "rides": 343
+  },
+  "武豊|京都|ダ|mile": {
+    "lift": 2.0,
+    "raw_lift": 2.3602,
+    "win_rate": 16.1,
+    "rides": 205
+  },
+  "武豊|京都|ダ|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.516,
+    "win_rate": 17.03,
+    "rides": 182
+  },
+  "武豊|京都|芝|long": {
+    "lift": 1.9507606690257993,
+    "raw_lift": 1.9508,
+    "win_rate": 16.5,
+    "rides": 103
+  },
+  "武豊|京都|芝|middle": {
+    "lift": 2.0,
+    "raw_lift": 2.1413,
+    "win_rate": 17.99,
+    "rides": 289
+  },
+  "武豊|京都|芝|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.8892,
+    "win_rate": 19.75,
+    "rides": 81
+  },
+  "武豊|函館|ダ|middle": {
+    "lift": 1.7783783783783782,
+    "raw_lift": 1.7784,
+    "win_rate": 14.41,
+    "rides": 111
+  },
+  "武豊|函館|芝|middle": {
+    "lift": 1.7788695872570235,
+    "raw_lift": 1.7789,
+    "win_rate": 14.39,
+    "rides": 139
+  },
+  "武豊|函館|芝|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.7918,
+    "win_rate": 21.82,
+    "rides": 165
+  },
+  "武豊|小倉|ダ|middle": {
+    "lift": 2.0,
+    "raw_lift": 2.4305,
+    "win_rate": 16.48,
+    "rides": 91
+  },
+  "武豊|小倉|ダ|sprint": {
+    "lift": 1.6080745341614908,
+    "raw_lift": 1.6081,
+    "win_rate": 12.0,
+    "rides": 25
+  },
+  "武豊|小倉|芝|middle": {
+    "lift": 1.5171401975068803,
+    "raw_lift": 1.5171,
+    "win_rate": 11.21,
+    "rides": 116
+  },
+  "武豊|小倉|芝|sprint": {
+    "lift": 2.0,
+    "raw_lift": 3.1891,
+    "win_rate": 20.47,
+    "rides": 127
+  },
+  "武豊|札幌|ダ|middle": {
+    "lift": 2.0,
+    "raw_lift": 2.2545,
+    "win_rate": 17.29,
+    "rides": 133
+  },
+  "武豊|札幌|ダ|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.598,
+    "win_rate": 22.58,
+    "rides": 31
+  },
+  "武豊|札幌|芝|mile": {
+    "lift": 2.0,
+    "raw_lift": 2.6111,
+    "win_rate": 21.54,
+    "rides": 65
+  },
+  "武豊|札幌|芝|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.0108,
+    "win_rate": 14.77,
+    "rides": 88
+  },
+  "武豊|東京|ダ|long": {
+    "lift": 2.0,
+    "raw_lift": 3.0119,
+    "win_rate": 21.43,
+    "rides": 42
+  },
+  "武豊|東京|ダ|mile": {
+    "lift": 2.0,
+    "raw_lift": 2.0843,
+    "win_rate": 13.7,
+    "rides": 270
+  },
+  "武豊|東京|芝|middle": {
+    "lift": 1.543967280163599,
+    "raw_lift": 1.544,
+    "win_rate": 12.27,
+    "rides": 163
+  },
+  "武豊|阪神|ダ|middle": {
+    "lift": 2.0,
+    "raw_lift": 2.159,
+    "win_rate": 16.52,
+    "rides": 351
+  },
+  "武豊|阪神|ダ|mile": {
+    "lift": 2.0,
+    "raw_lift": 2.0575,
+    "win_rate": 13.83,
+    "rides": 253
+  },
+  "武豊|阪神|ダ|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.2185,
+    "win_rate": 15.09,
+    "rides": 159
+  },
+  "武豊|阪神|芝|long": {
+    "lift": 1.6699826086956522,
+    "raw_lift": 1.67,
+    "win_rate": 14.4,
+    "rides": 125
+  },
+  "武豊|阪神|芝|middle": {
+    "lift": 1.5841741637258313,
+    "raw_lift": 1.5842,
+    "win_rate": 13.2,
+    "rides": 341
+  },
+  "武豊|阪神|芝|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.4056,
+    "win_rate": 18.28,
+    "rides": 93
+  },
+  "水口優也|中京|ダ|mile": {
+    "lift": 1.567543547813722,
+    "raw_lift": 1.5675,
+    "win_rate": 10.34,
+    "rides": 29
+  },
+  "水口優也|中京|ダ|sprint": {
+    "lift": 1.5066210045662098,
+    "raw_lift": 1.5066,
+    "win_rate": 10.0,
+    "rides": 50
+  },
+  "水口優也|函館|ダ|middle": {
+    "lift": 1.898076923076923,
+    "raw_lift": 1.8981,
+    "win_rate": 15.38,
+    "rides": 26
+  },
+  "水口優也|小倉|ダ|sprint": {
+    "lift": 1.9706795761782978,
+    "raw_lift": 1.9707,
+    "win_rate": 14.71,
+    "rides": 34
+  },
+  "水口優也|東京|ダ|mile": {
+    "lift": 2.0,
+    "raw_lift": 2.1728,
+    "win_rate": 14.29,
+    "rides": 21
+  },
+  "永島まな|新潟|芝|mile": {
+    "lift": 1.7877094972067038,
+    "raw_lift": 1.7877,
+    "win_rate": 11.54,
+    "rides": 52
+  },
+  "永島まな|福島|ダ|sprint": {
+    "lift": 1.9433946418073402,
+    "raw_lift": 1.9434,
+    "win_rate": 12.7,
+    "rides": 63
+  },
+  "永島まな|福島|芝|sprint": {
+    "lift": 1.5917967131611657,
+    "raw_lift": 1.5918,
+    "win_rate": 10.77,
+    "rides": 65
+  },
+  "永野猛蔵|中山|芝|long": {
+    "lift": 1.5201705756929638,
+    "raw_lift": 1.5202,
+    "win_rate": 11.43,
+    "rides": 35
+  },
+  "永野猛蔵|函館|芝|sprint": {
+    "lift": 1.7649425287356322,
+    "raw_lift": 1.7649,
+    "win_rate": 13.79,
+    "rides": 29
+  },
+  "池添謙一|中京|芝|long": {
+    "lift": 1.5778097982708934,
+    "raw_lift": 1.5778,
+    "win_rate": 12.5,
+    "rides": 32
+  },
+  "池添謙一|中京|芝|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.071,
+    "win_rate": 13.33,
+    "rides": 45
+  },
+  "池添謙一|中山|ダ|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.1653,
+    "win_rate": 13.89,
+    "rides": 36
+  },
+  "池添謙一|中山|芝|middle": {
+    "lift": 1.8134777938635405,
+    "raw_lift": 1.8135,
+    "win_rate": 13.04,
+    "rides": 69
+  },
+  "池添謙一|中山|芝|mile": {
+    "lift": 1.9970845481049564,
+    "raw_lift": 1.9971,
+    "win_rate": 13.89,
+    "rides": 36
+  },
+  "池添謙一|京都|ダ|mile": {
+    "lift": 1.5850919412563247,
+    "raw_lift": 1.5851,
+    "win_rate": 10.81,
+    "rides": 222
+  },
+  "池添謙一|函館|ダ|sprint": {
+    "lift": 1.8729446935724963,
+    "raw_lift": 1.8729,
+    "win_rate": 16.67,
+    "rides": 42
+  },
+  "池添謙一|函館|芝|middle": {
+    "lift": 1.8507700047060347,
+    "raw_lift": 1.8508,
+    "win_rate": 14.97,
+    "rides": 167
+  },
+  "池添謙一|函館|芝|sprint": {
+    "lift": 1.9540435139573071,
+    "raw_lift": 1.954,
+    "win_rate": 15.27,
+    "rides": 203
+  },
+  "池添謙一|新潟|芝|middle": {
+    "lift": 2.0,
+    "raw_lift": 2.385,
+    "win_rate": 17.39,
+    "rides": 23
+  },
+  "池添謙一|札幌|ダ|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.2559,
+    "win_rate": 19.61,
+    "rides": 51
+  },
+  "池添謙一|札幌|芝|long": {
+    "lift": 1.8048128342245988,
+    "raw_lift": 1.8048,
+    "win_rate": 14.71,
+    "rides": 34
+  },
+  "池添謙一|東京|芝|middle": {
+    "lift": 1.8504901960784315,
+    "raw_lift": 1.8505,
+    "win_rate": 14.71,
+    "rides": 68
+  },
+  "泉谷楓真|小倉|ダ|sprint": {
+    "lift": 1.9143744454303462,
+    "raw_lift": 1.9144,
+    "win_rate": 14.29,
+    "rides": 35
+  },
+  "泉谷楓真|新潟|ダ|middle": {
+    "lift": 1.581068259195178,
+    "raw_lift": 1.5811,
+    "win_rate": 11.59,
+    "rides": 69
+  },
+  "泉谷楓真|福島|芝|sprint": {
+    "lift": 1.5290658082090014,
+    "raw_lift": 1.5291,
+    "win_rate": 10.34,
+    "rides": 29
+  },
+  "津村明秀|中京|芝|mile": {
+    "lift": 1.9249642930014284,
+    "raw_lift": 1.925,
+    "win_rate": 13.46,
+    "rides": 52
+  },
+  "津村明秀|福島|ダ|sprint": {
+    "lift": 1.6609244903818547,
+    "raw_lift": 1.6609,
+    "win_rate": 10.85,
+    "rides": 129
+  },
+  "津村明秀|福島|芝|long": {
+    "lift": 1.6834186939820743,
+    "raw_lift": 1.6834,
+    "win_rate": 13.64,
+    "rides": 44
+  },
+  "浜中俊|中京|ダ|middle": {
+    "lift": 2.0,
+    "raw_lift": 2.2805,
+    "win_rate": 17.12,
+    "rides": 111
+  },
+  "浜中俊|中京|ダ|mile": {
+    "lift": 1.6430878151782387,
+    "raw_lift": 1.6431,
+    "win_rate": 10.84,
+    "rides": 83
+  },
+  "浜中俊|函館|ダ|middle": {
+    "lift": 1.6608173076923076,
+    "raw_lift": 1.6608,
+    "win_rate": 13.46,
+    "rides": 52
+  },
+  "浜中俊|函館|芝|sprint": {
+    "lift": 1.8690543071161048,
+    "raw_lift": 1.8691,
+    "win_rate": 14.61,
+    "rides": 89
+  },
+  "浜中俊|小倉|ダ|middle": {
+    "lift": 2.0,
+    "raw_lift": 2.0953,
+    "win_rate": 14.21,
+    "rides": 190
+  },
+  "浜中俊|小倉|ダ|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.5661,
+    "win_rate": 19.15,
+    "rides": 47
+  },
+  "浜中俊|小倉|芝|middle": {
+    "lift": 1.574134730865815,
+    "raw_lift": 1.5741,
+    "win_rate": 11.63,
+    "rides": 258
+  },
+  "浜中俊|小倉|芝|sprint": {
+    "lift": 1.6397631246257236,
+    "raw_lift": 1.6398,
+    "win_rate": 10.53,
+    "rides": 209
+  },
+  "浜中俊|札幌|芝|sprint": {
+    "lift": 1.701417004048583,
+    "raw_lift": 1.7014,
+    "win_rate": 12.5,
+    "rides": 40
+  },
+  "浜中俊|東京|芝|long": {
+    "lift": 1.676910159529807,
+    "raw_lift": 1.6769,
+    "win_rate": 13.33,
+    "rides": 30
+  },
+  "浜中俊|東京|芝|mile": {
+    "lift": 1.6489642433038658,
+    "raw_lift": 1.649,
+    "win_rate": 11.36,
+    "rides": 88
+  },
+  "浜中俊|阪神|ダ|mile": {
+    "lift": 1.8413709432817715,
+    "raw_lift": 1.8414,
+    "win_rate": 12.38,
+    "rides": 210
+  },
+  "浜中俊|阪神|ダ|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.3153,
+    "win_rate": 15.75,
+    "rides": 146
+  },
+  "浜中俊|阪神|芝|mile": {
+    "lift": 1.5037887485648678,
+    "raw_lift": 1.5038,
+    "win_rate": 10.75,
+    "rides": 335
+  },
+  "田口貫太|小倉|ダ|middle": {
+    "lift": 1.6085310583844306,
+    "raw_lift": 1.6085,
+    "win_rate": 10.91,
+    "rides": 55
+  },
+  "田口貫太|小倉|ダ|sprint": {
+    "lift": 1.985277202668507,
+    "raw_lift": 1.9853,
+    "win_rate": 14.81,
+    "rides": 27
+  },
+  "田辺裕信|中京|ダ|mile": {
+    "lift": 2.0,
+    "raw_lift": 2.3312,
+    "win_rate": 15.38,
+    "rides": 26
+  },
+  "田辺裕信|中京|芝|middle": {
+    "lift": 2.0,
+    "raw_lift": 2.2616,
+    "win_rate": 17.39,
+    "rides": 23
+  },
+  "田辺裕信|中山|ダ|middle": {
+    "lift": 1.8897598259912778,
+    "raw_lift": 1.8898,
+    "win_rate": 12.88,
+    "rides": 683
+  },
+  "田辺裕信|中山|ダ|sprint": {
+    "lift": 1.7414571244358477,
+    "raw_lift": 1.7415,
+    "win_rate": 11.17,
+    "rides": 564
+  },
+  "田辺裕信|中山|芝|long": {
+    "lift": 1.6817979070166411,
+    "raw_lift": 1.6818,
+    "win_rate": 12.64,
+    "rides": 174
+  },
+  "田辺裕信|中山|芝|mile": {
+    "lift": 1.5567018015997607,
+    "raw_lift": 1.5567,
+    "win_rate": 10.83,
+    "rides": 351
+  },
+  "田辺裕信|中山|芝|sprint": {
+    "lift": 1.5404483784372052,
+    "raw_lift": 1.5404,
+    "win_rate": 10.39,
+    "rides": 154
+  },
+  "田辺裕信|新潟|ダ|sprint": {
+    "lift": 1.8548827059465356,
+    "raw_lift": 1.8549,
+    "win_rate": 12.82,
+    "rides": 78
+  },
+  "田辺裕信|新潟|芝|long": {
+    "lift": 1.8794354202807129,
+    "raw_lift": 1.8794,
+    "win_rate": 14.71,
+    "rides": 34
+  },
+  "田辺裕信|新潟|芝|mile": {
+    "lift": 1.816477236242214,
+    "raw_lift": 1.8165,
+    "win_rate": 11.72,
+    "rides": 145
+  },
+  "田辺裕信|新潟|芝|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.3817,
+    "win_rate": 14.63,
+    "rides": 41
+  },
+  "田辺裕信|東京|ダ|mile": {
+    "lift": 1.6508789162420447,
+    "raw_lift": 1.6509,
+    "win_rate": 10.85,
+    "rides": 1253
+  },
+  "田辺裕信|東京|芝|mile": {
+    "lift": 1.5068202416762495,
+    "raw_lift": 1.5068,
+    "win_rate": 10.38,
+    "rides": 703
+  },
+  "田辺裕信|福島|ダ|middle": {
+    "lift": 2.0,
+    "raw_lift": 2.5559,
+    "win_rate": 17.74,
+    "rides": 124
+  },
+  "田辺裕信|福島|ダ|sprint": {
+    "lift": 2.0,
+    "raw_lift": 3.0608,
+    "win_rate": 20.0,
+    "rides": 75
+  },
+  "田辺裕信|福島|芝|long": {
+    "lift": 2.0,
+    "raw_lift": 2.0575,
+    "win_rate": 16.67,
+    "rides": 24
+  },
+  "田辺裕信|福島|芝|middle": {
+    "lift": 2.0,
+    "raw_lift": 2.0289,
+    "win_rate": 14.19,
+    "rides": 148
+  },
+  "田辺裕信|福島|芝|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.365,
+    "win_rate": 16.0,
+    "rides": 75
+  },
+  "田辺裕信|阪神|ダ|middle": {
+    "lift": 1.6858557378504981,
+    "raw_lift": 1.6859,
+    "win_rate": 12.9,
+    "rides": 31
+  },
+  "田辺裕信|阪神|ダ|mile": {
+    "lift": 2.0,
+    "raw_lift": 2.8329,
+    "win_rate": 19.05,
+    "rides": 21
+  },
+  "的場勇人|新潟|芝|sprint": {
+    "lift": 1.6275058275058274,
+    "raw_lift": 1.6275,
+    "win_rate": 10.0,
+    "rides": 40
+  },
+  "石川裕紀|新潟|芝|sprint": {
+    "lift": 1.877891339429801,
+    "raw_lift": 1.8779,
+    "win_rate": 11.54,
+    "rides": 78
+  },
+  "石橋脩|中山|ダ|long": {
+    "lift": 1.9039364391477072,
+    "raw_lift": 1.9039,
+    "win_rate": 15.38,
+    "rides": 39
+  },
+  "石橋脩|新潟|ダ|sprint": {
+    "lift": 1.6962582538517974,
+    "raw_lift": 1.6963,
+    "win_rate": 11.72,
+    "rides": 145
+  },
+  "石橋脩|新潟|芝|long": {
+    "lift": 1.6228775692582662,
+    "raw_lift": 1.6229,
+    "win_rate": 12.7,
+    "rides": 63
+  },
+  "石橋脩|新潟|芝|sprint": {
+    "lift": 1.677841059284358,
+    "raw_lift": 1.6778,
+    "win_rate": 10.31,
+    "rides": 97
+  },
+  "石橋脩|福島|ダ|sprint": {
+    "lift": 1.7795619539805587,
+    "raw_lift": 1.7796,
+    "win_rate": 11.63,
+    "rides": 86
+  },
+  "石橋脩|福島|芝|long": {
+    "lift": 1.8704652155356383,
+    "raw_lift": 1.8705,
+    "win_rate": 15.15,
+    "rides": 33
+  },
+  "石橋脩|福島|芝|sprint": {
+    "lift": 1.6423299421504087,
+    "raw_lift": 1.6423,
+    "win_rate": 11.11,
+    "rides": 126
+  },
+  "石橋脩|阪神|芝|mile": {
+    "lift": 2.0,
+    "raw_lift": 2.6238,
+    "win_rate": 18.75,
+    "rides": 32
+  },
+  "石神深一|中京|芝|long": {
+    "lift": 1.597782074198373,
+    "raw_lift": 1.5978,
+    "win_rate": 12.66,
+    "rides": 79
+  },
+  "石神深一|中山|芝|long": {
+    "lift": 2.0,
+    "raw_lift": 3.0,
+    "win_rate": 55.0,
+    "rides": 20
+  },
+  "石神深一|東京|ダ|long": {
+    "lift": 2.0,
+    "raw_lift": 2.2948,
+    "win_rate": 16.33,
+    "rides": 49
+  },
+  "石神深一|東京|芝|long": {
+    "lift": 2.0,
+    "raw_lift": 2.9945,
+    "win_rate": 23.81,
+    "rides": 21
+  },
+  "石神深一|福島|芝|long": {
+    "lift": 1.6524897415992017,
+    "raw_lift": 1.6525,
+    "win_rate": 13.39,
+    "rides": 127
+  },
+  "秋山稔樹|福島|ダ|sprint": {
+    "lift": 1.7004703115814228,
+    "raw_lift": 1.7005,
+    "win_rate": 11.11,
+    "rides": 54
+  },
+  "荻野極|新潟|芝|mile": {
+    "lift": 1.9182406668440188,
+    "raw_lift": 1.9182,
+    "win_rate": 12.38,
+    "rides": 105
+  },
+  "荻野極|福島|ダ|sprint": {
+    "lift": 1.7244205976600344,
+    "raw_lift": 1.7244,
+    "win_rate": 11.27,
+    "rides": 71
+  },
+  "荻野極|福島|芝|middle": {
+    "lift": 1.8157025673804197,
+    "raw_lift": 1.8157,
+    "win_rate": 12.7,
+    "rides": 126
+  },
+  "菅原明良|中京|ダ|mile": {
+    "lift": 2.0,
+    "raw_lift": 2.0663,
+    "win_rate": 13.64,
+    "rides": 22
+  },
+  "菅原明良|中京|芝|mile": {
+    "lift": 1.5321144372868511,
+    "raw_lift": 1.5321,
+    "win_rate": 10.71,
+    "rides": 28
+  },
+  "菅原明良|新潟|ダ|sprint": {
+    "lift": 1.7223910840932115,
+    "raw_lift": 1.7224,
+    "win_rate": 11.9,
+    "rides": 168
+  },
+  "菅原明良|新潟|芝|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.0558,
+    "win_rate": 12.63,
+    "rides": 95
+  },
+  "菅原明良|福島|芝|middle": {
+    "lift": 1.5613476818637662,
+    "raw_lift": 1.5613,
+    "win_rate": 10.92,
+    "rides": 174
+  },
+  "菅原明良|福島|芝|sprint": {
+    "lift": 1.726244610727437,
+    "raw_lift": 1.7262,
+    "win_rate": 11.68,
+    "rides": 137
+  },
+  "菱田裕二|新潟|芝|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.6303,
+    "win_rate": 16.16,
+    "rides": 99
+  },
+  "菱田裕二|札幌|芝|mile": {
+    "lift": 1.536737667383612,
+    "raw_lift": 1.5367,
+    "win_rate": 12.68,
+    "rides": 71
+  },
+  "菱田裕二|福島|ダ|middle": {
+    "lift": 1.8312574551305167,
+    "raw_lift": 1.8313,
+    "win_rate": 12.71,
+    "rides": 118
+  },
+  "菱田裕二|福島|ダ|sprint": {
+    "lift": 1.7004703115814228,
+    "raw_lift": 1.7005,
+    "win_rate": 11.11,
+    "rides": 63
+  },
+  "藤岡佑介|中京|ダ|middle": {
+    "lift": 1.7764258555133081,
+    "raw_lift": 1.7764,
+    "win_rate": 13.33,
+    "rides": 105
+  },
+  "藤岡佑介|中京|ダ|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.1523,
+    "win_rate": 14.29,
+    "rides": 35
+  },
+  "藤岡佑介|中京|芝|long": {
+    "lift": 1.6287068885376963,
+    "raw_lift": 1.6287,
+    "win_rate": 12.9,
+    "rides": 31
+  },
+  "藤岡佑介|中山|ダ|middle": {
+    "lift": 2.0,
+    "raw_lift": 2.2565,
+    "win_rate": 15.38,
+    "rides": 39
+  },
+  "藤岡佑介|中山|芝|middle": {
+    "lift": 1.579923835562933,
+    "raw_lift": 1.5799,
+    "win_rate": 11.36,
+    "rides": 44
+  },
+  "藤岡佑介|京都|ダ|middle": {
+    "lift": 1.623521975377371,
+    "raw_lift": 1.6235,
+    "win_rate": 12.41,
+    "rides": 282
+  },
+  "藤岡佑介|京都|ダ|sprint": {
+    "lift": 1.9372641367025933,
+    "raw_lift": 1.9373,
+    "win_rate": 13.11,
+    "rides": 122
+  },
+  "藤岡佑介|京都|芝|long": {
+    "lift": 1.5520312155826175,
+    "raw_lift": 1.552,
+    "win_rate": 13.13,
+    "rides": 99
+  },
+  "藤岡佑介|京都|芝|sprint": {
+    "lift": 1.5056925996204933,
+    "raw_lift": 1.5057,
+    "win_rate": 10.29,
+    "rides": 68
+  },
+  "藤岡佑介|函館|ダ|middle": {
+    "lift": 2.0,
+    "raw_lift": 2.4301,
+    "win_rate": 19.7,
+    "rides": 132
+  },
+  "藤岡佑介|函館|ダ|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.017,
+    "win_rate": 17.95,
+    "rides": 39
+  },
+  "藤岡佑介|函館|芝|middle": {
+    "lift": 1.628677604141311,
+    "raw_lift": 1.6287,
+    "win_rate": 13.17,
+    "rides": 167
+  },
+  "藤岡佑介|函館|芝|sprint": {
+    "lift": 1.565447695035461,
+    "raw_lift": 1.5654,
+    "win_rate": 12.23,
+    "rides": 188
+  },
+  "藤岡佑介|小倉|芝|long": {
+    "lift": 2.0,
+    "raw_lift": 2.7761,
+    "win_rate": 25.0,
+    "rides": 32
+  },
+  "藤岡佑介|小倉|芝|middle": {
+    "lift": 2.0,
+    "raw_lift": 2.3147,
+    "win_rate": 17.1,
+    "rides": 193
+  },
+  "藤岡佑介|小倉|芝|sprint": {
+    "lift": 1.8997255712127288,
+    "raw_lift": 1.8997,
+    "win_rate": 12.2,
+    "rides": 164
+  },
+  "藤岡康太|中京|ダ|middle": {
+    "lift": 1.6006664069112846,
+    "raw_lift": 1.6007,
+    "win_rate": 12.01,
+    "rides": 283
+  },
+  "藤岡康太|中京|ダ|sprint": {
+    "lift": 1.7724952994896586,
+    "raw_lift": 1.7725,
+    "win_rate": 11.76,
+    "rides": 102
+  },
+  "藤岡康太|中京|芝|long": {
+    "lift": 1.7575602816182103,
+    "raw_lift": 1.7576,
+    "win_rate": 13.92,
+    "rides": 79
+  },
+  "藤岡康太|中京|芝|middle": {
+    "lift": 1.5120856985900017,
+    "raw_lift": 1.5121,
+    "win_rate": 11.63,
+    "rides": 172
+  },
+  "藤岡康太|函館|ダ|sprint": {
+    "lift": 1.6053811659192825,
+    "raw_lift": 1.6054,
+    "win_rate": 14.29,
+    "rides": 35
+  },
+  "藤岡康太|小倉|ダ|middle": {
+    "lift": 1.7714682445105332,
+    "raw_lift": 1.7715,
+    "win_rate": 12.01,
+    "rides": 283
+  },
+  "藤岡康太|小倉|芝|sprint": {
+    "lift": 1.582501555194349,
+    "raw_lift": 1.5825,
+    "win_rate": 10.16,
+    "rides": 315
+  },
+  "藤懸貴志|中京|芝|long": {
+    "lift": 1.8933717579250722,
+    "raw_lift": 1.8934,
+    "win_rate": 15.0,
+    "rides": 20
+  },
+  "藤懸貴志|新潟|芝|middle": {
+    "lift": 1.9046966374269008,
+    "raw_lift": 1.9047,
+    "win_rate": 13.89,
+    "rides": 36
+  },
+  "藤懸貴志|福島|ダ|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.6387,
+    "win_rate": 17.24,
+    "rides": 29
+  },
+  "西塚洸二|京都|芝|middle": {
+    "lift": 2.0,
+    "raw_lift": 2.8562,
+    "win_rate": 24.0,
+    "rides": 25
+  },
+  "西塚洸二|小倉|ダ|middle": {
+    "lift": 1.5405086006915567,
+    "raw_lift": 1.5405,
+    "win_rate": 10.45,
+    "rides": 67
+  },
+  "西塚洸二|新潟|ダ|middle": {
+    "lift": 1.7355817481619793,
+    "raw_lift": 1.7356,
+    "win_rate": 12.73,
+    "rides": 55
+  },
+  "西塚洸二|新潟|ダ|sprint": {
+    "lift": 1.7021276595744679,
+    "raw_lift": 1.7021,
+    "win_rate": 11.76,
+    "rides": 51
+  },
+  "西塚洸二|福島|ダ|middle": {
+    "lift": 1.6463876548982932,
+    "raw_lift": 1.6464,
+    "win_rate": 11.43,
+    "rides": 35
+  },
+  "西塚洸二|福島|ダ|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.2673,
+    "win_rate": 14.81,
+    "rides": 27
+  },
+  "西村淳也|中京|ダ|middle": {
+    "lift": 1.5160875835846337,
+    "raw_lift": 1.5161,
+    "win_rate": 11.38,
+    "rides": 290
+  },
+  "西村淳也|中京|ダ|sprint": {
+    "lift": 1.5634746273800293,
+    "raw_lift": 1.5635,
+    "win_rate": 10.38,
+    "rides": 106
+  },
+  "西村淳也|中京|芝|long": {
+    "lift": 1.6064972491485459,
+    "raw_lift": 1.6065,
+    "win_rate": 12.73,
+    "rides": 55
+  },
+  "西村淳也|中京|芝|mile": {
+    "lift": 1.638511273209549,
+    "raw_lift": 1.6385,
+    "win_rate": 11.46,
+    "rides": 192
+  },
+  "西村淳也|中京|芝|sprint": {
+    "lift": 1.6641929499072357,
+    "raw_lift": 1.6642,
+    "win_rate": 10.71,
+    "rides": 56
+  },
+  "西村淳也|函館|芝|middle": {
+    "lift": 2.0,
+    "raw_lift": 2.0605,
+    "win_rate": 16.67,
+    "rides": 24
+  },
+  "西村淳也|小倉|芝|middle": {
+    "lift": 1.5253587251206773,
+    "raw_lift": 1.5254,
+    "win_rate": 11.27,
+    "rides": 284
+  },
+  "西村淳也|小倉|芝|sprint": {
+    "lift": 1.8502308053727037,
+    "raw_lift": 1.8502,
+    "win_rate": 11.88,
+    "rides": 261
+  },
+  "西村淳也|新潟|ダ|middle": {
+    "lift": 1.5151904150620454,
+    "raw_lift": 1.5152,
+    "win_rate": 11.11,
+    "rides": 153
+  },
+  "西村淳也|新潟|芝|long": {
+    "lift": 2.0,
+    "raw_lift": 2.3237,
+    "win_rate": 18.18,
+    "rides": 22
+  },
+  "西村淳也|新潟|芝|middle": {
+    "lift": 1.8965915453527438,
+    "raw_lift": 1.8966,
+    "win_rate": 13.83,
+    "rides": 94
+  },
+  "西村淳也|福島|ダ|middle": {
+    "lift": 1.547740460699842,
+    "raw_lift": 1.5477,
+    "win_rate": 10.74,
+    "rides": 121
+  },
+  "西村淳也|福島|芝|middle": {
+    "lift": 2.0,
+    "raw_lift": 2.0823,
+    "win_rate": 14.56,
+    "rides": 103
+  },
+  "西村淳也|福島|芝|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.2606,
+    "win_rate": 15.29,
+    "rides": 85
+  },
+  "角田大和|京都|ダ|mile": {
+    "lift": 1.5433789954337898,
+    "raw_lift": 1.5434,
+    "win_rate": 10.53,
+    "rides": 38
+  },
+  "角田大和|福島|ダ|sprint": {
+    "lift": 1.9962042788129744,
+    "raw_lift": 1.9962,
+    "win_rate": 13.04,
+    "rides": 46
+  },
+  "角田大和|阪神|ダ|mile": {
+    "lift": 1.593494085532302,
+    "raw_lift": 1.5935,
+    "win_rate": 10.71,
+    "rides": 56
+  },
+  "角田大河|小倉|芝|sprint": {
+    "lift": 1.982622687047466,
+    "raw_lift": 1.9826,
+    "win_rate": 12.73,
+    "rides": 55
+  },
+  "角田大河|阪神|芝|sprint": {
+    "lift": 1.7165003563791874,
+    "raw_lift": 1.7165,
+    "win_rate": 13.04,
+    "rides": 23
+  },
+  "酒井学|新潟|芝|sprint": {
+    "lift": 1.6275058275058274,
+    "raw_lift": 1.6275,
+    "win_rate": 10.0,
+    "rides": 20
+  },
+  "長岡禎仁|京都|ダ|mile": {
+    "lift": 1.6661477791614776,
+    "raw_lift": 1.6661,
+    "win_rate": 11.36,
+    "rides": 44
+  },
+  "長岡禎仁|新潟|ダ|middle": {
+    "lift": 1.636405648267009,
+    "raw_lift": 1.6364,
+    "win_rate": 12.0,
+    "rides": 50
+  },
+  "長岡禎仁|福島|ダ|middle": {
+    "lift": 1.694810821218831,
+    "raw_lift": 1.6948,
+    "win_rate": 11.76,
+    "rides": 51
+  },
+  "長浜鴻緒|新潟|ダ|sprint": {
+    "lift": 1.7361702127659573,
+    "raw_lift": 1.7362,
+    "win_rate": 12.0,
+    "rides": 25
+  },
+  "難波剛健|東京|ダ|long": {
+    "lift": 2.0,
+    "raw_lift": 2.1624,
+    "win_rate": 15.38,
+    "rides": 26
+  },
+  "高杉吏麒|中京|ダ|middle": {
+    "lift": 2.0,
+    "raw_lift": 2.2547,
+    "win_rate": 16.92,
+    "rides": 65
+  },
+  "高杉吏麒|中京|ダ|mile": {
+    "lift": 2.0,
+    "raw_lift": 2.2568,
+    "win_rate": 14.89,
+    "rides": 47
+  },
+  "高杉吏麒|中京|芝|mile": {
+    "lift": 1.6409531678044962,
+    "raw_lift": 1.641,
+    "win_rate": 11.48,
+    "rides": 61
+  },
+  "高杉吏麒|函館|ダ|middle": {
+    "lift": 1.6823863636363634,
+    "raw_lift": 1.6824,
+    "win_rate": 13.64,
+    "rides": 22
+  },
+  "高杉吏麒|函館|芝|sprint": {
+    "lift": 1.919375,
+    "raw_lift": 1.9194,
+    "win_rate": 15.0,
+    "rides": 20
+  },
+  "高杉吏麒|小倉|芝|middle": {
+    "lift": 1.9339369550637153,
+    "raw_lift": 1.9339,
+    "win_rate": 14.29,
+    "rides": 21
+  },
+  "高杉吏麒|小倉|芝|sprint": {
+    "lift": 1.7974326558397355,
+    "raw_lift": 1.7974,
+    "win_rate": 11.54,
+    "rides": 26
+  },
+  "高杉吏麒|阪神|ダ|sprint": {
+    "lift": 2.0,
+    "raw_lift": 3.0,
+    "win_rate": 23.53,
+    "rides": 34
+  },
+  "高田潤|中山|ダ|long": {
+    "lift": 2.0,
+    "raw_lift": 2.9701,
+    "win_rate": 24.0,
+    "rides": 25
+  },
+  "高田潤|小倉|芝|long": {
+    "lift": 2.0,
+    "raw_lift": 2.5626,
+    "win_rate": 23.08,
+    "rides": 52
+  },
+  "高田潤|福島|芝|long": {
+    "lift": 2.0,
+    "raw_lift": 3.0,
+    "win_rate": 30.56,
+    "rides": 36
+  },
+  "鮫島克駿|中山|芝|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.9654,
+    "win_rate": 20.0,
+    "rides": 20
+  },
+  "鮫島克駿|函館|ダ|middle": {
+    "lift": 1.5274999999999999,
+    "raw_lift": 1.5275,
+    "win_rate": 12.38,
+    "rides": 105
+  },
+  "鮫島克駿|函館|芝|sprint": {
+    "lift": 1.7448863636363636,
+    "raw_lift": 1.7449,
+    "win_rate": 13.64,
+    "rides": 132
+  },
+  "鮫島克駿|新潟|ダ|middle": {
+    "lift": 1.6812386797263792,
+    "raw_lift": 1.6812,
+    "win_rate": 12.33,
+    "rides": 146
+  },
+  "鮫島克駿|新潟|ダ|sprint": {
+    "lift": 1.6954787234042552,
+    "raw_lift": 1.6955,
+    "win_rate": 11.72,
+    "rides": 128
+  },
+  "鮫島克駿|新潟|芝|sprint": {
+    "lift": 1.7690280733758994,
+    "raw_lift": 1.769,
+    "win_rate": 10.87,
+    "rides": 92
+  },
+  "鮫島克駿|札幌|芝|sprint": {
+    "lift": 1.9444765760555234,
+    "raw_lift": 1.9445,
+    "win_rate": 14.29,
+    "rides": 56
+  },
+  "鮫島克駿|福島|ダ|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.0869,
+    "win_rate": 13.64,
+    "rides": 88
+  },
+  "鮫島克駿|福島|芝|sprint": {
+    "lift": 1.5031494385783404,
+    "raw_lift": 1.5031,
+    "win_rate": 10.17,
+    "rides": 118
+  },
+  "鮫島良太|福島|ダ|sprint": {
+    "lift": 1.5304232804232805,
+    "raw_lift": 1.5304,
+    "win_rate": 10.0,
+    "rides": 20
+  },
+  "鷲頭虎太|函館|芝|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.075,
+    "win_rate": 16.22,
+    "rides": 37
+  },
+  "黒岩悠|新潟|芝|long": {
+    "lift": 1.549110407019254,
+    "raw_lift": 1.5491,
+    "win_rate": 12.12,
+    "rides": 66
+  },
+  "黛弘人|中京|芝|long": {
+    "lift": 1.5146974063400576,
+    "raw_lift": 1.5147,
+    "win_rate": 12.0,
+    "rides": 25
+  },
+  "Ｃ．デム|中京|ダ|middle": {
+    "lift": 2.0,
+    "raw_lift": 3.0,
+    "win_rate": 27.27,
+    "rides": 22
+  },
+  "Ｃ．デム|中山|芝|middle": {
+    "lift": 2.0,
+    "raw_lift": 3.0,
+    "win_rate": 22.22,
+    "rides": 27
+  },
+  "Ｃ．デム|京都|ダ|middle": {
+    "lift": 2.0,
+    "raw_lift": 3.2335,
+    "win_rate": 24.72,
+    "rides": 89
+  },
+  "Ｃ．デム|京都|ダ|mile": {
+    "lift": 2.0,
+    "raw_lift": 2.8295,
+    "win_rate": 19.3,
+    "rides": 57
+  },
+  "Ｃ．デム|京都|芝|long": {
+    "lift": 2.0,
+    "raw_lift": 2.6862,
+    "win_rate": 22.73,
+    "rides": 22
+  },
+  "Ｃ．デム|京都|芝|middle": {
+    "lift": 2.0,
+    "raw_lift": 2.7242,
+    "win_rate": 22.89,
+    "rides": 83
+  },
+  "Ｃ．デム|京都|芝|mile": {
+    "lift": 2.0,
+    "raw_lift": 2.1037,
+    "win_rate": 15.12,
+    "rides": 86
+  },
+  "Ｃ．デム|東京|ダ|mile": {
+    "lift": 2.0,
+    "raw_lift": 2.0554,
+    "win_rate": 13.51,
+    "rides": 74
+  },
+  "Ｃ．デム|東京|芝|mile": {
+    "lift": 2.0,
+    "raw_lift": 2.073,
+    "win_rate": 14.29,
+    "rides": 56
+  },
+  "Ｃ．デム|阪神|ダ|middle": {
+    "lift": 2.0,
+    "raw_lift": 3.8008,
+    "win_rate": 29.09,
+    "rides": 55
+  },
+  "Ｃ．デム|阪神|ダ|mile": {
+    "lift": 2.0,
+    "raw_lift": 3.0,
+    "win_rate": 21.21,
+    "rides": 33
+  },
+  "Ｃ．デム|阪神|ダ|sprint": {
+    "lift": 2.0,
+    "raw_lift": 3.0,
+    "win_rate": 22.73,
+    "rides": 22
+  },
+  "Ｃ．デム|阪神|芝|middle": {
+    "lift": 2.0,
+    "raw_lift": 3.0557,
+    "win_rate": 25.45,
+    "rides": 55
+  },
+  "Ｃ．デム|阪神|芝|mile": {
+    "lift": 2.0,
+    "raw_lift": 3.8603,
+    "win_rate": 27.59,
+    "rides": 58
+  },
+  "Ｍ．デム|中京|ダ|mile": {
+    "lift": 2.0,
+    "raw_lift": 2.5255,
+    "win_rate": 16.67,
+    "rides": 84
+  },
+  "Ｍ．デム|中京|ダ|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.5536,
+    "win_rate": 16.95,
+    "rides": 59
+  },
+  "Ｍ．デム|中京|芝|middle": {
+    "lift": 2.0,
+    "raw_lift": 2.279,
+    "win_rate": 17.53,
+    "rides": 97
+  },
+  "Ｍ．デム|中京|芝|mile": {
+    "lift": 2.0,
+    "raw_lift": 2.7011,
+    "win_rate": 18.89,
+    "rides": 180
+  },
+  "Ｍ．デム|中山|ダ|middle": {
+    "lift": 2.0,
+    "raw_lift": 2.3914,
+    "win_rate": 16.3,
+    "rides": 184
+  },
+  "Ｍ．デム|中山|ダ|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.2815,
+    "win_rate": 14.63,
+    "rides": 164
+  },
+  "Ｍ．デム|中山|芝|middle": {
+    "lift": 2.0,
+    "raw_lift": 2.3481,
+    "win_rate": 16.89,
+    "rides": 225
+  },
+  "Ｍ．デム|中山|芝|mile": {
+    "lift": 2.0,
+    "raw_lift": 2.9134,
+    "win_rate": 20.26,
+    "rides": 153
+  },
+  "Ｍ．デム|中山|芝|sprint": {
+    "lift": 2.0,
+    "raw_lift": 4.448,
+    "win_rate": 30.0,
+    "rides": 60
+  },
+  "Ｍ．デム|京都|ダ|middle": {
+    "lift": 2.0,
+    "raw_lift": 2.456,
+    "win_rate": 18.78,
+    "rides": 245
+  },
+  "Ｍ．デム|京都|ダ|mile": {
+    "lift": 2.0,
+    "raw_lift": 2.3273,
+    "win_rate": 15.87,
+    "rides": 126
+  },
+  "Ｍ．デム|京都|ダ|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.261,
+    "win_rate": 15.31,
+    "rides": 98
+  },
+  "Ｍ．デム|京都|芝|long": {
+    "lift": 2.0,
+    "raw_lift": 2.0378,
+    "win_rate": 17.24,
+    "rides": 87
+  },
+  "Ｍ．デム|京都|芝|middle": {
+    "lift": 1.873248407643312,
+    "raw_lift": 1.8732,
+    "win_rate": 15.74,
+    "rides": 216
+  },
+  "Ｍ．デム|京都|芝|mile": {
+    "lift": 1.8555421201128577,
+    "raw_lift": 1.8555,
+    "win_rate": 13.33,
+    "rides": 240
+  },
+  "Ｍ．デム|京都|芝|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.4972,
+    "win_rate": 17.07,
+    "rides": 41
+  },
+  "Ｍ．デム|小倉|芝|middle": {
+    "lift": 2.0,
+    "raw_lift": 2.7769,
+    "win_rate": 20.51,
+    "rides": 39
+  },
+  "Ｍ．デム|小倉|芝|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.8848,
+    "win_rate": 18.52,
+    "rides": 27
+  },
+  "Ｍ．デム|新潟|ダ|middle": {
+    "lift": 1.6698016819051111,
+    "raw_lift": 1.6698,
+    "win_rate": 12.24,
+    "rides": 98
+  },
+  "Ｍ．デム|新潟|ダ|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.2606,
+    "win_rate": 15.62,
+    "rides": 64
+  },
+  "Ｍ．デム|新潟|芝|long": {
+    "lift": 2.0,
+    "raw_lift": 2.2822,
+    "win_rate": 17.86,
+    "rides": 28
+  },
+  "Ｍ．デム|新潟|芝|middle": {
+    "lift": 2.0,
+    "raw_lift": 3.5058,
+    "win_rate": 25.56,
+    "rides": 133
+  },
+  "Ｍ．デム|新潟|芝|mile": {
+    "lift": 1.948865699260977,
+    "raw_lift": 1.9489,
+    "win_rate": 12.58,
+    "rides": 159
+  },
+  "Ｍ．デム|新潟|芝|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.998,
+    "win_rate": 18.42,
+    "rides": 38
+  },
+  "Ｍ．デム|東京|ダ|long": {
+    "lift": 1.9521770164168453,
+    "raw_lift": 1.9522,
+    "win_rate": 13.89,
+    "rides": 72
+  },
+  "Ｍ．デム|東京|ダ|mile": {
+    "lift": 1.8930821503246396,
+    "raw_lift": 1.8931,
+    "win_rate": 12.45,
+    "rides": 466
+  },
+  "Ｍ．デム|東京|芝|long": {
+    "lift": 1.683512168031893,
+    "raw_lift": 1.6835,
+    "win_rate": 13.39,
+    "rides": 127
+  },
+  "Ｍ．デム|東京|芝|middle": {
+    "lift": 1.935897435897436,
+    "raw_lift": 1.9359,
+    "win_rate": 15.38,
+    "rides": 312
+  },
+  "Ｍ．デム|東京|芝|mile": {
+    "lift": 1.9548342946524586,
+    "raw_lift": 1.9548,
+    "win_rate": 13.47,
+    "rides": 386
+  },
+  "Ｍ．デム|福島|芝|middle": {
+    "lift": 2.0,
+    "raw_lift": 2.0723,
+    "win_rate": 14.49,
+    "rides": 69
+  },
+  "Ｍ．デム|福島|芝|sprint": {
+    "lift": 1.9448644051781157,
+    "raw_lift": 1.9449,
+    "win_rate": 13.16,
+    "rides": 38
+  },
+  "Ｍ．デム|阪神|ダ|middle": {
+    "lift": 2.0,
+    "raw_lift": 2.2294,
+    "win_rate": 17.06,
+    "rides": 252
+  },
+  "Ｍ．デム|阪神|ダ|mile": {
+    "lift": 2.0,
+    "raw_lift": 2.7648,
+    "win_rate": 18.59,
+    "rides": 156
+  },
+  "Ｍ．デム|阪神|ダ|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.0373,
+    "win_rate": 13.86,
+    "rides": 101
+  },
+  "Ｍ．デム|阪神|芝|long": {
+    "lift": 2.0,
+    "raw_lift": 2.1086,
+    "win_rate": 18.18,
+    "rides": 88
+  },
+  "Ｍ．デム|阪神|芝|middle": {
+    "lift": 2.0,
+    "raw_lift": 2.9389,
+    "win_rate": 24.48,
+    "rides": 241
+  },
+  "Ｍ．デム|阪神|芝|mile": {
+    "lift": 2.0,
+    "raw_lift": 2.4695,
+    "win_rate": 17.65,
+    "rides": 272
+  },
+  "Ｍ．デム|阪神|芝|sprint": {
+    "lift": 2.0,
+    "raw_lift": 2.4675,
+    "win_rate": 18.75,
+    "rides": 48
+  }
+}

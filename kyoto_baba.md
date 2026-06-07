@@ -1,0 +1,337 @@
+- generic [ref=e2]:
+  - paragraph [ref=e3]:
+    - link "本文へ移動する" [ref=e4] [cursor=pointer]:
+      - /url: "#skip-target"
+      - generic [ref=e5]: 
+      - text: 本文へ移動する
+  - generic [ref=e7]:
+    - generic [ref=e9]:
+      - link "ニュース" [ref=e11] [cursor=pointer]:
+        - /url: /news/
+      - link "企業情報" [ref=e13] [cursor=pointer]:
+        - /url: /company/
+      - link "社会貢献活動" [ref=e15] [cursor=pointer]:
+        - /url: /company/social/
+      - link "レース情報" [ref=e17] [cursor=pointer]:
+        - /url: /
+    - generic [ref=e19]:
+      - heading "JRA 日本中央競馬会" [level=1] [ref=e20]:
+        - link "JRA 日本中央競馬会" [ref=e21] [cursor=pointer]:
+          - /url: /
+          - img "JRA 日本中央競馬会" [ref=e22]
+      - generic [ref=e23]:
+        - generic [ref=e24]:
+          - link "ネット馬券 ログイン" [ref=e26] [cursor=pointer]:
+            - /url: https://www.ipat.jra.go.jp/
+            - text: ネット馬券
+            - text: ログイン
+          - link "ビギナーズ" [ref=e28] [cursor=pointer]:
+            - /url: /kouza/beginner/
+          - button "検索ウィンドウを開く" [ref=e30] [cursor=pointer]: 検索
+        - link "メニュー" [ref=e33] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e40]: メニュー
+    - text:                        
+  - text:       
+  - generic [ref=e41]:
+    - list [ref=e44]:
+      - listitem [ref=e45]:
+        - link "ホーム" [ref=e46] [cursor=pointer]:
+          - /url: /
+        - text: ">"
+      - listitem [ref=e47]:
+        - link "競馬メニュー" [ref=e48] [cursor=pointer]:
+          - /url: /keiba/
+        - text: ">"
+      - listitem [ref=e49]:
+        - link "馬場情報（京都競馬場）" [ref=e50] [cursor=pointer]:
+          - /url: /keiba/baba/index2.html
+    - generic: ここから本文です
+    - heading "馬場情報" [level=1] [ref=e53]:
+      - generic [ref=e56]: 馬場情報
+    - generic [ref=e58]:
+      - text:  
+      - list [ref=e59]:
+        - listitem [ref=e60]:
+          - link "開催お知らせ" [ref=e61] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e62]: 
+            - text: 開催お知らせ
+        - listitem [ref=e63]:
+          - link "出馬表" [ref=e64] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e65]: 
+            - text: 出馬表
+        - listitem [ref=e66]:
+          - link "オッズ" [ref=e67] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e68]: 
+            - text: オッズ
+        - listitem [ref=e69]:
+          - link "払戻金" [ref=e70] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e71]: 
+            - text: 払戻金
+        - listitem [ref=e72]:
+          - link "レース結果" [ref=e73] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e74]: 
+            - text: レース結果
+        - listitem [ref=e75]:
+          - link "特別レース登録馬" [ref=e76] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e77]: 
+            - text: 特別レース登録馬
+        - listitem [ref=e78]:
+          - link "開催日程" [ref=e79] [cursor=pointer]:
+            - /url: /keiba/calendar/
+            - generic [ref=e80]: 
+            - text: 開催日程
+        - listitem [ref=e81]:
+          - link "馬場情報" [ref=e82] [cursor=pointer]:
+            - /url: /keiba/baba/
+            - generic [ref=e83]: 
+            - text: 馬場情報
+        - listitem [ref=e84]:
+          - link "今週の注目レース" [ref=e85] [cursor=pointer]:
+            - /url: /keiba/thisweek/
+            - generic [ref=e86]: 
+            - text: 今週の注目レース
+    - generic [ref=e87]:
+      - generic [ref=e89]:
+        - link "東京競馬場" [ref=e91] [cursor=pointer]:
+          - /url: index.html
+        - link "京都競馬場" [ref=e93] [cursor=pointer]:
+          - /url: index2.html
+        - link "福島競馬場" [ref=e95] [cursor=pointer]:
+          - /url: index3.html
+      - generic [ref=e96]:
+        - generic [ref=e97]:
+          - heading "第3回京都競馬第2日（2026年4月26日（日曜））" [level=2] [ref=e101]
+          - generic [ref=e102]:
+            - generic [ref=e104]:
+              - heading "馬場状態（2026年4月26日） 更新" [level=3] [ref=e106]:
+                - text: 馬場状態（2026年4月26日）
+                - link "更新" [ref=e108] [cursor=pointer]:
+                  - /url: "#"
+              - link "馬場状態に関する基礎知識" [ref=e111] [cursor=pointer]:
+                - /url: /keiba/baba/condition/
+                - generic [ref=e112]: 
+                - text: 馬場状態に関する基礎知識
+            - generic [ref=e113]:
+              - generic [ref=e118]:
+                - text: 天候：
+                - strong [ref=e119]: 晴
+              - list [ref=e121]:
+                - listitem [ref=e122]
+              - list [ref=e129]:
+                - listitem [ref=e130]
+            - text: 
+          - generic [ref=e136]:
+            - generic [ref=e138]:
+              - heading "芝のクッション値" [level=3] [ref=e140]
+              - link "クッション値の基礎知識" [ref=e142] [cursor=pointer]:
+                - /url: /keiba/baba/cushion/
+                - generic [ref=e143]: 
+                - text: クッション値の基礎知識
+            - list [ref=e146]:
+              - listitem [ref=e147]:
+                - generic [ref=e148]
+            - generic [ref=e155]:
+              - list [ref=e157]:
+                - listitem [ref=e158]
+              - generic [ref=e166]:
+                - generic [ref=e167]
+                - generic [ref=e175]
+            - table "クッション値とクッション性との関係性（参考）" [ref=e182]:
+              - caption [ref=e183]:
+                - generic [ref=e185]: クッション値とクッション性との関係性（参考）
+              - rowgroup [ref=e186]:
+                - row "芝馬場のクッション値 馬場表層のクッション性" [ref=e187]
+              - rowgroup [ref=e190]:
+                - row "12以上 硬め" [ref=e191]
+                - row "10から12 やや硬め" [ref=e195]
+                - row "8から10 標準" [ref=e199]
+                - row "7から8 やや軟らかめ" [ref=e203]
+                - row "7以下 軟らかめ" [ref=e207]
+            - text: 
+          - generic [ref=e211]:
+            - generic [ref=e213]:
+              - heading "含水率" [level=3] [ref=e215]
+              - link "含水率に関する基礎知識" [ref=e217] [cursor=pointer]:
+                - /url: /keiba/baba/moist/
+                - generic [ref=e218]: 
+                - text: 含水率に関する基礎知識
+            - list [ref=e221]:
+              - listitem [ref=e222]:
+                - generic [ref=e223]
+            - table "ゴール前と4コーナーの含水率" [ref=e230]:
+              - caption [ref=e231]: ゴール前と4コーナーの含水率
+              - rowgroup [ref=e232]:
+                - row "ゴール前 4コーナー" [ref=e233]
+              - rowgroup [ref=e237]:
+                - row "芝 6.5% 6.6%" [ref=e238]
+                - row "ダート 7.5% 8.5%" [ref=e242]
+            - generic [ref=e246]:
+              - heading "含水率表" [level=4] [ref=e247]
+              - generic [ref=e248]:
+                - generic [ref=e249]
+                - list [ref=e480]
+            - text: 
+        - generic [ref=e482]:
+          - heading "週間情報" [level=2] [ref=e484]
+          - generic [ref=e485]:
+            - table "表はスクロールすることができます 4月17日（金曜）から4月26日（日曜） 4月26日（日曜） 8時現在" [ref=e486]:
+              - caption [ref=e487]:
+                - paragraph [ref=e489]
+                - generic [ref=e492]
+              - rowgroup [ref=e495]:
+                - row "17日 （金曜） 18日 （土曜） 19日 （日曜） 20日 （月曜） 21日 （火曜） 22日 （水曜） 23日 （木曜） 24日 （金曜） 25日 （土曜） 26日 （日曜）" [ref=e496]
+              - rowgroup [ref=e518]:
+                - row "天候 晴後曇 晴後曇 晴 晴 晴後曇 晴後曇 晴 晴 雨後晴 雨後晴 晴 晴 雨 雨 曇 曇 晴 晴 晴 晴" [ref=e519]
+                - row "雨量 （ミリメートル） 0.0 0.0 0.0 0.0 3.5 0.0 40.0 0.0 0.0 0.0" [ref=e551]
+                - row "芝コースの散水 なし あり なし なし なし あり なし なし なし なし" [ref=e564]
+            - generic:
+              - generic:
+                - generic: スクロールできます
+          - generic [ref=e576]:
+            - list [ref=e578]:
+              - listitem [ref=e579]:
+                - generic [ref=e580]
+              - listitem [ref=e588]:
+                - generic [ref=e589]
+            - generic [ref=e597]:
+              - link "全て表示する" [ref=e601] [cursor=pointer]:
+                - /url: "#"
+                - generic [ref=e602]: 
+                - text: 全て表示する
+              - text: 
+        - generic [ref=e603]:
+          - heading "芝丈・使用コース・芝の様子" [level=2] [ref=e605]
+          - generic [ref=e606]:
+            - generic [ref=e607]:
+              - table "芝コース・障害コースの芝丈 単位：センチメートル" [ref=e609]:
+                - caption [ref=e610]
+                - rowgroup [ref=e614]
+                - rowgroup [ref=e619]
+              - list [ref=e629]:
+                - listitem [ref=e630]
+              - list [ref=e638]:
+                - listitem [ref=e639]
+            - generic [ref=e645]:
+              - heading "芝コースの様子 撮影日：4月15日（水曜）" [level=3] [ref=e646]:
+                - generic [ref=e647]
+              - generic [ref=e651]:
+                - link "" [ref=e653] [cursor=pointer]:
+                  - /url: "#"
+                - generic [ref=e658]
+                - generic [ref=e676]
+      - link "第3回京都競馬 馬場概要" [ref=e694] [cursor=pointer]:
+        - /url: /keiba/baba/overview/2026_3_kyoto.html
+        - generic [ref=e695]: 
+        - text: 第3回京都競馬 馬場概要
+      - generic [ref=e697]:
+        - heading "馬場情報 関連コンテンツ" [level=3] [ref=e698]
+        - generic [ref=e700]:
+          - link "馬場状態に関する基礎知識" [ref=e702] [cursor=pointer]:
+            - /url: /keiba/baba/condition/
+            - generic [ref=e703]: 
+            - text: 馬場状態に関する基礎知識
+          - link "含水率に関する基礎知識" [ref=e705] [cursor=pointer]:
+            - /url: /keiba/baba/moist/
+            - generic [ref=e706]: 
+            - text: 含水率に関する基礎知識
+          - link "クッション値に関する基礎知識" [ref=e708] [cursor=pointer]:
+            - /url: /keiba/baba/cushion/
+            - generic [ref=e709]: 
+            - text: クッション値に関する基礎知識
+          - link "ダートコースのクッション砂について" [ref=e711] [cursor=pointer]:
+            - /url: /keiba/baba/dirt/
+            - generic [ref=e712]: 
+            - text: ダートコースのクッション砂について
+          - link "過去の含水率・クッション値" [ref=e714] [cursor=pointer]:
+            - /url: /keiba/baba/archive/
+            - generic [ref=e715]: 
+            - text: 過去の含水率・クッション値
+  - generic [ref=e716]:
+    - generic [ref=e717]:
+      - img [ref=e718]
+      - link "ページトップへ戻る " [ref=e721] [cursor=pointer]:
+        - /url: "#"
+        - generic [ref=e722]: ページトップへ戻る
+        - generic [ref=e723]: 
+      - generic [ref=e724]:
+        - heading "JRAからのお知らせ" [level=2] [ref=e725]
+        - generic [ref=e726]:
+          - link "JRAのギャンブル等依存症対策" [ref=e728] [cursor=pointer]:
+            - /url: /company/social/disorder/
+            - generic [ref=e729]:
+              - generic [ref=e731]: 
+              - text: JRAのギャンブル等依存症対策
+          - link "お出かけ前にJRAホームページでご確認を！" [ref=e733] [cursor=pointer]:
+            - /url: /news/other/odekake.html
+            - generic [ref=e734]:
+              - generic [ref=e736]: 
+              - text: お出かけ前にJRAホームページでご確認を！
+          - link "馬券は20歳になってから" [ref=e738] [cursor=pointer]:
+            - /url: /kouza/baken/index.html#cat_info
+            - generic [ref=e739]:
+              - generic [ref=e741]: 
+              - text: 馬券は20歳になってから
+          - link "悪徳業者・違法インターネット賭事業者等にご注意ください！" [ref=e743] [cursor=pointer]:
+            - /url: /facilities/informations/index.html#note6
+            - generic [ref=e744]:
+              - generic [ref=e746]: 
+              - text: 悪徳業者・違法インターネット賭事業者等にご注意ください！
+          - link "ファンからの悪質な誹謗中傷および脅迫行為等に対する厳正な対応" [ref=e748] [cursor=pointer]:
+            - /url: /news/other/harassment.html
+            - generic [ref=e749]:
+              - generic [ref=e751]: 
+              - text: ファンからの悪質な誹謗中傷および脅迫行為等に対する厳正な対応
+          - link "競馬場へ移動中の騎手に関するお願い" [ref=e753] [cursor=pointer]:
+            - /url: /news/other/2024052402.html
+            - generic [ref=e754]:
+              - generic [ref=e756]: 
+              - text: 競馬場へ移動中の騎手に関するお願い
+          - link "払戻金の支払を受けた方へ" [ref=e758] [cursor=pointer]:
+            - /url: /company/social/taxation/
+            - generic [ref=e759]:
+              - generic [ref=e761]: 
+              - text: 払戻金の支払を受けた方へ
+    - generic [ref=e763]:
+      - generic [ref=e764]:
+        - list [ref=e765]:
+          - listitem [ref=e766]:
+            - link "FAQ/お問い合わせ" [ref=e767] [cursor=pointer]:
+              - /url: /faq/
+          - listitem [ref=e768]:
+            - link "サイトマップ" [ref=e769] [cursor=pointer]:
+              - /url: /sitemap/
+          - listitem [ref=e770]:
+            - link "リンク" [ref=e771] [cursor=pointer]:
+              - /url: /link/
+          - listitem [ref=e772]:
+            - link "ご利用に際して" [ref=e773] [cursor=pointer]:
+              - /url: /use/
+          - listitem [ref=e774]:
+            - link "ウェブアクセシビリティについて" [ref=e775] [cursor=pointer]:
+              - /url: /accessibility/
+        - list [ref=e776]:
+          - listitem [ref=e777]:
+            - link "レース情報" [ref=e778] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e779]:
+            - link "ニュース" [ref=e780] [cursor=pointer]:
+              - /url: /news/
+          - listitem [ref=e781]:
+            - link "企業情報" [ref=e782] [cursor=pointer]:
+              - /url: /company/
+        - list [ref=e783]:
+          - listitem [ref=e784]:
+            - link "Horse Racing in Japan" [ref=e785] [cursor=pointer]:
+              - /url: https://japanracing.jp/en/
+              - text: Horse Racing in Japan
+              - generic [ref=e786]: 
+      - generic [ref=e787]:
+        - img "日本中央競馬会" [ref=e788]
+        - paragraph [ref=e789]: Copyright © Japan Racing Association All rights reserved.

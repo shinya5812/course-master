@@ -1,0 +1,412 @@
+{
+  "meta": {
+    "script": "backtest_conditionC_monthly.py",
+    "condition": "新潟×芝×1801-2100m×スタミナ系×10番人気以上×良馬場",
+    "purpose": "5月が統計的特異値か検証。前回発見: 良馬場×5月=222.9%"
+  },
+  "overall": {
+    "total": 575,
+    "wins": 10,
+    "hit_rate": 1.739,
+    "roi": 113.8,
+    "period": "2016-09-03 〜 2025-10-25"
+  },
+  "monthly": [
+    {
+      "month": "04",
+      "month_name": "4月",
+      "total": 27,
+      "wins": 0,
+      "hit_rate": 0.0,
+      "roi": 0.0,
+      "avg_win_odds": null
+    },
+    {
+      "month": "05",
+      "month_name": "5月",
+      "total": 122,
+      "wins": 4,
+      "hit_rate": 3.279,
+      "roi": 222.9,
+      "avg_win_odds": 68.0
+    },
+    {
+      "month": "07",
+      "month_name": "7月",
+      "total": 39,
+      "wins": 0,
+      "hit_rate": 0.0,
+      "roi": 0.0,
+      "avg_win_odds": null
+    },
+    {
+      "month": "08",
+      "month_name": "8月",
+      "total": 220,
+      "wins": 4,
+      "hit_rate": 1.818,
+      "roi": 118.1,
+      "avg_win_odds": 65.0
+    },
+    {
+      "month": "09",
+      "month_name": "9月",
+      "total": 75,
+      "wins": 1,
+      "hit_rate": 1.333,
+      "roi": 57.1,
+      "avg_win_odds": 42.8
+    },
+    {
+      "month": "10",
+      "month_name": "10月",
+      "total": 92,
+      "wins": 1,
+      "hit_rate": 1.087,
+      "roi": 86.5,
+      "avg_win_odds": 79.6
+    }
+  ],
+  "cross_by_year": [
+    {
+      "year": "2017",
+      "months": {
+        "04": {
+          "total": 2,
+          "wins": 0,
+          "rec": 0.0
+        },
+        "05": {
+          "total": 4,
+          "wins": 0,
+          "rec": 0.0
+        },
+        "07": {
+          "total": 5,
+          "wins": 0,
+          "rec": 0.0
+        },
+        "08": {
+          "total": 12,
+          "wins": 1,
+          "rec": 505.0
+        },
+        "09": {
+          "total": 10,
+          "wins": 0,
+          "rec": 0.0
+        },
+        "10": {
+          "total": 7,
+          "wins": 0,
+          "rec": 0.0
+        }
+      },
+      "year_roi": 151.5
+    },
+    {
+      "year": "2018",
+      "months": {
+        "05": {
+          "total": 9,
+          "wins": 1,
+          "rec": 1445.6
+        },
+        "07": {
+          "total": 7,
+          "wins": 0,
+          "rec": 0.0
+        },
+        "08": {
+          "total": 12,
+          "wins": 0,
+          "rec": 0.0
+        },
+        "09": {
+          "total": 4,
+          "wins": 0,
+          "rec": 0.0
+        },
+        "10": {
+          "total": 8,
+          "wins": 0,
+          "rec": 0.0
+        }
+      },
+      "year_roi": 325.3
+    },
+    {
+      "year": "2019",
+      "months": {
+        "04": {
+          "total": 1,
+          "wins": 0,
+          "rec": 0.0
+        },
+        "05": {
+          "total": 13,
+          "wins": 0,
+          "rec": 0.0
+        },
+        "07": {
+          "total": 1,
+          "wins": 0,
+          "rec": 0.0
+        },
+        "08": {
+          "total": 19,
+          "wins": 0,
+          "rec": 0.0
+        },
+        "09": {
+          "total": 7,
+          "wins": 0,
+          "rec": 0.0
+        },
+        "10": {
+          "total": 5,
+          "wins": 0,
+          "rec": 0.0
+        }
+      },
+      "year_roi": 0.0
+    },
+    {
+      "year": "2020",
+      "months": {
+        "05": {
+          "total": 15,
+          "wins": 1,
+          "rec": 129.3
+        },
+        "07": {
+          "total": 15,
+          "wins": 0,
+          "rec": 0.0
+        },
+        "08": {
+          "total": 29,
+          "wins": 0,
+          "rec": 0.0
+        },
+        "09": {
+          "total": 18,
+          "wins": 0,
+          "rec": 0.0
+        },
+        "10": {
+          "total": 9,
+          "wins": 0,
+          "rec": 0.0
+        }
+      },
+      "year_roi": 22.6
+    },
+    {
+      "year": "2021",
+      "months": {
+        "04": {
+          "total": 11,
+          "wins": 0,
+          "rec": 0.0
+        },
+        "05": {
+          "total": 12,
+          "wins": 0,
+          "rec": 0.0
+        },
+        "07": {
+          "total": 9,
+          "wins": 0,
+          "rec": 0.0
+        },
+        "08": {
+          "total": 38,
+          "wins": 1,
+          "rec": 161.1
+        },
+        "09": {
+          "total": 7,
+          "wins": 1,
+          "rec": 611.4
+        },
+        "10": {
+          "total": 9,
+          "wins": 0,
+          "rec": 0.0
+        }
+      },
+      "year_roi": 120.9
+    },
+    {
+      "year": "2022",
+      "months": {
+        "05": {
+          "total": 23,
+          "wins": 1,
+          "rec": 194.3
+        },
+        "07": {
+          "total": 2,
+          "wins": 0,
+          "rec": 0.0
+        },
+        "08": {
+          "total": 9,
+          "wins": 0,
+          "rec": 0.0
+        },
+        "09": {
+          "total": 14,
+          "wins": 0,
+          "rec": 0.0
+        },
+        "10": {
+          "total": 14,
+          "wins": 0,
+          "rec": 0.0
+        }
+      },
+      "year_roi": 72.1
+    },
+    {
+      "year": "2023",
+      "months": {
+        "04": {
+          "total": 7,
+          "wins": 0,
+          "rec": 0.0
+        },
+        "05": {
+          "total": 22,
+          "wins": 1,
+          "rec": 353.2
+        },
+        "08": {
+          "total": 45,
+          "wins": 0,
+          "rec": 0.0
+        },
+        "09": {
+          "total": 9,
+          "wins": 0,
+          "rec": 0.0
+        },
+        "10": {
+          "total": 12,
+          "wins": 1,
+          "rec": 663.3
+        }
+      },
+      "year_roi": 165.6
+    },
+    {
+      "year": "2024",
+      "months": {
+        "04": {
+          "total": 6,
+          "wins": 0,
+          "rec": 0.0
+        },
+        "05": {
+          "total": 19,
+          "wins": 0,
+          "rec": 0.0
+        },
+        "08": {
+          "total": 31,
+          "wins": 1,
+          "rec": 334.2
+        },
+        "09": {
+          "total": 3,
+          "wins": 0,
+          "rec": 0.0
+        },
+        "10": {
+          "total": 21,
+          "wins": 0,
+          "rec": 0.0
+        }
+      },
+      "year_roi": 129.5
+    },
+    {
+      "year": "2025",
+      "months": {
+        "05": {
+          "total": 5,
+          "wins": 0,
+          "rec": 0.0
+        },
+        "08": {
+          "total": 25,
+          "wins": 1,
+          "rec": 138.0
+        },
+        "10": {
+          "total": 6,
+          "wins": 0,
+          "rec": 0.0
+        }
+      },
+      "year_roi": 95.8
+    }
+  ],
+  "may_by_year": [
+    {
+      "year": "2017",
+      "total": 4,
+      "wins": 0,
+      "roi": 0.0
+    },
+    {
+      "year": "2018",
+      "total": 9,
+      "wins": 1,
+      "roi": 1445.6
+    },
+    {
+      "year": "2019",
+      "total": 13,
+      "wins": 0,
+      "roi": 0.0
+    },
+    {
+      "year": "2020",
+      "total": 15,
+      "wins": 1,
+      "roi": 129.3
+    },
+    {
+      "year": "2021",
+      "total": 12,
+      "wins": 0,
+      "roi": 0.0
+    },
+    {
+      "year": "2022",
+      "total": 23,
+      "wins": 1,
+      "roi": 194.3
+    },
+    {
+      "year": "2023",
+      "total": 22,
+      "wins": 1,
+      "roi": 353.2
+    },
+    {
+      "year": "2024",
+      "total": 19,
+      "wins": 0,
+      "roi": 0.0
+    },
+    {
+      "year": "2025",
+      "total": 5,
+      "wins": 0,
+      "roi": 0.0
+    }
+  ]
+}

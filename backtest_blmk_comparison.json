@@ -1,0 +1,231 @@
+{
+  "created": "2026-05-15 07:02",
+  "test_period": "2024-2026",
+  "n_races": 318,
+  "stats_used": "2023以前（時系列分離・leaktest条件Bと同一）",
+  "pop1_hit_rate": 26.73,
+  "patterns": {
+    "P1_全軸": "全7軸（CF/SI/JT/SPD/PD/BL/MK）",
+    "P2_BL除外": "BLなし（CF/SI/JT/SPD/PD/MK）",
+    "P3_MK除外": "MKなし（CF/SI/JT/SPD/PD/BL）",
+    "P4_両除外": "BL・MK除外（CF/SI/JT/SPD/PD）"
+  },
+  "overall": {
+    "P1_全軸": {
+      "n": 318,
+      "hit_rate": 22.64,
+      "place_rate": 44.03,
+      "roi": 108.1,
+      "avg_pop": 3.86
+    },
+    "P2_BL除外": {
+      "n": 318,
+      "hit_rate": 21.7,
+      "place_rate": 41.82,
+      "roi": 108.2,
+      "avg_pop": 4.31
+    },
+    "P3_MK除外": {
+      "n": 318,
+      "hit_rate": 21.38,
+      "place_rate": 41.19,
+      "roi": 106.3,
+      "avg_pop": 4.31
+    },
+    "P4_両除外": {
+      "n": 318,
+      "hit_rate": 19.5,
+      "place_rate": 39.94,
+      "roi": 106.0,
+      "avg_pop": 4.84
+    }
+  },
+  "by_grade": {
+    "G1": {
+      "P1_全軸": {
+        "n": 59,
+        "hit_rate": 35.59,
+        "place_rate": 47.46,
+        "roi": 136.8,
+        "avg_pop": 3.29
+      },
+      "P2_BL除外": {
+        "n": 59,
+        "hit_rate": 32.2,
+        "place_rate": 47.46,
+        "roi": 131.2,
+        "avg_pop": 4.1
+      },
+      "P3_MK除外": {
+        "n": 59,
+        "hit_rate": 32.2,
+        "place_rate": 45.76,
+        "roi": 131.2,
+        "avg_pop": 4.08
+      },
+      "P4_両除外": {
+        "n": 59,
+        "hit_rate": 23.73,
+        "place_rate": 42.37,
+        "roi": 102.5,
+        "avg_pop": 5.32
+      }
+    },
+    "G2": {
+      "P1_全軸": {
+        "n": 96,
+        "hit_rate": 15.62,
+        "place_rate": 40.62,
+        "roi": 62.4,
+        "avg_pop": 3.7
+      },
+      "P2_BL除外": {
+        "n": 96,
+        "hit_rate": 15.62,
+        "place_rate": 37.5,
+        "roi": 69.0,
+        "avg_pop": 3.98
+      },
+      "P3_MK除外": {
+        "n": 96,
+        "hit_rate": 15.62,
+        "place_rate": 37.5,
+        "roi": 69.0,
+        "avg_pop": 4.03
+      },
+      "P4_両除外": {
+        "n": 96,
+        "hit_rate": 16.67,
+        "place_rate": 37.5,
+        "roi": 90.8,
+        "avg_pop": 4.32
+      }
+    },
+    "G3": {
+      "P1_全軸": {
+        "n": 163,
+        "hit_rate": 22.09,
+        "place_rate": 44.79,
+        "roi": 124.6,
+        "avg_pop": 4.15
+      },
+      "P2_BL除外": {
+        "n": 163,
+        "hit_rate": 21.47,
+        "place_rate": 42.33,
+        "roi": 122.9,
+        "avg_pop": 4.57
+      },
+      "P3_MK除外": {
+        "n": 163,
+        "hit_rate": 20.86,
+        "place_rate": 41.72,
+        "roi": 119.3,
+        "avg_pop": 4.55
+      },
+      "P4_両除外": {
+        "n": 163,
+        "hit_rate": 19.63,
+        "place_rate": 40.49,
+        "roi": 116.2,
+        "avg_pop": 4.96
+      }
+    }
+  },
+  "by_year": {
+    "2024": {
+      "P1_全軸": {
+        "n": 130,
+        "hit_rate": 24.62,
+        "place_rate": 50.0,
+        "roi": 99.1,
+        "avg_pop": 2.69
+      },
+      "P2_BL除外": {
+        "n": 130,
+        "hit_rate": 25.38,
+        "place_rate": 49.23,
+        "roi": 101.8,
+        "avg_pop": 3.29
+      },
+      "P3_MK除外": {
+        "n": 130,
+        "hit_rate": 25.38,
+        "place_rate": 49.23,
+        "roi": 101.8,
+        "avg_pop": 3.2
+      },
+      "P4_両除外": {
+        "n": 130,
+        "hit_rate": 24.62,
+        "place_rate": 47.69,
+        "roi": 114.6,
+        "avg_pop": 3.65
+      }
+    },
+    "2025": {
+      "P1_全軸": {
+        "n": 134,
+        "hit_rate": 24.63,
+        "place_rate": 44.03,
+        "roi": 128.7,
+        "avg_pop": 4.19
+      },
+      "P2_BL除外": {
+        "n": 134,
+        "hit_rate": 21.64,
+        "place_rate": 39.55,
+        "roi": 126.3,
+        "avg_pop": 4.59
+      },
+      "P3_MK除外": {
+        "n": 134,
+        "hit_rate": 20.9,
+        "place_rate": 38.06,
+        "roi": 121.9,
+        "avg_pop": 4.72
+      },
+      "P4_両除外": {
+        "n": 134,
+        "hit_rate": 18.66,
+        "place_rate": 38.06,
+        "roi": 114.8,
+        "avg_pop": 5.35
+      }
+    },
+    "2026": {
+      "P1_全軸": {
+        "n": 54,
+        "hit_rate": 12.96,
+        "place_rate": 29.63,
+        "roi": 78.5,
+        "avg_pop": 5.83
+      },
+      "P2_BL除外": {
+        "n": 54,
+        "hit_rate": 12.96,
+        "place_rate": 29.63,
+        "roi": 78.5,
+        "avg_pop": 6.04
+      },
+      "P3_MK除外": {
+        "n": 54,
+        "hit_rate": 12.96,
+        "place_rate": 29.63,
+        "roi": 78.5,
+        "avg_pop": 5.96
+      },
+      "P4_両除外": {
+        "n": 54,
+        "hit_rate": 9.26,
+        "place_rate": 25.93,
+        "roi": 63.5,
+        "avg_pop": 6.43
+      }
+    }
+  },
+  "judgment": {
+    "roi_p4_vs_p1": -2.1,
+    "avg_pop_p4_vs_p1": 0.98
+  }
+}

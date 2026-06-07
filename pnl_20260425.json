@@ -1,0 +1,40 @@
+{
+  "date": "2026-04-25",
+  "venue": "東京",
+  "bets": [],
+  "summary": {
+    "total_bets": 0,
+    "total_invested": 0,
+    "total_returned": 0,
+    "net_pnl": 0,
+    "roi": 0.0,
+    "win_count": 0
+  },
+  "note": "青葉賞G2・見送り判断（エッジ-0.220・長距離除外）",
+  "race_result": {
+    "race_name": "テレビ東京杯青葉賞 GⅡ",
+    "venue": "東京",
+    "distance": 2400,
+    "surface": "芝",
+    "result": [
+      {"rank": 1, "horse_name": "ゴーイントゥスカイ", "popularity": 4, "odds": 9.4, "jockey": "武豊", "sire": "コントレイル"},
+      {"rank": 2, "horse_name": "タイダルロック",     "popularity": 3, "odds": 6.7, "jockey": "三浦皇成", "sire": "モーリス"},
+      {"rank": 3, "horse_name": "ブラックオリンピア", "popularity": 1, "odds": 2.2, "jockey": "川田将雅", "sire": "キタサンブラック"}
+    ],
+    "honmei_actual": {"horse_name": "ブラックオリンピア", "rank": 3, "note": "1番人気が3着敗退"},
+    "judgment_review": {
+      "edge_rule": "◎エッジ-0.220（閾値+0.06未達）→ 見送り → 1番人気3着 → 見送り正解",
+      "long_dist_rule": "2400m長距離除外ルール → 全戦略見送り → 正解（◎3着）",
+      "shadow_master": "シャドウマスター（10番人気36.7倍・エッジ+0.064★）は長距離除外で正しく見送り対象外",
+      "overall": "✅ 見送り判断は正しかった。1番人気3着・4番人気優勝と堅め崩れの典型"
+    }
+  },
+  "prior_week": {
+    "date": "2026-04-19",
+    "venue": "福島",
+    "roi": 153.0,
+    "net_pnl": 689,
+    "win_count": 1
+  },
+  "generated_at": "2026-04-25T15:30:00"
+}

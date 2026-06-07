@@ -1,0 +1,81 @@
+{
+  "date": "2026-04-26",
+  "races": [
+    {
+      "race_id": "202605020211",
+      "race_no": 11,
+      "race_name": "サンスポ賞フローラＳ GⅡ",
+      "venue": "東京",
+      "surface": "芝",
+      "distance": 2000,
+      "class_code": 800,
+      "horse_count": 13,
+      "grade": "G2",
+      "horses": [
+        {"horse_no": 1,  "horse_name": "リスレジャンデール", "jockey": "津村明秀", "sire": "エピファネイア",   "blood_cat": "スタミナ系", "age": 3, "weight": 54.0, "popularity": 6,  "odds": 18.7},
+        {"horse_no": 2,  "horse_name": "ラベルセーヌ",       "jockey": "荻野極",   "sire": "キズナ",         "blood_cat": "スタミナ系", "age": 3, "weight": 54.0, "popularity": 2,  "odds": 4.5},
+        {"horse_no": 3,  "horse_name": "サムシングスイート", "jockey": "酒井学",   "sire": "サートゥルナーリア","blood_cat": "スタミナ系", "age": 3, "weight": 54.0, "popularity": 8,  "odds": 28.9},
+        {"horse_no": 4,  "horse_name": "ペイシャシス",       "jockey": "北村宏司", "sire": "シスキン",       "blood_cat": "スタミナ系", "age": 3, "weight": 54.0, "popularity": 13, "odds": 80.0},
+        {"horse_no": 5,  "horse_name": "ラフターラインズ",   "jockey": "D.レーン", "sire": "アルアイン",     "blood_cat": "速力系",     "age": 3, "weight": 54.0, "popularity": 1,  "odds": 2.5},
+        {"horse_no": 6,  "horse_name": "ペンダント",         "jockey": "佐々木大輔","sire": "オルフェーヴル", "blood_cat": "スタミナ系", "age": 3, "weight": 54.0, "popularity": 7,  "odds": 22.9},
+        {"horse_no": 7,  "horse_name": "リアライズルミナス", "jockey": "松山弘平", "sire": "シルバーステート","blood_cat": "スタミナ系", "age": 3, "weight": 54.0, "popularity": 5,  "odds": 10.7},
+        {"horse_no": 8,  "horse_name": "ゴバド",             "jockey": "原優介",   "sire": "トーセンラー",   "blood_cat": "スタミナ系", "age": 3, "weight": 54.0, "popularity": 9,  "odds": 29.0},
+        {"horse_no": 9,  "horse_name": "コウギョク",         "jockey": "横山和生", "sire": "シルバーステート","blood_cat": "スタミナ系", "age": 3, "weight": 54.0, "popularity": 12, "odds": 56.8},
+        {"horse_no": 10, "horse_name": "エイシンウィスパー", "jockey": "松若風馬", "sire": "ルーラーシップ", "blood_cat": "スタミナ系", "age": 3, "weight": 54.0, "popularity": 10, "odds": 31.0},
+        {"horse_no": 11, "horse_name": "ファムクラジューズ", "jockey": "横山武史", "sire": "ベンバトル",     "blood_cat": "スタミナ系", "age": 3, "weight": 54.0, "popularity": 4,  "odds": 8.4},
+        {"horse_no": 12, "horse_name": "スタニングレディ",   "jockey": "三浦皇成", "sire": "ベンバトル",     "blood_cat": "スタミナ系", "age": 3, "weight": 54.0, "popularity": 11, "odds": 41.3},
+        {"horse_no": 13, "horse_name": "エンネ",             "jockey": "M.ディー", "sire": "キズナ",         "blood_cat": "スタミナ系", "age": 3, "weight": 54.0, "popularity": 3,  "odds": 5.8}
+      ]
+    },
+    {
+      "race_id": "202608030211",
+      "race_no": 11,
+      "race_name": "読売マイラーズカップ GⅡ",
+      "venue": "京都",
+      "surface": "芝",
+      "distance": 1600,
+      "class_code": 800,
+      "horse_count": 18,
+      "grade": "G2",
+      "horses": [
+        {"horse_no": 1,  "horse_name": "ドラゴンブースト",   "jockey": "丹内祐次",   "sire": "スクリーンヒーロー","blood_cat": "スタミナ系", "age": 4, "weight": 58.0, "popularity": 9,  "odds": 28.0},
+        {"horse_no": 2,  "horse_name": "オフトレイル",       "jockey": "岩田望来",   "sire": "Farhh",           "blood_cat": "未分類",     "age": 5, "weight": 58.0, "popularity": 2,  "odds": 5.2},
+        {"horse_no": 3,  "horse_name": "ファインライン",     "jockey": "鮫島克駿",   "sire": "ファインニードル", "blood_cat": "速力系",     "age": 5, "weight": 58.0, "popularity": 14, "odds": 94.4},
+        {"horse_no": 4,  "horse_name": "クルゼイロドスル",   "jockey": "太宰啓介",   "sire": "ファインニードル", "blood_cat": "速力系",     "age": 5, "weight": 58.0, "popularity": 13, "odds": 88.8},
+        {"horse_no": 5,  "horse_name": "ショウナンアデイブ", "jockey": "池添謙一",   "sire": "ディープインパクト","blood_cat": "スタミナ系", "age": 6, "weight": 58.0, "popularity": 12, "odds": 80.1},
+        {"horse_no": 6,  "horse_name": "ブエナオンダ",       "jockey": "田口貫太",   "sire": "リオンディーズ",   "blood_cat": "スタミナ系", "age": 5, "weight": 58.0, "popularity": 11, "odds": 33.7},
+        {"horse_no": 7,  "horse_name": "ベラジオボンド",     "jockey": "北村友一",   "sire": "ロードカナロア",   "blood_cat": "マイラー系", "age": 5, "weight": 58.0, "popularity": 5,  "odds": 10.4},
+        {"horse_no": 8,  "horse_name": "シャンパンカラー",   "jockey": "岩田康誠",   "sire": "ドゥラメンテ",     "blood_cat": "スタミナ系", "age": 5, "weight": 58.0, "popularity": 10, "odds": 30.3},
+        {"horse_no": 9,  "horse_name": "アドマイヤズーム",   "jockey": "武豊",       "sire": "モーリス",         "blood_cat": "スタミナ系", "age": 6, "weight": 58.0, "popularity": 1,  "odds": 3.7},
+        {"horse_no": 10, "horse_name": "ウォーターリヒト",   "jockey": "高杉吏麒",   "sire": "ドレフォン",       "blood_cat": "ドレフォン（未分類）", "age": 4, "weight": 58.0, "popularity": 3, "odds": 5.3},
+        {"horse_no": 11, "horse_name": "キョウエイブリッサ", "jockey": "田山旺佑",   "sire": "グレーターロンドン","blood_cat": "スタミナ系", "age": 5, "weight": 58.0, "popularity": 17, "odds": 167.6},
+        {"horse_no": 12, "horse_name": "ファーヴェント",     "jockey": "坂井瑠星",   "sire": "ハーツクライ",     "blood_cat": "スタミナ系", "age": 6, "weight": 58.0, "popularity": 8,  "odds": 22.4},
+        {"horse_no": 13, "horse_name": "アサヒ",             "jockey": "松本大輝",   "sire": "カレンブラックヒル","blood_cat": "速力系",     "age": 6, "weight": 58.0, "popularity": 18, "odds": 209.6},
+        {"horse_no": 14, "horse_name": "ロングラン",         "jockey": "団野大成",   "sire": "ヴィクトワールピサ","blood_cat": "スタミナ系", "age": 7, "weight": 58.0, "popularity": 16, "odds": 134.2},
+        {"horse_no": 15, "horse_name": "マテンロウスカイ",   "jockey": "横山典弘",   "sire": "モーリス",         "blood_cat": "スタミナ系", "age": 5, "weight": 58.0, "popularity": 15, "odds": 108.8},
+        {"horse_no": 16, "horse_name": "シックスペンス",     "jockey": "戸崎圭太",   "sire": "キズナ",           "blood_cat": "スタミナ系", "age": 4, "weight": 58.0, "popularity": 4,  "odds": 6.4},
+        {"horse_no": 17, "horse_name": "エルトンバローズ",   "jockey": "西村淳也",   "sire": "ディープブリランテ","blood_cat": "スタミナ系", "age": 6, "weight": 58.0, "popularity": 6,  "odds": 12.1},
+        {"horse_no": 18, "horse_name": "ランスオブカオス",   "jockey": "吉村誠之助", "sire": "シルバーステート", "blood_cat": "スタミナ系", "age": 4, "weight": 58.0, "popularity": 7,  "odds": 15.4}
+      ]
+    }
+  ],
+  "condition_check": {
+    "flora_s": {
+      "condition_a": "中京ダ1401〜1800m×マイラー系 → 東京芝2000mは対象外",
+      "condition_b": "福島ダ1700m×スタミナ系 → 東京は対象外",
+      "condition_c": "新潟芝2000m×スタミナ系 → 東京は対象外",
+      "condition_d": "中京芝1200/1400m×速力系 → 東京は対象外",
+      "note": "条件A〜D 全て非該当。重賞エッジルール適用のみ。"
+    },
+    "milers_c": {
+      "condition_a": "中京ダ1401〜1800m×マイラー系 → 京都は対象外",
+      "condition_b": "福島ダ1700m×スタミナ系 → 京都は対象外",
+      "condition_c": "新潟芝2000m×スタミナ系 → 京都は対象外",
+      "condition_d": "中京芝1200/1400m×速力系 → 京都は対象外",
+      "note": "条件A〜D 全て非該当。重賞エッジルール適用のみ。"
+    }
+  },
+  "generated_at": "2026-04-25T22:00:00",
+  "source": "docomo-sports / course_master.db",
+  "odds_timestamp": "2026-04-25T17:50:00"
+}

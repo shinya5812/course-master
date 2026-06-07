@@ -1,0 +1,28 @@
+{
+  "date": "2026-04-25",
+  "venues": [
+    {
+      "name": "東京",
+      "turf": "良",
+      "dirt": "稍重",
+      "cushion_value": 9.3,
+      "weather": "曇"
+    },
+    {
+      "name": "京都",
+      "turf": "良",
+      "dirt": "稍重",
+      "cushion_value": 10.2,
+      "weather": "晴"
+    },
+    {
+      "name": "福島",
+      "turf": "良",
+      "dirt": "良",
+      "cushion_value": 9.8,
+      "weather": "晴"
+    }
+  ],
+  "source": "jra_official",
+  "retrieved_at": "2026-04-25T09:16:00"
+}

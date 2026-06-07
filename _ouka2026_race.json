@@ -1,0 +1,172 @@
+{
+  "race_name": "桜花賞 GⅠ",
+  "venue": "阪神",
+  "surface": "芝",
+  "distance": 1600,
+  "track_cond": "良",
+  "date": "2026-04-12",
+  "horses": [
+    {
+      "horse_no": 1,
+      "horse_name": "フェスティバルヒル",
+      "sire": "サートゥルナーリア",
+      "jockey": "坂井",
+      "weight": 448,
+      "popularity": 7,
+      "odds": 19.1
+    },
+    {
+      "horse_no": 2,
+      "horse_name": "サンアントワーヌ",
+      "sire": "ドレフォン",
+      "jockey": "荻野極",
+      "weight": 462,
+      "popularity": 13,
+      "odds": 78.7
+    },
+    {
+      "horse_no": 3,
+      "horse_name": "ディアダイヤモンド",
+      "sire": "サートゥルナーリア",
+      "jockey": "戸崎圭",
+      "weight": 462,
+      "popularity": 6,
+      "odds": 18.2
+    },
+    {
+      "horse_no": 4,
+      "horse_name": "エレガンスアスク",
+      "sire": "ポエティックフレア",
+      "jockey": "岩田望",
+      "weight": 424,
+      "popularity": 15,
+      "odds": 140.3
+    },
+    {
+      "horse_no": 5,
+      "horse_name": "ギャラボーグ",
+      "sire": "ロードカナロア",
+      "jockey": "西村淳",
+      "weight": 490,
+      "popularity": 5,
+      "odds": 16.3
+    },
+    {
+      "horse_no": 6,
+      "horse_name": "アイニードユー",
+      "sire": "ファインニードル",
+      "jockey": "川田",
+      "weight": 458,
+      "popularity": 12,
+      "odds": 69.7
+    },
+    {
+      "horse_no": 7,
+      "horse_name": "アランカール",
+      "sire": "エピファネイア",
+      "jockey": "武豊",
+      "weight": 430,
+      "popularity": 3,
+      "odds": 6.9
+    },
+    {
+      "horse_no": 8,
+      "horse_name": "ロンギングセリーヌ",
+      "sire": "モーリス",
+      "jockey": "石橋脩",
+      "weight": 490,
+      "popularity": 16,
+      "odds": 148.4
+    },
+    {
+      "horse_no": 9,
+      "horse_name": "ルールザウェイヴ",
+      "sire": "ロードカナロア",
+      "jockey": "原",
+      "weight": 422,
+      "popularity": 14,
+      "odds": 130.8
+    },
+    {
+      "horse_no": 10,
+      "horse_name": "ナムラコスモス",
+      "sire": "ダノンプレミアム",
+      "jockey": "田口",
+      "weight": 490,
+      "popularity": 8,
+      "odds": 22.5
+    },
+    {
+      "horse_no": 11,
+      "horse_name": "ジッピーチューン",
+      "sire": "ロードカナロア",
+      "jockey": "北村友",
+      "weight": 422,
+      "popularity": 11,
+      "odds": 66.5
+    },
+    {
+      "horse_no": 12,
+      "horse_name": "スウィートハピネス",
+      "sire": "リアルインパクト",
+      "jockey": "高杉",
+      "weight": 440,
+      "popularity": 9,
+      "odds": 23.7
+    },
+    {
+      "horse_no": 13,
+      "horse_name": "リリージョワ",
+      "sire": "シルバーステート",
+      "jockey": "浜中",
+      "weight": 456,
+      "popularity": 4,
+      "odds": 8.5
+    },
+    {
+      "horse_no": 14,
+      "horse_name": "ドリームコア",
+      "sire": "キズナ",
+      "jockey": "ルメール",
+      "weight": 502,
+      "popularity": 1,
+      "odds": 3.0
+    },
+    {
+      "horse_no": 15,
+      "horse_name": "スターアニス",
+      "sire": "ドレフォン",
+      "jockey": "松山",
+      "weight": 480,
+      "popularity": 2,
+      "odds": 3.3
+    },
+    {
+      "horse_no": 16,
+      "horse_name": "ショウナンカリス",
+      "sire": "リアルスティール",
+      "jockey": "池添",
+      "weight": 420,
+      "popularity": 17,
+      "odds": 202.6
+    },
+    {
+      "horse_no": 17,
+      "horse_name": "ブラックチャリス",
+      "sire": "キタサンブラック",
+      "jockey": "津村",
+      "weight": 458,
+      "popularity": 10,
+      "odds": 31.7
+    },
+    {
+      "horse_no": 18,
+      "horse_name": "プレセピオ",
+      "sire": "パドトロワ",
+      "jockey": "富田",
+      "weight": 470,
+      "popularity": 18,
+      "odds": 292.1
+    }
+  ]
+}

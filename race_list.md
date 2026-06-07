@@ -1,0 +1,341 @@
+- generic [ref=e2]:
+  - paragraph [ref=e3]:
+    - link "本文へ移動する" [ref=e4] [cursor=pointer]:
+      - /url: "#skip-target"
+      - generic [ref=e5]: 
+      - text: 本文へ移動する
+  - generic [ref=e7]:
+    - generic [ref=e9]:
+      - link "ニュース" [ref=e11] [cursor=pointer]:
+        - /url: /news/
+      - link "企業情報" [ref=e13] [cursor=pointer]:
+        - /url: /company/
+      - link "レース情報" [ref=e15] [cursor=pointer]:
+        - /url: /
+    - generic [ref=e17]:
+      - heading "JRA 日本中央競馬会" [level=1] [ref=e18]:
+        - link "JRA 日本中央競馬会" [ref=e19] [cursor=pointer]:
+          - /url: /
+          - img "JRA 日本中央競馬会" [ref=e20]
+      - generic [ref=e22]:
+        - link "ネット馬券 ログイン" [ref=e24] [cursor=pointer]:
+          - /url: https://www.ipat.jra.go.jp/
+          - text: ネット馬券
+          - text: ログイン
+        - link "ビギナーズ" [ref=e26] [cursor=pointer]:
+          - /url: /kouza/beginner/
+        - button "検索ウィンドウを開く" [ref=e28] [cursor=pointer]: 検索
+    - generic [ref=e30]:
+      - text:   
+      - list [ref=e31]:
+        - listitem [ref=e32]:
+          - generic [ref=e33]:
+            - link "競馬メニュー " [ref=e34] [cursor=pointer]:
+              - /url: /keiba/
+              - text: 競馬メニュー
+              - generic [ref=e35]: 
+            - text: 
+        - listitem [ref=e36]:
+          - generic [ref=e37]:
+            - link "馬券・JRA-UMACA " [ref=e38] [cursor=pointer]:
+              - /url: /kouza/
+              - text: 馬券・JRA-UMACA
+              - generic [ref=e39]: 
+            - text: 
+        - listitem [ref=e40]:
+          - generic [ref=e41]:
+            - link "ネット馬券購入 " [ref=e42] [cursor=pointer]:
+              - /url: /dento.html
+              - text: ネット馬券購入
+              - generic [ref=e43]: 
+            - text: 
+        - listitem [ref=e44]:
+          - generic [ref=e45]:
+            - link "イベント・プロモーション " [ref=e46] [cursor=pointer]:
+              - /url: /event/
+              - text: イベント・プロモーション
+              - generic [ref=e47]: 
+            - text: 
+        - listitem [ref=e48]:
+          - generic [ref=e49]:
+            - link "競馬場・ウインズ・その他施設 " [ref=e50] [cursor=pointer]:
+              - /url: /facilities/
+              - text: 競馬場・ウインズ・その他施設
+              - generic [ref=e51]: 
+            - text: 
+        - listitem [ref=e52]:
+          - generic [ref=e53]:
+            - link "指定席・入場券ネット予約 " [ref=e54] [cursor=pointer]:
+              - /url: /ticket/
+              - text: 指定席・入場券ネット予約
+              - generic [ref=e55]: 
+            - text: 
+      - text:         
+  - text:       
+  - generic [ref=e56]:
+    - list [ref=e59]:
+      - listitem [ref=e60]:
+        - link "ホーム" [ref=e61] [cursor=pointer]:
+          - /url: /
+        - text: ">"
+      - listitem [ref=e62]:
+        - link "競馬メニュー" [ref=e63] [cursor=pointer]:
+          - /url: /keiba/
+        - text: ">"
+      - listitem [ref=e64]:
+        - strong [ref=e65]: 出馬表 開催選択
+    - heading "出馬表 開催選択" [level=1] [ref=e68]:
+      - generic [ref=e71]: 出馬表 開催選択
+    - generic [ref=e73]:
+      - text:  
+      - list [ref=e74]:
+        - listitem [ref=e75]:
+          - link "開催お知らせ" [ref=e76] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e77]: 
+            - text: 開催お知らせ
+        - listitem [ref=e78]:
+          - link "出馬表" [ref=e79] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e80]: 
+            - text: 出馬表
+        - listitem [ref=e81]:
+          - link "オッズ" [ref=e82] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e83]: 
+            - text: オッズ
+        - listitem [ref=e84]:
+          - link "払戻金" [ref=e85] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e86]: 
+            - text: 払戻金
+        - listitem [ref=e87]:
+          - link "レース結果" [ref=e88] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e89]: 
+            - text: レース結果
+        - listitem [ref=e90]:
+          - link "特別レース登録馬" [ref=e91] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e92]: 
+            - text: 特別レース登録馬
+        - listitem [ref=e93]:
+          - link "開催日程" [ref=e94] [cursor=pointer]:
+            - /url: /keiba/calendar/
+            - generic [ref=e95]: 
+            - text: 開催日程
+        - listitem [ref=e96]:
+          - link "馬場情報" [ref=e97] [cursor=pointer]:
+            - /url: /keiba/baba/
+            - generic [ref=e98]: 
+            - text: 馬場情報
+        - listitem [ref=e99]:
+          - link "今週の注目レース" [ref=e100] [cursor=pointer]:
+            - /url: /keiba/thisweek/
+            - generic [ref=e101]: 
+            - text: 今週の注目レース
+    - generic [ref=e102]:
+      - generic: ここから本文です
+      - generic [ref=e103]:
+        - heading "今週の出馬表" [level=2] [ref=e105]
+        - paragraph [ref=e106]: ご覧になりたい開催のボタンをクリックしてください。
+        - generic [ref=e107]:
+          - heading "4月4日（土曜）" [level=3] [ref=e108]
+          - generic [ref=e110]:
+            - link "3回中山3日 馬番確定" [ref=e112] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e113]: 
+              - text: 3回中山3日
+              - generic [ref=e114]: 馬番確定
+            - link "2回阪神3日 馬番確定" [ref=e116] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e117]: 
+              - text: 2回阪神3日
+              - generic [ref=e118]: 馬番確定
+        - generic [ref=e120]:
+          - heading "4月5日（日曜）" [level=3] [ref=e121]
+          - generic [ref=e122]:
+            - generic [ref=e123]:
+              - link "3回中山4日" [ref=e125] [cursor=pointer]:
+                - /url: "#"
+                - generic [ref=e126]: 
+                - text: 3回中山4日
+              - link "2回阪神4日" [ref=e128] [cursor=pointer]:
+                - /url: "#"
+                - generic [ref=e129]: 
+                - text: 2回阪神4日
+            - link "ウインファイヴ" [ref=e133] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e134]: 
+              - img "ウインファイヴ" [ref=e135]
+      - generic [ref=e136]:
+        - heading "今週の出走馬一覧（50音順）" [level=2] [ref=e138]
+        - list [ref=e139]:
+          - listitem [ref=e140]:
+            - link "4月4日（土曜）・4月5日（日曜）" [ref=e141] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e142]: 
+              - text: 4月4日（土曜）・4月5日（日曜）
+      - generic [ref=e143]:
+        - heading "今週の重賞レース" [level=2] [ref=e145]
+        - paragraph [ref=e146]: ご覧になりたいレースのボタンをクリックしてください。
+        - generic [ref=e147]:
+          - heading "4月4日（土曜）" [level=3] [ref=e148]
+          - list [ref=e150]:
+            - listitem [ref=e151]:
+              - generic [ref=e152]:
+                - link "中山11R ダービー卿チャレンジトロフィー GⅢ 馬番確定" [ref=e154] [cursor=pointer]:
+                  - /url: /JRADB/accessD.html?CNAME=pw01dde0106202603031120260404/25
+                  - generic [ref=e155]:
+                    - generic [ref=e157]: 
+                    - generic [ref=e158]:
+                      - generic [ref=e160]: 中山11R
+                      - text: ダービー卿チャレンジトロフィー
+                      - img "GⅢ" [ref=e162]
+                  - generic [ref=e163]: 馬番確定
+                - link "オッズ" [ref=e165] [cursor=pointer]:
+                  - /url: "#"
+                  - generic [ref=e166]:
+                    - generic [ref=e168]: 
+                    - text: オッズ
+            - listitem [ref=e169]:
+              - generic [ref=e170]:
+                - link "阪神11R チャーチルダウンズカップ GⅢ 馬番確定" [ref=e172] [cursor=pointer]:
+                  - /url: /JRADB/accessD.html?CNAME=pw01dde0109202602031120260404/D2
+                  - generic [ref=e173]:
+                    - generic [ref=e175]: 
+                    - generic [ref=e176]:
+                      - generic [ref=e178]: 阪神11R
+                      - text: チャーチルダウンズカップ
+                      - img "GⅢ" [ref=e180]
+                  - generic [ref=e181]: 馬番確定
+                - link "オッズ" [ref=e183] [cursor=pointer]:
+                  - /url: "#"
+                  - generic [ref=e184]:
+                    - generic [ref=e186]: 
+                    - text: オッズ
+        - generic [ref=e187]:
+          - heading "4月5日（日曜）" [level=3] [ref=e188]
+          - list [ref=e190]:
+            - listitem [ref=e191]:
+              - generic [ref=e192]:
+                - link "阪神11R 大阪杯 GⅠ 馬番確定" [ref=e194] [cursor=pointer]:
+                  - /url: /JRADB/accessD.html?CNAME=pw01dde0109202602041120260405/02
+                  - generic [ref=e195]:
+                    - generic [ref=e197]: 
+                    - generic [ref=e198]:
+                      - generic [ref=e200]: 阪神11R
+                      - text: 大阪杯
+                      - img "GⅠ" [ref=e202]
+                  - generic [ref=e203]: 馬番確定
+                - link "オッズ" [ref=e205] [cursor=pointer]:
+                  - /url: "#"
+                  - generic [ref=e206]:
+                    - generic [ref=e208]: 
+                    - text: オッズ
+      - generic [ref=e209]:
+        - heading "出馬表掲載スケジュール" [level=2] [ref=e212]
+        - list [ref=e213]:
+          - listitem [ref=e214]:
+            - generic [ref=e215]: 木曜日 16時00分頃
+            - generic [ref=e216]: 土曜日および日曜日開催の「馬番号を付さない」出馬表
+          - listitem [ref=e217]:
+            - generic [ref=e218]: 金曜日 10時00分頃
+            - generic [ref=e219]: 土曜日開催の「馬番号を付した」出馬表
+          - listitem [ref=e220]:
+            - generic [ref=e221]: 土曜日 10時00分頃
+            - generic [ref=e222]: 日曜日開催の「馬番号を付した」出馬表
+        - list [ref=e224]:
+          - listitem [ref=e225]:
+            - generic [ref=e226]: ・
+            - generic [ref=e227]: 月曜日開催（代替・続行競馬を除く）は日曜日の10時頃に「馬番号を付した」出馬表を掲載します。
+          - listitem [ref=e228]:
+            - generic [ref=e229]: ・
+            - generic [ref=e230]: 開催日程により、スケジュールが異なる場合があります。
+          - listitem [ref=e231]:
+            - generic [ref=e232]: ・
+            - generic [ref=e233]:
+              - text: GIレースや一部の重賞レース、前日発売を行うレースなどは、発表時刻などが異なります。詳しくは
+              - link "FAQページの「出馬表の発表日時の詳細」" [ref=e234] [cursor=pointer]:
+                - /url: /faq/pop02/2_2.html
+              - text: でご確認ください。
+      - link "ページトップへ戻る" [ref=e236] [cursor=pointer]:
+        - /url: "#"
+        - generic [ref=e237]: 
+        - text: ページトップへ戻る
+  - generic [ref=e238]:
+    - generic [ref=e239]:
+      - img [ref=e240]
+      - link "ページトップへ戻る " [ref=e243] [cursor=pointer]:
+        - /url: "#"
+        - generic [ref=e244]: ページトップへ戻る
+        - generic [ref=e245]: 
+      - generic [ref=e246]:
+        - heading "JRAからのお知らせ" [level=2] [ref=e247]
+        - generic [ref=e248]:
+          - link "JRAのギャンブル等依存症対策" [ref=e250] [cursor=pointer]:
+            - /url: /company/social/disorder/
+            - generic [ref=e251]:
+              - generic [ref=e253]: 
+              - text: JRAのギャンブル等依存症対策
+          - link "お出かけ前にJRAホームページでご確認を！" [ref=e255] [cursor=pointer]:
+            - /url: /news/other/odekake.html
+            - generic [ref=e256]:
+              - generic [ref=e258]: 
+              - text: お出かけ前にJRAホームページでご確認を！
+          - link "馬券は20歳になってから" [ref=e260] [cursor=pointer]:
+            - /url: /kouza/baken/index.html#cat_info
+            - generic [ref=e261]:
+              - generic [ref=e263]: 
+              - text: 馬券は20歳になってから
+          - link "悪徳業者・違法インターネット賭事業者等にご注意ください！" [ref=e265] [cursor=pointer]:
+            - /url: /facilities/informations/index.html#note6
+            - generic [ref=e266]:
+              - generic [ref=e268]: 
+              - text: 悪徳業者・違法インターネット賭事業者等にご注意ください！
+          - link "競馬場へ移動中の騎手に関するお願い" [ref=e270] [cursor=pointer]:
+            - /url: /news/other/2024052402.html
+            - generic [ref=e271]:
+              - generic [ref=e273]: 
+              - text: 競馬場へ移動中の騎手に関するお願い
+          - link "払戻金の支払を受けた方へ" [ref=e275] [cursor=pointer]:
+            - /url: /company/social/taxation/
+            - generic [ref=e276]:
+              - generic [ref=e278]: 
+              - text: 払戻金の支払を受けた方へ
+    - generic [ref=e280]:
+      - generic [ref=e281]:
+        - list [ref=e282]:
+          - listitem [ref=e283]:
+            - link "FAQ/お問い合わせ" [ref=e284] [cursor=pointer]:
+              - /url: /faq/
+          - listitem [ref=e285]:
+            - link "サイトマップ" [ref=e286] [cursor=pointer]:
+              - /url: /sitemap/
+          - listitem [ref=e287]:
+            - link "リンク" [ref=e288] [cursor=pointer]:
+              - /url: /link/
+          - listitem [ref=e289]:
+            - link "ご利用に際して" [ref=e290] [cursor=pointer]:
+              - /url: /use/
+          - listitem [ref=e291]:
+            - link "ウェブアクセシビリティについて" [ref=e292] [cursor=pointer]:
+              - /url: /accessibility/
+        - list [ref=e293]:
+          - listitem [ref=e294]:
+            - link "レース情報" [ref=e295] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e296]:
+            - link "ニュース" [ref=e297] [cursor=pointer]:
+              - /url: /news/
+          - listitem [ref=e298]:
+            - link "企業情報" [ref=e299] [cursor=pointer]:
+              - /url: /company/
+          - listitem [ref=e300]:
+            - link "Horse Racing in Japan" [ref=e301] [cursor=pointer]:
+              - /url: https://japanracing.jp/en/
+              - text: Horse Racing in Japan
+              - generic [ref=e302]: 
+      - generic [ref=e303]:
+        - img "日本中央競馬会" [ref=e304]
+        - paragraph [ref=e305]: Copyright © Japan Racing Association All rights reserved.

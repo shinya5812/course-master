@@ -1,0 +1,769 @@
+- generic [ref=e2]:
+  - paragraph [ref=e3]:
+    - link "本文へ移動する" [ref=e4] [cursor=pointer]:
+      - /url: "#skip-target"
+      - generic [ref=e5]: 
+      - text: 本文へ移動する
+  - generic [ref=e7]:
+    - generic [ref=e9]:
+      - link "ニュース" [ref=e11] [cursor=pointer]:
+        - /url: /news/
+      - link "企業情報" [ref=e13] [cursor=pointer]:
+        - /url: /company/
+      - link "社会貢献活動" [ref=e15] [cursor=pointer]:
+        - /url: /company/social/
+      - link "レース情報" [ref=e17] [cursor=pointer]:
+        - /url: /
+    - generic [ref=e19]:
+      - heading "JRA 日本中央競馬会" [level=1] [ref=e20]:
+        - link "JRA 日本中央競馬会" [ref=e21] [cursor=pointer]:
+          - /url: /
+          - img "JRA 日本中央競馬会" [ref=e22]
+      - generic [ref=e23]:
+        - generic [ref=e24]:
+          - link "ネット馬券 ログイン" [ref=e26] [cursor=pointer]:
+            - /url: https://www.ipat.jra.go.jp/
+            - text: ネット馬券
+            - text: ログイン
+          - link "ビギナーズ" [ref=e28] [cursor=pointer]:
+            - /url: /kouza/beginner/
+          - button "検索ウィンドウを開く" [ref=e30] [cursor=pointer]: 検索
+        - link "メニュー" [ref=e33] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e40]: メニュー
+    - text:                        
+  - text:       
+  - generic [ref=e41]:
+    - list [ref=e44]:
+      - listitem [ref=e45]:
+        - link "ホーム" [ref=e46] [cursor=pointer]:
+          - /url: /
+        - text: ">"
+      - listitem [ref=e47]:
+        - link "競馬メニュー" [ref=e48] [cursor=pointer]:
+          - /url: /keiba/
+        - text: ">"
+      - listitem [ref=e49]:
+        - link "馬場情報（福島競馬場）" [ref=e50] [cursor=pointer]:
+          - /url: /keiba/baba/index3.html
+    - generic: ここから本文です
+    - heading "馬場情報" [level=1] [ref=e53]:
+      - generic [ref=e56]: 馬場情報
+    - generic [ref=e58]:
+      - text:  
+      - list [ref=e59]:
+        - listitem [ref=e60]:
+          - link "開催お知らせ" [ref=e61] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e62]: 
+            - text: 開催お知らせ
+        - listitem [ref=e63]:
+          - link "出馬表" [ref=e64] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e65]: 
+            - text: 出馬表
+        - listitem [ref=e66]:
+          - link "オッズ" [ref=e67] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e68]: 
+            - text: オッズ
+        - listitem [ref=e69]:
+          - link "払戻金" [ref=e70] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e71]: 
+            - text: 払戻金
+        - listitem [ref=e72]:
+          - link "レース結果" [ref=e73] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e74]: 
+            - text: レース結果
+        - listitem [ref=e75]:
+          - link "特別レース登録馬" [ref=e76] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e77]: 
+            - text: 特別レース登録馬
+        - listitem [ref=e78]:
+          - link "開催日程" [ref=e79] [cursor=pointer]:
+            - /url: /keiba/calendar/
+            - generic [ref=e80]: 
+            - text: 開催日程
+        - listitem [ref=e81]:
+          - link "馬場情報" [ref=e82] [cursor=pointer]:
+            - /url: /keiba/baba/
+            - generic [ref=e83]: 
+            - text: 馬場情報
+        - listitem [ref=e84]:
+          - link "今週の注目レース" [ref=e85] [cursor=pointer]:
+            - /url: /keiba/thisweek/
+            - generic [ref=e86]: 
+            - text: 今週の注目レース
+    - generic [ref=e87]:
+      - generic [ref=e89]:
+        - link "東京競馬場" [ref=e91] [cursor=pointer]:
+          - /url: index.html
+        - link "京都競馬場" [ref=e93] [cursor=pointer]:
+          - /url: index2.html
+        - link "福島競馬場" [ref=e95] [cursor=pointer]:
+          - /url: index3.html
+      - generic [ref=e96]:
+        - generic [ref=e97]:
+          - heading "第1回福島競馬第5日（2026年4月25日（土曜））" [level=2] [ref=e101]
+          - generic [ref=e102]:
+            - generic [ref=e104]:
+              - heading "馬場状態（2026年4月25日） 更新" [level=3] [ref=e106]:
+                - text: 馬場状態（2026年4月25日）
+                - link "更新" [ref=e108] [cursor=pointer]:
+                  - /url: "#"
+                  - generic [ref=e109]: 
+                  - text: 更新
+              - link "馬場状態に関する基礎知識" [ref=e111] [cursor=pointer]:
+                - /url: /keiba/baba/condition/
+                - generic [ref=e112]: 
+                - text: 馬場状態に関する基礎知識
+            - generic [ref=e113]:
+              - generic [ref=e118]:
+                - text: 天候：
+                - strong [ref=e119]: 晴
+              - list [ref=e121]:
+                - listitem [ref=e122]:
+                  - generic [ref=e123]:
+                    - heading "芝" [level=4] [ref=e125]
+                    - paragraph [ref=e127]: 良
+              - list [ref=e129]:
+                - listitem [ref=e130]:
+                  - generic [ref=e131]:
+                    - heading "ダート" [level=4] [ref=e133]
+                    - paragraph [ref=e135]: 良
+            - text: 
+          - generic [ref=e136]:
+            - generic [ref=e138]:
+              - heading "芝のクッション値" [level=3] [ref=e140]
+              - link "クッション値の基礎知識" [ref=e142] [cursor=pointer]:
+                - /url: /keiba/baba/cushion/
+                - generic [ref=e143]: 
+                - text: クッション値の基礎知識
+            - list [ref=e146]:
+              - listitem [ref=e147]:
+                - generic [ref=e148]:
+                  - heading "測定時刻" [level=4] [ref=e150]
+                  - generic [ref=e151]:
+                    - combobox "測定時刻" [ref=e153]:
+                      - option "4月25日（土曜）7時00分" [selected]
+                      - option "4月24日（金曜）9時00分"
+                      - option "4月19日（日曜）7時00分"
+                      - option "4月18日（土曜）7時00分"
+                      - option "4月17日（金曜）9時00分"
+                      - option "4月12日（日曜）7時00分"
+                      - option "4月11日（土曜）7時00分"
+                      - option "4月10日（金曜）9時00分"
+                    - link "変更" [ref=e154] [cursor=pointer]:
+                      - /url: "#"
+            - generic [ref=e155]:
+              - list [ref=e157]:
+                - listitem [ref=e158]:
+                  - generic [ref=e159]:
+                    - heading "クッション値" [level=4] [ref=e161]
+                    - paragraph [ref=e163]:
+                      - strong [ref=e164]: "9.8"
+              - generic [ref=e166]:
+                - generic [ref=e167]:
+                  - list [ref=e169]:
+                    - listitem [ref=e170]: "12"
+                    - listitem [ref=e171]: "10"
+                    - listitem [ref=e172]: "8"
+                    - listitem [ref=e173]: "7"
+                  - generic "クッション値" [ref=e174]: "9.8"
+                - generic [ref=e175]:
+                  - generic [ref=e176]: 硬め
+                  - generic [ref=e177]: やや硬め
+                  - generic [ref=e178]: 標準
+                  - generic [ref=e179]: やや軟らか
+                  - generic [ref=e180]: 軟らか
+            - table "クッション値とクッション性との関係性（参考）" [ref=e182]:
+              - caption [ref=e183]:
+                - generic [ref=e185]: クッション値とクッション性との関係性（参考）
+              - rowgroup [ref=e186]:
+                - row "芝馬場のクッション値 馬場表層のクッション性" [ref=e187]:
+                  - columnheader "芝馬場のクッション値" [ref=e188]
+                  - columnheader "馬場表層のクッション性" [ref=e189]
+              - rowgroup [ref=e190]:
+                - row "12以上 硬め" [ref=e191]:
+                  - cell "12以上" [ref=e192]:
+                    - strong [ref=e193]: 12以上
+                  - cell "硬め" [ref=e194]
+                - row "10から12 やや硬め" [ref=e195]:
+                  - cell "10から12" [ref=e196]:
+                    - strong [ref=e197]: 10から12
+                  - cell "やや硬め" [ref=e198]
+                - row "8から10 標準" [ref=e199]:
+                  - cell "8から10" [ref=e200]:
+                    - strong [ref=e201]: 8から10
+                  - cell "標準" [ref=e202]
+                - row "7から8 やや軟らかめ" [ref=e203]:
+                  - cell "7から8" [ref=e204]:
+                    - strong [ref=e205]: 7から8
+                  - cell "やや軟らかめ" [ref=e206]
+                - row "7以下 軟らかめ" [ref=e207]:
+                  - cell "7以下" [ref=e208]:
+                    - strong [ref=e209]: 7以下
+                  - cell "軟らかめ" [ref=e210]
+            - text: 
+          - generic [ref=e211]:
+            - generic [ref=e213]:
+              - heading "含水率" [level=3] [ref=e215]
+              - link "含水率に関する基礎知識" [ref=e217] [cursor=pointer]:
+                - /url: /keiba/baba/moist/
+                - generic [ref=e218]: 
+                - text: 含水率に関する基礎知識
+            - list [ref=e221]:
+              - listitem [ref=e222]:
+                - generic [ref=e223]:
+                  - heading "測定時刻" [level=4] [ref=e225]
+                  - generic [ref=e226]:
+                    - combobox "測定時刻" [ref=e228]:
+                      - option "4月25日（土曜）6時00分" [selected]
+                      - option "4月24日（金曜）9時00分"
+                      - option "4月19日（日曜）6時00分"
+                      - option "4月18日（土曜）6時00分"
+                      - option "4月17日（金曜）9時00分"
+                      - option "4月12日（日曜）5時00分"
+                      - option "4月11日（土曜）5時00分"
+                      - option "4月10日（金曜）9時00分"
+                    - link "変更" [ref=e229] [cursor=pointer]:
+                      - /url: "#"
+            - table "ゴール前と4コーナーの含水率" [ref=e230]:
+              - caption [ref=e231]: ゴール前と4コーナーの含水率
+              - rowgroup [ref=e232]:
+                - row "ゴール前 4コーナー" [ref=e233]:
+                  - columnheader [ref=e234]
+                  - columnheader "ゴール前" [ref=e235]
+                  - columnheader "4コーナー" [ref=e236]
+              - rowgroup [ref=e237]:
+                - row "芝 9.8% 7.0%" [ref=e238]:
+                  - rowheader "芝" [ref=e239]
+                  - cell "9.8%" [ref=e240]
+                  - cell "7.0%" [ref=e241]
+                - row "ダート 2.1% 2.9%" [ref=e242]:
+                  - rowheader "ダート" [ref=e243]
+                  - cell "2.1%" [ref=e244]
+                  - cell "2.9%" [ref=e245]
+            - generic [ref=e246]:
+              - heading "含水率表" [level=4] [ref=e247]
+              - generic [ref=e248]:
+                - generic [ref=e249]:
+                  - table [ref=e253]:
+                    - caption [ref=e254]: 芝コース
+                    - rowgroup [ref=e255]:
+                      - row [ref=e256]:
+                        - columnheader [ref=e257]: 含水率
+                        - columnheader [ref=e258]: 馬場状態
+                      - row [ref=e259]:
+                        - columnheader [ref=e260]: 良
+                        - columnheader [ref=e261]: 稍重
+                        - columnheader [ref=e262]: 重
+                        - columnheader [ref=e263]: 不良
+                    - rowgroup [ref=e264]:
+                      - row [ref=e265]:
+                        - columnheader [ref=e266]: 乾燥
+                        - cell [ref=e267]
+                        - cell [ref=e268]
+                        - cell [ref=e269]
+                        - cell [ref=e270]
+                      - row [ref=e271]:
+                        - rowheader [ref=e272]
+                        - cell [ref=e273]:
+                          - generic [ref=e274]: G
+                        - cell [ref=e275]
+                        - cell [ref=e276]
+                        - cell [ref=e277]
+                      - row [ref=e278]:
+                        - columnheader [ref=e279]
+                        - cell [ref=e280]
+                        - cell [ref=e281]
+                        - cell [ref=e282]
+                        - cell [ref=e283]
+                      - row [ref=e284]:
+                        - columnheader [ref=e285]: 12%
+                        - cell [ref=e286]
+                        - cell [ref=e287]
+                        - cell [ref=e288]
+                        - cell [ref=e289]
+                      - row [ref=e290]:
+                        - cell [ref=e291]
+                        - cell [ref=e292]
+                        - cell [ref=e293]
+                        - cell [ref=e294]
+                      - row [ref=e295]:
+                        - columnheader [ref=e296]
+                        - cell [ref=e297]
+                        - cell [ref=e298]
+                        - cell [ref=e299]
+                        - cell [ref=e300]
+                      - row [ref=e301]:
+                        - columnheader [ref=e302]: 15%
+                        - cell [ref=e303]
+                        - cell [ref=e304]
+                        - cell [ref=e305]
+                        - cell [ref=e306]
+                      - row [ref=e307]:
+                        - cell [ref=e308]
+                        - cell [ref=e309]
+                        - cell [ref=e310]
+                        - cell [ref=e311]
+                      - row [ref=e312]:
+                        - columnheader [ref=e313]
+                        - cell [ref=e314]
+                        - cell [ref=e315]
+                        - cell [ref=e316]
+                        - cell [ref=e317]
+                      - row [ref=e318]:
+                        - columnheader [ref=e319]: 18%
+                        - cell [ref=e320]
+                        - cell [ref=e321]
+                        - cell [ref=e322]
+                        - cell [ref=e323]
+                      - row [ref=e324]:
+                        - cell [ref=e325]
+                        - cell [ref=e326]
+                        - cell [ref=e327]
+                        - cell [ref=e328]
+                      - row [ref=e329]:
+                        - columnheader [ref=e330]
+                        - cell [ref=e331]
+                        - cell [ref=e332]
+                        - cell [ref=e333]
+                        - cell [ref=e334]
+                      - row [ref=e335]:
+                        - columnheader [ref=e336]: 湿潤
+                        - cell [ref=e337]
+                        - cell [ref=e338]
+                        - cell [ref=e339]
+                        - cell [ref=e340]
+                  - table [ref=e344]:
+                    - caption [ref=e345]: ダートコース
+                    - rowgroup [ref=e346]:
+                      - row [ref=e347]:
+                        - columnheader [ref=e348]: 含水率
+                        - columnheader [ref=e349]: 馬場状態
+                      - row [ref=e350]:
+                        - columnheader [ref=e351]: 良
+                        - columnheader [ref=e352]: 稍重
+                        - columnheader [ref=e353]: 重
+                        - columnheader [ref=e354]: 不良
+                    - rowgroup [ref=e355]:
+                      - row [ref=e356]:
+                        - columnheader [ref=e357]: 乾燥
+                        - cell [ref=e358]
+                        - cell [ref=e359]
+                        - cell [ref=e360]
+                        - cell [ref=e361]
+                      - row [ref=e362]:
+                        - cell [ref=e363]
+                        - cell [ref=e364]
+                        - cell [ref=e365]
+                        - cell [ref=e366]
+                      - row [ref=e367]:
+                        - rowheader [ref=e368]
+                        - cell [ref=e369]:
+                          - generic [ref=e370]: G
+                          - generic [ref=e371]: "4"
+                        - cell [ref=e372]
+                        - cell [ref=e373]
+                        - cell [ref=e374]
+                      - row [ref=e375]:
+                        - columnheader [ref=e376]
+                        - cell [ref=e377]
+                        - cell [ref=e378]
+                        - cell [ref=e379]
+                        - cell [ref=e380]
+                      - row [ref=e381]:
+                        - columnheader [ref=e382]: 5%
+                        - cell [ref=e383]
+                        - cell [ref=e384]
+                        - cell [ref=e385]
+                        - cell [ref=e386]
+                      - row [ref=e387]:
+                        - cell [ref=e388]
+                        - cell [ref=e389]
+                        - cell [ref=e390]
+                        - cell [ref=e391]
+                      - row [ref=e392]:
+                        - columnheader [ref=e393]
+                        - cell [ref=e394]
+                        - cell [ref=e395]
+                        - cell [ref=e396]
+                        - cell [ref=e397]
+                      - row [ref=e398]:
+                        - columnheader [ref=e399]
+                        - cell [ref=e400]
+                        - cell [ref=e401]
+                        - cell [ref=e402]
+                        - cell [ref=e403]
+                      - row [ref=e404]:
+                        - columnheader [ref=e405]
+                        - cell [ref=e406]
+                        - cell [ref=e407]
+                        - cell [ref=e408]
+                        - cell [ref=e409]
+                      - row [ref=e410]:
+                        - columnheader [ref=e411]: 10%
+                        - cell [ref=e412]
+                        - cell [ref=e413]
+                        - cell [ref=e414]
+                        - cell [ref=e415]
+                      - row [ref=e416]:
+                        - cell [ref=e417]
+                        - cell [ref=e418]
+                        - cell [ref=e419]
+                        - cell [ref=e420]
+                      - row [ref=e421]:
+                        - columnheader [ref=e422]
+                        - cell [ref=e423]
+                        - cell [ref=e424]
+                        - cell [ref=e425]
+                        - cell [ref=e426]
+                      - row [ref=e427]:
+                        - columnheader [ref=e428]
+                        - cell [ref=e429]
+                        - cell [ref=e430]
+                        - cell [ref=e431]
+                        - cell [ref=e432]
+                      - row [ref=e433]:
+                        - columnheader [ref=e434]
+                        - cell [ref=e435]
+                        - cell [ref=e436]
+                        - cell [ref=e437]
+                        - cell [ref=e438]
+                      - row [ref=e439]:
+                        - columnheader [ref=e440]: 15%
+                        - cell [ref=e441]
+                        - cell [ref=e442]
+                        - cell [ref=e443]
+                        - cell [ref=e444]
+                      - row [ref=e445]:
+                        - cell [ref=e446]
+                        - cell [ref=e447]
+                        - cell [ref=e448]
+                        - cell [ref=e449]
+                      - row [ref=e450]:
+                        - columnheader [ref=e451]
+                        - cell [ref=e452]
+                        - cell [ref=e453]
+                        - cell [ref=e454]
+                        - cell [ref=e455]
+                      - row [ref=e456]:
+                        - columnheader [ref=e457]
+                        - cell [ref=e458]
+                        - cell [ref=e459]
+                        - cell [ref=e460]
+                        - cell [ref=e461]
+                      - row [ref=e462]:
+                        - columnheader [ref=e463]
+                        - cell [ref=e464]
+                        - cell [ref=e465]
+                        - cell [ref=e466]
+                        - cell [ref=e467]
+                      - row [ref=e468]:
+                        - columnheader [ref=e469]: 湿潤
+                        - cell [ref=e470]
+                        - cell [ref=e471]
+                        - cell [ref=e472]
+                        - cell [ref=e473]
+                      - row [ref=e474]:
+                        - cell [ref=e475]
+                        - cell [ref=e476]
+                        - cell [ref=e477]
+                        - cell [ref=e478]
+                - list [ref=e479]:
+                  - listitem [ref=e480]: 注記：特になし
+            - text: 
+        - generic [ref=e481]:
+          - heading "週間情報" [level=2] [ref=e483]
+          - generic [ref=e484]:
+            - table "表はスクロールすることができます 4月17日（金曜）から4月26日（日曜） 4月25日（土曜） 8時現在" [ref=e485]:
+              - caption [ref=e486]:
+                - paragraph [ref=e488]:
+                  - strong [ref=e489]:
+                    - generic [ref=e490]: 
+                    - text: 表はスクロールすることができます
+                - generic [ref=e491]:
+                  - generic [ref=e492]: 4月17日（金曜）から4月26日（日曜）
+                  - generic [ref=e493]: 4月25日（土曜） 8時現在
+              - rowgroup [ref=e494]:
+                - row "17日 （金曜） 18日 （土曜） 19日 （日曜） 20日 （月曜） 21日 （火曜） 22日 （水曜） 23日 （木曜） 24日 （金曜） 25日 （土曜） 26日 （日曜）" [ref=e495]:
+                  - columnheader [ref=e496]
+                  - columnheader "17日 （金曜）" [ref=e497]:
+                    - text: 17日
+                    - generic [ref=e498]: （金曜）
+                  - columnheader "18日 （土曜）" [ref=e499]:
+                    - text: 18日
+                    - generic [ref=e500]: （土曜）
+                  - columnheader "19日 （日曜）" [ref=e501]:
+                    - text: 19日
+                    - generic [ref=e502]: （日曜）
+                  - columnheader "20日 （月曜）" [ref=e503]:
+                    - text: 20日
+                    - generic [ref=e504]: （月曜）
+                  - columnheader "21日 （火曜）" [ref=e505]:
+                    - text: 21日
+                    - generic [ref=e506]: （火曜）
+                  - columnheader "22日 （水曜）" [ref=e507]:
+                    - text: 22日
+                    - generic [ref=e508]: （水曜）
+                  - columnheader "23日 （木曜）" [ref=e509]:
+                    - text: 23日
+                    - generic [ref=e510]: （木曜）
+                  - columnheader "24日 （金曜）" [ref=e511]:
+                    - text: 24日
+                    - generic [ref=e512]: （金曜）
+                  - columnheader "25日 （土曜）" [ref=e513]:
+                    - text: 25日
+                    - generic [ref=e514]: （土曜）
+                  - columnheader "26日 （日曜）" [ref=e515]:
+                    - text: 26日
+                    - generic [ref=e516]: （日曜）
+              - rowgroup [ref=e517]:
+                - row "天候 晴 晴 晴 晴 晴 晴 晴 晴 晴一時雨 晴一時雨 晴後曇 晴後曇 曇 曇 晴 晴 晴 晴" [ref=e518]:
+                  - rowheader "天候" [ref=e519]
+                  - cell "晴 晴" [ref=e520]:
+                    - img "晴" [ref=e521]
+                    - generic [ref=e522]: 晴
+                  - cell "晴 晴" [ref=e523]:
+                    - img "晴" [ref=e524]
+                    - generic [ref=e525]: 晴
+                  - cell "晴 晴" [ref=e526]:
+                    - img "晴" [ref=e527]
+                    - generic [ref=e528]: 晴
+                  - cell "晴 晴" [ref=e529]:
+                    - img "晴" [ref=e530]
+                    - generic [ref=e531]: 晴
+                  - cell "晴一時雨 晴一時雨" [ref=e532]:
+                    - img "晴一時雨" [ref=e533]
+                    - generic [ref=e534]: 晴一時雨
+                  - cell "晴後曇 晴後曇" [ref=e535]:
+                    - img "晴後曇" [ref=e536]
+                    - generic [ref=e537]: 晴後曇
+                  - cell "曇 曇" [ref=e538]:
+                    - img "曇" [ref=e539]
+                    - generic [ref=e540]: 曇
+                  - cell "晴 晴" [ref=e541]:
+                    - img "晴" [ref=e542]
+                    - generic [ref=e543]: 晴
+                  - cell "晴 晴" [ref=e544]:
+                    - img "晴" [ref=e545]
+                    - generic [ref=e546]: 晴
+                  - cell [ref=e547]
+                - row "雨量 （ミリメートル） 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0" [ref=e548]:
+                  - rowheader "雨量 （ミリメートル）" [ref=e549]:
+                    - text: 雨量
+                    - generic [ref=e550]: （ミリメートル）
+                  - cell "0.0" [ref=e551]
+                  - cell "0.0" [ref=e552]
+                  - cell "0.0" [ref=e553]
+                  - cell "0.0" [ref=e554]
+                  - cell "0.0" [ref=e555]
+                  - cell "0.0" [ref=e556]
+                  - cell "0.0" [ref=e557]
+                  - cell "0.0" [ref=e558]
+                  - cell "0.0" [ref=e559]
+                  - cell [ref=e560]
+                - row "芝コースの散水 あり あり あり あり なし あり あり あり なし" [ref=e561]:
+                  - rowheader "芝コースの散水" [ref=e562]
+                  - cell "あり" [ref=e563]
+                  - cell "あり" [ref=e564]
+                  - cell "あり" [ref=e565]
+                  - cell "あり" [ref=e566]
+                  - cell "なし" [ref=e567]
+                  - cell "あり" [ref=e568]
+                  - cell "あり" [ref=e569]
+                  - cell "あり" [ref=e570]
+                  - cell "なし" [ref=e571]
+                  - cell [ref=e572]
+            - generic:
+              - generic:
+                - generic: スクロールできます
+          - generic [ref=e573]:
+            - list [ref=e575]:
+              - listitem [ref=e576]:
+                - generic [ref=e577]:
+                  - generic [ref=e579]:
+                    - generic [ref=e580]: 4月24日
+                    - generic [ref=e582]: 芝コース
+                  - paragraph [ref=e584]: 19日（日曜）から20日（月曜）、22日（水曜）から24日（金曜）芝の生育管理のため散水を実施しました。
+              - listitem [ref=e585]:
+                - generic [ref=e586]:
+                  - generic [ref=e588]:
+                    - generic [ref=e589]: 4月24日
+                    - generic [ref=e591]: 芝コース
+                  - paragraph [ref=e593]: 20日（月曜）芝刈りを実施しました。
+            - generic [ref=e594]:
+              - link "全て表示する" [ref=e598] [cursor=pointer]:
+                - /url: "#"
+                - generic [ref=e599]: 
+                - text: 全て表示する
+              - text: 
+        - generic [ref=e600]:
+          - heading "芝丈・使用コース・芝の様子" [level=2] [ref=e602]
+          - generic [ref=e603]:
+            - generic [ref=e604]:
+              - table "芝コースの芝丈 単位：センチメートル" [ref=e606]:
+                - caption [ref=e607]:
+                  - generic [ref=e608]:
+                    - generic [ref=e609]: 芝コースの芝丈
+                    - generic [ref=e610]: 単位：センチメートル
+                - rowgroup [ref=e611]:
+                  - row "野芝 洋芝" [ref=e612]:
+                    - columnheader [ref=e613]
+                    - columnheader "野芝" [ref=e614]
+                    - columnheader "洋芝" [ref=e615]
+                - rowgroup [ref=e616]:
+                  - row "芝 6から8 12から16" [ref=e617]:
+                    - rowheader "芝" [ref=e618]
+                    - cell "6から8" [ref=e619]
+                    - cell "12から16" [ref=e620]
+              - list [ref=e622]:
+                - listitem [ref=e623]:
+                  - generic [ref=e624]:
+                    - heading "使用コース" [level=3] [ref=e626]
+                    - paragraph [ref=e628]:
+                      - strong [ref=e629]: B
+                      - text: コース（Aコースから2メートル外に内柵を設置 注記：3コーナーから4コーナー2.5メートル）
+              - list [ref=e631]:
+                - listitem [ref=e632]:
+                  - generic [ref=e633]:
+                    - heading "芝の状態" [level=3] [ref=e635]
+                    - paragraph [ref=e637]: 今週からBコースを使用します。コース全周の内柵沿いに若干の傷みがあります。
+            - generic [ref=e638]:
+              - heading "芝コースの様子 撮影日：4月23日（木曜）" [level=3] [ref=e639]:
+                - generic [ref=e640]:
+                  - generic [ref=e641]: 芝コースの様子
+                  - generic [ref=e642]: 撮影日：4月23日（木曜）
+              - generic [ref=e644]:
+                - link "" [ref=e646] [cursor=pointer]:
+                  - /url: "#"
+                  - text: 
+                  - generic "停止" [ref=e648]: 
+                - generic [ref=e651]:
+                  - img [ref=e779]
+                  - img "4コーナー" [ref=e780]
+                  - img [ref=e663]
+                - generic [ref=e665]:
+                  - link "前の画像に戻る" [ref=e668] [cursor=pointer]:
+                    - /url: "#"
+                    - img "前の画像に戻る" [ref=e669]
+                    - generic [ref=e671]: 
+                  - generic [ref=e673]: 2/3
+                  - generic [ref=e674]: 4コーナー
+                  - link "次の画像に進む" [ref=e677] [cursor=pointer]:
+                    - /url: "#"
+                    - img "次の画像に進む" [ref=e678]
+                    - generic [ref=e680]: 
+      - link "第1回福島競馬 馬場概要" [ref=e683] [cursor=pointer]:
+        - /url: /keiba/baba/overview/2026_1_fukushima.html
+        - generic [ref=e684]: 
+        - text: 第1回福島競馬 馬場概要
+      - generic [ref=e686]:
+        - heading "馬場情報 関連コンテンツ" [level=3] [ref=e687]
+        - generic [ref=e689]:
+          - link "馬場状態に関する基礎知識" [ref=e691] [cursor=pointer]:
+            - /url: /keiba/baba/condition/
+            - generic [ref=e692]: 
+            - text: 馬場状態に関する基礎知識
+          - link "含水率に関する基礎知識" [ref=e694] [cursor=pointer]:
+            - /url: /keiba/baba/moist/
+            - generic [ref=e695]: 
+            - text: 含水率に関する基礎知識
+          - link "クッション値に関する基礎知識" [ref=e697] [cursor=pointer]:
+            - /url: /keiba/baba/cushion/
+            - generic [ref=e698]: 
+            - text: クッション値に関する基礎知識
+          - link "ダートコースのクッション砂について" [ref=e700] [cursor=pointer]:
+            - /url: /keiba/baba/dirt/
+            - generic [ref=e701]: 
+            - text: ダートコースのクッション砂について
+          - link "過去の含水率・クッション値" [ref=e703] [cursor=pointer]:
+            - /url: /keiba/baba/archive/
+            - generic [ref=e704]: 
+            - text: 過去の含水率・クッション値
+  - generic [ref=e705]:
+    - generic [ref=e706]:
+      - img [ref=e707]
+      - link "ページトップへ戻る " [ref=e710] [cursor=pointer]:
+        - /url: "#"
+        - generic [ref=e711]: ページトップへ戻る
+        - generic [ref=e712]: 
+      - generic [ref=e713]:
+        - heading "JRAからのお知らせ" [level=2] [ref=e714]
+        - generic [ref=e715]:
+          - link "JRAのギャンブル等依存症対策" [ref=e717] [cursor=pointer]:
+            - /url: /company/social/disorder/
+            - generic [ref=e718]:
+              - generic [ref=e720]: 
+              - text: JRAのギャンブル等依存症対策
+          - link "お出かけ前にJRAホームページでご確認を！" [ref=e722] [cursor=pointer]:
+            - /url: /news/other/odekake.html
+            - generic [ref=e723]:
+              - generic [ref=e725]: 
+              - text: お出かけ前にJRAホームページでご確認を！
+          - link "馬券は20歳になってから" [ref=e727] [cursor=pointer]:
+            - /url: /kouza/baken/index.html#cat_info
+            - generic [ref=e728]:
+              - generic [ref=e730]: 
+              - text: 馬券は20歳になってから
+          - link "悪徳業者・違法インターネット賭事業者等にご注意ください！" [ref=e732] [cursor=pointer]:
+            - /url: /facilities/informations/index.html#note6
+            - generic [ref=e733]:
+              - generic [ref=e735]: 
+              - text: 悪徳業者・違法インターネット賭事業者等にご注意ください！
+          - link "ファンからの悪質な誹謗中傷および脅迫行為等に対する厳正な対応" [ref=e737] [cursor=pointer]:
+            - /url: /news/other/harassment.html
+            - generic [ref=e738]:
+              - generic [ref=e740]: 
+              - text: ファンからの悪質な誹謗中傷および脅迫行為等に対する厳正な対応
+          - link "競馬場へ移動中の騎手に関するお願い" [ref=e742] [cursor=pointer]:
+            - /url: /news/other/2024052402.html
+            - generic [ref=e743]:
+              - generic [ref=e745]: 
+              - text: 競馬場へ移動中の騎手に関するお願い
+          - link "払戻金の支払を受けた方へ" [ref=e747] [cursor=pointer]:
+            - /url: /company/social/taxation/
+            - generic [ref=e748]:
+              - generic [ref=e750]: 
+              - text: 払戻金の支払を受けた方へ
+    - generic [ref=e752]:
+      - generic [ref=e753]:
+        - list [ref=e754]:
+          - listitem [ref=e755]:
+            - link "FAQ/お問い合わせ" [ref=e756] [cursor=pointer]:
+              - /url: /faq/
+          - listitem [ref=e757]:
+            - link "サイトマップ" [ref=e758] [cursor=pointer]:
+              - /url: /sitemap/
+          - listitem [ref=e759]:
+            - link "リンク" [ref=e760] [cursor=pointer]:
+              - /url: /link/
+          - listitem [ref=e761]:
+            - link "ご利用に際して" [ref=e762] [cursor=pointer]:
+              - /url: /use/
+          - listitem [ref=e763]:
+            - link "ウェブアクセシビリティについて" [ref=e764] [cursor=pointer]:
+              - /url: /accessibility/
+        - list [ref=e765]:
+          - listitem [ref=e766]:
+            - link "レース情報" [ref=e767] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e768]:
+            - link "ニュース" [ref=e769] [cursor=pointer]:
+              - /url: /news/
+          - listitem [ref=e770]:
+            - link "企業情報" [ref=e771] [cursor=pointer]:
+              - /url: /company/
+        - list [ref=e772]:
+          - listitem [ref=e773]:
+            - link "Horse Racing in Japan" [ref=e774] [cursor=pointer]:
+              - /url: https://japanracing.jp/en/
+              - text: Horse Racing in Japan
+              - generic [ref=e775]: 
+      - generic [ref=e776]:
+        - img "日本中央競馬会" [ref=e777]
+        - paragraph [ref=e778]: Copyright © Japan Racing Association All rights reserved.

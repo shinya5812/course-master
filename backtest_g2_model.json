@@ -1,0 +1,133 @@
+{
+  "created": "2026-05-21 07:33",
+  "test_period": "2022-2026",
+  "n_races": 588,
+  "baseline": {
+    "note": "条件C（全軸リーク排除）真のベースライン",
+    "hit_rate": 28.06,
+    "roi": 133.1
+  },
+  "step1_structure": {
+    "G1": {
+      "n": 110,
+      "avg_pop_pred": 2.59,
+      "avg_odds_pred": 7.27,
+      "avg_pop_winner": 3.31,
+      "avg_odds_winner": 10.75,
+      "adi_mean": 72.3,
+      "adi_median": 79.0,
+      "adi_q25": 69.0,
+      "adi_q75": 83.5,
+      "pop1_match_pct": 44.5,
+      "hit_rate": 36.36,
+      "roi": 134.3
+    },
+    "G2": {
+      "n": 175,
+      "avg_pop_pred": 2.81,
+      "avg_odds_pred": 9.51,
+      "avg_pop_winner": 3.79,
+      "avg_odds_winner": 10.66,
+      "adi_mean": 68.1,
+      "adi_median": 74.5,
+      "adi_q25": 60.4,
+      "adi_q75": 79.0,
+      "pop1_match_pct": 37.1,
+      "hit_rate": 22.86,
+      "roi": 133.7
+    },
+    "G3": {
+      "n": 303,
+      "avg_pop_pred": 2.93,
+      "avg_odds_pred": 9.16,
+      "avg_pop_winner": 3.92,
+      "avg_odds_winner": 10.77,
+      "adi_mean": 64.9,
+      "adi_median": 73.0,
+      "adi_q25": 53.2,
+      "adi_q75": 79.7,
+      "pop1_match_pct": 42.6,
+      "hit_rate": 28.05,
+      "roi": 132.4
+    }
+  },
+  "step2_hypotheses": {
+    "A": {
+      "verdict": "継続観察",
+      "adi_diff_g2g1": -4.200000000000003,
+      "adi_diff_g2g3": 3.1999999999999886,
+      "pop_diff_g2g1": 0.2200000000000002,
+      "pop_diff_g2g3": -0.1200000000000001
+    },
+    "B": {
+      "verdict": "継続観察",
+      "roi_range": 293.9,
+      "max_band_pct": 30.9,
+      "by_distance": {
+        "〜1400m": {
+          "n": 26,
+          "roi": 355.8
+        },
+        "1401〜1800m": {
+          "n": 54,
+          "roi": 95.6
+        },
+        "1801〜2200m": {
+          "n": 52,
+          "roi": 121.5
+        },
+        "2201m〜": {
+          "n": 43,
+          "roi": 61.9
+        }
+      }
+    },
+    "C": {
+      "verdict": "継続観察",
+      "roi_base": 133.7,
+      "roi_y": 136.7,
+      "roi_y0": 125.8,
+      "roi_change_g2": 3.0,
+      "roi_change_g1": -18.9,
+      "roi_change_g3": 12.1
+    }
+  },
+  "step3_corrections": {
+    "g2_baseline": {
+      "n": 175,
+      "hit_rate": 22.86,
+      "place_rate": 52.57,
+      "roi": 133.7
+    },
+    "X_edge_007": {
+      "n_bet": 77,
+      "n_skip": 98,
+      "hit_rate": 22.08,
+      "place_rate": 42.86,
+      "roi": 191.0,
+      "roi_diff": 57.4
+    },
+    "Y_blmk_01": {
+      "n": 175,
+      "hit_rate": 21.71,
+      "place_rate": 48.57,
+      "roi": 136.7,
+      "roi_diff": 3.0
+    },
+    "Y_blmk_00": {
+      "n": 175,
+      "hit_rate": 20.57,
+      "place_rate": 46.86,
+      "roi": 125.8,
+      "roi_diff": -7.8
+    },
+    "Z_anaba_strategy": {
+      "n_bet": 44,
+      "n_skip": 131,
+      "hit_rate": 18.18,
+      "place_rate": 34.09,
+      "roi": 286.1,
+      "roi_diff": 152.5
+    }
+  }
+}

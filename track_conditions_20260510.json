@@ -1,0 +1,43 @@
+{
+  "date": "2026-05-10",
+  "venues": [
+    {
+      "name": "東京",
+      "turf": "良",
+      "dirt": "良",
+      "cushion_value": 9.5,
+      "weather": "晴",
+      "cushion_category": "標準",
+      "notes": "芝Aコース使用。向正面から4コーナー内柵沿いに部分的傷みあり。5/9散水あり。"
+    },
+    {
+      "name": "京都",
+      "turf": "良",
+      "dirt": "良",
+      "cushion_value": 11.3,
+      "weather": "晴",
+      "cushion_category": "やや硬め",
+      "notes": "芝Cコース使用。含水率：芝ゴール前7.0%%/4C6.0%%、ダート2.1%%/2.8%%。散水なし。"
+    },
+    {
+      "name": "新潟",
+      "turf": "良",
+      "dirt": "良",
+      "cushion_value": 9.2,
+      "weather": "晴",
+      "cushion_category": "標準",
+      "notes": "芝Bコース使用。"
+    }
+  ],
+  "condition_filter": {
+    "condition_c_niigata": {
+      "target": "新潟芝2000m × スタミナ系 × 10番人気以上",
+      "turf_condition": "良",
+      "month": 5,
+      "verdict": "購入可",
+      "reason": "芝=良（重馬場・不良ではない）かつ5月（4月・7月の見送り月ではない）。条件C全条件クリア。"
+    }
+  },
+  "source": "playwright",
+  "retrieved_at": "2026-05-10"
+}

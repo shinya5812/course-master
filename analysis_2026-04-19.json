@@ -1,0 +1,142 @@
+{
+  "date": "2026-04-19",
+  "period": "全期間",
+  "grade_filter": "ALL",
+  "total": {
+    "bets": 47,
+    "wins": 1,
+    "invested": 4700,
+    "returned": 1989,
+    "net_pnl": -2711,
+    "roi": 42.3,
+    "win_rate": 0.0213
+  },
+  "by_condition": {
+    "B": {
+      "bets": 27,
+      "wins": 1,
+      "invested": 2700,
+      "returned": 1989,
+      "net_pnl": -711,
+      "roi": 73.7,
+      "win_rate": 0.037
+    },
+    "D": {
+      "bets": 9,
+      "wins": 0,
+      "invested": 900,
+      "returned": 0,
+      "net_pnl": -900,
+      "roi": 0.0,
+      "win_rate": 0.0
+    },
+    "条件B": {
+      "bets": 11,
+      "wins": 0,
+      "invested": 1100,
+      "returned": 0,
+      "net_pnl": -1100,
+      "roi": 0.0,
+      "win_rate": 0.0
+    }
+  },
+  "monthly": [
+    {
+      "bets": 9,
+      "wins": 0,
+      "invested": 900,
+      "returned": 0,
+      "net_pnl": -900,
+      "roi": 0.0,
+      "win_rate": 0.0,
+      "month": "2026-03"
+    },
+    {
+      "bets": 38,
+      "wins": 1,
+      "invested": 3800,
+      "returned": 1989,
+      "net_pnl": -1811,
+      "roi": 52.3,
+      "win_rate": 0.0263,
+      "month": "2026-04"
+    }
+  ],
+  "by_venue": {
+    "中京": {
+      "bets": 9,
+      "wins": 0,
+      "invested": 900,
+      "returned": 0,
+      "net_pnl": -900,
+      "roi": 0.0,
+      "win_rate": 0.0
+    },
+    "福島": {
+      "bets": 27,
+      "wins": 1,
+      "invested": 2700,
+      "returned": 1989,
+      "net_pnl": -711,
+      "roi": 73.7,
+      "win_rate": 0.037
+    },
+    "福島・中山・阪神": {
+      "bets": 11,
+      "wins": 0,
+      "invested": 1100,
+      "returned": 0,
+      "net_pnl": -1100,
+      "roi": 0.0,
+      "win_rate": 0.0
+    }
+  },
+  "recent": [
+    {
+      "race_date": "2026-04-19",
+      "venue": "福島",
+      "race_no": 8,
+      "horse_name": "ジェシーテソーロ",
+      "condition_type": "B",
+      "tansho_odds": 19.9,
+      "result": "的中"
+    },
+    {
+      "race_date": "2026-04-19",
+      "venue": "福島",
+      "race_no": 8,
+      "horse_name": "リリーアロー",
+      "condition_type": "B",
+      "tansho_odds": 19.9,
+      "result": "不的中"
+    },
+    {
+      "race_date": "2026-04-19",
+      "venue": "福島",
+      "race_no": 8,
+      "horse_name": "ブリスフル",
+      "condition_type": "B",
+      "tansho_odds": 19.9,
+      "result": "不的中"
+    },
+    {
+      "race_date": "2026-04-19",
+      "venue": "福島",
+      "race_no": 8,
+      "horse_name": "リゼレインボー",
+      "condition_type": "B",
+      "tansho_odds": 19.9,
+      "result": "不的中"
+    },
+    {
+      "race_date": "2026-04-19",
+      "venue": "福島",
+      "race_no": 4,
+      "horse_name": "ゴールデンボート",
+      "condition_type": "B",
+      "tansho_odds": 5.8,
+      "result": "不的中"
+    }
+  ],
+  "generated_at": "2026-04-24T10:08:41"
+}

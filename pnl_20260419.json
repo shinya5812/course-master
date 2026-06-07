@@ -1,0 +1,158 @@
+{
+  "date": "2026-04-19",
+  "venue": "福島",
+  "bets": [
+    {
+      "race_no": 2,
+      "horse_no": 3,
+      "horse_name": "ブルームザスマイル",
+      "condition": "B",
+      "est_odds": 30.5,
+      "act_odds": 3.3,
+      "result": "不的中",
+      "returned": 0,
+      "pnl": -100
+    },
+    {
+      "race_no": 2,
+      "horse_no": 5,
+      "horse_name": "ブリスフルイヤー",
+      "condition": "B",
+      "est_odds": 55.2,
+      "act_odds": 3.3,
+      "result": "不的中",
+      "returned": 0,
+      "pnl": -100
+    },
+    {
+      "race_no": 2,
+      "horse_no": 1,
+      "horse_name": "ビッグノエルルーフ",
+      "condition": "B",
+      "est_odds": 71.1,
+      "act_odds": 3.3,
+      "result": "不的中",
+      "returned": 0,
+      "pnl": -100
+    },
+    {
+      "race_no": 2,
+      "horse_no": 14,
+      "horse_name": "シューペルブリアン",
+      "condition": "B",
+      "est_odds": 83.1,
+      "act_odds": 3.3,
+      "result": "不的中",
+      "returned": 0,
+      "pnl": -100
+    },
+    {
+      "race_no": 4,
+      "horse_no": 1,
+      "horse_name": "ゴールデンボート",
+      "condition": "B",
+      "est_odds": 33.6,
+      "act_odds": 5.8,
+      "result": "不的中",
+      "returned": 0,
+      "pnl": -100
+    },
+    {
+      "race_no": 4,
+      "horse_no": 12,
+      "horse_name": "オーケーグリット",
+      "condition": "B",
+      "est_odds": 39.0,
+      "act_odds": 5.8,
+      "result": "不的中",
+      "returned": 0,
+      "pnl": -100
+    },
+    {
+      "race_no": 4,
+      "horse_no": 13,
+      "horse_name": "グランドタルマエ",
+      "condition": "B",
+      "est_odds": 65.4,
+      "act_odds": 5.8,
+      "result": "不的中",
+      "returned": 0,
+      "pnl": -100
+    },
+    {
+      "race_no": 4,
+      "horse_no": 6,
+      "horse_name": "ジーゲスツーク",
+      "condition": "B",
+      "est_odds": 71.8,
+      "act_odds": 5.8,
+      "result": "不的中",
+      "returned": 0,
+      "pnl": -100
+    },
+    {
+      "race_no": 4,
+      "horse_no": 14,
+      "horse_name": "エッジランナー",
+      "condition": "B",
+      "est_odds": 76.4,
+      "act_odds": 5.8,
+      "result": "不的中",
+      "returned": 0,
+      "pnl": -100
+    },
+    {
+      "race_no": 8,
+      "horse_no": 11,
+      "horse_name": "ジェシーテソーロ",
+      "condition": "B",
+      "est_odds": 25.9,
+      "act_odds": 19.9,
+      "result": "的中",
+      "returned": 1989,
+      "pnl": 1889
+    },
+    {
+      "race_no": 8,
+      "horse_no": 9,
+      "horse_name": "リリーアロー",
+      "condition": "B",
+      "est_odds": 35.3,
+      "act_odds": 19.9,
+      "result": "不的中",
+      "returned": 0,
+      "pnl": -100
+    },
+    {
+      "race_no": 8,
+      "horse_no": 10,
+      "horse_name": "ブリスフル",
+      "condition": "B",
+      "est_odds": 41.9,
+      "act_odds": 19.9,
+      "result": "不的中",
+      "returned": 0,
+      "pnl": -100
+    },
+    {
+      "race_no": 8,
+      "horse_no": 8,
+      "horse_name": "リゼレインボー",
+      "condition": "B",
+      "est_odds": 52.6,
+      "act_odds": 19.9,
+      "result": "不的中",
+      "returned": 0,
+      "pnl": -100
+    }
+  ],
+  "summary": {
+    "total_bets": 13,
+    "total_invested": 1300,
+    "total_returned": 1989,
+    "net_pnl": 689,
+    "roi": 153.0,
+    "win_count": 1
+  },
+  "generated_at": "2026-04-24T10:08:41"
+}

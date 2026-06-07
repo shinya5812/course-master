@@ -1,0 +1,82 @@
+{
+  "date": "2026-04-26",
+  "venue": "東京/京都/福島",
+  "total_bet": 800,
+  "total_return": 0,
+  "net": -800,
+  "roi_pct": 0.0,
+  "detail": [
+    {
+      "race": "フローラS G2 東京11R",
+      "type": "単勝",
+      "horse_no": 13,
+      "horse_name": "エンネ",
+      "amount": 200,
+      "hit": false,
+      "payout": 0,
+      "winner": "馬番7 ゴールデンハインド(16.6倍)"
+    },
+    {
+      "race": "フローラS G2 東京11R",
+      "type": "馬連",
+      "horse_no": 13,
+      "horse_name": "エンネ−ペンダント",
+      "amount": 100,
+      "hit": false,
+      "payout": 0,
+      "winner": "馬番7 ゴールデンハインド(16.6倍)"
+    },
+    {
+      "race": "マイラーズC G2 京都11R",
+      "type": "単勝",
+      "horse_no": 18,
+      "horse_name": "ランスオブカオス",
+      "amount": 200,
+      "hit": false,
+      "payout": 0,
+      "winner": "馬番9 アドマイヤズーム(4.1倍)"
+    },
+    {
+      "race": "条件B 福島7R",
+      "type": "単勝",
+      "horse_no": 12,
+      "horse_name": "レイフロレット",
+      "amount": 100,
+      "hit": false,
+      "payout": 0,
+      "winner": "馬番10 ユージュアーナ(5.2倍)"
+    },
+    {
+      "race": "条件B 福島7R",
+      "type": "単勝",
+      "horse_no": 2,
+      "horse_name": "グランコネクシオン",
+      "amount": 100,
+      "hit": false,
+      "payout": 0,
+      "winner": "馬番10 ユージュアーナ(5.2倍)"
+    },
+    {
+      "race": "条件B 福島7R",
+      "type": "単勝",
+      "horse_no": 15,
+      "horse_name": "ノアチュロス",
+      "amount": 100,
+      "hit": false,
+      "payout": 0,
+      "winner": "馬番10 ユージュアーナ(5.2倍)"
+    }
+  ],
+  "race_results": {
+    "フローラS G2 東京11R": "1着 馬番7 ゴールデンハインド(16.6倍) / 馬連2-7(2600円)",
+    "マイラーズC G2 京都11R": "1着 馬番9 アドマイヤズーム(4.1倍) / ◎ランスオブカオス11着",
+    "条件B 福島7R": "1着 馬番10 ユージュアーナ(5.2倍) / 条件B3頭全外れ"
+  },
+  "umaren_first_result": {
+    "race": "フローラS G2 東京11R",
+    "combo": "◎13エンネ − ○6ペンダント",
+    "winner_combo": "2-7",
+    "hit": false,
+    "note": "ADI57.7にて馬連初戦。1着ゴールデンハインド(馬番7)・2着ソーダズリング(馬番2)でともに予測外"
+  }
+}

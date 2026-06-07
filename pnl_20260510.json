@@ -1,0 +1,58 @@
+{
+  "date": "2026-05-10",
+  "summary": {
+    "total_investment": 500,
+    "total_payout": 0,
+    "net_pnl": -500,
+    "roi_pct": 0.0
+  },
+  "races": [
+    {
+      "race": "NHKマイルC",
+      "venue": "東京",
+      "race_no": 11,
+      "grade": "G1",
+      "distance": 1600,
+      "verdict": "見送り",
+      "investment": 0,
+      "payout": 0,
+      "net": 0,
+      "result": {
+        "1st": {"horse_no": 17, "horse_name": "ロデオドライブ", "popularity": 1, "odds": 4.6},
+        "2nd": {"horse_no": 16, "horse_name": "アスクイキゴミ", "popularity": 4, "odds": 8.4},
+        "3rd": {"horse_no": 11, "horse_name": "アドマイヤクワッズ", "popularity": 6, "odds": 9.7}
+      },
+      "engine_eval": {
+        "honmei": "ロデオドライブ",
+        "honmei_finish": 1,
+        "honmei_edge": 0.021,
+        "edge_threshold": 0.06,
+        "verdict_reason": "エッジ+0.021 < 閾値+0.06で見送り",
+        "hindsight": "◎が1着的中。エッジ閾値未達での見送りルールは維持（1例では評価不可）"
+      }
+    },
+    {
+      "race": "3歳未勝利（条件C）",
+      "venue": "新潟",
+      "race_no": 5,
+      "condition": "C",
+      "distance": 2000,
+      "investment": 500,
+      "payout": 0,
+      "net": -500,
+      "roi_pct": 0.0,
+      "result": {
+        "1st": {"horse_no": 12, "horse_name": "ファストフォワード", "popularity": 1, "odds": 3.7},
+        "2nd": {"horse_no":  7, "horse_name": "ジュナベーラ",       "popularity": 3, "odds": 4.3},
+        "3rd": {"horse_no": 16, "horse_name": "メイショウコハル",   "popularity": 5, "odds": 11.3}
+      },
+      "candidates_result": [
+        {"horse_no":  3, "horse_name": "オコリンボーマミー", "finish": 12, "hit": false},
+        {"horse_no":  5, "horse_name": "マトリカリア",       "finish":  6, "hit": false},
+        {"horse_no":  6, "horse_name": "ナムラライラック",   "finish": 13, "hit": false},
+        {"horse_no":  9, "horse_name": "コスモゼーリエ",     "finish": 15, "hit": false},
+        {"horse_no": 13, "horse_name": "カワイクテゴメン",   "finish":  4, "hit": false}
+      ]
+    }
+  ]
+}

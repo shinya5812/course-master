@@ -1,0 +1,29 @@
+{
+  "date": "2026-04-26",
+  "generated_at": "2026-04-26T09:30:00",
+  "venues": {
+    "東京": {
+      "turf": "良",
+      "dirt": "稍重",
+      "cushion_value": 9.7,
+      "weather": "晴一時曇",
+      "source": "JRA公式（Playwright MCP取得）"
+    },
+    "京都": {
+      "turf": "良",
+      "dirt": "良",
+      "cushion_value": null,
+      "weather": "晴",
+      "source": "morning_brief推定（前日晴継続）"
+    },
+    "福島": {
+      "turf": "良",
+      "dirt": "良",
+      "cushion_value": null,
+      "weather": "晴",
+      "source": "netkeiba出馬表（福島7Rページ馬場欄）"
+    }
+  },
+  "condition_b_eligible": true,
+  "condition_b_note": "福島ダ1700m 馬場=良 → 購入可"
+}

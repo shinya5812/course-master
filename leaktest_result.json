@@ -1,0 +1,85 @@
+{
+  "created": "2026-05-20 08:08",
+  "test_period": "2024-2026",
+  "condition_A": "全期間統計（2015-2026）+ 血統CSV CF",
+  "condition_B": "2023以前統計のみ（時系列分離）+ race_results CF",
+  "n_races": 318,
+  "overall": {
+    "hit_rate_A": 35.85,
+    "hit_rate_B": 22.64,
+    "place_rate_A": 62.58,
+    "place_rate_B": 44.03,
+    "roi_A": 165.5,
+    "roi_B": 108.1,
+    "pop1_hit_rate": 26.73,
+    "diff_hit": 13.21,
+    "diff_place": 18.55,
+    "diff_roi": 57.4,
+    "same_pred_pct": 40.9
+  },
+  "by_grade": {
+    "G1": {
+      "n": 59,
+      "hit_rate_A": 44.07,
+      "hit_rate_B": 35.59,
+      "place_rate_A": 66.1,
+      "place_rate_B": 47.46,
+      "roi_A": 211.4,
+      "roi_B": 136.8
+    },
+    "G2": {
+      "n": 96,
+      "hit_rate_A": 31.25,
+      "hit_rate_B": 15.62,
+      "place_rate_A": 68.75,
+      "place_rate_B": 40.62,
+      "roi_A": 143.9,
+      "roi_B": 62.4
+    },
+    "G3": {
+      "n": 163,
+      "hit_rate_A": 35.58,
+      "hit_rate_B": 22.09,
+      "place_rate_A": 57.67,
+      "place_rate_B": 44.79,
+      "roi_A": 161.6,
+      "roi_B": 124.6
+    }
+  },
+  "by_year": {
+    "2024": {
+      "n": 130,
+      "hit_rate_A": 33.08,
+      "hit_rate_B": 24.62,
+      "roi_A": 149.5,
+      "roi_B": 99.1
+    },
+    "2025": {
+      "n": 134,
+      "hit_rate_A": 40.3,
+      "hit_rate_B": 24.63,
+      "roi_A": 201.8,
+      "roi_B": 128.7
+    },
+    "2026": {
+      "n": 54,
+      "hit_rate_A": 31.48,
+      "hit_rate_B": 12.96,
+      "roi_A": 113.9,
+      "roi_B": 78.5
+    }
+  },
+  "diff_races": {
+    "n": 188,
+    "hit_A_only": 62,
+    "hit_B_only": 20,
+    "roi_A": 180.0,
+    "roi_B": 82.9
+  },
+  "notes": [
+    "CF軸（キャリア形成）: 条件A=血統CSVスナップショット累計（2026-02-17・未来含む） / 条件B=race_resultsの2023以前集計（未来除外）",
+    "JT軸（ジョッキー）: 条件A=全期間勝率 / 条件B=2023以前勝率",
+    "SPD軸（スピード）: 条件A=全期間距離統計 / 条件B=2023以前距離統計",
+    "SI/PD/BL/MK軸: レース結果行の実測値のため両条件で同一（リーク対象外）"
+  ]
+}

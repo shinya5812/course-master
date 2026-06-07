@@ -1,0 +1,48 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e4]:
+      - heading "競馬ラボ" [level=1] [ref=e5]:
+        - link "競馬ラボ" [ref=e6] [cursor=pointer]:
+          - /url: /
+      - generic [ref=e8]:
+        - generic [ref=e9]
+        - navigation [ref=e20]
+  - generic [ref=e40]:
+    - list [ref=e42]:
+      - listitem [ref=e43]:
+        - link "ホーム" [ref=e44] [cursor=pointer]:
+          - /url: /
+      - listitem [ref=e45]:
+        - link "競馬データベース" [ref=e46] [cursor=pointer]:
+          - /url: /db/
+      - listitem [ref=e47]:
+        - link "2026/5/24 レース一覧" [ref=e48] [cursor=pointer]:
+          - /url: /db/race/20260524/
+      - listitem [ref=e49]:
+        - link "新潟競馬 サラ系3歳未勝利" [ref=e50] [cursor=pointer]:
+          - /url: /db/race/202605240405/
+      - listitem [ref=e51]: レース結果
+    - article [ref=e54]:
+      - generic [ref=e56]:
+        - list [ref=e58]
+        - generic [ref=e75]
+  - contentinfo [ref=e590]:
+    - paragraph [ref=e591]:
+      - link [ref=e592] [cursor=pointer]:
+        - /url: "#xxx"
+        - img [ref=e593]
+    - generic [ref=e594]:
+      - generic [ref=e595]:
+        - generic [ref=e596]
+        - generic [ref=e600]
+        - generic [ref=e624]
+        - generic [ref=e638]
+      - list [ref=e652]:
+        - listitem [ref=e653]
+        - listitem [ref=e655]
+        - listitem [ref=e657]
+        - listitem [ref=e659]
+        - listitem [ref=e661]
+        - listitem [ref=e663]
+        - listitem [ref=e665]
+        - listitem [ref=e667]

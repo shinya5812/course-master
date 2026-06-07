@@ -1,0 +1,196 @@
+{
+  "created": "2026-05-21 07:41",
+  "test_period": "2022-2026",
+  "n_g2_races": 175,
+  "baseline": {
+    "all_grades_roi": 133.1,
+    "g2_only_roi": 133.7,
+    "g2_nofilter_roi": 133.7,
+    "g2_nofilter_hit": 22.86
+  },
+  "step1_thresholds": {
+    "thresholds_tested": [
+      "0.04",
+      "0.05",
+      "0.06",
+      "0.07",
+      "0.08",
+      "0.09"
+    ],
+    "skip_increase_0.06_to_07": {
+      "n_bet_06": 84,
+      "n_bet_07": 77,
+      "n_new_skip": 7,
+      "skip_ratio": 0.04
+    },
+    "by_threshold": {
+      "0.04": {
+        "n_bet": 97,
+        "n_skip": 78,
+        "skip_ratio": 0.446,
+        "hit_rate": 22.68,
+        "place_rate": 46.39,
+        "roi": 182.0,
+        "roi_diff": 48.3,
+        "dist_roi": {
+          "〜1400m": 637.7,
+          "1401〜1800m": 134.3,
+          "1801〜2200m": 146.1,
+          "2201m〜": 42.8
+        }
+      },
+      "0.05": {
+        "n_bet": 89,
+        "n_skip": 86,
+        "skip_ratio": 0.491,
+        "hit_rate": 23.6,
+        "place_rate": 47.19,
+        "roi": 192.0,
+        "roi_diff": 58.3,
+        "dist_roi": {
+          "〜1400m": 753.6,
+          "1401〜1800m": 139.3,
+          "1801〜2200m": 161.8,
+          "2201m〜": 22.2
+        }
+      },
+      "0.06": {
+        "n_bet": 84,
+        "n_skip": 91,
+        "skip_ratio": 0.52,
+        "hit_rate": 23.81,
+        "place_rate": 45.24,
+        "roi": 196.8,
+        "roi_diff": 63.1,
+        "dist_roi": {
+          "〜1400m": 753.6,
+          "1401〜1800m": 150.4,
+          "1801〜2200m": 147.0,
+          "2201m〜": 24.3
+        }
+      },
+      "0.07": {
+        "n_bet": 77,
+        "n_skip": 98,
+        "skip_ratio": 0.56,
+        "hit_rate": 22.08,
+        "place_rate": 42.86,
+        "roi": 191.0,
+        "roi_diff": 57.3,
+        "dist_roi": {
+          "〜1400m": 800.0,
+          "1401〜1800m": 144.3,
+          "1801〜2200m": 152.7,
+          "2201m〜": 24.3
+        }
+      },
+      "0.08": {
+        "n_bet": 70,
+        "n_skip": 105,
+        "skip_ratio": 0.6,
+        "hit_rate": 24.29,
+        "place_rate": 44.29,
+        "roi": 210.1,
+        "roi_diff": 76.4,
+        "dist_roi": {
+          "〜1400m": 900.0,
+          "1401〜1800m": 151.5,
+          "1801〜2200m": 189.0,
+          "2201m〜": 24.3
+        }
+      },
+      "0.09": {
+        "n_bet": 64,
+        "n_skip": 111,
+        "skip_ratio": 0.634,
+        "hit_rate": 25.0,
+        "place_rate": 45.31,
+        "roi": 221.9,
+        "roi_diff": 88.2,
+        "dist_roi": {
+          "〜1400m": 1028.6,
+          "1401〜1800m": 159.5,
+          "1801〜2200m": 182.1,
+          "2201m〜": 26.8
+        }
+      }
+    }
+  },
+  "step2_longdist": {
+    "cutoff_m": 2201,
+    "n_long": 43,
+    "n_short": 132,
+    "long_hit_rate": 20.93,
+    "long_roi": 61.9,
+    "short_hit_rate": 23.48,
+    "short_roi": 157.0,
+    "rules": {
+      "A_no_filter": {
+        "n_bet": 175,
+        "roi": 133.7
+      },
+      "B_longdist_excl": {
+        "n_bet": 132,
+        "roi": 157.0
+      },
+      "C_edge007": {
+        "n_bet": 77,
+        "roi": 191.0
+      },
+      "D_longexcl_e007": {
+        "n_bet": 56,
+        "roi": 253.6
+      },
+      "E_longexcl_e006": {
+        "n_bet": 63,
+        "roi": 254.3
+      }
+    }
+  },
+  "step3_decisions": {
+    "C: エッジ+0.07のみ": {
+      "n_bet": 77,
+      "n_skip": 98,
+      "skip_ratio": 0.56,
+      "roi": 191.0,
+      "hit_rate": 22.08,
+      "roi_ok": true,
+      "skip_ok": false,
+      "adopted": false,
+      "verdict": "△  ROIは基準超・見送り超過"
+    },
+    "D: 長距離除外 + エッジ+0.07": {
+      "n_bet": 56,
+      "n_skip": 119,
+      "skip_ratio": 0.68,
+      "roi": 253.6,
+      "hit_rate": 26.79,
+      "roi_ok": true,
+      "skip_ok": false,
+      "adopted": false,
+      "verdict": "△  ROIは基準超・見送り超過"
+    },
+    "E: 長距離除外 + エッジ+0.06": {
+      "n_bet": 63,
+      "n_skip": 112,
+      "skip_ratio": 0.64,
+      "roi": 254.3,
+      "hit_rate": 28.57,
+      "roi_ok": true,
+      "skip_ok": false,
+      "adopted": false,
+      "verdict": "△  ROIは基準超・見送り超過"
+    },
+    "B: 長距離除外のみ": {
+      "n_bet": 132,
+      "n_skip": 43,
+      "skip_ratio": 0.246,
+      "roi": 157.0,
+      "hit_rate": 23.48,
+      "roi_ok": true,
+      "skip_ok": true,
+      "adopted": true,
+      "verdict": "★★ 採用"
+    }
+  }
+}

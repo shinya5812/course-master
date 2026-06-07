@@ -1,0 +1,48 @@
+{
+  "date": "2026-05-09",
+  "races": [
+    {
+      "race": "エプソムC GⅢ",
+      "venue": "東京",
+      "race_no": 11,
+      "honmei": "ジュタ",
+      "honmei_no": 1,
+      "finish_pos": 8,
+      "result": "不的中",
+      "bet_amount": 200,
+      "payout": 0,
+      "net": -200,
+      "winner": "トロヴァトーレ",
+      "winner_no": 11,
+      "winner_odds": 4.1,
+      "edge": 0.086,
+      "chaos_index": 75.3,
+      "note": "穴馬戦略+エッジ+0.086 両立。荒れ指数75.3（大波乱注意・70-85帯）。単勝200円→ジュタ8着外れ。1着トロヴァトーレ（2人気・4.1倍）"
+    },
+    {
+      "race": "京都新聞杯 GⅡ",
+      "venue": "京都",
+      "race_no": 11,
+      "honmei": "コンジェスタス",
+      "honmei_no": 5,
+      "finish_pos": 1,
+      "result": "検証記録（ベットなし・2200m超ルール）",
+      "bet_amount": 0,
+      "payout": 0,
+      "net": 0,
+      "winner": "コンジェスタス",
+      "winner_no": 5,
+      "winner_odds": null,
+      "edge": 0.074,
+      "chaos_index": 44.0,
+      "note": "2200m超ルールによりベット保留。◎コンジェスタス1着的中。2着ベレシート（1人気）、3着ラディアントスター（9人気）。2200m超サンプル累計2R目。"
+    }
+  ],
+  "summary": {
+    "total_bet": 200,
+    "total_payout": 0,
+    "net": -200,
+    "roi": 0.0,
+    "note": "エプソムC単勝200円外れ（ジュタ8着）。京都新聞杯◎コンジェスタス1着的中もベットなし。"
+  }
+}

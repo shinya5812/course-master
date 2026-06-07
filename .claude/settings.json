@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__sqlite__list_tables",
+      "mcp__sqlite__describe_table",
+      "mcp__playwright__browser_wait_for",
+      "mcp__playwright__browser_navigate_back",
+      "mcp__playwright__browser_tabs",
+      "Bash(dir *)",
+      "Bash(where *)",
+      "Bash(git log *)"
+    ]
+  }
+}

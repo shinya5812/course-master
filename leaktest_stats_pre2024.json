@@ -1,0 +1,12 @@
+{
+  "cutoff_date": "2023-12-31",
+  "training_records": 436554,
+  "jockey_stats_count": 223,
+  "distance_stats_count": 47,
+  "horse_stats_count": 49063,
+  "vs_full_period": {
+    "jockey_stats_count_A": 252,
+    "distance_stats_count_A": 48,
+    "horse_stats_count_A": 60126
+  }
+}

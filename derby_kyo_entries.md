@@ -1,0 +1,3226 @@
+- generic [ref=e2]:
+  - paragraph [ref=e3]:
+    - link "本文へ移動する" [ref=e4] [cursor=pointer]:
+      - /url: "#skip-target"
+      - generic [ref=e5]: 
+      - text: 本文へ移動する
+  - generic [ref=e7]:
+    - generic [ref=e9]:
+      - link "ニュース" [ref=e11] [cursor=pointer]:
+        - /url: /news/
+      - link "企業情報" [ref=e13] [cursor=pointer]:
+        - /url: /company/
+      - link "レース情報" [ref=e15] [cursor=pointer]:
+        - /url: /
+    - generic [ref=e17]:
+      - heading "JRA 日本中央競馬会" [level=1] [ref=e18]:
+        - link "JRA 日本中央競馬会" [ref=e19] [cursor=pointer]:
+          - /url: /
+          - img "JRA 日本中央競馬会" [ref=e20]
+      - generic [ref=e22]:
+        - link "ネット馬券 ログイン" [ref=e24] [cursor=pointer]:
+          - /url: https://www.ipat.jra.go.jp/
+          - text: ネット馬券
+          - text: ログイン
+        - link "ビギナーズ" [ref=e26] [cursor=pointer]:
+          - /url: /kouza/beginner/
+        - button "検索ウィンドウを開く" [ref=e28] [cursor=pointer]: 検索
+    - generic [ref=e30]:
+      - text:   
+      - list [ref=e31]:
+        - listitem [ref=e32]:
+          - generic [ref=e33]:
+            - link "競馬メニュー " [ref=e34] [cursor=pointer]:
+              - /url: /keiba/
+              - text: 競馬メニュー
+              - generic [ref=e35]: 
+            - text: 
+        - listitem [ref=e36]:
+          - generic [ref=e37]:
+            - link "馬券・JRA-UMACA " [ref=e38] [cursor=pointer]:
+              - /url: /kouza/
+              - text: 馬券・JRA-UMACA
+              - generic [ref=e39]: 
+            - text: 
+        - listitem [ref=e40]:
+          - generic [ref=e41]:
+            - link "ネット馬券購入 " [ref=e42] [cursor=pointer]:
+              - /url: /dento.html
+              - text: ネット馬券購入
+              - generic [ref=e43]: 
+            - text: 
+        - listitem [ref=e44]:
+          - generic [ref=e45]:
+            - link "イベント・プロモーション " [ref=e46] [cursor=pointer]:
+              - /url: /event/
+              - text: イベント・プロモーション
+              - generic [ref=e47]: 
+            - text: 
+        - listitem [ref=e48]:
+          - generic [ref=e49]:
+            - link "競馬場・ウインズ・その他施設 " [ref=e50] [cursor=pointer]:
+              - /url: /facilities/
+              - text: 競馬場・ウインズ・その他施設
+              - generic [ref=e51]: 
+            - text: 
+        - listitem [ref=e52]:
+          - generic [ref=e53]:
+            - link "指定席・入場券ネット予約 " [ref=e54] [cursor=pointer]:
+              - /url: /ticket/
+              - text: 指定席・入場券ネット予約
+              - generic [ref=e55]: 
+            - text: 
+      - text:         
+  - text:       
+  - generic [ref=e56]:
+    - list [ref=e59]:
+      - listitem [ref=e60]:
+        - link "ホーム" [ref=e61] [cursor=pointer]:
+          - /url: /
+        - text: ">"
+      - listitem [ref=e62]:
+        - link "競馬メニュー" [ref=e63] [cursor=pointer]:
+          - /url: /keiba/
+        - text: ">"
+      - listitem [ref=e64]:
+        - link "出馬表 開催選択" [ref=e65] [cursor=pointer]:
+          - /url: "#"
+        - text: ">"
+      - listitem [ref=e66]:
+        - link "出馬表 レース選択" [ref=e67] [cursor=pointer]:
+          - /url: "#"
+        - text: ">"
+      - listitem [ref=e68]:
+        - strong [ref=e69]: 出馬表
+    - heading "出馬表 2026年4月4日（土曜）3回中山3日 11レース" [level=1] [ref=e72]:
+      - generic [ref=e75]:
+        - text: 出馬表
+        - generic [ref=e76]: 2026年4月4日（土曜）3回中山3日 11レース
+    - generic [ref=e78]:
+      - text:  
+      - list [ref=e79]:
+        - listitem [ref=e80]:
+          - link "開催お知らせ" [ref=e81] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e82]: 
+            - text: 開催お知らせ
+        - listitem [ref=e83]:
+          - link "出馬表" [ref=e84] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e85]: 
+            - text: 出馬表
+        - listitem [ref=e86]:
+          - link "オッズ" [ref=e87] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e88]: 
+            - text: オッズ
+        - listitem [ref=e89]:
+          - link "払戻金" [ref=e90] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e91]: 
+            - text: 払戻金
+        - listitem [ref=e92]:
+          - link "レース結果" [ref=e93] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e94]: 
+            - text: レース結果
+        - listitem [ref=e95]:
+          - link "特別レース登録馬" [ref=e96] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e97]: 
+            - text: 特別レース登録馬
+        - listitem [ref=e98]:
+          - link "開催日程" [ref=e99] [cursor=pointer]:
+            - /url: /keiba/calendar/
+            - generic [ref=e100]: 
+            - text: 開催日程
+        - listitem [ref=e101]:
+          - link "馬場情報" [ref=e102] [cursor=pointer]:
+            - /url: /keiba/baba/
+            - generic [ref=e103]: 
+            - text: 馬場情報
+        - listitem [ref=e104]:
+          - link "今週の注目レース" [ref=e105] [cursor=pointer]:
+            - /url: /keiba/thisweek/
+            - generic [ref=e106]: 
+            - text: 今週の注目レース
+    - generic [ref=e107]:
+      - generic [ref=e109]:
+        - list [ref=e111]:
+          - listitem [ref=e112]:
+            - generic [ref=e113]:
+              - paragraph [ref=e115]: 4月4日（土曜）
+              - generic [ref=e117]:
+                - link "3回中山3日" [ref=e119] [cursor=pointer]:
+                  - /url: /JRADB/accessD.html?CNAME=pw01dde0106202603031120260404/25
+                  - text: 
+                  - generic [ref=e120]: 
+                  - text: 3回中山3日
+                - link "2回阪神3日" [ref=e122] [cursor=pointer]:
+                  - /url: /JRADB/accessD.html?CNAME=pw01dde0109202602031120260404/D2
+                  - generic [ref=e123]: 
+                  - text:  2回阪神3日
+          - listitem [ref=e125]:
+            - generic [ref=e126]:
+              - paragraph [ref=e128]: 4月5日（日曜）
+              - generic [ref=e130]:
+                - link "3回中山4日" [ref=e132] [cursor=pointer]:
+                  - /url: /JRADB/accessD.html?CNAME=pw01dde0106202603041120260405/55
+                  - generic [ref=e133]: 
+                  - text:  3回中山4日
+                - link "2回阪神4日" [ref=e135] [cursor=pointer]:
+                  - /url: /JRADB/accessD.html?CNAME=pw01dde0109202602041120260405/02
+                  - generic [ref=e136]: 
+                  - text:  2回阪神4日
+        - list [ref=e139]:
+          - listitem [ref=e140]:
+            - link "開催選択へ戻る" [ref=e141] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e142]: 
+              - text: 開催選択へ戻る
+          - listitem [ref=e143]:
+            - link "レース選択へ戻る" [ref=e144] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e145]: 
+              - text: レース選択へ戻る
+      - list [ref=e146]:
+        - listitem [ref=e147]:
+          - link "1レース" [ref=e148] [cursor=pointer]:
+            - /url: /JRADB/accessD.html?CNAME=pw01dde0106202603030120260404/D3
+            - img "1レース" [ref=e149]
+        - listitem [ref=e150]:
+          - link "2レース" [ref=e151] [cursor=pointer]:
+            - /url: /JRADB/accessD.html?CNAME=pw01dde0106202603030220260404/88
+            - img "2レース" [ref=e152]
+        - listitem [ref=e153]:
+          - link "3レース" [ref=e154] [cursor=pointer]:
+            - /url: /JRADB/accessD.html?CNAME=pw01dde0106202603030320260404/3D
+            - img "3レース" [ref=e155]
+        - listitem [ref=e156]:
+          - link "4レース" [ref=e157] [cursor=pointer]:
+            - /url: /JRADB/accessD.html?CNAME=pw01dde0106202603030420260404/F2
+            - img "4レース" [ref=e158]
+        - listitem [ref=e159]:
+          - link "5レース" [ref=e160] [cursor=pointer]:
+            - /url: /JRADB/accessD.html?CNAME=pw01dde0106202603030520260404/A7
+            - img "5レース" [ref=e161]
+        - listitem [ref=e162]:
+          - link "6レース" [ref=e163] [cursor=pointer]:
+            - /url: /JRADB/accessD.html?CNAME=pw01dde0106202603030620260404/5C
+            - img "6レース" [ref=e164]
+        - listitem [ref=e165]:
+          - link "7レース" [ref=e166] [cursor=pointer]:
+            - /url: /JRADB/accessD.html?CNAME=pw01dde0106202603030720260404/11
+            - img "7レース" [ref=e167]
+        - listitem [ref=e168]:
+          - link "8レース" [ref=e169] [cursor=pointer]:
+            - /url: /JRADB/accessD.html?CNAME=pw01dde0106202603030820260404/C6
+            - img "8レース" [ref=e170]
+        - listitem [ref=e171]:
+          - link "9レース" [ref=e172] [cursor=pointer]:
+            - /url: /JRADB/accessD.html?CNAME=pw01dde0106202603030920260404/7B
+            - img "9レース" [ref=e173]
+        - listitem [ref=e174]:
+          - link "10レース" [ref=e175] [cursor=pointer]:
+            - /url: /JRADB/accessD.html?CNAME=pw01dde0106202603031020260404/70
+            - img "10レース" [ref=e176]
+        - listitem [ref=e177]:
+          - link "11レース選択" [ref=e178] [cursor=pointer]:
+            - /url: /JRADB/accessD.html?CNAME=pw01dde0106202603031120260404/25
+            - img "11レース選択" [ref=e179]
+        - listitem [ref=e180]:
+          - link "12レース" [ref=e181] [cursor=pointer]:
+            - /url: /JRADB/accessD.html?CNAME=pw01dde0106202603031220260404/DA
+            - img "12レース" [ref=e182]
+      - generic: ここから本文です
+      - table "2026年4月4日（土曜） 3回中山3日 発走時刻：15時45分 天候 曇 芝 良 11レース 第58回 ダービー卿チャレンジトロフィー GⅢ 4歳以上 オープン （国際）（特指） ハンデ コース：1,600メートル（芝・右 外） 本賞金（万円） 1着 4,100 2着 1,600 3着 1,000 4着 620 5着 410 付加賞（万円） 1着 56.7 2着 16.2 3着 8.1 ライブ中継 （無料） 更新 オッズ 印刷用ページ 馬柱の見方 着順で色分け 同一レースで色分け" [ref=e184]:
+        - caption [ref=e185]:
+          - generic [ref=e186]:
+            - generic [ref=e187]:
+              - generic [ref=e189]:
+                - generic [ref=e190]: 2026年4月4日（土曜） 3回中山3日
+                - generic [ref=e191]:
+                  - text: 発走時刻：
+                  - strong [ref=e192]: 15時45分
+                - list [ref=e194]:
+                  - listitem [ref=e195]:
+                    - generic [ref=e196]:
+                      - generic [ref=e197]: 天候
+                      - generic [ref=e198]: 曇
+                  - listitem [ref=e199]:
+                    - generic [ref=e200]:
+                      - generic [ref=e201]: 芝
+                      - generic [ref=e202]: 良
+              - generic [ref=e204]:
+                - img "11レース" [ref=e208]
+                - generic [ref=e209]:
+                  - heading "第58回 ダービー卿チャレンジトロフィー GⅢ" [level=2] [ref=e210]:
+                    - generic [ref=e211]:
+                      - generic [ref=e212]: 第58回
+                      - generic [ref=e213]:
+                        - text: ダービー卿チャレンジトロフィー
+                        - img "GⅢ" [ref=e215]
+                  - generic [ref=e216]:
+                    - generic [ref=e217]: 4歳以上
+                    - generic [ref=e218]: オープン
+                    - generic [ref=e219]: （国際）（特指）
+                    - generic [ref=e220]: ハンデ
+                    - generic [ref=e221]: コース：1,600メートル（芝・右 外）
+              - list [ref=e222]:
+                - listitem [ref=e223]:
+                  - generic [ref=e224]:
+                    - generic [ref=e225]: 本賞金（万円）
+                    - list [ref=e227]:
+                      - listitem [ref=e228]:
+                        - generic [ref=e229]: 1着
+                        - generic [ref=e230]: 4,100
+                      - listitem [ref=e231]:
+                        - generic [ref=e232]: 2着
+                        - generic [ref=e233]: 1,600
+                      - listitem [ref=e234]:
+                        - generic [ref=e235]: 3着
+                        - generic [ref=e236]: 1,000
+                      - listitem [ref=e237]:
+                        - generic [ref=e238]: 4着
+                        - generic [ref=e239]: "620"
+                      - listitem [ref=e240]:
+                        - generic [ref=e241]: 5着
+                        - generic [ref=e242]: "410"
+                - listitem [ref=e243]:
+                  - generic [ref=e244]:
+                    - generic [ref=e245]: 付加賞（万円）
+                    - list [ref=e247]:
+                      - listitem [ref=e248]:
+                        - generic [ref=e249]: 1着
+                        - generic [ref=e250]: "56.7"
+                      - listitem [ref=e251]:
+                        - generic [ref=e252]: 2着
+                        - generic [ref=e253]: "16.2"
+                      - listitem [ref=e254]:
+                        - generic [ref=e255]: 3着
+                        - generic [ref=e256]: "8.1"
+            - generic [ref=e257]:
+              - generic [ref=e261]:
+                - generic [ref=e262]: ライブ中継 （無料）
+                - link [ref=e263] [cursor=pointer]:
+                  - /url: https://sp.gch.jp/jra
+                  - img [ref=e264]
+                - link [ref=e265] [cursor=pointer]:
+                  - /url: https://www.youtube.com/channel/UCj6AKkCWS6FJqf0o5wP45eQ
+                  - img [ref=e266]
+              - generic [ref=e267]:
+                - link "更新" [ref=e269] [cursor=pointer]:
+                  - /url: /JRADB/accessD.html?CNAME=pw01dde0106202603031120260404/25
+                  - generic [ref=e270]: 
+                  - text: 更新
+                - list [ref=e271]:
+                  - listitem [ref=e272]:
+                    - link "オッズ" [ref=e273] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e274]: 
+                      - text: オッズ
+                - link "印刷用ページ" [ref=e276] [cursor=pointer]:
+                  - /url: "#"
+                  - generic [ref=e277]: 
+                  - text: 印刷用ページ
+                - link "馬柱の見方" [ref=e279] [cursor=pointer]:
+                  - /url: /JRADB/mikata/index.html
+                  - generic [ref=e280]: 
+                  - text: 馬柱の見方
+          - text: 
+          - list [ref=e281]:
+            - listitem [ref=e282]:
+              - link "着順で色分け" [ref=e283] [cursor=pointer]:
+                - /url: "#arrival_unit"
+            - listitem [ref=e284]:
+              - link "同一レースで色分け" [ref=e285] [cursor=pointer]:
+                - /url: "#same_unit"
+        - rowgroup [ref=e286]:
+          - row "枠 馬番 馬名 / 単勝オッズ(人気) 戦績 / 総賞金 / 馬体重 馬主名 / 生産者名 / 調教師名 / 血統 性齢/毛色 負担重量 騎手名 前走 前々走 3走前 4走前" [ref=e287]:
+            - columnheader "枠" [ref=e288]
+            - columnheader "馬番" [ref=e289]
+            - columnheader "馬名 / 単勝オッズ(人気) 戦績 / 総賞金 / 馬体重 馬主名 / 生産者名 / 調教師名 / 血統" [ref=e290]:
+              - text: 馬名 / 単勝オッズ(人気)
+              - text: 戦績 / 総賞金 / 馬体重
+              - text: 馬主名 / 生産者名 / 調教師名 / 血統
+            - columnheader "性齢/毛色 負担重量 騎手名" [ref=e291]:
+              - text: 性齢/毛色
+              - text: 負担重量
+              - text: 騎手名
+            - columnheader "前走" [ref=e292]
+            - columnheader "前々走" [ref=e293]
+            - columnheader "3走前" [ref=e294]
+            - columnheader "4走前" [ref=e295]
+        - rowgroup [ref=e296]:
+          - row "枠1白 1 ゾンニッヒ 13.4 (10番人気) (6.4.3.23) 16,412.8万円 金子真人ホールディングス(株) 坂東牧場 池江 泰寿(栗東) 父：ラブリーデイ 母：エンドレスノット (母の父：ディープインパクト) 勝負服の画像 牡8/鹿 57.5kg 団野 大成 2026年3月15日 中山 東風S リステッド 5着 16頭7番 11番人気 団野 大成 59.0kg 1600芝 1:32.2 良 108 484kg 8 7 8 3F 33.7 ヴァルキリーバース(0.2) 2026年1月24日 京都 睦月S OP 11着 14頭6番 9番人気 T.ハマーハン 59.0kg 1600芝 1:34.8 良 100 484kg 6 8 3F 33.6 レイベリング(0.7) 2026年1月12日 中山 ニューイヤー リステッド 6着 14頭7番 10番人気 荻野 極 59.0kg 1600芝 1:32.6 良 104 484kg 9 13 13 3F 33.5 カピリナ(0.4) 2025年8月24日 札幌 キーンランド GⅢ 15着 16頭8番 11番人気 武 豊 57.0kg 1200芝 1:09.3 良 96 484kg 15 10 3F 34.4 パンジャタワー(1.1)" [ref=e297]:
+            - cell "枠1白" [ref=e298]:
+              - img "枠1白" [ref=e299]
+            - cell "1" [ref=e300]
+            - cell "ゾンニッヒ 13.4 (10番人気) (6.4.3.23) 16,412.8万円 金子真人ホールディングス(株) 坂東牧場 池江 泰寿(栗東) 父：ラブリーデイ 母：エンドレスノット (母の父：ディープインパクト)" [ref=e301]:
+              - generic [ref=e302]:
+                - link "ゾンニッヒ" [ref=e304] [cursor=pointer]:
+                  - /url: /JRADB/accessU.html?CNAME=pw01dud002018101343/CE
+                - generic [ref=e306]:
+                  - strong [ref=e308]: "13.4"
+                  - generic [ref=e309]: (10番人気)
+              - generic [ref=e310]:
+                - generic [ref=e311]: (6.4.3.23)
+                - generic "164,128,000円" [ref=e312]: 16,412.8万円
+              - paragraph [ref=e313]: 金子真人ホールディングス(株)
+              - paragraph [ref=e314]: 坂東牧場
+              - paragraph [ref=e315]:
+                - link "池江 泰寿" [ref=e316] [cursor=pointer]:
+                  - /url: "#"
+                - text: (栗東)
+              - list [ref=e317]:
+                - listitem [ref=e318]: 父：ラブリーデイ
+                - listitem [ref=e319]:
+                  - text: 母：エンドレスノット
+                  - generic [ref=e320]: (母の父：ディープインパクト)
+            - cell "勝負服の画像 牡8/鹿 57.5kg 団野 大成" [ref=e321]:
+              - paragraph [ref=e322]:
+                - img "勝負服の画像" [ref=e323]
+              - paragraph [ref=e324]: 牡8/鹿
+              - paragraph [ref=e325]: 57.5kg
+              - paragraph [ref=e326]:
+                - link "団野 大成" [ref=e327] [cursor=pointer]:
+                  - /url: "#"
+            - cell "2026年3月15日 中山 東風S リステッド 5着 16頭7番 11番人気 団野 大成 59.0kg 1600芝 1:32.2 良 108 484kg 8 7 8 3F 33.7 ヴァルキリーバース(0.2)" [ref=e328]:
+              - generic [ref=e329]:
+                - generic [ref=e330]: 2026年3月15日
+                - generic [ref=e331]: 中山
+              - generic [ref=e332]:
+                - link "東風S" [ref=e334] [cursor=pointer]:
+                  - /url: /JRADB/accessS.html?CNAME=pw01sde1006202602061020260315/CF
+                - img "リステッド" [ref=e337]
+              - generic [ref=e338]:
+                - generic [ref=e339]: 5着
+                - generic [ref=e340]:
+                  - generic [ref=e341]: 16頭
+                  - generic [ref=e342]: 7番
+                  - generic [ref=e343]: 11番人気
+              - generic [ref=e344]:
+                - generic [ref=e345]: 団野 大成
+                - generic [ref=e346]: 59.0kg
+              - generic [ref=e347]:
+                - generic [ref=e348]:
+                  - generic [ref=e349]: 1600芝
+                  - paragraph [ref=e351]: 1:32.2
+                - generic [ref=e352]:
+                  - generic [ref=e354]: 良
+                  - paragraph [ref=e356]: "108"
+                  - paragraph [ref=e358]: 484kg
+              - generic [ref=e359]:
+                - generic [ref=e360]:
+                  - list [ref=e362]:
+                    - listitem "2コーナー通過順位" [ref=e363]: "8"
+                    - listitem "3コーナー通過順位" [ref=e364]: "7"
+                    - listitem "4コーナー通過順位" [ref=e365]: "8"
+                  - generic [ref=e366]: 3F 33.7
+                - paragraph [ref=e367]: ヴァルキリーバース(0.2)
+            - cell "2026年1月24日 京都 睦月S OP 11着 14頭6番 9番人気 T.ハマーハン 59.0kg 1600芝 1:34.8 良 100 484kg 6 8 3F 33.6 レイベリング(0.7)" [ref=e368]:
+              - generic [ref=e369]:
+                - generic [ref=e370]: 2026年1月24日
+                - generic [ref=e371]: 京都
+              - generic [ref=e372]:
+                - link "睦月S" [ref=e374] [cursor=pointer]:
+                  - /url: /JRADB/accessS.html?CNAME=pw01sde1008202601081120260124/74
+                - generic [ref=e376]: OP
+              - generic [ref=e377]:
+                - generic [ref=e378]: 11着
+                - generic [ref=e379]:
+                  - generic [ref=e380]: 14頭
+                  - generic [ref=e381]: 6番
+                  - generic [ref=e382]: 9番人気
+              - generic [ref=e383]:
+                - generic [ref=e384]: T.ハマーハン
+                - generic [ref=e385]: 59.0kg
+              - generic [ref=e386]:
+                - generic [ref=e387]:
+                  - generic [ref=e388]: 1600芝
+                  - paragraph [ref=e390]: 1:34.8
+                - generic [ref=e391]:
+                  - generic [ref=e393]: 良
+                  - paragraph [ref=e395]: "100"
+                  - paragraph [ref=e397]: 484kg
+              - generic [ref=e398]:
+                - generic [ref=e399]:
+                  - list [ref=e401]:
+                    - listitem "3コーナー通過順位" [ref=e402]: "6"
+                    - listitem "4コーナー通過順位" [ref=e403]: "8"
+                  - generic [ref=e404]: 3F 33.6
+                - paragraph [ref=e405]: レイベリング(0.7)
+            - cell "2026年1月12日 中山 ニューイヤー リステッド 6着 14頭7番 10番人気 荻野 極 59.0kg 1600芝 1:32.6 良 104 484kg 9 13 13 3F 33.5 カピリナ(0.4)" [ref=e406]:
+              - generic [ref=e407]:
+                - generic [ref=e408]: 2026年1月12日
+                - generic [ref=e409]: 中山
+              - generic [ref=e410]:
+                - link "ニューイヤー" [ref=e412] [cursor=pointer]:
+                  - /url: /JRADB/accessS.html?CNAME=pw01sde1006202601051120260112/B3
+                - img "リステッド" [ref=e415]
+              - generic [ref=e416]:
+                - generic [ref=e417]: 6着
+                - generic [ref=e418]:
+                  - generic [ref=e419]: 14頭
+                  - generic [ref=e420]: 7番
+                  - generic [ref=e421]: 10番人気
+              - generic [ref=e422]:
+                - generic [ref=e423]: 荻野 極
+                - generic [ref=e424]: 59.0kg
+              - generic [ref=e425]:
+                - generic [ref=e426]:
+                  - generic [ref=e427]: 1600芝
+                  - paragraph [ref=e429]: 1:32.6
+                - generic [ref=e430]:
+                  - generic [ref=e432]: 良
+                  - paragraph [ref=e434]: "104"
+                  - paragraph [ref=e436]: 484kg
+              - generic [ref=e437]:
+                - generic [ref=e438]:
+                  - list [ref=e440]:
+                    - listitem "2コーナー通過順位" [ref=e441]: "9"
+                    - listitem "3コーナー通過順位" [ref=e442]: "13"
+                    - listitem "4コーナー通過順位" [ref=e443]: "13"
+                  - generic [ref=e444]: 3F 33.5
+                - paragraph [ref=e445]: カピリナ(0.4)
+            - cell "2025年8月24日 札幌 キーンランド GⅢ 15着 16頭8番 11番人気 武 豊 57.0kg 1200芝 1:09.3 良 96 484kg 15 10 3F 34.4 パンジャタワー(1.1)" [ref=e446]:
+              - generic [ref=e447]:
+                - generic [ref=e448]: 2025年8月24日
+                - generic [ref=e449]: 札幌
+              - generic [ref=e450]:
+                - link "キーンランド" [ref=e452] [cursor=pointer]:
+                  - /url: /JRADB/accessS.html?CNAME=pw01sde1001202502021120250824/43
+                - img "GⅢ" [ref=e455]
+              - generic [ref=e456]:
+                - generic [ref=e457]: 15着
+                - generic [ref=e458]:
+                  - generic [ref=e459]: 16頭
+                  - generic [ref=e460]: 8番
+                  - generic [ref=e461]: 11番人気
+              - generic [ref=e462]:
+                - generic [ref=e463]: 武 豊
+                - generic [ref=e464]: 57.0kg
+              - generic [ref=e465]:
+                - generic [ref=e466]:
+                  - generic [ref=e467]: 1200芝
+                  - paragraph [ref=e469]: 1:09.3
+                - generic [ref=e470]:
+                  - generic [ref=e472]: 良
+                  - paragraph [ref=e474]: "96"
+                  - paragraph [ref=e476]: 484kg
+              - generic [ref=e477]:
+                - generic [ref=e478]:
+                  - list [ref=e480]:
+                    - listitem "3コーナー通過順位" [ref=e481]: "15"
+                    - listitem "4コーナー通過順位" [ref=e482]: "10"
+                  - generic [ref=e483]: 3F 34.4
+                - paragraph [ref=e484]: パンジャタワー(1.1)
+          - row "枠1白 2 ミニトランザット 6.7 (1番人気) (4.0.2.3) 6,573.2万円 谷掛 龍夫 社台ファーム 杉山 佳明(栗東) 父：エピファネイア 母：イチオクノホシ (母の父：ゼンノロブロイ) 勝負服の画像 牡4/芦 56.0kg 西村 淳也 2026年2月10日 京都 石清水S 3勝ク 1着 13頭7番 1番人気 西村 淳也 58.0kg 1600芝 1:32.8 良 466kg 7 8 3F 33.9 スイープアワーズ(0.0) 2026年1月11日 京都 新春S 3勝ク 7着 15頭3番 2番人気 吉村 誠之助 57.0kg 1600芝 1:33.7 良 472kg 13 10 3F 33.8 ベラジオボンド(0.9) 2025年10月19日 京都 2勝クラス 1着 10頭4番 1番人気 ☆吉村 誠之 55.0kg 1600芝 1:33.3 良 468kg 7 7 3F 33.1 フェアリーライク(0.1) 2025年7月26日 中京 1勝クラス 1着 10頭10番 2番人気 ☆吉村 誠之 54.0kg 1600芝 1:33.0 良 458kg 5 6 5 3F 33.4 レッドフェルメール(0.2)" [ref=e485]:
+            - cell "枠1白" [ref=e486]:
+              - img "枠1白" [ref=e487]
+            - cell "2" [ref=e488]
+            - cell "ミニトランザット 6.7 (1番人気) (4.0.2.3) 6,573.2万円 谷掛 龍夫 社台ファーム 杉山 佳明(栗東) 父：エピファネイア 母：イチオクノホシ (母の父：ゼンノロブロイ)" [ref=e489]:
+              - generic [ref=e490]:
+                - link "ミニトランザット" [ref=e492] [cursor=pointer]:
+                  - /url: /JRADB/accessU.html?CNAME=pw01dud002022105230/13
+                - generic [ref=e494]:
+                  - strong [ref=e496]: "6.7"
+                  - generic [ref=e497]: (1番人気)
+              - generic [ref=e498]:
+                - generic [ref=e499]: (4.0.2.3)
+                - generic "65,732,000円" [ref=e500]: 6,573.2万円
+              - paragraph [ref=e501]: 谷掛 龍夫
+              - paragraph [ref=e502]: 社台ファーム
+              - paragraph [ref=e503]:
+                - link "杉山 佳明" [ref=e504] [cursor=pointer]:
+                  - /url: "#"
+                - text: (栗東)
+              - list [ref=e505]:
+                - listitem [ref=e506]: 父：エピファネイア
+                - listitem [ref=e507]:
+                  - text: 母：イチオクノホシ
+                  - generic [ref=e508]: (母の父：ゼンノロブロイ)
+            - cell "勝負服の画像 牡4/芦 56.0kg 西村 淳也" [ref=e509]:
+              - paragraph [ref=e510]:
+                - img "勝負服の画像" [ref=e511]
+              - paragraph [ref=e512]: 牡4/芦
+              - paragraph [ref=e513]: 56.0kg
+              - paragraph [ref=e514]:
+                - link "西村 淳也" [ref=e515] [cursor=pointer]:
+                  - /url: "#"
+            - cell "2026年2月10日 京都 石清水S 3勝ク 1着 13頭7番 1番人気 西村 淳也 58.0kg 1600芝 1:32.8 良 466kg 7 8 3F 33.9 スイープアワーズ(0.0)" [ref=e516]:
+              - generic [ref=e517]:
+                - generic [ref=e518]: 2026年2月10日
+                - generic [ref=e519]: 京都
+              - generic [ref=e520]:
+                - link "石清水S" [ref=e522] [cursor=pointer]:
+                  - /url: /JRADB/accessS.html?CNAME=pw01sde1008202602040920260210/5C
+                - generic [ref=e524]: 3勝ク
+              - generic [ref=e525]:
+                - generic [ref=e526]: 1着
+                - generic [ref=e527]:
+                  - generic [ref=e528]: 13頭
+                  - generic [ref=e529]: 7番
+                  - generic [ref=e530]: 1番人気
+              - generic [ref=e531]:
+                - generic [ref=e532]: 西村 淳也
+                - generic [ref=e533]: 58.0kg
+              - generic [ref=e534]:
+                - generic [ref=e535]:
+                  - generic [ref=e536]: 1600芝
+                  - paragraph [ref=e538]: 1:32.8
+                - generic [ref=e539]:
+                  - generic [ref=e541]: 良
+                  - paragraph [ref=e543]: 466kg
+              - generic [ref=e544]:
+                - generic [ref=e545]:
+                  - list [ref=e547]:
+                    - listitem "3コーナー通過順位" [ref=e548]: "7"
+                    - listitem "4コーナー通過順位" [ref=e549]: "8"
+                  - generic [ref=e550]: 3F 33.9
+                - paragraph [ref=e551]: スイープアワーズ(0.0)
+            - cell "2026年1月11日 京都 新春S 3勝ク 7着 15頭3番 2番人気 吉村 誠之助 57.0kg 1600芝 1:33.7 良 472kg 13 10 3F 33.8 ベラジオボンド(0.9)" [ref=e552]:
+              - generic [ref=e553]:
+                - generic [ref=e554]: 2026年1月11日
+                - generic [ref=e555]: 京都
+              - generic [ref=e556]:
+                - link "新春S" [ref=e558] [cursor=pointer]:
+                  - /url: /JRADB/accessS.html?CNAME=pw01sde1008202601041020260111/62
+                - generic [ref=e560]: 3勝ク
+              - generic [ref=e561]:
+                - generic [ref=e562]: 7着
+                - generic [ref=e563]:
+                  - generic [ref=e564]: 15頭
+                  - generic [ref=e565]: 3番
+                  - generic [ref=e566]: 2番人気
+              - generic [ref=e567]:
+                - generic [ref=e568]: 吉村 誠之助
+                - generic [ref=e569]: 57.0kg
+              - generic [ref=e570]:
+                - generic [ref=e571]:
+                  - generic [ref=e572]: 1600芝
+                  - paragraph [ref=e574]: 1:33.7
+                - generic [ref=e575]:
+                  - generic [ref=e577]: 良
+                  - paragraph [ref=e579]: 472kg
+              - generic [ref=e580]:
+                - generic [ref=e581]:
+                  - list [ref=e583]:
+                    - listitem "3コーナー通過順位" [ref=e584]: "13"
+                    - listitem "4コーナー通過順位" [ref=e585]: "10"
+                  - generic [ref=e586]: 3F 33.8
+                - paragraph [ref=e587]: ベラジオボンド(0.9)
+            - cell "2025年10月19日 京都 2勝クラス 1着 10頭4番 1番人気 ☆吉村 誠之 55.0kg 1600芝 1:33.3 良 468kg 7 7 3F 33.1 フェアリーライク(0.1)" [ref=e588]:
+              - generic [ref=e589]:
+                - generic [ref=e590]: 2025年10月19日
+                - generic [ref=e591]: 京都
+              - link "2勝クラス" [ref=e594] [cursor=pointer]:
+                - /url: /JRADB/accessS.html?CNAME=pw01sde1008202503070820251019/F1
+              - generic [ref=e595]:
+                - generic [ref=e596]: 1着
+                - generic [ref=e597]:
+                  - generic [ref=e598]: 10頭
+                  - generic [ref=e599]: 4番
+                  - generic [ref=e600]: 1番人気
+              - generic [ref=e601]:
+                - generic [ref=e602]: ☆吉村 誠之
+                - generic [ref=e603]: 55.0kg
+              - generic [ref=e604]:
+                - generic [ref=e605]:
+                  - generic [ref=e606]: 1600芝
+                  - paragraph [ref=e608]: 1:33.3
+                - generic [ref=e609]:
+                  - generic [ref=e611]: 良
+                  - paragraph [ref=e613]: 468kg
+              - generic [ref=e614]:
+                - generic [ref=e615]:
+                  - list [ref=e617]:
+                    - listitem "3コーナー通過順位" [ref=e618]: "7"
+                    - listitem "4コーナー通過順位" [ref=e619]: "7"
+                  - generic [ref=e620]: 3F 33.1
+                - paragraph [ref=e621]: フェアリーライク(0.1)
+            - cell "2025年7月26日 中京 1勝クラス 1着 10頭10番 2番人気 ☆吉村 誠之 54.0kg 1600芝 1:33.0 良 458kg 5 6 5 3F 33.4 レッドフェルメール(0.2)" [ref=e622]:
+              - generic [ref=e623]:
+                - generic [ref=e624]: 2025年7月26日
+                - generic [ref=e625]: 中京
+              - link "1勝クラス" [ref=e628] [cursor=pointer]:
+                - /url: /JRADB/accessS.html?CNAME=pw01sde1007202503011220250726/71
+              - generic [ref=e629]:
+                - generic [ref=e630]: 1着
+                - generic [ref=e631]:
+                  - generic [ref=e632]: 10頭
+                  - generic [ref=e633]: 10番
+                  - generic [ref=e634]: 2番人気
+              - generic [ref=e635]:
+                - generic [ref=e636]: ☆吉村 誠之
+                - generic [ref=e637]: 54.0kg
+              - generic [ref=e638]:
+                - generic [ref=e639]:
+                  - generic [ref=e640]: 1600芝
+                  - paragraph [ref=e642]: 1:33.0
+                - generic [ref=e643]:
+                  - generic [ref=e645]: 良
+                  - paragraph [ref=e647]: 458kg
+              - generic [ref=e648]:
+                - generic [ref=e649]:
+                  - list [ref=e651]:
+                    - listitem "2コーナー通過順位" [ref=e652]: "5"
+                    - listitem "3コーナー通過順位" [ref=e653]: "6"
+                    - listitem "4コーナー通過順位" [ref=e654]: "5"
+                  - generic [ref=e655]: 3F 33.4
+                - paragraph [ref=e656]: レッドフェルメール(0.2)
+          - row "枠2黒 3 エンペラーズソード 11.8 (7番人気) (4.1.4.7) 6,324.4万円 岡田 牧雄 ハクレイファーム 高木 登(美浦) 父：ドレフォン 母：ルミナスソード (母の父：Candy Ride) 勝負服の画像 せん4/鹿 55.0kg 丹内 祐次 2026年3月15日 中山 東風S リステッド 7着 16頭13番 5番人気 荻野 極 57.0kg 1600芝 1:32.5 良 100 494kg 1 1 1 3F 35.2 ヴァルキリーバース(0.5) 2026年2月10日 東京 東京新聞杯 GⅢ 11着 16頭10番 5番人気 原 優介 57.0kg 1600芝 1:32.9 良 103 500kg 3 2 3F 34.5 トロヴァトーレ(0.7) 2025年11月23日 東京 秋色S 3勝ク 1着 17頭3番 1番人気 荻野 極 55.0kg 1600芝 1:31.9 良 496kg 1 1 3F 34.5 コートアリシアン(0.2) 2025年11月2日 東京 国立特別 2勝ク 1着 10頭8番 3番人気 菅原 明良 57.0kg 1600芝 1:33.1 良 496kg 2 2 3F 33.1 アンパドゥ(0.1)" [ref=e657]:
+            - cell "枠2黒" [ref=e658]:
+              - img "枠2黒" [ref=e659]
+            - cell "3" [ref=e660]
+            - cell "エンペラーズソード 11.8 (7番人気) (4.1.4.7) 6,324.4万円 岡田 牧雄 ハクレイファーム 高木 登(美浦) 父：ドレフォン 母：ルミナスソード (母の父：Candy Ride)" [ref=e661]:
+              - generic [ref=e662]:
+                - link "エンペラーズソード" [ref=e664] [cursor=pointer]:
+                  - /url: /JRADB/accessU.html?CNAME=pw01dud002022106691/99
+                - generic [ref=e666]:
+                  - strong [ref=e668]: "11.8"
+                  - generic [ref=e669]: (7番人気)
+              - generic [ref=e670]:
+                - generic [ref=e671]: (4.1.4.7)
+                - generic "63,244,000円" [ref=e672]: 6,324.4万円
+              - paragraph [ref=e673]: 岡田 牧雄
+              - paragraph [ref=e674]: ハクレイファーム
+              - paragraph [ref=e675]:
+                - link "高木 登" [ref=e676] [cursor=pointer]:
+                  - /url: "#"
+                - text: (美浦)
+              - list [ref=e677]:
+                - listitem [ref=e678]: 父：ドレフォン
+                - listitem [ref=e679]:
+                  - text: 母：ルミナスソード
+                  - generic [ref=e680]: (母の父：Candy Ride)
+            - cell "勝負服の画像 せん4/鹿 55.0kg 丹内 祐次" [ref=e681]:
+              - paragraph [ref=e682]:
+                - img "勝負服の画像" [ref=e683]
+              - paragraph [ref=e684]: せん4/鹿
+              - paragraph [ref=e685]: 55.0kg
+              - paragraph [ref=e686]:
+                - link "丹内 祐次" [ref=e687] [cursor=pointer]:
+                  - /url: "#"
+            - cell "2026年3月15日 中山 東風S リステッド 7着 16頭13番 5番人気 荻野 極 57.0kg 1600芝 1:32.5 良 100 494kg 1 1 1 3F 35.2 ヴァルキリーバース(0.5)" [ref=e688]:
+              - generic [ref=e689]:
+                - generic [ref=e690]: 2026年3月15日
+                - generic [ref=e691]: 中山
+              - generic [ref=e692]:
+                - link "東風S" [ref=e694] [cursor=pointer]:
+                  - /url: /JRADB/accessS.html?CNAME=pw01sde1006202602061020260315/CF
+                - img "リステッド" [ref=e697]
+              - generic [ref=e698]:
+                - generic [ref=e699]: 7着
+                - generic [ref=e700]:
+                  - generic [ref=e701]: 16頭
+                  - generic [ref=e702]: 13番
+                  - generic [ref=e703]: 5番人気
+              - generic [ref=e704]:
+                - generic [ref=e705]: 荻野 極
+                - generic [ref=e706]: 57.0kg
+              - generic [ref=e707]:
+                - generic [ref=e708]:
+                  - generic [ref=e709]: 1600芝
+                  - paragraph [ref=e711]: 1:32.5
+                - generic [ref=e712]:
+                  - generic [ref=e714]: 良
+                  - paragraph [ref=e716]: "100"
+                  - paragraph [ref=e718]: 494kg
+              - generic [ref=e719]:
+                - generic [ref=e720]:
+                  - list [ref=e722]:
+                    - listitem "2コーナー通過順位" [ref=e723]: "1"
+                    - listitem "3コーナー通過順位" [ref=e724]: "1"
+                    - listitem "4コーナー通過順位" [ref=e725]: "1"
+                  - generic [ref=e726]: 3F 35.2
+                - paragraph [ref=e727]: ヴァルキリーバース(0.5)
+            - cell "2026年2月10日 東京 東京新聞杯 GⅢ 11着 16頭10番 5番人気 原 優介 57.0kg 1600芝 1:32.9 良 103 500kg 3 2 3F 34.5 トロヴァトーレ(0.7)" [ref=e728]:
+              - generic [ref=e729]:
+                - generic [ref=e730]: 2026年2月10日
+                - generic [ref=e731]: 東京
+              - generic [ref=e732]:
+                - link "東京新聞杯" [ref=e734] [cursor=pointer]:
+                  - /url: /JRADB/accessS.html?CNAME=pw01sde1005202601041120260210/F7
+                - img "GⅢ" [ref=e737]
+              - generic [ref=e738]:
+                - generic [ref=e739]: 11着
+                - generic [ref=e740]:
+                  - generic [ref=e741]: 16頭
+                  - generic [ref=e742]: 10番
+                  - generic [ref=e743]: 5番人気
+              - generic [ref=e744]:
+                - generic [ref=e745]: 原 優介
+                - generic [ref=e746]: 57.0kg
+              - generic [ref=e747]:
+                - generic [ref=e748]:
+                  - generic [ref=e749]: 1600芝
+                  - paragraph [ref=e751]: 1:32.9
+                - generic [ref=e752]:
+                  - generic [ref=e754]: 良
+                  - paragraph [ref=e756]: "103"
+                  - paragraph [ref=e758]: 500kg
+              - generic [ref=e759]:
+                - generic [ref=e760]:
+                  - list [ref=e762]:
+                    - listitem "3コーナー通過順位" [ref=e763]: "3"
+                    - listitem "4コーナー通過順位" [ref=e764]: "2"
+                  - generic [ref=e765]: 3F 34.5
+                - paragraph [ref=e766]: トロヴァトーレ(0.7)
+            - cell "2025年11月23日 東京 秋色S 3勝ク 1着 17頭3番 1番人気 荻野 極 55.0kg 1600芝 1:31.9 良 496kg 1 1 3F 34.5 コートアリシアン(0.2)" [ref=e767]:
+              - generic [ref=e768]:
+                - generic [ref=e769]: 2025年11月23日
+                - generic [ref=e770]: 東京
+              - generic [ref=e771]:
+                - link "秋色S" [ref=e773] [cursor=pointer]:
+                  - /url: /JRADB/accessS.html?CNAME=pw01sde1005202505051020251123/A0
+                - generic [ref=e775]: 3勝ク
+              - generic [ref=e776]:
+                - generic [ref=e777]: 1着
+                - generic [ref=e778]:
+                  - generic [ref=e779]: 17頭
+                  - generic [ref=e780]: 3番
+                  - generic [ref=e781]: 1番人気
+              - generic [ref=e782]:
+                - generic [ref=e783]: 荻野 極
+                - generic [ref=e784]: 55.0kg
+              - generic [ref=e785]:
+                - generic [ref=e786]:
+                  - generic [ref=e787]: 1600芝
+                  - paragraph [ref=e789]: 1:31.9
+                - generic [ref=e790]:
+                  - generic [ref=e792]: 良
+                  - paragraph [ref=e794]: 496kg
+              - generic [ref=e795]:
+                - generic [ref=e796]:
+                  - list [ref=e798]:
+                    - listitem "3コーナー通過順位" [ref=e799]: "1"
+                    - listitem "4コーナー通過順位" [ref=e800]: "1"
+                  - generic [ref=e801]: 3F 34.5
+                - paragraph [ref=e802]: コートアリシアン(0.2)
+            - cell "2025年11月2日 東京 国立特別 2勝ク 1着 10頭8番 3番人気 菅原 明良 57.0kg 1600芝 1:33.1 良 496kg 2 2 3F 33.1 アンパドゥ(0.1)" [ref=e803]:
+              - generic [ref=e804]:
+                - generic [ref=e805]: 2025年11月2日
+                - generic [ref=e806]: 東京
+              - generic [ref=e807]:
+                - link "国立特別" [ref=e809] [cursor=pointer]:
+                  - /url: /JRADB/accessS.html?CNAME=pw01sde1005202504110920251102/4D
+                - generic [ref=e811]: 2勝ク
+              - generic [ref=e812]:
+                - generic [ref=e813]: 1着
+                - generic [ref=e814]:
+                  - generic [ref=e815]: 10頭
+                  - generic [ref=e816]: 8番
+                  - generic [ref=e817]: 3番人気
+              - generic [ref=e818]:
+                - generic [ref=e819]: 菅原 明良
+                - generic [ref=e820]: 57.0kg
+              - generic [ref=e821]:
+                - generic [ref=e822]:
+                  - generic [ref=e823]: 1600芝
+                  - paragraph [ref=e825]: 1:33.1
+                - generic [ref=e826]:
+                  - generic [ref=e828]: 良
+                  - paragraph [ref=e830]: 496kg
+              - generic [ref=e831]:
+                - generic [ref=e832]:
+                  - list [ref=e834]:
+                    - listitem "3コーナー通過順位" [ref=e835]: "2"
+                    - listitem "4コーナー通過順位" [ref=e836]: "2"
+                  - generic [ref=e837]: 3F 33.1
+                - paragraph [ref=e838]: アンパドゥ(0.1)
+          - row "枠2黒 4 ブリンカー着用 メタルスピード 8.8 (3番人気) (4.6.6.21) 14,803.4万円 Him Rock Racingホールディングス(株) タバタファーム 斎藤 誠(美浦) 父：シルバーステート 母：マイビビアーヌ (母の父：Shamardal) 勝負服の画像 牡6/黒鹿 55.0kg 岩田 康誠 2026年3月14日 中山 幕張S 3勝ク 1着 16頭16番 11番人気 斎藤 新 55.0kg 1600芝 1:32.3 良 524kg 1 1 1 3F 35.2 ヒシアマン(0.1) 2026年2月10日 京都 石清水S 3勝ク 11着 13頭3番 8番人気 吉村 誠之助 58.0kg 1600芝 1:34.0 良 532kg 2 2 3F 35.5 ミニトランザット(1.2) 2026年1月18日 中山 若潮S 3勝ク 15着 15頭14番 7番人気 丹内 祐次 58.0kg 1600芝 1:33.1 良 530kg 2 2 2 3F 36.1 ポルカリズム(1.4) 2025年12月21日 中山 2勝クラス 1着 16頭7番 2番人気 佐々木 大輔 58.0kg 1600芝 1:34.5 重 524kg 2 2 1 3F 35.7 ピコローズ(0.0)" [ref=e839]:
+            - cell "枠2黒" [ref=e840]:
+              - img "枠2黒" [ref=e841]
+            - cell "4 ブリンカー着用" [ref=e842]:
+              - text: "4"
+              - img "ブリンカー着用" [ref=e844]
+            - cell "メタルスピード 8.8 (3番人気) (4.6.6.21) 14,803.4万円 Him Rock Racingホールディングス(株) タバタファーム 斎藤 誠(美浦) 父：シルバーステート 母：マイビビアーヌ (母の父：Shamardal)" [ref=e845]:
+              - generic [ref=e846]:
+                - link "メタルスピード" [ref=e848] [cursor=pointer]:
+                  - /url: /JRADB/accessU.html?CNAME=pw01dud002020101772/5A
+                - generic [ref=e850]:
+                  - strong [ref=e852]: "8.8"
+                  - generic [ref=e853]: (3番人気)
+              - generic [ref=e854]:
+                - generic [ref=e855]: (4.6.6.21)
+                - generic "148,034,000円" [ref=e856]: 14,803.4万円
+              - paragraph [ref=e857]: Him Rock Racingホールディングス(株)
+              - paragraph [ref=e858]: タバタファーム
+              - paragraph [ref=e859]:
+                - link "斎藤 誠" [ref=e860] [cursor=pointer]:
+                  - /url: "#"
+                - text: (美浦)
+              - list [ref=e861]:
+                - listitem [ref=e862]: 父：シルバーステート
+                - listitem [ref=e863]:
+                  - text: 母：マイビビアーヌ
+                  - generic [ref=e864]: (母の父：Shamardal)
+            - cell "勝負服の画像 牡6/黒鹿 55.0kg 岩田 康誠" [ref=e865]:
+              - paragraph [ref=e866]:
+                - img "勝負服の画像" [ref=e867]
+              - paragraph [ref=e868]: 牡6/黒鹿
+              - paragraph [ref=e869]: 55.0kg
+              - paragraph [ref=e870]:
+                - link "岩田 康誠" [ref=e871] [cursor=pointer]:
+                  - /url: "#"
+            - cell "2026年3月14日 中山 幕張S 3勝ク 1着 16頭16番 11番人気 斎藤 新 55.0kg 1600芝 1:32.3 良 524kg 1 1 1 3F 35.2 ヒシアマン(0.1)" [ref=e872]:
+              - generic [ref=e873]:
+                - generic [ref=e874]: 2026年3月14日
+                - generic [ref=e875]: 中山
+              - generic [ref=e876]:
+                - link "幕張S" [ref=e878] [cursor=pointer]:
+                  - /url: /JRADB/accessS.html?CNAME=pw01sde1006202602051020260314/9F
+                - generic [ref=e880]: 3勝ク
+              - generic [ref=e881]:
+                - generic [ref=e882]: 1着
+                - generic [ref=e883]:
+                  - generic [ref=e884]: 16頭
+                  - generic [ref=e885]: 16番
+                  - generic [ref=e886]: 11番人気
+              - generic [ref=e887]:
+                - generic [ref=e888]: 斎藤 新
+                - generic [ref=e889]: 55.0kg
+              - generic [ref=e890]:
+                - generic [ref=e891]:
+                  - generic [ref=e892]: 1600芝
+                  - paragraph [ref=e894]: 1:32.3
+                - generic [ref=e895]:
+                  - generic [ref=e897]: 良
+                  - paragraph [ref=e899]: 524kg
+              - generic [ref=e900]:
+                - generic [ref=e901]:
+                  - list [ref=e903]:
+                    - listitem "2コーナー通過順位" [ref=e904]: "1"
+                    - listitem "3コーナー通過順位" [ref=e905]: "1"
+                    - listitem "4コーナー通過順位" [ref=e906]: "1"
+                  - generic [ref=e907]: 3F 35.2
+                - paragraph [ref=e908]: ヒシアマン(0.1)
+            - cell "2026年2月10日 京都 石清水S 3勝ク 11着 13頭3番 8番人気 吉村 誠之助 58.0kg 1600芝 1:34.0 良 532kg 2 2 3F 35.5 ミニトランザット(1.2)" [ref=e909]:
+              - generic [ref=e910]:
+                - generic [ref=e911]: 2026年2月10日
+                - generic [ref=e912]: 京都
+              - generic [ref=e913]:
+                - link "石清水S" [ref=e915] [cursor=pointer]:
+                  - /url: /JRADB/accessS.html?CNAME=pw01sde1008202602040920260210/5C
+                - generic [ref=e917]: 3勝ク
+              - generic [ref=e918]:
+                - generic [ref=e919]: 11着
+                - generic [ref=e920]:
+                  - generic [ref=e921]: 13頭
+                  - generic [ref=e922]: 3番
+                  - generic [ref=e923]: 8番人気
+              - generic [ref=e924]:
+                - generic [ref=e925]: 吉村 誠之助
+                - generic [ref=e926]: 58.0kg
+              - generic [ref=e927]:
+                - generic [ref=e928]:
+                  - generic [ref=e929]: 1600芝
+                  - paragraph [ref=e931]: 1:34.0
+                - generic [ref=e932]:
+                  - generic [ref=e934]: 良
+                  - paragraph [ref=e936]: 532kg
+              - generic [ref=e937]:
+                - generic [ref=e938]:
+                  - list [ref=e940]:
+                    - listitem "3コーナー通過順位" [ref=e941]: "2"
+                    - listitem "4コーナー通過順位" [ref=e942]: "2"
+                  - generic [ref=e943]: 3F 35.5
+                - paragraph [ref=e944]: ミニトランザット(1.2)
+            - cell "2026年1月18日 中山 若潮S 3勝ク 15着 15頭14番 7番人気 丹内 祐次 58.0kg 1600芝 1:33.1 良 530kg 2 2 2 3F 36.1 ポルカリズム(1.4)" [ref=e945]:
+              - generic [ref=e946]:
+                - generic [ref=e947]: 2026年1月18日
+                - generic [ref=e948]: 中山
+              - generic [ref=e949]:
+                - link "若潮S" [ref=e951] [cursor=pointer]:
+                  - /url: /JRADB/accessS.html?CNAME=pw01sde1006202601070920260118/5D
+                - generic [ref=e953]: 3勝ク
+              - generic [ref=e954]:
+                - generic [ref=e955]: 15着
+                - generic [ref=e956]:
+                  - generic [ref=e957]: 15頭
+                  - generic [ref=e958]: 14番
+                  - generic [ref=e959]: 7番人気
+              - generic [ref=e960]:
+                - generic [ref=e961]: 丹内 祐次
+                - generic [ref=e962]: 58.0kg
+              - generic [ref=e963]:
+                - generic [ref=e964]:
+                  - generic [ref=e965]: 1600芝
+                  - paragraph [ref=e967]: 1:33.1
+                - generic [ref=e968]:
+                  - generic [ref=e970]: 良
+                  - paragraph [ref=e972]: 530kg
+              - generic [ref=e973]:
+                - generic [ref=e974]:
+                  - list [ref=e976]:
+                    - listitem "2コーナー通過順位" [ref=e977]: "2"
+                    - listitem "3コーナー通過順位" [ref=e978]: "2"
+                    - listitem "4コーナー通過順位" [ref=e979]: "2"
+                  - generic [ref=e980]: 3F 36.1
+                - paragraph [ref=e981]: ポルカリズム(1.4)
+            - cell "2025年12月21日 中山 2勝クラス 1着 16頭7番 2番人気 佐々木 大輔 58.0kg 1600芝 1:34.5 重 524kg 2 2 1 3F 35.7 ピコローズ(0.0)" [ref=e982]:
+              - generic [ref=e983]:
+                - generic [ref=e984]: 2025年12月21日
+                - generic [ref=e985]: 中山
+              - link "2勝クラス" [ref=e988] [cursor=pointer]:
+                - /url: /JRADB/accessS.html?CNAME=pw01sde1006202505061220251221/C8
+              - generic [ref=e989]:
+                - generic [ref=e990]: 1着
+                - generic [ref=e991]:
+                  - generic [ref=e992]: 16頭
+                  - generic [ref=e993]: 7番
+                  - generic [ref=e994]: 2番人気
+              - generic [ref=e995]:
+                - generic [ref=e996]: 佐々木 大輔
+                - generic [ref=e997]: 58.0kg
+              - generic [ref=e998]:
+                - generic [ref=e999]:
+                  - generic [ref=e1000]: 1600芝
+                  - paragraph [ref=e1002]: 1:34.5
+                - generic [ref=e1003]:
+                  - generic [ref=e1005]: 重
+                  - paragraph [ref=e1007]: 524kg
+              - generic [ref=e1008]:
+                - generic [ref=e1009]:
+                  - list [ref=e1011]:
+                    - listitem "2コーナー通過順位" [ref=e1012]: "2"
+                    - listitem "3コーナー通過順位" [ref=e1013]: "2"
+                    - listitem "4コーナー通過順位" [ref=e1014]: "1"
+                  - generic [ref=e1015]: 3F 35.7
+                - paragraph [ref=e1016]: ピコローズ(0.0)
+          - row "枠3赤 5 ブエナオンダ 13.8 (11番人気) (5.1.4.9) 13,156.6万円 金子真人ホールディングス(株) ノーザンファーム 須貝 尚介(栗東) 父：リオンディーズ 母：オーサムウインド (母の父：ディープインパクト) 勝負服の画像 牡5/青鹿 58.0kg 佐々木 大輔 2026年2月10日 東京 東京新聞杯 GⅢ 15着 16頭16番 8番人気 横山 武史 58.0kg 1600芝 1:33.0 良 104 458kg 2 2 3F 34.6 トロヴァトーレ(0.8) 2026年1月4日 京都 スポ京都金杯 GⅢ 1着 18頭15番 4番人気 川田 将雅 56.5kg 1600芝 1:33.7 良 108 456kg 5 5 3F 33.8 ファーヴェント(0.0) 2025年11月29日 東京 キャピタルS リステッド 3着 18頭6番 6番人気 川田 将雅 57.0kg 1600芝 1:32.0 良 105 454kg 5 6 3F 33.9 ミッキーゴージャス(0.1) 2025年11月2日 京都 まほろばS リステッド 2着 15頭6番 2番人気 浜中 俊 56.0kg 1600芝 1:32.5 良 105 454kg 11 11 3F 33.5 エアファンディタ(0.0)" [ref=e1017]:
+            - cell "枠3赤" [ref=e1018]:
+              - img "枠3赤" [ref=e1019]
+            - cell "5" [ref=e1020]
+            - cell "ブエナオンダ 13.8 (11番人気) (5.1.4.9) 13,156.6万円 金子真人ホールディングス(株) ノーザンファーム 須貝 尚介(栗東) 父：リオンディーズ 母：オーサムウインド (母の父：ディープインパクト)" [ref=e1021]:
+              - generic [ref=e1022]:
+                - link "ブエナオンダ" [ref=e1024] [cursor=pointer]:
+                  - /url: /JRADB/accessU.html?CNAME=pw01dud002021105454/D5
+                - generic [ref=e1026]:
+                  - strong [ref=e1028]: "13.8"
+                  - generic [ref=e1029]: (11番人気)
+              - generic [ref=e1030]:
+                - generic [ref=e1031]: (5.1.4.9)
+                - generic "131,566,000円" [ref=e1032]: 13,156.6万円
+              - paragraph [ref=e1033]: 金子真人ホールディングス(株)
+              - paragraph [ref=e1034]: ノーザンファーム
+              - paragraph [ref=e1035]:
+                - link "須貝 尚介" [ref=e1036] [cursor=pointer]:
+                  - /url: "#"
+                - text: (栗東)
+              - list [ref=e1037]:
+                - listitem [ref=e1038]: 父：リオンディーズ
+                - listitem [ref=e1039]:
+                  - text: 母：オーサムウインド
+                  - generic [ref=e1040]: (母の父：ディープインパクト)
+            - cell "勝負服の画像 牡5/青鹿 58.0kg 佐々木 大輔" [ref=e1041]:
+              - paragraph [ref=e1042]:
+                - img "勝負服の画像" [ref=e1043]
+              - paragraph [ref=e1044]: 牡5/青鹿
+              - paragraph [ref=e1045]: 58.0kg
+              - paragraph [ref=e1046]:
+                - link "佐々木 大輔" [ref=e1047] [cursor=pointer]:
+                  - /url: "#"
+            - cell "2026年2月10日 東京 東京新聞杯 GⅢ 15着 16頭16番 8番人気 横山 武史 58.0kg 1600芝 1:33.0 良 104 458kg 2 2 3F 34.6 トロヴァトーレ(0.8)" [ref=e1048]:
+              - generic [ref=e1049]:
+                - generic [ref=e1050]: 2026年2月10日
+                - generic [ref=e1051]: 東京
+              - generic [ref=e1052]:
+                - link "東京新聞杯" [ref=e1054] [cursor=pointer]:
+                  - /url: /JRADB/accessS.html?CNAME=pw01sde1005202601041120260210/F7
+                - img "GⅢ" [ref=e1057]
+              - generic [ref=e1058]:
+                - generic [ref=e1059]: 15着
+                - generic [ref=e1060]:
+                  - generic [ref=e1061]: 16頭
+                  - generic [ref=e1062]: 16番
+                  - generic [ref=e1063]: 8番人気
+              - generic [ref=e1064]:
+                - generic [ref=e1065]: 横山 武史
+                - generic [ref=e1066]: 58.0kg
+              - generic [ref=e1067]:
+                - generic [ref=e1068]:
+                  - generic [ref=e1069]: 1600芝
+                  - paragraph [ref=e1071]: 1:33.0
+                - generic [ref=e1072]:
+                  - generic [ref=e1074]: 良
+                  - paragraph [ref=e1076]: "104"
+                  - paragraph [ref=e1078]: 458kg
+              - generic [ref=e1079]:
+                - generic [ref=e1080]:
+                  - list [ref=e1082]:
+                    - listitem "3コーナー通過順位" [ref=e1083]: "2"
+                    - listitem "4コーナー通過順位" [ref=e1084]: "2"
+                  - generic [ref=e1085]: 3F 34.6
+                - paragraph [ref=e1086]: トロヴァトーレ(0.8)
+            - cell "2026年1月4日 京都 スポ京都金杯 GⅢ 1着 18頭15番 4番人気 川田 将雅 56.5kg 1600芝 1:33.7 良 108 456kg 5 5 3F 33.8 ファーヴェント(0.0)" [ref=e1087]:
+              - generic [ref=e1088]:
+                - generic [ref=e1089]: 2026年1月4日
+                - generic [ref=e1090]: 京都
+              - generic [ref=e1091]:
+                - link "スポ京都金杯" [ref=e1093] [cursor=pointer]:
+                  - /url: /JRADB/accessS.html?CNAME=pw01sde1008202601011120260104/9B
+                - img "GⅢ" [ref=e1096]
+              - generic [ref=e1097]:
+                - generic [ref=e1098]: 1着
+                - generic [ref=e1099]:
+                  - generic [ref=e1100]: 18頭
+                  - generic [ref=e1101]: 15番
+                  - generic [ref=e1102]: 4番人気
+              - generic [ref=e1103]:
+                - generic [ref=e1104]: 川田 将雅
+                - generic [ref=e1105]: 56.5kg
+              - generic [ref=e1106]:
+                - generic [ref=e1107]:
+                  - generic [ref=e1108]: 1600芝
+                  - paragraph [ref=e1110]: 1:33.7
+                - generic [ref=e1111]:
+                  - generic [ref=e1113]: 良
+                  - paragraph [ref=e1115]: "108"
+                  - paragraph [ref=e1117]: 456kg
+              - generic [ref=e1118]:
+                - generic [ref=e1119]:
+                  - list [ref=e1121]:
+                    - listitem "3コーナー通過順位" [ref=e1122]: "5"
+                    - listitem "4コーナー通過順位" [ref=e1123]: "5"
+                  - generic [ref=e1124]: 3F 33.8
+                - paragraph [ref=e1125]: ファーヴェント(0.0)
+            - cell "2025年11月29日 東京 キャピタルS リステッド 3着 18頭6番 6番人気 川田 将雅 57.0kg 1600芝 1:32.0 良 105 454kg 5 6 3F 33.9 ミッキーゴージャス(0.1)" [ref=e1126]:
+              - generic [ref=e1127]:
+                - generic [ref=e1128]: 2025年11月29日
+                - generic [ref=e1129]: 東京
+              - generic [ref=e1130]:
+                - link "キャピタルS" [ref=e1132] [cursor=pointer]:
+                  - /url: /JRADB/accessS.html?CNAME=pw01sde1005202505071120251129/A9
+                - img "リステッド" [ref=e1135]
+              - generic [ref=e1136]:
+                - generic [ref=e1137]: 3着
+                - generic [ref=e1138]:
+                  - generic [ref=e1139]: 18頭
+                  - generic [ref=e1140]: 6番
+                  - generic [ref=e1141]: 6番人気
+              - generic [ref=e1142]:
+                - generic [ref=e1143]: 川田 将雅
+                - generic [ref=e1144]: 57.0kg
+              - generic [ref=e1145]:
+                - generic [ref=e1146]:
+                  - generic [ref=e1147]: 1600芝
+                  - paragraph [ref=e1149]: 1:32.0
+                - generic [ref=e1150]:
+                  - generic [ref=e1152]: 良
+                  - paragraph [ref=e1154]: "105"
+                  - paragraph [ref=e1156]: 454kg
+              - generic [ref=e1157]:
+                - generic [ref=e1158]:
+                  - list [ref=e1160]:
+                    - listitem "3コーナー通過順位" [ref=e1161]: "5"
+                    - listitem "4コーナー通過順位" [ref=e1162]: "6"
+                  - generic [ref=e1163]: 3F 33.9
+                - paragraph [ref=e1164]: ミッキーゴージャス(0.1)
+            - cell "2025年11月2日 京都 まほろばS リステッド 2着 15頭6番 2番人気 浜中 俊 56.0kg 1600芝 1:32.5 良 105 454kg 11 11 3F 33.5 エアファンディタ(0.0)" [ref=e1165]:
+              - generic [ref=e1166]:
+                - generic [ref=e1167]: 2025年11月2日
+                - generic [ref=e1168]: 京都
+              - generic [ref=e1169]:
+                - link "まほろばS" [ref=e1171] [cursor=pointer]:
+                  - /url: /JRADB/accessS.html?CNAME=pw01sde1008202503111120251102/A4
+                - img "リステッド" [ref=e1174]
+              - generic [ref=e1175]:
+                - generic [ref=e1176]: 2着
+                - generic [ref=e1177]:
+                  - generic [ref=e1178]: 15頭
+                  - generic [ref=e1179]: 6番
+                  - generic [ref=e1180]: 2番人気
+              - generic [ref=e1181]:
+                - generic [ref=e1182]: 浜中 俊
+                - generic [ref=e1183]: 56.0kg
+              - generic [ref=e1184]:
+                - generic [ref=e1185]:
+                  - generic [ref=e1186]: 1600芝
+                  - paragraph [ref=e1188]: 1:32.5
+                - generic [ref=e1189]:
+                  - generic [ref=e1191]: 良
+                  - paragraph [ref=e1193]: "105"
+                  - paragraph [ref=e1195]: 454kg
+              - generic [ref=e1196]:
+                - generic [ref=e1197]:
+                  - list [ref=e1199]:
+                    - listitem "3コーナー通過順位" [ref=e1200]: "11"
+                    - listitem "4コーナー通過順位" [ref=e1201]: "11"
+                  - generic [ref=e1202]: 3F 33.5
+                - paragraph [ref=e1203]: エアファンディタ(0.0)
+          - row "枠3赤 6 ブリンカー着用 マテンロウオリオン 9.1 (4番人気) (2.3.0.27) 15,322.8万円 寺田 千代乃 ムラカミファーム 昆 貢(栗東) 父：ダイワメジャー 母：パルテノン (母の父：キングカメハメハ) 勝負服の画像 牡7/黒鹿 56.0kg 横山 典弘 2026年2月22日 小倉 小倉大賞典 GⅢ 15着 16頭1番 7番人気 横山 典弘 56.0kg 1800芝 1:47.5 良 83 492kg 3 3 2 2 3F 37.2 タガノデュード(2.3) 2026年1月4日 京都 スポ京都金杯 GⅢ 11着 18頭7番 14番人気 横山 典弘 56.0kg 1600芝 1:34.2 良 101 492kg 11 10 3F 33.8 ブエナオンダ(0.5) 2025年11月29日 東京 キャピタルS リステッド 10着 18頭8番 11番人気 横山 典弘 57.0kg 1600芝 1:32.5 良 100 480kg 16 16 3F 33.4 ミッキーゴージャス(0.6) 2025年7月13日 福島 七夕賞 GⅢ 14着 15頭4番 9番人気 横山 典弘 56.0kg 2000芝 2:03.6 良 75 476kg 15 15 14 11 3F 37.5 コスモフリーゲン(3.1)" [ref=e1204]:
+            - cell "枠3赤" [ref=e1205]:
+              - img "枠3赤" [ref=e1206]
+            - cell "6 ブリンカー着用" [ref=e1207]:
+              - text: "6"
+              - img "ブリンカー着用" [ref=e1209]
+            - cell "マテンロウオリオン 9.1 (4番人気) (2.3.0.27) 15,322.8万円 寺田 千代乃 ムラカミファーム 昆 貢(栗東) 父：ダイワメジャー 母：パルテノン (母の父：キングカメハメハ)" [ref=e1210]:
+              - generic [ref=e1211]:
+                - link "マテンロウオリオン" [ref=e1213] [cursor=pointer]:
+                  - /url: /JRADB/accessU.html?CNAME=pw01dud002019100965/97
+                - generic [ref=e1215]:
+                  - strong [ref=e1217]: "9.1"
+                  - generic [ref=e1218]: (4番人気)
+              - generic [ref=e1219]:
+                - generic [ref=e1220]: (2.3.0.27)
+                - generic "153,228,000円" [ref=e1221]: 15,322.8万円
+              - paragraph [ref=e1222]: 寺田 千代乃
+              - paragraph [ref=e1223]: ムラカミファーム
+              - paragraph [ref=e1224]:
+                - link "昆 貢" [ref=e1225] [cursor=pointer]:
+                  - /url: "#"
+                - text: (栗東)
+              - list [ref=e1226]:
+                - listitem [ref=e1227]: 父：ダイワメジャー
+                - listitem [ref=e1228]:
+                  - text: 母：パルテノン
+                  - generic [ref=e1229]: (母の父：キングカメハメハ)
+            - cell "勝負服の画像 牡7/黒鹿 56.0kg 横山 典弘" [ref=e1230]:
+              - paragraph [ref=e1231]:
+                - img "勝負服の画像" [ref=e1232]
+              - paragraph [ref=e1233]: 牡7/黒鹿
+              - paragraph [ref=e1234]: 56.0kg
+              - paragraph [ref=e1235]:
+                - link "横山 典弘" [ref=e1236] [cursor=pointer]:
+                  - /url: "#"
+            - cell "2026年2月22日 小倉 小倉大賞典 GⅢ 15着 16頭1番 7番人気 横山 典弘 56.0kg 1800芝 1:47.5 良 83 492kg 3 3 2 2 3F 37.2 タガノデュード(2.3)" [ref=e1237]:
+              - generic [ref=e1238]:
+                - generic [ref=e1239]: 2026年2月22日
+                - generic [ref=e1240]: 小倉
+              - generic [ref=e1241]:
+                - link "小倉大賞典" [ref=e1243] [cursor=pointer]:
+                  - /url: /JRADB/accessS.html?CNAME=pw01sde1010202601101120260222/C6
+                - img "GⅢ" [ref=e1246]
+              - generic [ref=e1247]:
+                - generic [ref=e1248]: 15着
+                - generic [ref=e1249]:
+                  - generic [ref=e1250]: 16頭
+                  - generic [ref=e1251]: 1番
+                  - generic [ref=e1252]: 7番人気
+              - generic [ref=e1253]:
+                - generic [ref=e1254]: 横山 典弘
+                - generic [ref=e1255]: 56.0kg
+              - generic [ref=e1256]:
+                - generic [ref=e1257]:
+                  - generic [ref=e1258]: 1800芝
+                  - paragraph [ref=e1260]: 1:47.5
+                - generic [ref=e1261]:
+                  - generic [ref=e1263]: 良
+                  - paragraph [ref=e1265]: "83"
+                  - paragraph [ref=e1267]: 492kg
+              - generic [ref=e1268]:
+                - generic [ref=e1269]:
+                  - list [ref=e1271]:
+                    - listitem "1コーナー通過順位" [ref=e1272]: "3"
+                    - listitem "2コーナー通過順位" [ref=e1273]: "3"
+                    - listitem "3コーナー通過順位" [ref=e1274]: "2"
+                    - listitem "4コーナー通過順位" [ref=e1275]: "2"
+                  - generic [ref=e1276]: 3F 37.2
+                - paragraph [ref=e1277]: タガノデュード(2.3)
+            - cell "2026年1月4日 京都 スポ京都金杯 GⅢ 11着 18頭7番 14番人気 横山 典弘 56.0kg 1600芝 1:34.2 良 101 492kg 11 10 3F 33.8 ブエナオンダ(0.5)" [ref=e1278]:
+              - generic [ref=e1279]:
+                - generic [ref=e1280]: 2026年1月4日
+                - generic [ref=e1281]: 京都
+              - generic [ref=e1282]:
+                - link "スポ京都金杯" [ref=e1284] [cursor=pointer]:
+                  - /url: /JRADB/accessS.html?CNAME=pw01sde1008202601011120260104/9B
+                - img "GⅢ" [ref=e1287]
+              - generic [ref=e1288]:
+                - generic [ref=e1289]: 11着
+                - generic [ref=e1290]:
+                  - generic [ref=e1291]: 18頭
+                  - generic [ref=e1292]: 7番
+                  - generic [ref=e1293]: 14番人気
+              - generic [ref=e1294]:
+                - generic [ref=e1295]: 横山 典弘
+                - generic [ref=e1296]: 56.0kg
+              - generic [ref=e1297]:
+                - generic [ref=e1298]:
+                  - generic [ref=e1299]: 1600芝
+                  - paragraph [ref=e1301]: 1:34.2
+                - generic [ref=e1302]:
+                  - generic [ref=e1304]: 良
+                  - paragraph [ref=e1306]: "101"
+                  - paragraph [ref=e1308]: 492kg
+              - generic [ref=e1309]:
+                - generic [ref=e1310]:
+                  - list [ref=e1312]:
+                    - listitem "3コーナー通過順位" [ref=e1313]: "11"
+                    - listitem "4コーナー通過順位" [ref=e1314]: "10"
+                  - generic [ref=e1315]: 3F 33.8
+                - paragraph [ref=e1316]: ブエナオンダ(0.5)
+            - cell "2025年11月29日 東京 キャピタルS リステッド 10着 18頭8番 11番人気 横山 典弘 57.0kg 1600芝 1:32.5 良 100 480kg 16 16 3F 33.4 ミッキーゴージャス(0.6)" [ref=e1317]:
+              - generic [ref=e1318]:
+                - generic [ref=e1319]: 2025年11月29日
+                - generic [ref=e1320]: 東京
+              - generic [ref=e1321]:
+                - link "キャピタルS" [ref=e1323] [cursor=pointer]:
+                  - /url: /JRADB/accessS.html?CNAME=pw01sde1005202505071120251129/A9
+                - img "リステッド" [ref=e1326]
+              - generic [ref=e1327]:
+                - generic [ref=e1328]: 10着
+                - generic [ref=e1329]:
+                  - generic [ref=e1330]: 18頭
+                  - generic [ref=e1331]: 8番
+                  - generic [ref=e1332]: 11番人気
+              - generic [ref=e1333]:
+                - generic [ref=e1334]: 横山 典弘
+                - generic [ref=e1335]: 57.0kg
+              - generic [ref=e1336]:
+                - generic [ref=e1337]:
+                  - generic [ref=e1338]: 1600芝
+                  - paragraph [ref=e1340]: 1:32.5
+                - generic [ref=e1341]:
+                  - generic [ref=e1343]: 良
+                  - paragraph [ref=e1345]: "100"
+                  - paragraph [ref=e1347]: 480kg
+              - generic [ref=e1348]:
+                - generic [ref=e1349]:
+                  - list [ref=e1351]:
+                    - listitem "3コーナー通過順位" [ref=e1352]: "16"
+                    - listitem "4コーナー通過順位" [ref=e1353]: "16"
+                  - generic [ref=e1354]: 3F 33.4
+                - paragraph [ref=e1355]: ミッキーゴージャス(0.6)
+            - cell "2025年7月13日 福島 七夕賞 GⅢ 14着 15頭4番 9番人気 横山 典弘 56.0kg 2000芝 2:03.6 良 75 476kg 15 15 14 11 3F 37.5 コスモフリーゲン(3.1)" [ref=e1356]:
+              - generic [ref=e1357]:
+                - generic [ref=e1358]: 2025年7月13日
+                - generic [ref=e1359]: 福島
+              - generic [ref=e1360]:
+                - link "七夕賞" [ref=e1362] [cursor=pointer]:
+                  - /url: /JRADB/accessS.html?CNAME=pw01sde1003202502061120250713/11
+                - img "GⅢ" [ref=e1365]
+              - generic [ref=e1366]:
+                - generic [ref=e1367]: 14着
+                - generic [ref=e1368]:
+                  - generic [ref=e1369]: 15頭
+                  - generic [ref=e1370]: 4番
+                  - generic [ref=e1371]: 9番人気
+              - generic [ref=e1372]:
+                - generic [ref=e1373]: 横山 典弘
+                - generic [ref=e1374]: 56.0kg
+              - generic [ref=e1375]:
+                - generic [ref=e1376]:
+                  - generic [ref=e1377]: 2000芝
+                  - paragraph [ref=e1379]: 2:03.6
+                - generic [ref=e1380]:
+                  - generic [ref=e1382]: 良
+                  - paragraph [ref=e1384]: "75"
+                  - paragraph [ref=e1386]: 476kg
+              - generic [ref=e1387]:
+                - generic [ref=e1388]:
+                  - list [ref=e1390]:
+                    - listitem "1コーナー通過順位" [ref=e1391]: "15"
+                    - listitem "2コーナー通過順位" [ref=e1392]: "15"
+                    - listitem "3コーナー通過順位" [ref=e1393]: "14"
+                    - listitem "4コーナー通過順位" [ref=e1394]: "11"
+                  - generic [ref=e1395]: 3F 37.5
+                - paragraph [ref=e1396]: コスモフリーゲン(3.1)
+          - row "枠4青 7 タイムトゥヘヴン 22.6 (14番人気) (2.3.2.30) 14,945.1万円 DMMドリームクラブ(株) オリオンファーム 戸田 博文(美浦) 父：ロードカナロア 母：キストゥヘヴン (母の父：アドマイヤベガ) 勝負服の画像 牡8/鹿 56.0kg 田辺 裕信 2025年11月22日 福島 福島記念 GⅢ 13着 16頭2番 10番人気 柴田 善臣 56.0kg 2000芝 2:00.9 良 99 484kg 15 15 16 15 3F 33.7 ニシノティアモ(1.0) 2025年10月13日 京都 MBSスワン GⅡ 12着 18頭2番 16番人気 柴田 善臣 57.0kg 1400芝 1:19.5 良 105 482kg 17 18 3F 33.1 オフトレイル(0.6) 2025年9月6日 中山 京成杯AH GⅢ 14着 16頭14番 7番人気 柴田 善臣 56.5kg 1600芝 1:32.3 良 96 484kg 15 11 12 3F 34.1 ホウオウラスカーズ(1.0) 2025年3月2日 中山 中山記念 GⅡ 4着 16頭5番 14番人気 田辺 裕信 57.0kg 1800芝 1:45.3 良 109 490kg 15 15 13 14 3F 34.0 シックスペンス(0.5)" [ref=e1397]:
+            - cell "枠4青" [ref=e1398]:
+              - img "枠4青" [ref=e1399]
+            - cell "7" [ref=e1400]
+            - cell "タイムトゥヘヴン 22.6 (14番人気) (2.3.2.30) 14,945.1万円 DMMドリームクラブ(株) オリオンファーム 戸田 博文(美浦) 父：ロードカナロア 母：キストゥヘヴン (母の父：アドマイヤベガ)" [ref=e1401]:
+              - generic [ref=e1402]:
+                - link "タイムトゥヘヴン" [ref=e1404] [cursor=pointer]:
+                  - /url: /JRADB/accessU.html?CNAME=pw01dud002018100184/30
+                - generic [ref=e1406]:
+                  - strong [ref=e1408]: "22.6"
+                  - generic [ref=e1409]: (14番人気)
+              - generic [ref=e1410]:
+                - generic [ref=e1411]: (2.3.2.30)
+                - generic "149,451,000円" [ref=e1412]: 14,945.1万円
+              - paragraph [ref=e1413]: DMMドリームクラブ(株)
+              - paragraph [ref=e1414]: オリオンファーム
+              - paragraph [ref=e1415]:
+                - link "戸田 博文" [ref=e1416] [cursor=pointer]:
+                  - /url: "#"
+                - text: (美浦)
+              - list [ref=e1417]:
+                - listitem [ref=e1418]: 父：ロードカナロア
+                - listitem [ref=e1419]:
+                  - text: 母：キストゥヘヴン
+                  - generic [ref=e1420]: (母の父：アドマイヤベガ)
+            - cell "勝負服の画像 牡8/鹿 56.0kg 田辺 裕信" [ref=e1421]:
+              - paragraph [ref=e1422]:
+                - img "勝負服の画像" [ref=e1423]
+              - paragraph [ref=e1424]: 牡8/鹿
+              - paragraph [ref=e1425]: 56.0kg
+              - paragraph [ref=e1426]:
+                - link "田辺 裕信" [ref=e1427] [cursor=pointer]:
+                  - /url: "#"
+            - cell "2025年11月22日 福島 福島記念 GⅢ 13着 16頭2番 10番人気 柴田 善臣 56.0kg 2000芝 2:00.9 良 99 484kg 15 15 16 15 3F 33.7 ニシノティアモ(1.0)" [ref=e1428]:
+              - generic [ref=e1429]:
+                - generic [ref=e1430]: 2025年11月22日
+                - generic [ref=e1431]: 福島
+              - generic [ref=e1432]:
+                - link "福島記念" [ref=e1434] [cursor=pointer]:
+                  - /url: /JRADB/accessS.html?CNAME=pw01sde1003202503051120251122/A2
+                - img "GⅢ" [ref=e1437]
+              - generic [ref=e1438]:
+                - generic [ref=e1439]: 13着
+                - generic [ref=e1440]:
+                  - generic [ref=e1441]: 16頭
+                  - generic [ref=e1442]: 2番
+                  - generic [ref=e1443]: 10番人気
+              - generic [ref=e1444]:
+                - generic [ref=e1445]: 柴田 善臣
+                - generic [ref=e1446]: 56.0kg
+              - generic [ref=e1447]:
+                - generic [ref=e1448]:
+                  - generic [ref=e1449]: 2000芝
+                  - paragraph [ref=e1451]: 2:00.9
+                - generic [ref=e1452]:
+                  - generic [ref=e1454]: 良
+                  - paragraph [ref=e1456]: "99"
+                  - paragraph [ref=e1458]: 484kg
+              - generic [ref=e1459]:
+                - generic [ref=e1460]:
+                  - list [ref=e1462]:
+                    - listitem "1コーナー通過順位" [ref=e1463]: "15"
+                    - listitem "2コーナー通過順位" [ref=e1464]: "15"
+                    - listitem "3コーナー通過順位" [ref=e1465]: "16"
+                    - listitem "4コーナー通過順位" [ref=e1466]: "15"
+                  - generic [ref=e1467]: 3F 33.7
+                - paragraph [ref=e1468]: ニシノティアモ(1.0)
+            - cell "2025年10月13日 京都 MBSスワン GⅡ 12着 18頭2番 16番人気 柴田 善臣 57.0kg 1400芝 1:19.5 良 105 482kg 17 18 3F 33.1 オフトレイル(0.6)" [ref=e1469]:
+              - generic [ref=e1470]:
+                - generic [ref=e1471]: 2025年10月13日
+                - generic [ref=e1472]: 京都
+              - generic [ref=e1473]:
+                - link "MBSスワン" [ref=e1475] [cursor=pointer]:
+                  - /url: /JRADB/accessS.html?CNAME=pw01sde1008202503051120251013/FC
+                - img "GⅡ" [ref=e1478]
+              - generic [ref=e1479]:
+                - generic [ref=e1480]: 12着
+                - generic [ref=e1481]:
+                  - generic [ref=e1482]: 18頭
+                  - generic [ref=e1483]: 2番
+                  - generic [ref=e1484]: 16番人気
+              - generic [ref=e1485]:
+                - generic [ref=e1486]: 柴田 善臣
+                - generic [ref=e1487]: 57.0kg
+              - generic [ref=e1488]:
+                - generic [ref=e1489]:
+                  - generic [ref=e1490]: 1400芝
+                  - paragraph [ref=e1492]: 1:19.5
+                - generic [ref=e1493]:
+                  - generic [ref=e1495]: 良
+                  - paragraph [ref=e1497]: "105"
+                  - paragraph [ref=e1499]: 482kg
+              - generic [ref=e1500]:
+                - generic [ref=e1501]:
+                  - list [ref=e1503]:
+                    - listitem "3コーナー通過順位" [ref=e1504]: "17"
+                    - listitem "4コーナー通過順位" [ref=e1505]: "18"
+                  - generic [ref=e1506]: 3F 33.1
+                - paragraph [ref=e1507]: オフトレイル(0.6)
+            - cell "2025年9月6日 中山 京成杯AH GⅢ 14着 16頭14番 7番人気 柴田 善臣 56.5kg 1600芝 1:32.3 良 96 484kg 15 11 12 3F 34.1 ホウオウラスカーズ(1.0)" [ref=e1508]:
+              - generic [ref=e1509]:
+                - generic [ref=e1510]: 2025年9月6日
+                - generic [ref=e1511]: 中山
+              - generic [ref=e1512]:
+                - link "京成杯AH" [ref=e1514] [cursor=pointer]:
+                  - /url: /JRADB/accessS.html?CNAME=pw01sde1006202504011120250906/E5
+                - img "GⅢ" [ref=e1517]
+              - generic [ref=e1518]:
+                - generic [ref=e1519]: 14着
+                - generic [ref=e1520]:
+                  - generic [ref=e1521]: 16頭
+                  - generic [ref=e1522]: 14番
+                  - generic [ref=e1523]: 7番人気
+              - generic [ref=e1524]:
+                - generic [ref=e1525]: 柴田 善臣
+                - generic [ref=e1526]: 56.5kg
+              - generic [ref=e1527]:
+                - generic [ref=e1528]:
+                  - generic [ref=e1529]: 1600芝
+                  - paragraph [ref=e1531]: 1:32.3
+                - generic [ref=e1532]:
+                  - generic [ref=e1534]: 良
+                  - paragraph [ref=e1536]: "96"
+                  - paragraph [ref=e1538]: 484kg
+              - generic [ref=e1539]:
+                - generic [ref=e1540]:
+                  - list [ref=e1542]:
+                    - listitem "2コーナー通過順位" [ref=e1543]: "15"
+                    - listitem "3コーナー通過順位" [ref=e1544]: "11"
+                    - listitem "4コーナー通過順位" [ref=e1545]: "12"
+                  - generic [ref=e1546]: 3F 34.1
+                - paragraph [ref=e1547]: ホウオウラスカーズ(1.0)
+            - cell "2025年3月2日 中山 中山記念 GⅡ 4着 16頭5番 14番人気 田辺 裕信 57.0kg 1800芝 1:45.3 良 109 490kg 15 15 13 14 3F 34.0 シックスペンス(0.5)" [ref=e1548]:
+              - generic [ref=e1549]:
+                - generic [ref=e1550]: 2025年3月2日
+                - generic [ref=e1551]: 中山
+              - generic [ref=e1552]:
+                - link "中山記念" [ref=e1554] [cursor=pointer]:
+                  - /url: /JRADB/accessS.html?CNAME=pw01sde1006202502021120250302/20
+                - img "GⅡ" [ref=e1557]
+              - generic [ref=e1558]:
+                - generic [ref=e1559]: 4着
+                - generic [ref=e1560]:
+                  - generic [ref=e1561]: 16頭
+                  - generic [ref=e1562]: 5番
+                  - generic [ref=e1563]: 14番人気
+              - generic [ref=e1564]:
+                - generic [ref=e1565]: 田辺 裕信
+                - generic [ref=e1566]: 57.0kg
+              - generic [ref=e1567]:
+                - generic [ref=e1568]:
+                  - generic [ref=e1569]: 1800芝
+                  - paragraph [ref=e1571]: 1:45.3
+                - generic [ref=e1572]:
+                  - generic [ref=e1574]: 良
+                  - paragraph [ref=e1576]: "109"
+                  - paragraph [ref=e1578]: 490kg
+              - generic [ref=e1579]:
+                - generic [ref=e1580]:
+                  - list [ref=e1582]:
+                    - listitem "1コーナー通過順位" [ref=e1583]: "15"
+                    - listitem "2コーナー通過順位" [ref=e1584]: "15"
+                    - listitem "3コーナー通過順位" [ref=e1585]: "13"
+                    - listitem "4コーナー通過順位" [ref=e1586]: "14"
+                  - generic [ref=e1587]: 3F 34.0
+                - paragraph [ref=e1588]: シックスペンス(0.5)
+          - row "枠4青 8 ファーヴェント 7.6 (2番人気) (4.3.1.6) 8,752.7万円 (有)キャロットファーム (有)社台コーポレーション白老ファーム 藤原 英昭(栗東) 父：ハーツクライ 母：トータルヒート (母の父：Street Cry) 勝負服の画像 牡5/黒鹿 57.0kg 横山 武史 2026年1月4日 京都 スポ京都金杯 GⅢ 2着 18頭11番 5番人気 松山 弘平 56.0kg 1600芝 1:33.7 良 106 512kg 3 3 3F 34.0 ブエナオンダ(0.0) 2025年10月18日 東京 富士S GⅡ 7着 14頭13番 10番人気 佐々木 大輔 57.0kg 1600芝 1:32.5 良 107 508kg 5 5 3F 33.7 ガイアフォース(0.8) 2025年8月24日 新潟 長岡S 3勝ク 1着 18頭18番 1番人気 荻野 極 56.0kg 1600芝 1:32.5 良 510kg 6 6 3F 33.0 ハワイアンティアレ(0.0) 2025年6月15日 阪神 花のみちS 3勝ク 4着 18頭16番 5番人気 松山 弘平 58.0kg 1600芝 1:33.1 稍重 506kg 2 1 3F 35.5 ブルーミンデザイン(0.5)" [ref=e1589]:
+            - cell "枠4青" [ref=e1590]:
+              - img "枠4青" [ref=e1591]
+            - cell "8" [ref=e1592]
+            - cell "ファーヴェント 7.6 (2番人気) (4.3.1.6) 8,752.7万円 (有)キャロットファーム (有)社台コーポレーション白老ファーム 藤原 英昭(栗東) 父：ハーツクライ 母：トータルヒート (母の父：Street Cry)" [ref=e1593]:
+              - generic [ref=e1594]:
+                - link "ファーヴェント" [ref=e1596] [cursor=pointer]:
+                  - /url: /JRADB/accessU.html?CNAME=pw01dud002021104893/77
+                - generic [ref=e1598]:
+                  - strong [ref=e1600]: "7.6"
+                  - generic [ref=e1601]: (2番人気)
+              - generic [ref=e1602]:
+                - generic [ref=e1603]: (4.3.1.6)
+                - generic "87,527,000円" [ref=e1604]: 8,752.7万円
+              - paragraph [ref=e1605]: (有)キャロットファーム
+              - paragraph [ref=e1606]: (有)社台コーポレーション白老ファーム
+              - paragraph [ref=e1607]:
+                - link "藤原 英昭" [ref=e1608] [cursor=pointer]:
+                  - /url: "#"
+                - text: (栗東)
+              - list [ref=e1609]:
+                - listitem [ref=e1610]: 父：ハーツクライ
+                - listitem [ref=e1611]:
+                  - text: 母：トータルヒート
+                  - generic [ref=e1612]: (母の父：Street Cry)
+            - cell "勝負服の画像 牡5/黒鹿 57.0kg 横山 武史" [ref=e1613]:
+              - paragraph [ref=e1614]:
+                - img "勝負服の画像" [ref=e1615]
+              - paragraph [ref=e1616]: 牡5/黒鹿
+              - paragraph [ref=e1617]: 57.0kg
+              - paragraph [ref=e1618]:
+                - link "横山 武史" [ref=e1619] [cursor=pointer]:
+                  - /url: "#"
+            - cell "2026年1月4日 京都 スポ京都金杯 GⅢ 2着 18頭11番 5番人気 松山 弘平 56.0kg 1600芝 1:33.7 良 106 512kg 3 3 3F 34.0 ブエナオンダ(0.0)" [ref=e1620]:
+              - generic [ref=e1621]:
+                - generic [ref=e1622]: 2026年1月4日
+                - generic [ref=e1623]: 京都
+              - generic [ref=e1624]:
+                - link "スポ京都金杯" [ref=e1626] [cursor=pointer]:
+                  - /url: /JRADB/accessS.html?CNAME=pw01sde1008202601011120260104/9B
+                - img "GⅢ" [ref=e1629]
+              - generic [ref=e1630]:
+                - generic [ref=e1631]: 2着
+                - generic [ref=e1632]:
+                  - generic [ref=e1633]: 18頭
+                  - generic [ref=e1634]: 11番
+                  - generic [ref=e1635]: 5番人気
+              - generic [ref=e1636]:
+                - generic [ref=e1637]: 松山 弘平
+                - generic [ref=e1638]: 56.0kg
+              - generic [ref=e1639]:
+                - generic [ref=e1640]:
+                  - generic [ref=e1641]: 1600芝
+                  - paragraph [ref=e1643]: 1:33.7
+                - generic [ref=e1644]:
+                  - generic [ref=e1646]: 良
+                  - paragraph [ref=e1648]: "106"
+                  - paragraph [ref=e1650]: 512kg
+              - generic [ref=e1651]:
+                - generic [ref=e1652]:
+                  - list [ref=e1654]:
+                    - listitem "3コーナー通過順位" [ref=e1655]: "3"
+                    - listitem "4コーナー通過順位" [ref=e1656]: "3"
+                  - generic [ref=e1657]: 3F 34.0
+                - paragraph [ref=e1658]: ブエナオンダ(0.0)
+            - cell "2025年10月18日 東京 富士S GⅡ 7着 14頭13番 10番人気 佐々木 大輔 57.0kg 1600芝 1:32.5 良 107 508kg 5 5 3F 33.7 ガイアフォース(0.8)" [ref=e1659]:
+              - generic [ref=e1660]:
+                - generic [ref=e1661]: 2025年10月18日
+                - generic [ref=e1662]: 東京
+              - generic [ref=e1663]:
+                - link "富士S" [ref=e1665] [cursor=pointer]:
+                  - /url: /JRADB/accessS.html?CNAME=pw01sde1005202504061120251018/73
+                - img "GⅡ" [ref=e1668]
+              - generic [ref=e1669]:
+                - generic [ref=e1670]: 7着
+                - generic [ref=e1671]:
+                  - generic [ref=e1672]: 14頭
+                  - generic [ref=e1673]: 13番
+                  - generic [ref=e1674]: 10番人気
+              - generic [ref=e1675]:
+                - generic [ref=e1676]: 佐々木 大輔
+                - generic [ref=e1677]: 57.0kg
+              - generic [ref=e1678]:
+                - generic [ref=e1679]:
+                  - generic [ref=e1680]: 1600芝
+                  - paragraph [ref=e1682]: 1:32.5
+                - generic [ref=e1683]:
+                  - generic [ref=e1685]: 良
+                  - paragraph [ref=e1687]: "107"
+                  - paragraph [ref=e1689]: 508kg
+              - generic [ref=e1690]:
+                - generic [ref=e1691]:
+                  - list [ref=e1693]:
+                    - listitem "3コーナー通過順位" [ref=e1694]: "5"
+                    - listitem "4コーナー通過順位" [ref=e1695]: "5"
+                  - generic [ref=e1696]: 3F 33.7
+                - paragraph [ref=e1697]: ガイアフォース(0.8)
+            - cell "2025年8月24日 新潟 長岡S 3勝ク 1着 18頭18番 1番人気 荻野 極 56.0kg 1600芝 1:32.5 良 510kg 6 6 3F 33.0 ハワイアンティアレ(0.0)" [ref=e1698]:
+              - generic [ref=e1699]:
+                - generic [ref=e1700]: 2025年8月24日
+                - generic [ref=e1701]: 新潟
+              - generic [ref=e1702]:
+                - link "長岡S" [ref=e1704] [cursor=pointer]:
+                  - /url: /JRADB/accessS.html?CNAME=pw01sde1004202503020920250824/A8
+                - generic [ref=e1706]: 3勝ク
+              - generic [ref=e1707]:
+                - generic [ref=e1708]: 1着
+                - generic [ref=e1709]:
+                  - generic [ref=e1710]: 18頭
+                  - generic [ref=e1711]: 18番
+                  - generic [ref=e1712]: 1番人気
+              - generic [ref=e1713]:
+                - generic [ref=e1714]: 荻野 極
+                - generic [ref=e1715]: 56.0kg
+              - generic [ref=e1716]:
+                - generic [ref=e1717]:
+                  - generic [ref=e1718]: 1600芝
+                  - paragraph [ref=e1720]: 1:32.5
+                - generic [ref=e1721]:
+                  - generic [ref=e1723]: 良
+                  - paragraph [ref=e1725]: 510kg
+              - generic [ref=e1726]:
+                - generic [ref=e1727]:
+                  - list [ref=e1729]:
+                    - listitem "3コーナー通過順位" [ref=e1730]: "6"
+                    - listitem "4コーナー通過順位" [ref=e1731]: "6"
+                  - generic [ref=e1732]: 3F 33.0
+                - paragraph [ref=e1733]: ハワイアンティアレ(0.0)
+            - cell "2025年6月15日 阪神 花のみちS 3勝ク 4着 18頭16番 5番人気 松山 弘平 58.0kg 1600芝 1:33.1 稍重 506kg 2 1 3F 35.5 ブルーミンデザイン(0.5)" [ref=e1734]:
+              - generic [ref=e1735]:
+                - generic [ref=e1736]: 2025年6月15日
+                - generic [ref=e1737]: 阪神
+              - generic [ref=e1738]:
+                - link "花のみちS" [ref=e1740] [cursor=pointer]:
+                  - /url: /JRADB/accessS.html?CNAME=pw01sde1009202503041020250615/62
+                - generic [ref=e1742]: 3勝ク
+              - generic [ref=e1743]:
+                - generic [ref=e1744]: 4着
+                - generic [ref=e1745]:
+                  - generic [ref=e1746]: 18頭
+                  - generic [ref=e1747]: 16番
+                  - generic [ref=e1748]: 5番人気
+              - generic [ref=e1749]:
+                - generic [ref=e1750]: 松山 弘平
+                - generic [ref=e1751]: 58.0kg
+              - generic [ref=e1752]:
+                - generic [ref=e1753]:
+                  - generic [ref=e1754]: 1600芝
+                  - paragraph [ref=e1756]: 1:33.1
+                - generic [ref=e1757]:
+                  - generic [ref=e1759]: 稍重
+                  - paragraph [ref=e1761]: 506kg
+              - generic [ref=e1762]:
+                - generic [ref=e1763]:
+                  - list [ref=e1765]:
+                    - listitem "3コーナー通過順位" [ref=e1766]: "2"
+                    - listitem "4コーナー通過順位" [ref=e1767]: "1"
+                  - generic [ref=e1768]: 3F 35.5
+                - paragraph [ref=e1769]: ブルーミンデザイン(0.5)
+          - row "枠5黄 9 エエヤン 94.2 (15番人気) (3.1.1.15) 8,691.4万円 (株)ニッシンホールディングス 須崎牧場 伊藤 大士(美浦) 父：シルバーステート 母：シルクヴィーナス (母の父：ティンバーカントリー) 勝負服の画像 せん6/黒鹿 57.0kg 杉原 誠人 2026年3月15日 中山 東風S リステッド 15着 16頭12番 15番人気 杉原 誠人 59.0kg 1600芝 1:33.2 良 96 480kg 16 16 15 3F 34.0 ヴァルキリーバース(1.2) 2026年1月12日 中山 ニューイヤー リステッド 14着 14頭11番 11番人気 杉原 誠人 59.0kg 1600芝 1:34.6 良 81 480kg 13 5 9 3F 36.2 カピリナ(2.4) 2025年5月25日 新潟 韋駄天S OP 14着 16頭13番 10番人気 柴田 大知 57.0kg 1000芝 57.1 稍重 77 470kg 3F 34.5 テイエムスパーダ(1.6) 2025年4月27日 福島 モルガナイト OP 15着 16頭7番 13番人気 丸田 恭介 59.0kg 1200芝 1:09.5 良 90 466kg 15 15 3F 33.8 ジャスティンスカイ(1.0)" [ref=e1770]:
+            - cell "枠5黄" [ref=e1771]:
+              - img "枠5黄" [ref=e1772]
+            - cell "9" [ref=e1773]
+            - cell "エエヤン 94.2 (15番人気) (3.1.1.15) 8,691.4万円 (株)ニッシンホールディングス 須崎牧場 伊藤 大士(美浦) 父：シルバーステート 母：シルクヴィーナス (母の父：ティンバーカントリー)" [ref=e1774]:
+              - generic [ref=e1775]:
+                - link "エエヤン" [ref=e1777] [cursor=pointer]:
+                  - /url: /JRADB/accessU.html?CNAME=pw01dud002020105295/9A
+                - generic [ref=e1779]:
+                  - strong [ref=e1781]: "94.2"
+                  - generic [ref=e1782]: (15番人気)
+              - generic [ref=e1783]:
+                - generic [ref=e1784]: (3.1.1.15)
+                - generic "86,914,000円" [ref=e1785]: 8,691.4万円
+              - paragraph [ref=e1786]: (株)ニッシンホールディングス
+              - paragraph [ref=e1787]: 須崎牧場
+              - paragraph [ref=e1788]:
+                - link "伊藤 大士" [ref=e1789] [cursor=pointer]:
+                  - /url: "#"
+                - text: (美浦)
+              - list [ref=e1790]:
+                - listitem [ref=e1791]: 父：シルバーステート
+                - listitem [ref=e1792]:
+                  - text: 母：シルクヴィーナス
+                  - generic [ref=e1793]: (母の父：ティンバーカントリー)
+            - cell "勝負服の画像 せん6/黒鹿 57.0kg 杉原 誠人" [ref=e1794]:
+              - paragraph [ref=e1795]:
+                - img "勝負服の画像" [ref=e1796]
+              - paragraph [ref=e1797]: せん6/黒鹿
+              - paragraph [ref=e1798]: 57.0kg
+              - paragraph [ref=e1799]:
+                - link "杉原 誠人" [ref=e1800] [cursor=pointer]:
+                  - /url: "#"
+            - cell "2026年3月15日 中山 東風S リステッド 15着 16頭12番 15番人気 杉原 誠人 59.0kg 1600芝 1:33.2 良 96 480kg 16 16 15 3F 34.0 ヴァルキリーバース(1.2)" [ref=e1801]:
+              - generic [ref=e1802]:
+                - generic [ref=e1803]: 2026年3月15日
+                - generic [ref=e1804]: 中山
+              - generic [ref=e1805]:
+                - link "東風S" [ref=e1807] [cursor=pointer]:
+                  - /url: /JRADB/accessS.html?CNAME=pw01sde1006202602061020260315/CF
+                - img "リステッド" [ref=e1810]
+              - generic [ref=e1811]:
+                - generic [ref=e1812]: 15着
+                - generic [ref=e1813]:
+                  - generic [ref=e1814]: 16頭
+                  - generic [ref=e1815]: 12番
+                  - generic [ref=e1816]: 15番人気
+              - generic [ref=e1817]:
+                - generic [ref=e1818]: 杉原 誠人
+                - generic [ref=e1819]: 59.0kg
+              - generic [ref=e1820]:
+                - generic [ref=e1821]:
+                  - generic [ref=e1822]: 1600芝
+                  - paragraph [ref=e1824]: 1:33.2
+                - generic [ref=e1825]:
+                  - generic [ref=e1827]: 良
+                  - paragraph [ref=e1829]: "96"
+                  - paragraph [ref=e1831]: 480kg
+              - generic [ref=e1832]:
+                - generic [ref=e1833]:
+                  - list [ref=e1835]:
+                    - listitem "2コーナー通過順位" [ref=e1836]: "16"
+                    - listitem "3コーナー通過順位" [ref=e1837]: "16"
+                    - listitem "4コーナー通過順位" [ref=e1838]: "15"
+                  - generic [ref=e1839]: 3F 34.0
+                - paragraph [ref=e1840]: ヴァルキリーバース(1.2)
+            - cell "2026年1月12日 中山 ニューイヤー リステッド 14着 14頭11番 11番人気 杉原 誠人 59.0kg 1600芝 1:34.6 良 81 480kg 13 5 9 3F 36.2 カピリナ(2.4)" [ref=e1841]:
+              - generic [ref=e1842]:
+                - generic [ref=e1843]: 2026年1月12日
+                - generic [ref=e1844]: 中山
+              - generic [ref=e1845]:
+                - link "ニューイヤー" [ref=e1847] [cursor=pointer]:
+                  - /url: /JRADB/accessS.html?CNAME=pw01sde1006202601051120260112/B3
+                - img "リステッド" [ref=e1850]
+              - generic [ref=e1851]:
+                - generic [ref=e1852]: 14着
+                - generic [ref=e1853]:
+                  - generic [ref=e1854]: 14頭
+                  - generic [ref=e1855]: 11番
+                  - generic [ref=e1856]: 11番人気
+              - generic [ref=e1857]:
+                - generic [ref=e1858]: 杉原 誠人
+                - generic [ref=e1859]: 59.0kg
+              - generic [ref=e1860]:
+                - generic [ref=e1861]:
+                  - generic [ref=e1862]: 1600芝
+                  - paragraph [ref=e1864]: 1:34.6
+                - generic [ref=e1865]:
+                  - generic [ref=e1867]: 良
+                  - paragraph [ref=e1869]: "81"
+                  - paragraph [ref=e1871]: 480kg
+              - generic [ref=e1872]:
+                - generic [ref=e1873]:
+                  - list [ref=e1875]:
+                    - listitem "2コーナー通過順位" [ref=e1876]: "13"
+                    - listitem "3コーナー通過順位" [ref=e1877]: "5"
+                    - listitem "4コーナー通過順位" [ref=e1878]: "9"
+                  - generic [ref=e1879]: 3F 36.2
+                - paragraph [ref=e1880]: カピリナ(2.4)
+            - cell "2025年5月25日 新潟 韋駄天S OP 14着 16頭13番 10番人気 柴田 大知 57.0kg 1000芝 57.1 稍重 77 470kg 3F 34.5 テイエムスパーダ(1.6)" [ref=e1881]:
+              - generic [ref=e1882]:
+                - generic [ref=e1883]: 2025年5月25日
+                - generic [ref=e1884]: 新潟
+              - generic [ref=e1885]:
+                - link "韋駄天S" [ref=e1887] [cursor=pointer]:
+                  - /url: /JRADB/accessS.html?CNAME=pw01sde1004202501081120250525/EE
+                - generic [ref=e1889]: OP
+              - generic [ref=e1890]:
+                - generic [ref=e1891]: 14着
+                - generic [ref=e1892]:
+                  - generic [ref=e1893]: 16頭
+                  - generic [ref=e1894]: 13番
+                  - generic [ref=e1895]: 10番人気
+              - generic [ref=e1896]:
+                - generic [ref=e1897]: 柴田 大知
+                - generic [ref=e1898]: 57.0kg
+              - generic [ref=e1899]:
+                - generic [ref=e1900]:
+                  - generic [ref=e1901]: 1000芝
+                  - paragraph [ref=e1903]: "57.1"
+                - generic [ref=e1904]:
+                  - generic [ref=e1906]: 稍重
+                  - paragraph [ref=e1908]: "77"
+                  - paragraph [ref=e1910]: 470kg
+              - generic [ref=e1911]:
+                - generic [ref=e1914]: 3F 34.5
+                - paragraph [ref=e1915]: テイエムスパーダ(1.6)
+            - cell "2025年4月27日 福島 モルガナイト OP 15着 16頭7番 13番人気 丸田 恭介 59.0kg 1200芝 1:09.5 良 90 466kg 15 15 3F 33.8 ジャスティンスカイ(1.0)" [ref=e1916]:
+              - generic [ref=e1917]:
+                - generic [ref=e1918]: 2025年4月27日
+                - generic [ref=e1919]: 福島
+              - generic [ref=e1920]:
+                - link "モルガナイト" [ref=e1922] [cursor=pointer]:
+                  - /url: /JRADB/accessS.html?CNAME=pw01sde1003202501061120250427/BD
+                - generic [ref=e1924]: OP
+              - generic [ref=e1925]:
+                - generic [ref=e1926]: 15着
+                - generic [ref=e1927]:
+                  - generic [ref=e1928]: 16頭
+                  - generic [ref=e1929]: 7番
+                  - generic [ref=e1930]: 13番人気
+              - generic [ref=e1931]:
+                - generic [ref=e1932]: 丸田 恭介
+                - generic [ref=e1933]: 59.0kg
+              - generic [ref=e1934]:
+                - generic [ref=e1935]:
+                  - generic [ref=e1936]: 1200芝
+                  - paragraph [ref=e1938]: 1:09.5
+                - generic [ref=e1939]:
+                  - generic [ref=e1941]: 良
+                  - paragraph [ref=e1943]: "90"
+                  - paragraph [ref=e1945]: 466kg
+              - generic [ref=e1946]:
+                - generic [ref=e1947]:
+                  - list [ref=e1949]:
+                    - listitem "3コーナー通過順位" [ref=e1950]: "15"
+                    - listitem "4コーナー通過順位" [ref=e1951]: "15"
+                  - generic [ref=e1952]: 3F 33.8
+                - paragraph [ref=e1953]: ジャスティンスカイ(1.0)
+          - row "枠5黄 10 ケイアイセナ 11.4 (6番人気) (5.3.3.10) 13,149.5万円 亀田 和弘 隆栄牧場 平田 修(栗東) 父：ディープインパクト 母：ケイアイガーベラ (母の父：Smarty Jones) 勝負服の画像 牡7/鹿 57.5kg 津村 明秀 2026年2月22日 小倉 小倉大賞典 GⅢ 2着 16頭10番 1番人気 藤岡 佑介 57.0kg 1800芝 1:45.3 良 109 480kg 1 1 1 1 3F 35.2 タガノデュード(0.1) 2026年1月4日 中山 日刊中山金杯 GⅢ 12着 14頭1番 3番人気 吉田 隼人 57.0kg 2000芝 2:01.0 良 100 482kg 2 2 3 5 3F 35.2 カラマティアノス(0.7) 2025年8月17日 札幌 札幌記念 GⅡ 4着 16頭6番 12番人気 吉田 隼人 58.0kg 2000芝 2:01.8 稍重 109 470kg 2 2 2 1 3F 37.0 トップナイフ(0.3) 2025年7月13日 函館 巴賞 OP 1着 12頭4番 2番人気 藤岡 佑介 57.0kg 1800芝 1:44.8 良 104 482kg 3 3 3 1 3F 34.7 コントラポスト(0.1)" [ref=e1954]:
+            - cell "枠5黄" [ref=e1955]:
+              - img "枠5黄" [ref=e1956]
+            - cell "10" [ref=e1957]
+            - cell "ケイアイセナ 11.4 (6番人気) (5.3.3.10) 13,149.5万円 亀田 和弘 隆栄牧場 平田 修(栗東) 父：ディープインパクト 母：ケイアイガーベラ (母の父：Smarty Jones)" [ref=e1958]:
+              - generic [ref=e1959]:
+                - link "ケイアイセナ" [ref=e1961] [cursor=pointer]:
+                  - /url: /JRADB/accessU.html?CNAME=pw01dud002019100318/7A
+                - generic [ref=e1963]:
+                  - strong [ref=e1965]: "11.4"
+                  - generic [ref=e1966]: (6番人気)
+              - generic [ref=e1967]:
+                - generic [ref=e1968]: (5.3.3.10)
+                - generic "131,495,000円" [ref=e1969]: 13,149.5万円
+              - paragraph [ref=e1970]: 亀田 和弘
+              - paragraph [ref=e1971]: 隆栄牧場
+              - paragraph [ref=e1972]:
+                - link "平田 修" [ref=e1973] [cursor=pointer]:
+                  - /url: "#"
+                - text: (栗東)
+              - list [ref=e1974]:
+                - listitem [ref=e1975]: 父：ディープインパクト
+                - listitem [ref=e1976]:
+                  - text: 母：ケイアイガーベラ
+                  - generic [ref=e1977]: (母の父：Smarty Jones)
+            - cell "勝負服の画像 牡7/鹿 57.5kg 津村 明秀" [ref=e1978]:
+              - paragraph [ref=e1979]:
+                - img "勝負服の画像" [ref=e1980]
+              - paragraph [ref=e1981]: 牡7/鹿
+              - paragraph [ref=e1982]: 57.5kg
+              - paragraph [ref=e1983]:
+                - link "津村 明秀" [ref=e1984] [cursor=pointer]:
+                  - /url: "#"
+            - cell "2026年2月22日 小倉 小倉大賞典 GⅢ 2着 16頭10番 1番人気 藤岡 佑介 57.0kg 1800芝 1:45.3 良 109 480kg 1 1 1 1 3F 35.2 タガノデュード(0.1)" [ref=e1985]:
+              - generic [ref=e1986]:
+                - generic [ref=e1987]: 2026年2月22日
+                - generic [ref=e1988]: 小倉
+              - generic [ref=e1989]:
+                - link "小倉大賞典" [ref=e1991] [cursor=pointer]:
+                  - /url: /JRADB/accessS.html?CNAME=pw01sde1010202601101120260222/C6
+                - img "GⅢ" [ref=e1994]
+              - generic [ref=e1995]:
+                - generic [ref=e1996]: 2着
+                - generic [ref=e1997]:
+                  - generic [ref=e1998]: 16頭
+                  - generic [ref=e1999]: 10番
+                  - generic [ref=e2000]: 1番人気
+              - generic [ref=e2001]:
+                - generic [ref=e2002]: 藤岡 佑介
+                - generic [ref=e2003]: 57.0kg
+              - generic [ref=e2004]:
+                - generic [ref=e2005]:
+                  - generic [ref=e2006]: 1800芝
+                  - paragraph [ref=e2008]: 1:45.3
+                - generic [ref=e2009]:
+                  - generic [ref=e2011]: 良
+                  - paragraph [ref=e2013]: "109"
+                  - paragraph [ref=e2015]: 480kg
+              - generic [ref=e2016]:
+                - generic [ref=e2017]:
+                  - list [ref=e2019]:
+                    - listitem "1コーナー通過順位" [ref=e2020]: "1"
+                    - listitem "2コーナー通過順位" [ref=e2021]: "1"
+                    - listitem "3コーナー通過順位" [ref=e2022]: "1"
+                    - listitem "4コーナー通過順位" [ref=e2023]: "1"
+                  - generic [ref=e2024]: 3F 35.2
+                - paragraph [ref=e2025]: タガノデュード(0.1)
+            - cell "2026年1月4日 中山 日刊中山金杯 GⅢ 12着 14頭1番 3番人気 吉田 隼人 57.0kg 2000芝 2:01.0 良 100 482kg 2 2 3 5 3F 35.2 カラマティアノス(0.7)" [ref=e2026]:
+              - generic [ref=e2027]:
+                - generic [ref=e2028]: 2026年1月4日
+                - generic [ref=e2029]: 中山
+              - generic [ref=e2030]:
+                - link "日刊中山金杯" [ref=e2032] [cursor=pointer]:
+                  - /url: /JRADB/accessS.html?CNAME=pw01sde1006202601011120260104/07
+                - img "GⅢ" [ref=e2035]
+              - generic [ref=e2036]:
+                - generic [ref=e2037]: 12着
+                - generic [ref=e2038]:
+                  - generic [ref=e2039]: 14頭
+                  - generic [ref=e2040]: 1番
+                  - generic [ref=e2041]: 3番人気
+              - generic [ref=e2042]:
+                - generic [ref=e2043]: 吉田 隼人
+                - generic [ref=e2044]: 57.0kg
+              - generic [ref=e2045]:
+                - generic [ref=e2046]:
+                  - generic [ref=e2047]: 2000芝
+                  - paragraph [ref=e2049]: 2:01.0
+                - generic [ref=e2050]:
+                  - generic [ref=e2052]: 良
+                  - paragraph [ref=e2054]: "100"
+                  - paragraph [ref=e2056]: 482kg
+              - generic [ref=e2057]:
+                - generic [ref=e2058]:
+                  - list [ref=e2060]:
+                    - listitem "1コーナー通過順位" [ref=e2061]: "2"
+                    - listitem "2コーナー通過順位" [ref=e2062]: "2"
+                    - listitem "3コーナー通過順位" [ref=e2063]: "3"
+                    - listitem "4コーナー通過順位" [ref=e2064]: "5"
+                  - generic [ref=e2065]: 3F 35.2
+                - paragraph [ref=e2066]: カラマティアノス(0.7)
+            - cell "2025年8月17日 札幌 札幌記念 GⅡ 4着 16頭6番 12番人気 吉田 隼人 58.0kg 2000芝 2:01.8 稍重 109 470kg 2 2 2 1 3F 37.0 トップナイフ(0.3)" [ref=e2067]:
+              - generic [ref=e2068]:
+                - generic [ref=e2069]: 2025年8月17日
+                - generic [ref=e2070]: 札幌
+              - generic [ref=e2071]:
+                - link "札幌記念" [ref=e2073] [cursor=pointer]:
+                  - /url: /JRADB/accessS.html?CNAME=pw01sde1001202501081120250817/A1
+                - img "GⅡ" [ref=e2076]
+              - generic [ref=e2077]:
+                - generic [ref=e2078]: 4着
+                - generic [ref=e2079]:
+                  - generic [ref=e2080]: 16頭
+                  - generic [ref=e2081]: 6番
+                  - generic [ref=e2082]: 12番人気
+              - generic [ref=e2083]:
+                - generic [ref=e2084]: 吉田 隼人
+                - generic [ref=e2085]: 58.0kg
+              - generic [ref=e2086]:
+                - generic [ref=e2087]:
+                  - generic [ref=e2088]: 2000芝
+                  - paragraph [ref=e2090]: 2:01.8
+                - generic [ref=e2091]:
+                  - generic [ref=e2093]: 稍重
+                  - paragraph [ref=e2095]: "109"
+                  - paragraph [ref=e2097]: 470kg
+              - generic [ref=e2098]:
+                - generic [ref=e2099]:
+                  - list [ref=e2101]:
+                    - listitem "1コーナー通過順位" [ref=e2102]: "2"
+                    - listitem "2コーナー通過順位" [ref=e2103]: "2"
+                    - listitem "3コーナー通過順位" [ref=e2104]: "2"
+                    - listitem "4コーナー通過順位" [ref=e2105]: "1"
+                  - generic [ref=e2106]: 3F 37.0
+                - paragraph [ref=e2107]: トップナイフ(0.3)
+            - cell "2025年7月13日 函館 巴賞 OP 1着 12頭4番 2番人気 藤岡 佑介 57.0kg 1800芝 1:44.8 良 104 482kg 3 3 3 1 3F 34.7 コントラポスト(0.1)" [ref=e2108]:
+              - generic [ref=e2109]:
+                - generic [ref=e2110]: 2025年7月13日
+                - generic [ref=e2111]: 函館
+              - generic [ref=e2112]:
+                - link "巴賞" [ref=e2114] [cursor=pointer]:
+                  - /url: /JRADB/accessS.html?CNAME=pw01sde1002202501101120250713/F4
+                - generic [ref=e2116]: OP
+              - generic [ref=e2117]:
+                - generic [ref=e2118]: 1着
+                - generic [ref=e2119]:
+                  - generic [ref=e2120]: 12頭
+                  - generic [ref=e2121]: 4番
+                  - generic [ref=e2122]: 2番人気
+              - generic [ref=e2123]:
+                - generic [ref=e2124]: 藤岡 佑介
+                - generic [ref=e2125]: 57.0kg
+              - generic [ref=e2126]:
+                - generic [ref=e2127]:
+                  - generic [ref=e2128]: 1800芝
+                  - paragraph [ref=e2130]: 1:44.8
+                - generic [ref=e2131]:
+                  - generic [ref=e2133]: 良
+                  - paragraph [ref=e2135]: "104"
+                  - paragraph [ref=e2137]: 482kg
+              - generic [ref=e2138]:
+                - generic [ref=e2139]:
+                  - list [ref=e2141]:
+                    - listitem "1コーナー通過順位" [ref=e2142]: "3"
+                    - listitem "2コーナー通過順位" [ref=e2143]: "3"
+                    - listitem "3コーナー通過順位" [ref=e2144]: "3"
+                    - listitem "4コーナー通過順位" [ref=e2145]: "1"
+                  - generic [ref=e2146]: 3F 34.7
+                - paragraph [ref=e2147]: コントラポスト(0.1)
+          - row "枠6緑 11 スズハローム 18.3 (13番人気) (5.1.3.11) 11,328.3万円 森 達郎 アラキフアーム 牧田 和弥(栗東) 父：サトノダイヤモンド 母：アイライン (母の父：ローレルゲレイロ) 勝負服の画像 牡6/鹿 57.0kg 藤懸 貴志 2026年2月14日 京都 洛陽S リステッド 1着 14頭11番 7番人気 藤懸 貴志 55.0kg 1600芝 1:34.0 良 105 468kg 11 10 3F 32.7 チェルビアット(0.2) 2026年1月24日 京都 睦月S OP 9着 14頭2番 10番人気 藤懸 貴志 58.0kg 1600芝 1:34.6 良 100 470kg 14 14 3F 32.5 レイベリング(0.5) 2025年11月29日 東京 キャピタルS リステッド 11着 18頭3番 17番人気 藤懸 貴志 57.0kg 1600芝 1:32.6 良 98 454kg 5 6 3F 34.5 ミッキーゴージャス(0.7) 2025年5月3日 東京 京王杯SC GⅡ 11着 12頭8番 11番人気 菅原 明良 57.0kg 1400芝 1:19.8 良 95 454kg 8 8 3F 33.5 トウシンマカオ(1.5)" [ref=e2148]:
+            - cell "枠6緑" [ref=e2149]:
+              - img "枠6緑" [ref=e2150]
+            - cell "11" [ref=e2151]
+            - cell "スズハローム 18.3 (13番人気) (5.1.3.11) 11,328.3万円 森 達郎 アラキフアーム 牧田 和弥(栗東) 父：サトノダイヤモンド 母：アイライン (母の父：ローレルゲレイロ)" [ref=e2152]:
+              - generic [ref=e2153]:
+                - link "スズハローム" [ref=e2155] [cursor=pointer]:
+                  - /url: /JRADB/accessU.html?CNAME=pw01dud002020105018/11
+                - generic [ref=e2157]:
+                  - strong [ref=e2159]: "18.3"
+                  - generic [ref=e2160]: (13番人気)
+              - generic [ref=e2161]:
+                - generic [ref=e2162]: (5.1.3.11)
+                - generic "113,283,000円" [ref=e2163]: 11,328.3万円
+              - paragraph [ref=e2164]: 森 達郎
+              - paragraph [ref=e2165]: アラキフアーム
+              - paragraph [ref=e2166]:
+                - link "牧田 和弥" [ref=e2167] [cursor=pointer]:
+                  - /url: "#"
+                - text: (栗東)
+              - list [ref=e2168]:
+                - listitem [ref=e2169]: 父：サトノダイヤモンド
+                - listitem [ref=e2170]:
+                  - text: 母：アイライン
+                  - generic [ref=e2171]: (母の父：ローレルゲレイロ)
+            - cell "勝負服の画像 牡6/鹿 57.0kg 藤懸 貴志" [ref=e2172]:
+              - paragraph [ref=e2173]:
+                - img "勝負服の画像" [ref=e2174]
+              - paragraph [ref=e2175]: 牡6/鹿
+              - paragraph [ref=e2176]: 57.0kg
+              - paragraph [ref=e2177]:
+                - link "藤懸 貴志" [ref=e2178] [cursor=pointer]:
+                  - /url: "#"
+            - cell "2026年2月14日 京都 洛陽S リステッド 1着 14頭11番 7番人気 藤懸 貴志 55.0kg 1600芝 1:34.0 良 105 468kg 11 10 3F 32.7 チェルビアット(0.2)" [ref=e2179]:
+              - generic [ref=e2180]:
+                - generic [ref=e2181]: 2026年2月14日
+                - generic [ref=e2182]: 京都
+              - generic [ref=e2183]:
+                - link "洛陽S" [ref=e2185] [cursor=pointer]:
+                  - /url: /JRADB/accessS.html?CNAME=pw01sde1008202602051120260214/6D
+                - img "リステッド" [ref=e2188]
+              - generic [ref=e2189]:
+                - generic [ref=e2190]: 1着
+                - generic [ref=e2191]:
+                  - generic [ref=e2192]: 14頭
+                  - generic [ref=e2193]: 11番
+                  - generic [ref=e2194]: 7番人気
+              - generic [ref=e2195]:
+                - generic [ref=e2196]: 藤懸 貴志
+                - generic [ref=e2197]: 55.0kg
+              - generic [ref=e2198]:
+                - generic [ref=e2199]:
+                  - generic [ref=e2200]: 1600芝
+                  - paragraph [ref=e2202]: 1:34.0
+                - generic [ref=e2203]:
+                  - generic [ref=e2205]: 良
+                  - paragraph [ref=e2207]: "105"
+                  - paragraph [ref=e2209]: 468kg
+              - generic [ref=e2210]:
+                - generic [ref=e2211]:
+                  - list [ref=e2213]:
+                    - listitem "3コーナー通過順位" [ref=e2214]: "11"
+                    - listitem "4コーナー通過順位" [ref=e2215]: "10"
+                  - generic [ref=e2216]: 3F 32.7
+                - paragraph [ref=e2217]: チェルビアット(0.2)
+            - cell "2026年1月24日 京都 睦月S OP 9着 14頭2番 10番人気 藤懸 貴志 58.0kg 1600芝 1:34.6 良 100 470kg 14 14 3F 32.5 レイベリング(0.5)" [ref=e2218]:
+              - generic [ref=e2219]:
+                - generic [ref=e2220]: 2026年1月24日
+                - generic [ref=e2221]: 京都
+              - generic [ref=e2222]:
+                - link "睦月S" [ref=e2224] [cursor=pointer]:
+                  - /url: /JRADB/accessS.html?CNAME=pw01sde1008202601081120260124/74
+                - generic [ref=e2226]: OP
+              - generic [ref=e2227]:
+                - generic [ref=e2228]: 9着
+                - generic [ref=e2229]:
+                  - generic [ref=e2230]: 14頭
+                  - generic [ref=e2231]: 2番
+                  - generic [ref=e2232]: 10番人気
+              - generic [ref=e2233]:
+                - generic [ref=e2234]: 藤懸 貴志
+                - generic [ref=e2235]: 58.0kg
+              - generic [ref=e2236]:
+                - generic [ref=e2237]:
+                  - generic [ref=e2238]: 1600芝
+                  - paragraph [ref=e2240]: 1:34.6
+                - generic [ref=e2241]:
+                  - generic [ref=e2243]: 良
+                  - paragraph [ref=e2245]: "100"
+                  - paragraph [ref=e2247]: 470kg
+              - generic [ref=e2248]:
+                - generic [ref=e2249]:
+                  - list [ref=e2251]:
+                    - listitem "3コーナー通過順位" [ref=e2252]: "14"
+                    - listitem "4コーナー通過順位" [ref=e2253]: "14"
+                  - generic [ref=e2254]: 3F 32.5
+                - paragraph [ref=e2255]: レイベリング(0.5)
+            - cell "2025年11月29日 東京 キャピタルS リステッド 11着 18頭3番 17番人気 藤懸 貴志 57.0kg 1600芝 1:32.6 良 98 454kg 5 6 3F 34.5 ミッキーゴージャス(0.7)" [ref=e2256]:
+              - generic [ref=e2257]:
+                - generic [ref=e2258]: 2025年11月29日
+                - generic [ref=e2259]: 東京
+              - generic [ref=e2260]:
+                - link "キャピタルS" [ref=e2262] [cursor=pointer]:
+                  - /url: /JRADB/accessS.html?CNAME=pw01sde1005202505071120251129/A9
+                - img "リステッド" [ref=e2265]
+              - generic [ref=e2266]:
+                - generic [ref=e2267]: 11着
+                - generic [ref=e2268]:
+                  - generic [ref=e2269]: 18頭
+                  - generic [ref=e2270]: 3番
+                  - generic [ref=e2271]: 17番人気
+              - generic [ref=e2272]:
+                - generic [ref=e2273]: 藤懸 貴志
+                - generic [ref=e2274]: 57.0kg
+              - generic [ref=e2275]:
+                - generic [ref=e2276]:
+                  - generic [ref=e2277]: 1600芝
+                  - paragraph [ref=e2279]: 1:32.6
+                - generic [ref=e2280]:
+                  - generic [ref=e2282]: 良
+                  - paragraph [ref=e2284]: "98"
+                  - paragraph [ref=e2286]: 454kg
+              - generic [ref=e2287]:
+                - generic [ref=e2288]:
+                  - list [ref=e2290]:
+                    - listitem "3コーナー通過順位" [ref=e2291]: "5"
+                    - listitem "4コーナー通過順位" [ref=e2292]: "6"
+                  - generic [ref=e2293]: 3F 34.5
+                - paragraph [ref=e2294]: ミッキーゴージャス(0.7)
+            - cell "2025年5月3日 東京 京王杯SC GⅡ 11着 12頭8番 11番人気 菅原 明良 57.0kg 1400芝 1:19.8 良 95 454kg 8 8 3F 33.5 トウシンマカオ(1.5)" [ref=e2295]:
+              - generic [ref=e2296]:
+                - generic [ref=e2297]: 2025年5月3日
+                - generic [ref=e2298]: 東京
+              - generic [ref=e2299]:
+                - link "京王杯SC" [ref=e2301] [cursor=pointer]:
+                  - /url: /JRADB/accessS.html?CNAME=pw01sde1005202502031120250503/FC
+                - img "GⅡ" [ref=e2304]
+              - generic [ref=e2305]:
+                - generic [ref=e2306]: 11着
+                - generic [ref=e2307]:
+                  - generic [ref=e2308]: 12頭
+                  - generic [ref=e2309]: 8番
+                  - generic [ref=e2310]: 11番人気
+              - generic [ref=e2311]:
+                - generic [ref=e2312]: 菅原 明良
+                - generic [ref=e2313]: 57.0kg
+              - generic [ref=e2314]:
+                - generic [ref=e2315]:
+                  - generic [ref=e2316]: 1400芝
+                  - paragraph [ref=e2318]: 1:19.8
+                - generic [ref=e2319]:
+                  - generic [ref=e2321]: 良
+                  - paragraph [ref=e2323]: "95"
+                  - paragraph [ref=e2325]: 454kg
+              - generic [ref=e2326]:
+                - generic [ref=e2327]:
+                  - list [ref=e2329]:
+                    - listitem "3コーナー通過順位" [ref=e2330]: "8"
+                    - listitem "4コーナー通過順位" [ref=e2331]: "8"
+                  - generic [ref=e2332]: 3F 33.5
+                - paragraph [ref=e2333]: トウシンマカオ(1.5)
+          - row "枠6緑 12 ダディーズビビッド 100.5 (16番人気) (5.5.3.21) 19,079.7万円 田島 大史 上水牧場 千田 輝彦(栗東) 父：キズナ 母：ケイティーズギフト (母の父：フレンチデピュティ) 勝負服の画像 牡8/鹿 57.5kg 横山 和生 2026年2月21日 阪神 阪急杯 GⅢ 14着 18頭11番 18番人気 池添 謙一 57.0kg 1400芝 1:20.2 良 99 522kg 18 18 3F 34.1 ソンシ(1.3) 2025年6月22日 阪神 しらさぎS GⅢ 12着 14頭4番 8番人気 藤懸 貴志 57.0kg 1600芝 1:33.8 良 100 516kg 9 10 3F 34.2 キープカルム(0.8) 2025年6月8日 東京 安田記念 GⅠ 14着 18頭2番 16番人気 池添 謙一 58.0kg 1600芝 1:33.8 良 106 516kg 8 8 3F 34.8 ジャンタルマンタル(1.1) 2025年3月30日 阪神 六甲S リステッド 1着 12頭8番 9番人気 池添 謙一 59.0kg 1600芝 1:32.2 良 108 518kg 8 9 3F 33.4 シリウスコルト(0.0)" [ref=e2334]:
+            - cell "枠6緑" [ref=e2335]:
+              - img "枠6緑" [ref=e2336]
+            - cell "12" [ref=e2337]
+            - cell "ダディーズビビッド 100.5 (16番人気) (5.5.3.21) 19,079.7万円 田島 大史 上水牧場 千田 輝彦(栗東) 父：キズナ 母：ケイティーズギフト (母の父：フレンチデピュティ)" [ref=e2338]:
+              - generic [ref=e2339]:
+                - link "ダディーズビビッド" [ref=e2341] [cursor=pointer]:
+                  - /url: /JRADB/accessU.html?CNAME=pw01dud002018105610/94
+                - generic [ref=e2343]:
+                  - strong [ref=e2345]: "100.5"
+                  - generic [ref=e2346]: (16番人気)
+              - generic [ref=e2347]:
+                - generic [ref=e2348]: (5.5.3.21)
+                - generic "190,797,000円" [ref=e2349]: 19,079.7万円
+              - paragraph [ref=e2350]: 田島 大史
+              - paragraph [ref=e2351]: 上水牧場
+              - paragraph [ref=e2352]:
+                - link "千田 輝彦" [ref=e2353] [cursor=pointer]:
+                  - /url: "#"
+                - text: (栗東)
+              - list [ref=e2354]:
+                - listitem [ref=e2355]: 父：キズナ
+                - listitem [ref=e2356]:
+                  - text: 母：ケイティーズギフト
+                  - generic [ref=e2357]: (母の父：フレンチデピュティ)
+            - cell "勝負服の画像 牡8/鹿 57.5kg 横山 和生" [ref=e2358]:
+              - paragraph [ref=e2359]:
+                - img "勝負服の画像" [ref=e2360]
+              - paragraph [ref=e2361]: 牡8/鹿
+              - paragraph [ref=e2362]: 57.5kg
+              - paragraph [ref=e2363]:
+                - link "横山 和生" [ref=e2364] [cursor=pointer]:
+                  - /url: "#"
+            - cell "2026年2月21日 阪神 阪急杯 GⅢ 14着 18頭11番 18番人気 池添 謙一 57.0kg 1400芝 1:20.2 良 99 522kg 18 18 3F 34.1 ソンシ(1.3)" [ref=e2365]:
+              - generic [ref=e2366]:
+                - generic [ref=e2367]: 2026年2月21日
+                - generic [ref=e2368]: 阪神
+              - generic [ref=e2369]:
+                - link "阪急杯" [ref=e2371] [cursor=pointer]:
+                  - /url: /JRADB/accessS.html?CNAME=pw01sde1009202601011120260221/DD
+                - img "GⅢ" [ref=e2374]
+              - generic [ref=e2375]:
+                - generic [ref=e2376]: 14着
+                - generic [ref=e2377]:
+                  - generic [ref=e2378]: 18頭
+                  - generic [ref=e2379]: 11番
+                  - generic [ref=e2380]: 18番人気
+              - generic [ref=e2381]:
+                - generic [ref=e2382]: 池添 謙一
+                - generic [ref=e2383]: 57.0kg
+              - generic [ref=e2384]:
+                - generic [ref=e2385]:
+                  - generic [ref=e2386]: 1400芝
+                  - paragraph [ref=e2388]: 1:20.2
+                - generic [ref=e2389]:
+                  - generic [ref=e2391]: 良
+                  - paragraph [ref=e2393]: "99"
+                  - paragraph [ref=e2395]: 522kg
+              - generic [ref=e2396]:
+                - generic [ref=e2397]:
+                  - list [ref=e2399]:
+                    - listitem "3コーナー通過順位" [ref=e2400]: "18"
+                    - listitem "4コーナー通過順位" [ref=e2401]: "18"
+                  - generic [ref=e2402]: 3F 34.1
+                - paragraph [ref=e2403]: ソンシ(1.3)
+            - cell "2025年6月22日 阪神 しらさぎS GⅢ 12着 14頭4番 8番人気 藤懸 貴志 57.0kg 1600芝 1:33.8 良 100 516kg 9 10 3F 34.2 キープカルム(0.8)" [ref=e2404]:
+              - generic [ref=e2405]:
+                - generic [ref=e2406]: 2025年6月22日
+                - generic [ref=e2407]: 阪神
+              - generic [ref=e2408]:
+                - link "しらさぎS" [ref=e2410] [cursor=pointer]:
+                  - /url: /JRADB/accessS.html?CNAME=pw01sde1009202503061120250622/20
+                - img "GⅢ" [ref=e2413]
+              - generic [ref=e2414]:
+                - generic [ref=e2415]: 12着
+                - generic [ref=e2416]:
+                  - generic [ref=e2417]: 14頭
+                  - generic [ref=e2418]: 4番
+                  - generic [ref=e2419]: 8番人気
+              - generic [ref=e2420]:
+                - generic [ref=e2421]: 藤懸 貴志
+                - generic [ref=e2422]: 57.0kg
+              - generic [ref=e2423]:
+                - generic [ref=e2424]:
+                  - generic [ref=e2425]: 1600芝
+                  - paragraph [ref=e2427]: 1:33.8
+                - generic [ref=e2428]:
+                  - generic [ref=e2430]: 良
+                  - paragraph [ref=e2432]: "100"
+                  - paragraph [ref=e2434]: 516kg
+              - generic [ref=e2435]:
+                - generic [ref=e2436]:
+                  - list [ref=e2438]:
+                    - listitem "3コーナー通過順位" [ref=e2439]: "9"
+                    - listitem "4コーナー通過順位" [ref=e2440]: "10"
+                  - generic [ref=e2441]: 3F 34.2
+                - paragraph [ref=e2442]: キープカルム(0.8)
+            - cell "2025年6月8日 東京 安田記念 GⅠ 14着 18頭2番 16番人気 池添 謙一 58.0kg 1600芝 1:33.8 良 106 516kg 8 8 3F 34.8 ジャンタルマンタル(1.1)" [ref=e2443]:
+              - generic [ref=e2444]:
+                - generic [ref=e2445]: 2025年6月8日
+                - generic [ref=e2446]: 東京
+              - generic [ref=e2447]:
+                - link "安田記念" [ref=e2449] [cursor=pointer]:
+                  - /url: /JRADB/accessS.html?CNAME=pw01sde1005202503021120250608/E6
+                - img "GⅠ" [ref=e2452]
+              - generic [ref=e2453]:
+                - generic [ref=e2454]: 14着
+                - generic [ref=e2455]:
+                  - generic [ref=e2456]: 18頭
+                  - generic [ref=e2457]: 2番
+                  - generic [ref=e2458]: 16番人気
+              - generic [ref=e2459]:
+                - generic [ref=e2460]: 池添 謙一
+                - generic [ref=e2461]: 58.0kg
+              - generic [ref=e2462]:
+                - generic [ref=e2463]:
+                  - generic [ref=e2464]: 1600芝
+                  - paragraph [ref=e2466]: 1:33.8
+                - generic [ref=e2467]:
+                  - generic [ref=e2469]: 良
+                  - paragraph [ref=e2471]: "106"
+                  - paragraph [ref=e2473]: 516kg
+              - generic [ref=e2474]:
+                - generic [ref=e2475]:
+                  - list [ref=e2477]:
+                    - listitem "3コーナー通過順位" [ref=e2478]: "8"
+                    - listitem "4コーナー通過順位" [ref=e2479]: "8"
+                  - generic [ref=e2480]: 3F 34.8
+                - paragraph [ref=e2481]: ジャンタルマンタル(1.1)
+            - cell "2025年3月30日 阪神 六甲S リステッド 1着 12頭8番 9番人気 池添 謙一 59.0kg 1600芝 1:32.2 良 108 518kg 8 9 3F 33.4 シリウスコルト(0.0)" [ref=e2482]:
+              - generic [ref=e2483]:
+                - generic [ref=e2484]: 2025年3月30日
+                - generic [ref=e2485]: 阪神
+              - generic [ref=e2486]:
+                - link "六甲S" [ref=e2488] [cursor=pointer]:
+                  - /url: /JRADB/accessS.html?CNAME=pw01sde1009202502021120250330/92
+                - img "リステッド" [ref=e2491]
+              - generic [ref=e2492]:
+                - generic [ref=e2493]: 1着
+                - generic [ref=e2494]:
+                  - generic [ref=e2495]: 12頭
+                  - generic [ref=e2496]: 8番
+                  - generic [ref=e2497]: 9番人気
+              - generic [ref=e2498]:
+                - generic [ref=e2499]: 池添 謙一
+                - generic [ref=e2500]: 59.0kg
+              - generic [ref=e2501]:
+                - generic [ref=e2502]:
+                  - generic [ref=e2503]: 1600芝
+                  - paragraph [ref=e2505]: 1:32.2
+                - generic [ref=e2506]:
+                  - generic [ref=e2508]: 良
+                  - paragraph [ref=e2510]: "108"
+                  - paragraph [ref=e2512]: 518kg
+              - generic [ref=e2513]:
+                - generic [ref=e2514]:
+                  - list [ref=e2516]:
+                    - listitem "3コーナー通過順位" [ref=e2517]: "8"
+                    - listitem "4コーナー通過順位" [ref=e2518]: "9"
+                  - generic [ref=e2519]: 3F 33.4
+                - paragraph [ref=e2520]: シリウスコルト(0.0)
+          - row "枠7橙 13 イミグラントソング 12.3 (8番人気) (2.1.1.3) 6,797.4万円 吉田 勝己 ノーザンファーム 辻 哲英(美浦) 父：マクフィ 母：エルノルテ (母の父：ディープインパクト) 勝負服の画像 牡4/鹿 57.0kg 石川 裕紀人 2025年7月27日 新潟 関屋記念 GⅢ 11着 18頭15番 5番人気 石川 裕紀人 55.0kg 1600芝 1:31.9 良 100 488kg 16 16 3F 33.1 カナテープ(0.9) 2025年5月11日 東京 NHKマイル GⅠ 11着 18頭6番 2番人気 C.ルメール 57.0kg 1600芝 1:32.4 良 106 484kg 4 4 3F 35.5 パンジャタワー(0.7) 2025年4月12日 中山 NZT GⅡ 1着 14頭13番 2番人気 石川 裕紀人 57.0kg 1600芝 1:32.4 良 111 482kg 10 9 9 3F 33.1 アドマイヤズーム(0.0) 2025年2月23日 東京 1勝クラス 3着 13頭13番 1番人気 石川 裕紀人 57.0kg 1600芝 1:35.2 良 486kg 4 6 3F 33.5 グーテンベルク(0.2)" [ref=e2521]:
+            - cell "枠7橙" [ref=e2522]:
+              - img "枠7橙" [ref=e2523]
+            - cell "13" [ref=e2524]
+            - cell "イミグラントソング 12.3 (8番人気) (2.1.1.3) 6,797.4万円 吉田 勝己 ノーザンファーム 辻 哲英(美浦) 父：マクフィ 母：エルノルテ (母の父：ディープインパクト)" [ref=e2525]:
+              - generic [ref=e2526]:
+                - link "イミグラントソング" [ref=e2528] [cursor=pointer]:
+                  - /url: /JRADB/accessU.html?CNAME=pw01dud002022104697/6D
+                - generic [ref=e2530]:
+                  - strong [ref=e2532]: "12.3"
+                  - generic [ref=e2533]: (8番人気)
+              - generic [ref=e2534]:
+                - generic [ref=e2535]: (2.1.1.3)
+                - generic "67,974,000円" [ref=e2536]: 6,797.4万円
+              - paragraph [ref=e2537]: 吉田 勝己
+              - paragraph [ref=e2538]: ノーザンファーム
+              - paragraph [ref=e2539]:
+                - link "辻 哲英" [ref=e2540] [cursor=pointer]:
+                  - /url: "#"
+                - text: (美浦)
+              - list [ref=e2541]:
+                - listitem [ref=e2542]: 父：マクフィ
+                - listitem [ref=e2543]:
+                  - text: 母：エルノルテ
+                  - generic [ref=e2544]: (母の父：ディープインパクト)
+            - cell "勝負服の画像 牡4/鹿 57.0kg 石川 裕紀人" [ref=e2545]:
+              - paragraph [ref=e2546]:
+                - img "勝負服の画像" [ref=e2547]
+              - paragraph [ref=e2548]: 牡4/鹿
+              - paragraph [ref=e2549]: 57.0kg
+              - paragraph [ref=e2550]:
+                - link "石川 裕紀人" [ref=e2551] [cursor=pointer]:
+                  - /url: "#"
+            - cell "2025年7月27日 新潟 関屋記念 GⅢ 11着 18頭15番 5番人気 石川 裕紀人 55.0kg 1600芝 1:31.9 良 100 488kg 16 16 3F 33.1 カナテープ(0.9)" [ref=e2552]:
+              - generic [ref=e2553]:
+                - generic [ref=e2554]: 2025年7月27日
+                - generic [ref=e2555]: 新潟
+              - generic [ref=e2556]:
+                - link "関屋記念" [ref=e2558] [cursor=pointer]:
+                  - /url: /JRADB/accessS.html?CNAME=pw01sde1004202502020720250727/C9
+                - img "GⅢ" [ref=e2561]
+              - generic [ref=e2562]:
+                - generic [ref=e2563]: 11着
+                - generic [ref=e2564]:
+                  - generic [ref=e2565]: 18頭
+                  - generic [ref=e2566]: 15番
+                  - generic [ref=e2567]: 5番人気
+              - generic [ref=e2568]:
+                - generic [ref=e2569]: 石川 裕紀人
+                - generic [ref=e2570]: 55.0kg
+              - generic [ref=e2571]:
+                - generic [ref=e2572]:
+                  - generic [ref=e2573]: 1600芝
+                  - paragraph [ref=e2575]: 1:31.9
+                - generic [ref=e2576]:
+                  - generic [ref=e2578]: 良
+                  - paragraph [ref=e2580]: "100"
+                  - paragraph [ref=e2582]: 488kg
+              - generic [ref=e2583]:
+                - generic [ref=e2584]:
+                  - list [ref=e2586]:
+                    - listitem "3コーナー通過順位" [ref=e2587]: "16"
+                    - listitem "4コーナー通過順位" [ref=e2588]: "16"
+                  - generic [ref=e2589]: 3F 33.1
+                - paragraph [ref=e2590]: カナテープ(0.9)
+            - cell "2025年5月11日 東京 NHKマイル GⅠ 11着 18頭6番 2番人気 C.ルメール 57.0kg 1600芝 1:32.4 良 106 484kg 4 4 3F 35.5 パンジャタワー(0.7)" [ref=e2591]:
+              - generic [ref=e2592]:
+                - generic [ref=e2593]: 2025年5月11日
+                - generic [ref=e2594]: 東京
+              - generic [ref=e2595]:
+                - link "NHKマイル" [ref=e2597] [cursor=pointer]:
+                  - /url: /JRADB/accessS.html?CNAME=pw01sde1005202502061120250511/35
+                - img "GⅠ" [ref=e2600]
+              - generic [ref=e2601]:
+                - generic [ref=e2602]: 11着
+                - generic [ref=e2603]:
+                  - generic [ref=e2604]: 18頭
+                  - generic [ref=e2605]: 6番
+                  - generic [ref=e2606]: 2番人気
+              - generic [ref=e2607]:
+                - generic [ref=e2608]: C.ルメール
+                - generic [ref=e2609]: 57.0kg
+              - generic [ref=e2610]:
+                - generic [ref=e2611]:
+                  - generic [ref=e2612]: 1600芝
+                  - paragraph [ref=e2614]: 1:32.4
+                - generic [ref=e2615]:
+                  - generic [ref=e2617]: 良
+                  - paragraph [ref=e2619]: "106"
+                  - paragraph [ref=e2621]: 484kg
+              - generic [ref=e2622]:
+                - generic [ref=e2623]:
+                  - list [ref=e2625]:
+                    - listitem "3コーナー通過順位" [ref=e2626]: "4"
+                    - listitem "4コーナー通過順位" [ref=e2627]: "4"
+                  - generic [ref=e2628]: 3F 35.5
+                - paragraph [ref=e2629]: パンジャタワー(0.7)
+            - cell "2025年4月12日 中山 NZT GⅡ 1着 14頭13番 2番人気 石川 裕紀人 57.0kg 1600芝 1:32.4 良 111 482kg 10 9 9 3F 33.1 アドマイヤズーム(0.0)" [ref=e2630]:
+              - generic [ref=e2631]:
+                - generic [ref=e2632]: 2025年4月12日
+                - generic [ref=e2633]: 中山
+              - generic [ref=e2634]:
+                - link "NZT" [ref=e2636] [cursor=pointer]:
+                  - /url: /JRADB/accessS.html?CNAME=pw01sde1006202503051120250412/7F
+                - img "GⅡ" [ref=e2639]
+              - generic [ref=e2640]:
+                - generic [ref=e2641]: 1着
+                - generic [ref=e2642]:
+                  - generic [ref=e2643]: 14頭
+                  - generic [ref=e2644]: 13番
+                  - generic [ref=e2645]: 2番人気
+              - generic [ref=e2646]:
+                - generic [ref=e2647]: 石川 裕紀人
+                - generic [ref=e2648]: 57.0kg
+              - generic [ref=e2649]:
+                - generic [ref=e2650]:
+                  - generic [ref=e2651]: 1600芝
+                  - paragraph [ref=e2653]: 1:32.4
+                - generic [ref=e2654]:
+                  - generic [ref=e2656]: 良
+                  - paragraph [ref=e2658]: "111"
+                  - paragraph [ref=e2660]: 482kg
+              - generic [ref=e2661]:
+                - generic [ref=e2662]:
+                  - list [ref=e2664]:
+                    - listitem "2コーナー通過順位" [ref=e2665]: "10"
+                    - listitem "3コーナー通過順位" [ref=e2666]: "9"
+                    - listitem "4コーナー通過順位" [ref=e2667]: "9"
+                  - generic [ref=e2668]: 3F 33.1
+                - paragraph [ref=e2669]: アドマイヤズーム(0.0)
+            - cell "2025年2月23日 東京 1勝クラス 3着 13頭13番 1番人気 石川 裕紀人 57.0kg 1600芝 1:35.2 良 486kg 4 6 3F 33.5 グーテンベルク(0.2)" [ref=e2670]:
+              - generic [ref=e2671]:
+                - generic [ref=e2672]: 2025年2月23日
+                - generic [ref=e2673]: 東京
+              - link "1勝クラス" [ref=e2676] [cursor=pointer]:
+                - /url: /JRADB/accessS.html?CNAME=pw01sde1005202501080520250223/CF
+              - generic [ref=e2677]:
+                - generic [ref=e2678]: 3着
+                - generic [ref=e2679]:
+                  - generic [ref=e2680]: 13頭
+                  - generic [ref=e2681]: 13番
+                  - generic [ref=e2682]: 1番人気
+              - generic [ref=e2683]:
+                - generic [ref=e2684]: 石川 裕紀人
+                - generic [ref=e2685]: 57.0kg
+              - generic [ref=e2686]:
+                - generic [ref=e2687]:
+                  - generic [ref=e2688]: 1600芝
+                  - paragraph [ref=e2690]: 1:35.2
+                - generic [ref=e2691]:
+                  - generic [ref=e2693]: 良
+                  - paragraph [ref=e2695]: 486kg
+              - generic [ref=e2696]:
+                - generic [ref=e2697]:
+                  - list [ref=e2699]:
+                    - listitem "3コーナー通過順位" [ref=e2700]: "4"
+                    - listitem "4コーナー通過順位" [ref=e2701]: "6"
+                  - generic [ref=e2702]: 3F 33.5
+                - paragraph [ref=e2703]: グーテンベルク(0.2)
+          - row "枠7橙 14 ジュンブロッサム 16.6 (12番人気) (5.7.1.12) 21,113.8万円 河合 純二 ノーザンファーム 友道 康夫(栗東) 父：ワールドエース 母：エンプレスティアラ (母の父：クロフネ) 勝負服の画像 牡7/黒鹿 58.5kg 荻野 極 2025年11月29日 東京 キャピタルS リステッド 7着 18頭9番 1番人気 石川 裕紀人 58.0kg 1600芝 1:32.2 良 105 474kg 11 13 3F 33.5 ミッキーゴージャス(0.3) 2025年10月18日 東京 富士S GⅡ 4着 14頭8番 9番人気 石川 裕紀人 58.0kg 1600芝 1:32.1 良 114 470kg 12 11 3F 32.8 ガイアフォース(0.4) 2025年6月8日 東京 安田記念 GⅠ 11着 18頭17番 6番人気 武 豊 58.0kg 1600芝 1:33.4 良 111 474kg 14 15 3F 34.0 ジャンタルマンタル(0.7) 2025年4月27日 京都 マイラーズC GⅡ 2着 10頭3番 1番人気 武 豊 58.0kg 1600芝 1:31.8 良 112 482kg 8 8 3F 33.2 ロングラン(0.1)" [ref=e2704]:
+            - cell "枠7橙" [ref=e2705]:
+              - img "枠7橙" [ref=e2706]
+            - cell "14" [ref=e2707]
+            - cell "ジュンブロッサム 16.6 (12番人気) (5.7.1.12) 21,113.8万円 河合 純二 ノーザンファーム 友道 康夫(栗東) 父：ワールドエース 母：エンプレスティアラ (母の父：クロフネ)" [ref=e2708]:
+              - generic [ref=e2709]:
+                - link "ジュンブロッサム" [ref=e2711] [cursor=pointer]:
+                  - /url: /JRADB/accessU.html?CNAME=pw01dud002019105118/C3
+                - generic [ref=e2713]:
+                  - strong [ref=e2715]: "16.6"
+                  - generic [ref=e2716]: (12番人気)
+              - generic [ref=e2717]:
+                - generic [ref=e2718]: (5.7.1.12)
+                - generic "211,138,000円" [ref=e2719]: 21,113.8万円
+              - paragraph [ref=e2720]: 河合 純二
+              - paragraph [ref=e2721]: ノーザンファーム
+              - paragraph [ref=e2722]:
+                - link "友道 康夫" [ref=e2723] [cursor=pointer]:
+                  - /url: "#"
+                - text: (栗東)
+              - list [ref=e2724]:
+                - listitem [ref=e2725]: 父：ワールドエース
+                - listitem [ref=e2726]:
+                  - text: 母：エンプレスティアラ
+                  - generic [ref=e2727]: (母の父：クロフネ)
+            - cell "勝負服の画像 牡7/黒鹿 58.5kg 荻野 極" [ref=e2728]:
+              - paragraph [ref=e2729]:
+                - img "勝負服の画像" [ref=e2730]
+              - paragraph [ref=e2731]: 牡7/黒鹿
+              - paragraph [ref=e2732]: 58.5kg
+              - paragraph [ref=e2733]:
+                - link "荻野 極" [ref=e2734] [cursor=pointer]:
+                  - /url: "#"
+            - cell "2025年11月29日 東京 キャピタルS リステッド 7着 18頭9番 1番人気 石川 裕紀人 58.0kg 1600芝 1:32.2 良 105 474kg 11 13 3F 33.5 ミッキーゴージャス(0.3)" [ref=e2735]:
+              - generic [ref=e2736]:
+                - generic [ref=e2737]: 2025年11月29日
+                - generic [ref=e2738]: 東京
+              - generic [ref=e2739]:
+                - link "キャピタルS" [ref=e2741] [cursor=pointer]:
+                  - /url: /JRADB/accessS.html?CNAME=pw01sde1005202505071120251129/A9
+                - img "リステッド" [ref=e2744]
+              - generic [ref=e2745]:
+                - generic [ref=e2746]: 7着
+                - generic [ref=e2747]:
+                  - generic [ref=e2748]: 18頭
+                  - generic [ref=e2749]: 9番
+                  - generic [ref=e2750]: 1番人気
+              - generic [ref=e2751]:
+                - generic [ref=e2752]: 石川 裕紀人
+                - generic [ref=e2753]: 58.0kg
+              - generic [ref=e2754]:
+                - generic [ref=e2755]:
+                  - generic [ref=e2756]: 1600芝
+                  - paragraph [ref=e2758]: 1:32.2
+                - generic [ref=e2759]:
+                  - generic [ref=e2761]: 良
+                  - paragraph [ref=e2763]: "105"
+                  - paragraph [ref=e2765]: 474kg
+              - generic [ref=e2766]:
+                - generic [ref=e2767]:
+                  - list [ref=e2769]:
+                    - listitem "3コーナー通過順位" [ref=e2770]: "11"
+                    - listitem "4コーナー通過順位" [ref=e2771]: "13"
+                  - generic [ref=e2772]: 3F 33.5
+                - paragraph [ref=e2773]: ミッキーゴージャス(0.3)
+            - cell "2025年10月18日 東京 富士S GⅡ 4着 14頭8番 9番人気 石川 裕紀人 58.0kg 1600芝 1:32.1 良 114 470kg 12 11 3F 32.8 ガイアフォース(0.4)" [ref=e2774]:
+              - generic [ref=e2775]:
+                - generic [ref=e2776]: 2025年10月18日
+                - generic [ref=e2777]: 東京
+              - generic [ref=e2778]:
+                - link "富士S" [ref=e2780] [cursor=pointer]:
+                  - /url: /JRADB/accessS.html?CNAME=pw01sde1005202504061120251018/73
+                - img "GⅡ" [ref=e2783]
+              - generic [ref=e2784]:
+                - generic [ref=e2785]: 4着
+                - generic [ref=e2786]:
+                  - generic [ref=e2787]: 14頭
+                  - generic [ref=e2788]: 8番
+                  - generic [ref=e2789]: 9番人気
+              - generic [ref=e2790]:
+                - generic [ref=e2791]: 石川 裕紀人
+                - generic [ref=e2792]: 58.0kg
+              - generic [ref=e2793]:
+                - generic [ref=e2794]:
+                  - generic [ref=e2795]: 1600芝
+                  - paragraph [ref=e2797]: 1:32.1
+                - generic [ref=e2798]:
+                  - generic [ref=e2800]: 良
+                  - paragraph [ref=e2802]: "114"
+                  - paragraph [ref=e2804]: 470kg
+              - generic [ref=e2805]:
+                - generic [ref=e2806]:
+                  - list [ref=e2808]:
+                    - listitem "3コーナー通過順位" [ref=e2809]: "12"
+                    - listitem "4コーナー通過順位" [ref=e2810]: "11"
+                  - generic [ref=e2811]: 3F 32.8
+                - paragraph [ref=e2812]: ガイアフォース(0.4)
+            - cell "2025年6月8日 東京 安田記念 GⅠ 11着 18頭17番 6番人気 武 豊 58.0kg 1600芝 1:33.4 良 111 474kg 14 15 3F 34.0 ジャンタルマンタル(0.7)" [ref=e2813]:
+              - generic [ref=e2814]:
+                - generic [ref=e2815]: 2025年6月8日
+                - generic [ref=e2816]: 東京
+              - generic [ref=e2817]:
+                - link "安田記念" [ref=e2819] [cursor=pointer]:
+                  - /url: /JRADB/accessS.html?CNAME=pw01sde1005202503021120250608/E6
+                - img "GⅠ" [ref=e2822]
+              - generic [ref=e2823]:
+                - generic [ref=e2824]: 11着
+                - generic [ref=e2825]:
+                  - generic [ref=e2826]: 18頭
+                  - generic [ref=e2827]: 17番
+                  - generic [ref=e2828]: 6番人気
+              - generic [ref=e2829]:
+                - generic [ref=e2830]: 武 豊
+                - generic [ref=e2831]: 58.0kg
+              - generic [ref=e2832]:
+                - generic [ref=e2833]:
+                  - generic [ref=e2834]: 1600芝
+                  - paragraph [ref=e2836]: 1:33.4
+                - generic [ref=e2837]:
+                  - generic [ref=e2839]: 良
+                  - paragraph [ref=e2841]: "111"
+                  - paragraph [ref=e2843]: 474kg
+              - generic [ref=e2844]:
+                - generic [ref=e2845]:
+                  - list [ref=e2847]:
+                    - listitem "3コーナー通過順位" [ref=e2848]: "14"
+                    - listitem "4コーナー通過順位" [ref=e2849]: "15"
+                  - generic [ref=e2850]: 3F 34.0
+                - paragraph [ref=e2851]: ジャンタルマンタル(0.7)
+            - cell "2025年4月27日 京都 マイラーズC GⅡ 2着 10頭3番 1番人気 武 豊 58.0kg 1600芝 1:31.8 良 112 482kg 8 8 3F 33.2 ロングラン(0.1)" [ref=e2852]:
+              - generic [ref=e2853]:
+                - generic [ref=e2854]: 2025年4月27日
+                - generic [ref=e2855]: 京都
+              - generic [ref=e2856]:
+                - link "マイラーズC" [ref=e2858] [cursor=pointer]:
+                  - /url: /JRADB/accessS.html?CNAME=pw01sde1008202502021120250427/94
+                - img "GⅡ" [ref=e2861]
+              - generic [ref=e2862]:
+                - generic [ref=e2863]: 2着
+                - generic [ref=e2864]:
+                  - generic [ref=e2865]: 10頭
+                  - generic [ref=e2866]: 3番
+                  - generic [ref=e2867]: 1番人気
+              - generic [ref=e2868]:
+                - generic [ref=e2869]: 武 豊
+                - generic [ref=e2870]: 58.0kg
+              - generic [ref=e2871]:
+                - generic [ref=e2872]:
+                  - generic [ref=e2873]: 1600芝
+                  - paragraph [ref=e2875]: 1:31.8
+                - generic [ref=e2876]:
+                  - generic [ref=e2878]: 良
+                  - paragraph [ref=e2880]: "112"
+                  - paragraph [ref=e2882]: 482kg
+              - generic [ref=e2883]:
+                - generic [ref=e2884]:
+                  - list [ref=e2886]:
+                    - listitem "3コーナー通過順位" [ref=e2887]: "8"
+                    - listitem "4コーナー通過順位" [ref=e2888]: "8"
+                  - generic [ref=e2889]: 3F 33.2
+                - paragraph [ref=e2890]: ロングラン(0.1)
+          - row "枠8桃 15 シリウスコルト 10.7 (5番人気) (4.2.1.11) 14,810.6万円 飯田 正剛 千代田牧場 田中 勝春(美浦) 父：マクフィ 母：オールドフレイム (母の父：ゼンノロブロイ) 勝負服の画像 牡5/鹿 58.0kg 三浦 皇成 2026年2月10日 東京 東京新聞杯 GⅢ 5着 16頭3番 13番人気 三浦 皇成 58.0kg 1600芝 1:32.4 良 111 508kg 4 4 3F 33.7 トロヴァトーレ(0.2) 2026年1月4日 中山 日刊中山金杯 GⅢ 13着 14頭13番 6番人気 三浦 皇成 58.5kg 2000芝 2:01.0 良 103 506kg 7 8 7 7 3F 34.8 カラマティアノス(0.7) 2025年11月22日 福島 福島記念 GⅢ 5着 16頭5番 5番人気 古川 吉洋 58.5kg 2000芝 2:00.4 良 109 504kg 7 8 9 9 3F 33.9 ニシノティアモ(0.5) 2025年10月5日 東京 毎日王冠 GⅡ 11着 11頭11番 6番人気 古川 吉洋 57.0kg 1800芝 1:45.2 良 102 496kg 3 3 3 3F 34.5 レーベンスティール(1.2)" [ref=e2891]:
+            - cell "枠8桃" [ref=e2892]:
+              - img "枠8桃" [ref=e2893]
+            - cell "15" [ref=e2894]
+            - cell "シリウスコルト 10.7 (5番人気) (4.2.1.11) 14,810.6万円 飯田 正剛 千代田牧場 田中 勝春(美浦) 父：マクフィ 母：オールドフレイム (母の父：ゼンノロブロイ)" [ref=e2895]:
+              - generic [ref=e2896]:
+                - link "シリウスコルト" [ref=e2898] [cursor=pointer]:
+                  - /url: /JRADB/accessU.html?CNAME=pw01dud002021104094/62
+                - generic [ref=e2900]:
+                  - strong [ref=e2902]: "10.7"
+                  - generic [ref=e2903]: (5番人気)
+              - generic [ref=e2904]:
+                - generic [ref=e2905]: (4.2.1.11)
+                - generic "148,106,000円" [ref=e2906]: 14,810.6万円
+              - paragraph [ref=e2907]: 飯田 正剛
+              - paragraph [ref=e2908]: 千代田牧場
+              - paragraph [ref=e2909]:
+                - link "田中 勝春" [ref=e2910] [cursor=pointer]:
+                  - /url: "#"
+                - text: (美浦)
+              - list [ref=e2911]:
+                - listitem [ref=e2912]: 父：マクフィ
+                - listitem [ref=e2913]:
+                  - text: 母：オールドフレイム
+                  - generic [ref=e2914]: (母の父：ゼンノロブロイ)
+            - cell "勝負服の画像 牡5/鹿 58.0kg 三浦 皇成" [ref=e2915]:
+              - paragraph [ref=e2916]:
+                - img "勝負服の画像" [ref=e2917]
+              - paragraph [ref=e2918]: 牡5/鹿
+              - paragraph [ref=e2919]: 58.0kg
+              - paragraph [ref=e2920]:
+                - link "三浦 皇成" [ref=e2921] [cursor=pointer]:
+                  - /url: "#"
+            - cell "2026年2月10日 東京 東京新聞杯 GⅢ 5着 16頭3番 13番人気 三浦 皇成 58.0kg 1600芝 1:32.4 良 111 508kg 4 4 3F 33.7 トロヴァトーレ(0.2)" [ref=e2922]:
+              - generic [ref=e2923]:
+                - generic [ref=e2924]: 2026年2月10日
+                - generic [ref=e2925]: 東京
+              - generic [ref=e2926]:
+                - link "東京新聞杯" [ref=e2928] [cursor=pointer]:
+                  - /url: /JRADB/accessS.html?CNAME=pw01sde1005202601041120260210/F7
+                - img "GⅢ" [ref=e2931]
+              - generic [ref=e2932]:
+                - generic [ref=e2933]: 5着
+                - generic [ref=e2934]:
+                  - generic [ref=e2935]: 16頭
+                  - generic [ref=e2936]: 3番
+                  - generic [ref=e2937]: 13番人気
+              - generic [ref=e2938]:
+                - generic [ref=e2939]: 三浦 皇成
+                - generic [ref=e2940]: 58.0kg
+              - generic [ref=e2941]:
+                - generic [ref=e2942]:
+                  - generic [ref=e2943]: 1600芝
+                  - paragraph [ref=e2945]: 1:32.4
+                - generic [ref=e2946]:
+                  - generic [ref=e2948]: 良
+                  - paragraph [ref=e2950]: "111"
+                  - paragraph [ref=e2952]: 508kg
+              - generic [ref=e2953]:
+                - generic [ref=e2954]:
+                  - list [ref=e2956]:
+                    - listitem "3コーナー通過順位" [ref=e2957]: "4"
+                    - listitem "4コーナー通過順位" [ref=e2958]: "4"
+                  - generic [ref=e2959]: 3F 33.7
+                - paragraph [ref=e2960]: トロヴァトーレ(0.2)
+            - cell "2026年1月4日 中山 日刊中山金杯 GⅢ 13着 14頭13番 6番人気 三浦 皇成 58.5kg 2000芝 2:01.0 良 103 506kg 7 8 7 7 3F 34.8 カラマティアノス(0.7)" [ref=e2961]:
+              - generic [ref=e2962]:
+                - generic [ref=e2963]: 2026年1月4日
+                - generic [ref=e2964]: 中山
+              - generic [ref=e2965]:
+                - link "日刊中山金杯" [ref=e2967] [cursor=pointer]:
+                  - /url: /JRADB/accessS.html?CNAME=pw01sde1006202601011120260104/07
+                - img "GⅢ" [ref=e2970]
+              - generic [ref=e2971]:
+                - generic [ref=e2972]: 13着
+                - generic [ref=e2973]:
+                  - generic [ref=e2974]: 14頭
+                  - generic [ref=e2975]: 13番
+                  - generic [ref=e2976]: 6番人気
+              - generic [ref=e2977]:
+                - generic [ref=e2978]: 三浦 皇成
+                - generic [ref=e2979]: 58.5kg
+              - generic [ref=e2980]:
+                - generic [ref=e2981]:
+                  - generic [ref=e2982]: 2000芝
+                  - paragraph [ref=e2984]: 2:01.0
+                - generic [ref=e2985]:
+                  - generic [ref=e2987]: 良
+                  - paragraph [ref=e2989]: "103"
+                  - paragraph [ref=e2991]: 506kg
+              - generic [ref=e2992]:
+                - generic [ref=e2993]:
+                  - list [ref=e2995]:
+                    - listitem "1コーナー通過順位" [ref=e2996]: "7"
+                    - listitem "2コーナー通過順位" [ref=e2997]: "8"
+                    - listitem "3コーナー通過順位" [ref=e2998]: "7"
+                    - listitem "4コーナー通過順位" [ref=e2999]: "7"
+                  - generic [ref=e3000]: 3F 34.8
+                - paragraph [ref=e3001]: カラマティアノス(0.7)
+            - cell "2025年11月22日 福島 福島記念 GⅢ 5着 16頭5番 5番人気 古川 吉洋 58.5kg 2000芝 2:00.4 良 109 504kg 7 8 9 9 3F 33.9 ニシノティアモ(0.5)" [ref=e3002]:
+              - generic [ref=e3003]:
+                - generic [ref=e3004]: 2025年11月22日
+                - generic [ref=e3005]: 福島
+              - generic [ref=e3006]:
+                - link "福島記念" [ref=e3008] [cursor=pointer]:
+                  - /url: /JRADB/accessS.html?CNAME=pw01sde1003202503051120251122/A2
+                - img "GⅢ" [ref=e3011]
+              - generic [ref=e3012]:
+                - generic [ref=e3013]: 5着
+                - generic [ref=e3014]:
+                  - generic [ref=e3015]: 16頭
+                  - generic [ref=e3016]: 5番
+                  - generic [ref=e3017]: 5番人気
+              - generic [ref=e3018]:
+                - generic [ref=e3019]: 古川 吉洋
+                - generic [ref=e3020]: 58.5kg
+              - generic [ref=e3021]:
+                - generic [ref=e3022]:
+                  - generic [ref=e3023]: 2000芝
+                  - paragraph [ref=e3025]: 2:00.4
+                - generic [ref=e3026]:
+                  - generic [ref=e3028]: 良
+                  - paragraph [ref=e3030]: "109"
+                  - paragraph [ref=e3032]: 504kg
+              - generic [ref=e3033]:
+                - generic [ref=e3034]:
+                  - list [ref=e3036]:
+                    - listitem "1コーナー通過順位" [ref=e3037]: "7"
+                    - listitem "2コーナー通過順位" [ref=e3038]: "8"
+                    - listitem "3コーナー通過順位" [ref=e3039]: "9"
+                    - listitem "4コーナー通過順位" [ref=e3040]: "9"
+                  - generic [ref=e3041]: 3F 33.9
+                - paragraph [ref=e3042]: ニシノティアモ(0.5)
+            - cell "2025年10月5日 東京 毎日王冠 GⅡ 11着 11頭11番 6番人気 古川 吉洋 57.0kg 1800芝 1:45.2 良 102 496kg 3 3 3 3F 34.5 レーベンスティール(1.2)" [ref=e3043]:
+              - generic [ref=e3044]:
+                - generic [ref=e3045]: 2025年10月5日
+                - generic [ref=e3046]: 東京
+              - generic [ref=e3047]:
+                - link "毎日王冠" [ref=e3049] [cursor=pointer]:
+                  - /url: /JRADB/accessS.html?CNAME=pw01sde1005202504021120251005/16
+                - img "GⅡ" [ref=e3052]
+              - generic [ref=e3053]:
+                - generic [ref=e3054]: 11着
+                - generic [ref=e3055]:
+                  - generic [ref=e3056]: 11頭
+                  - generic [ref=e3057]: 11番
+                  - generic [ref=e3058]: 6番人気
+              - generic [ref=e3059]:
+                - generic [ref=e3060]: 古川 吉洋
+                - generic [ref=e3061]: 57.0kg
+              - generic [ref=e3062]:
+                - generic [ref=e3063]:
+                  - generic [ref=e3064]: 1800芝
+                  - paragraph [ref=e3066]: 1:45.2
+                - generic [ref=e3067]:
+                  - generic [ref=e3069]: 良
+                  - paragraph [ref=e3071]: "102"
+                  - paragraph [ref=e3073]: 496kg
+              - generic [ref=e3074]:
+                - generic [ref=e3075]:
+                  - list [ref=e3077]:
+                    - listitem "2コーナー通過順位" [ref=e3078]: "3"
+                    - listitem "3コーナー通過順位" [ref=e3079]: "3"
+                    - listitem "4コーナー通過順位" [ref=e3080]: "3"
+                  - generic [ref=e3081]: 3F 34.5
+                - paragraph [ref=e3082]: レーベンスティール(1.2)
+          - row "枠8桃 16 サイルーン 13.0 (9番人気) (5.5.1.8) 9,949.5万円 金子真人ホールディングス(株) 社台ファーム 堀 宣行(美浦) 父：ディープインパクト 母：ハウオリ (母の父：キングカメハメハ) 勝負服の画像 せん7/青鹿 57.0kg 大野 拓弥 2026年3月1日 中山 中山記念 GⅡ 7着 14頭11番 12番人気 佐々木 大輔 57.0kg 1800芝 1:45.6 良 109 488kg 7 8 7 7 3F 34.0 レーベンスティール(0.5) 2025年5月17日 新潟 新潟大賞典 GⅢ 12着 16頭11番 5番人気 佐々木 大輔 57.0kg 2000芝 2:01.7 稍重 97 482kg 9 8 3F 35.1 シリウスコルト(1.2) 2025年3月16日 中山 東風S リステッド 1着 12頭1番 3番人気 C.ルメール 57.0kg 1600芝 1:37.2 重 105 488kg 7 7 7 3F 37.8 ジョウショーホープ(0.3) 2025年3月2日 中山 中山記念 GⅡ 11着 16頭15番 8番人気 R.キング 57.0kg 1800芝 1:45.7 良 104 486kg 11 11 13 13 3F 34.5 シックスペンス(0.9)" [ref=e3083]:
+            - cell "枠8桃" [ref=e3084]:
+              - img "枠8桃" [ref=e3085]
+            - cell "16" [ref=e3086]
+            - cell "サイルーン 13.0 (9番人気) (5.5.1.8) 9,949.5万円 金子真人ホールディングス(株) 社台ファーム 堀 宣行(美浦) 父：ディープインパクト 母：ハウオリ (母の父：キングカメハメハ)" [ref=e3087]:
+              - generic [ref=e3088]:
+                - link "サイルーン" [ref=e3090] [cursor=pointer]:
+                  - /url: /JRADB/accessU.html?CNAME=pw01dud002019104838/4B
+                - generic [ref=e3092]:
+                  - strong [ref=e3094]: "13.0"
+                  - generic [ref=e3095]: (9番人気)
+              - generic [ref=e3096]:
+                - generic [ref=e3097]: (5.5.1.8)
+                - generic "99,495,000円" [ref=e3098]: 9,949.5万円
+              - paragraph [ref=e3099]: 金子真人ホールディングス(株)
+              - paragraph [ref=e3100]: 社台ファーム
+              - paragraph [ref=e3101]:
+                - link "堀 宣行" [ref=e3102] [cursor=pointer]:
+                  - /url: "#"
+                - text: (美浦)
+              - list [ref=e3103]:
+                - listitem [ref=e3104]: 父：ディープインパクト
+                - listitem [ref=e3105]:
+                  - text: 母：ハウオリ
+                  - generic [ref=e3106]: (母の父：キングカメハメハ)
+            - cell "勝負服の画像 せん7/青鹿 57.0kg 大野 拓弥" [ref=e3107]:
+              - paragraph [ref=e3108]:
+                - img "勝負服の画像" [ref=e3109]
+              - paragraph [ref=e3110]: せん7/青鹿
+              - paragraph [ref=e3111]: 57.0kg
+              - paragraph [ref=e3112]:
+                - link "大野 拓弥" [ref=e3113] [cursor=pointer]:
+                  - /url: "#"
+            - cell "2026年3月1日 中山 中山記念 GⅡ 7着 14頭11番 12番人気 佐々木 大輔 57.0kg 1800芝 1:45.6 良 109 488kg 7 8 7 7 3F 34.0 レーベンスティール(0.5)" [ref=e3114]:
+              - generic [ref=e3115]:
+                - generic [ref=e3116]: 2026年3月1日
+                - generic [ref=e3117]: 中山
+              - generic [ref=e3118]:
+                - link "中山記念" [ref=e3120] [cursor=pointer]:
+                  - /url: /JRADB/accessS.html?CNAME=pw01sde1006202602021120260301/6A
+                - img "GⅡ" [ref=e3123]
+              - generic [ref=e3124]:
+                - generic [ref=e3125]: 7着
+                - generic [ref=e3126]:
+                  - generic [ref=e3127]: 14頭
+                  - generic [ref=e3128]: 11番
+                  - generic [ref=e3129]: 12番人気
+              - generic [ref=e3130]:
+                - generic [ref=e3131]: 佐々木 大輔
+                - generic [ref=e3132]: 57.0kg
+              - generic [ref=e3133]:
+                - generic [ref=e3134]:
+                  - generic [ref=e3135]: 1800芝
+                  - paragraph [ref=e3137]: 1:45.6
+                - generic [ref=e3138]:
+                  - generic [ref=e3140]: 良
+                  - paragraph [ref=e3142]: "109"
+                  - paragraph [ref=e3144]: 488kg
+              - generic [ref=e3145]:
+                - generic [ref=e3146]:
+                  - list [ref=e3148]:
+                    - listitem "1コーナー通過順位" [ref=e3149]: "7"
+                    - listitem "2コーナー通過順位" [ref=e3150]: "8"
+                    - listitem "3コーナー通過順位" [ref=e3151]: "7"
+                    - listitem "4コーナー通過順位" [ref=e3152]: "7"
+                  - generic [ref=e3153]: 3F 34.0
+                - paragraph [ref=e3154]: レーベンスティール(0.5)
+            - cell "2025年5月17日 新潟 新潟大賞典 GⅢ 12着 16頭11番 5番人気 佐々木 大輔 57.0kg 2000芝 2:01.7 稍重 97 482kg 9 8 3F 35.1 シリウスコルト(1.2)" [ref=e3155]:
+              - generic [ref=e3156]:
+                - generic [ref=e3157]: 2025年5月17日
+                - generic [ref=e3158]: 新潟
+              - generic [ref=e3159]:
+                - link "新潟大賞典" [ref=e3161] [cursor=pointer]:
+                  - /url: /JRADB/accessS.html?CNAME=pw01sde1004202501051120250517/B5
+                - img "GⅢ" [ref=e3164]
+              - generic [ref=e3165]:
+                - generic [ref=e3166]: 12着
+                - generic [ref=e3167]:
+                  - generic [ref=e3168]: 16頭
+                  - generic [ref=e3169]: 11番
+                  - generic [ref=e3170]: 5番人気
+              - generic [ref=e3171]:
+                - generic [ref=e3172]: 佐々木 大輔
+                - generic [ref=e3173]: 57.0kg
+              - generic [ref=e3174]:
+                - generic [ref=e3175]:
+                  - generic [ref=e3176]: 2000芝
+                  - paragraph [ref=e3178]: 2:01.7
+                - generic [ref=e3179]:
+                  - generic [ref=e3181]: 稍重
+                  - paragraph [ref=e3183]: "97"
+                  - paragraph [ref=e3185]: 482kg
+              - generic [ref=e3186]:
+                - generic [ref=e3187]:
+                  - list [ref=e3189]:
+                    - listitem "3コーナー通過順位" [ref=e3190]: "9"
+                    - listitem "4コーナー通過順位" [ref=e3191]: "8"
+                  - generic [ref=e3192]: 3F 35.1
+                - paragraph [ref=e3193]: シリウスコルト(1.2)
+            - cell "2025年3月16日 中山 東風S リステッド 1着 12頭1番 3番人気 C.ルメール 57.0kg 1600芝 1:37.2 重 105 488kg 7 7 7 3F 37.8 ジョウショーホープ(0.3)" [ref=e3194]:
+              - generic [ref=e3195]:
+                - generic [ref=e3196]: 2025年3月16日
+                - generic [ref=e3197]: 中山
+              - generic [ref=e3198]:
+                - link "東風S" [ref=e3200] [cursor=pointer]:
+                  - /url: /JRADB/accessS.html?CNAME=pw01sde1006202502061020250316/85
+                - img "リステッド" [ref=e3203]
+              - generic [ref=e3204]:
+                - generic [ref=e3205]: 1着
+                - generic [ref=e3206]:
+                  - generic [ref=e3207]: 12頭
+                  - generic [ref=e3208]: 1番
+                  - generic [ref=e3209]: 3番人気
+              - generic [ref=e3210]:
+                - generic [ref=e3211]: C.ルメール
+                - generic [ref=e3212]: 57.0kg
+              - generic [ref=e3213]:
+                - generic [ref=e3214]:
+                  - generic [ref=e3215]: 1600芝
+                  - paragraph [ref=e3217]: 1:37.2
+                - generic [ref=e3218]:
+                  - generic [ref=e3220]: 重
+                  - paragraph [ref=e3222]: "105"
+                  - paragraph [ref=e3224]: 488kg
+              - generic [ref=e3225]:
+                - generic [ref=e3226]:
+                  - list [ref=e3228]:
+                    - listitem "2コーナー通過順位" [ref=e3229]: "7"
+                    - listitem "3コーナー通過順位" [ref=e3230]: "7"
+                    - listitem "4コーナー通過順位" [ref=e3231]: "7"
+                  - generic [ref=e3232]: 3F 37.8
+                - paragraph [ref=e3233]: ジョウショーホープ(0.3)
+            - cell "2025年3月2日 中山 中山記念 GⅡ 11着 16頭15番 8番人気 R.キング 57.0kg 1800芝 1:45.7 良 104 486kg 11 11 13 13 3F 34.5 シックスペンス(0.9)" [ref=e3234]:
+              - generic [ref=e3235]:
+                - generic [ref=e3236]: 2025年3月2日
+                - generic [ref=e3237]: 中山
+              - generic [ref=e3238]:
+                - link "中山記念" [ref=e3240] [cursor=pointer]:
+                  - /url: /JRADB/accessS.html?CNAME=pw01sde1006202502021120250302/20
+                - img "GⅡ" [ref=e3243]
+              - generic [ref=e3244]:
+                - generic [ref=e3245]: 11着
+                - generic [ref=e3246]:
+                  - generic [ref=e3247]: 16頭
+                  - generic [ref=e3248]: 15番
+                  - generic [ref=e3249]: 8番人気
+              - generic [ref=e3250]:
+                - generic [ref=e3251]: R.キング
+                - generic [ref=e3252]: 57.0kg
+              - generic [ref=e3253]:
+                - generic [ref=e3254]:
+                  - generic [ref=e3255]: 1800芝
+                  - paragraph [ref=e3257]: 1:45.7
+                - generic [ref=e3258]:
+                  - generic [ref=e3260]: 良
+                  - paragraph [ref=e3262]: "104"
+                  - paragraph [ref=e3264]: 486kg
+              - generic [ref=e3265]:
+                - generic [ref=e3266]:
+                  - list [ref=e3268]:
+                    - listitem "1コーナー通過順位" [ref=e3269]: "11"
+                    - listitem "2コーナー通過順位" [ref=e3270]: "11"
+                    - listitem "3コーナー通過順位" [ref=e3271]: "13"
+                    - listitem "4コーナー通過順位" [ref=e3272]: "13"
+                  - generic [ref=e3273]: 3F 34.5
+                - paragraph [ref=e3274]: シックスペンス(0.9)
+      - generic [ref=e3275]:
+        - paragraph [ref=e3276]:
+          - text: オッズは9時17分現在
+          - link "更新" [ref=e3277] [cursor=pointer]:
+            - /url: /JRADB/accessD.html?CNAME=pw01dde0106202603031120260404/25
+            - generic [ref=e3278]: 
+            - text: 更新
+        - list [ref=e3279]:
+          - listitem [ref=e3280]: ・オッズの赤表示は、10倍未満を示します。
+          - listitem [ref=e3281]:
+            - text: ・
+            - generic [ref=e3282]:
+              - text: 勝馬投票に的中された方がいない場合、その投票法に投票された方全員に、定められた算式に基づく金額（
+              - link "特払い" [ref=e3283] [cursor=pointer]:
+                - /url: /kouza/yougo/w426.html
+              - text: ）を払戻しいたします。
+          - listitem [ref=e3284]:
+            - text: ・
+            - generic [ref=e3285]:
+              - text: 特定の馬番・組番に人気が著しく集中した場合、JRAプラス10の対象にならないことがあります。詳しくは
+              - link "お知らせ" [ref=e3286] [cursor=pointer]:
+                - /url: /keiba/pp10/plus10.html
+              - text: をご覧下さい。
+      - generic [ref=e3287]:
+        - heading "コースレコード" [level=2] [ref=e3289]
+        - generic [ref=e3291]:
+          - strong [ref=e3293]: 1:30.3
+          - generic [ref=e3294]:
+            - text: 2019年9月8日
+            - generic [ref=e3295]: 晴/芝：良
+          - link "トロワゼトワル" [ref=e3297] [cursor=pointer]:
+            - /url: /JRADB/accessU.html?CNAME=pw01dud002015104387/03
+          - generic [ref=e3298]:
+            - link "横山 典弘" [ref=e3299] [cursor=pointer]:
+              - /url: "#"
+            - text: （52.0kg）
+      - generic [ref=e3300]:
+        - heading "非当選・非抽選馬情報" [level=2] [ref=e3303]
+        - paragraph [ref=e3304]: 出馬投票締切の結果、以下の4頭が出走できる馬となりませんでした。
+        - generic [ref=e3305]:
+          - heading "非当選馬" [level=3] [ref=e3307]
+          - generic [ref=e3310]: 0頭
+        - generic [ref=e3312]:
+          - heading "非抽選馬" [level=3] [ref=e3314]
+          - generic [ref=e3316]:
+            - generic [ref=e3317]: 4頭
+            - generic [ref=e3318]:
+              - link "クルゼイロドスル" [ref=e3319] [cursor=pointer]:
+                - /url: /JRADB/accessU.html?CNAME=pw01dud002020101813/9E
+              - text: 、
+              - link "タシット" [ref=e3320] [cursor=pointer]:
+                - /url: /JRADB/accessU.html?CNAME=pw01dud002019106335/DB
+              - text: 、
+              - link "マンマリアーレ" [ref=e3321] [cursor=pointer]:
+                - /url: /JRADB/accessU.html?CNAME=pw01dud002020100761/E8
+              - text: 、
+              - link "レガーロデルシエロ" [ref=e3322] [cursor=pointer]:
+                - /url: /JRADB/accessU.html?CNAME=pw01dud002021105661/EE
+      - table "過去5年の成績" [ref=e3324]:
+        - caption [ref=e3325]:
+          - generic [ref=e3327]: 過去5年の成績
+        - rowgroup [ref=e3328]:
+          - row "開催 馬名 騎手名 コース 馬場状態 タイム" [ref=e3329]:
+            - columnheader "開催" [ref=e3330]
+            - columnheader "馬名" [ref=e3331]
+            - columnheader "騎手名" [ref=e3332]
+            - columnheader "コース" [ref=e3333]
+            - columnheader "馬場状態" [ref=e3334]
+            - columnheader "タイム" [ref=e3335]
+        - rowgroup [ref=e3336]:
+          - row "2025年 3回中山 3日 11レース トロヴァトーレ J.モレイラ 芝1,600メートル 良 1:32.4" [ref=e3337]:
+            - cell "2025年 3回中山 3日 11レース" [ref=e3338]:
+              - link "2025年 3回中山 3日 11レース" [ref=e3339] [cursor=pointer]:
+                - /url: /JRADB/accessS.html?CNAME=pw01sde1006202503031120250405/76
+            - cell "トロヴァトーレ" [ref=e3340]:
+              - link "トロヴァトーレ" [ref=e3341] [cursor=pointer]:
+                - /url: /JRADB/accessU.html?CNAME=pw01dud002021105557/5F
+            - cell "J.モレイラ" [ref=e3342]
+            - cell "芝1,600メートル" [ref=e3343]
+            - cell "良" [ref=e3344]
+            - cell "1:32.4" [ref=e3345]
+          - row "2024年 3回中山 3日 11レース パラレルヴィジョン 戸崎 圭太 芝1,600メートル 稍重 1:32.9" [ref=e3346]:
+            - cell "2024年 3回中山 3日 11レース" [ref=e3347]:
+              - link "2024年 3回中山 3日 11レース" [ref=e3348] [cursor=pointer]:
+                - /url: /JRADB/accessS.html?CNAME=pw01sde1006202403031120240330/51
+            - cell "パラレルヴィジョン" [ref=e3349]:
+              - link "パラレルヴィジョン" [ref=e3350] [cursor=pointer]:
+                - /url: /JRADB/accessU.html?CNAME=pw01dud002019105065/89
+            - cell "戸崎 圭太" [ref=e3351]:
+              - link "戸崎 圭太" [ref=e3352] [cursor=pointer]:
+                - /url: "#"
+            - cell "芝1,600メートル" [ref=e3353]
+            - cell "稍重" [ref=e3354]
+            - cell "1:32.9" [ref=e3355]
+          - row "2023年 3回中山 3日 11レース インダストリア 戸崎 圭太 芝1,600メートル 良 1:33.2" [ref=e3356]:
+            - cell "2023年 3回中山 3日 11レース" [ref=e3357]:
+              - link "2023年 3回中山 3日 11レース" [ref=e3358] [cursor=pointer]:
+                - /url: /JRADB/accessS.html?CNAME=pw01sde1006202303031120230401/74
+            - cell "インダストリア" [ref=e3359]:
+              - link "インダストリア" [ref=e3360] [cursor=pointer]:
+                - /url: /JRADB/accessU.html?CNAME=pw01dud002019105074/26
+            - cell "戸崎 圭太" [ref=e3361]:
+              - link "戸崎 圭太" [ref=e3362] [cursor=pointer]:
+                - /url: "#"
+            - cell "芝1,600メートル" [ref=e3363]
+            - cell "良" [ref=e3364]
+            - cell "1:33.2" [ref=e3365]
+          - row "2022年 3回中山 3日 11レース タイムトゥヘヴン 大野 拓弥 芝1,600メートル 良 1:32.3" [ref=e3366]:
+            - cell "2022年 3回中山 3日 11レース" [ref=e3367]:
+              - link "2022年 3回中山 3日 11レース" [ref=e3368] [cursor=pointer]:
+                - /url: /JRADB/accessS.html?CNAME=pw01sde1006202203031120220402/2A
+            - cell "タイムトゥヘヴン" [ref=e3369]:
+              - link "タイムトゥヘヴン" [ref=e3370] [cursor=pointer]:
+                - /url: /JRADB/accessU.html?CNAME=pw01dud002018100184/30
+            - cell "大野 拓弥" [ref=e3371]:
+              - link "大野 拓弥" [ref=e3372] [cursor=pointer]:
+                - /url: "#"
+            - cell "芝1,600メートル" [ref=e3373]
+            - cell "良" [ref=e3374]
+            - cell "1:32.3" [ref=e3375]
+          - row "2021年 3回中山 3日 11レース テルツェット M.デムーロ 芝1,600メートル 良 1:32.6" [ref=e3376]:
+            - cell "2021年 3回中山 3日 11レース" [ref=e3377]:
+              - link "2021年 3回中山 3日 11レース" [ref=e3378] [cursor=pointer]:
+                - /url: /JRADB/accessS.html?CNAME=pw01sde1006202103031120210403/E0
+            - cell "テルツェット" [ref=e3379]:
+              - link "テルツェット" [ref=e3380] [cursor=pointer]:
+                - /url: /JRADB/accessU.html?CNAME=pw01dud002017105607/1D
+            - cell "M.デムーロ" [ref=e3381]:
+              - link "M.デムーロ" [ref=e3382] [cursor=pointer]:
+                - /url: "#"
+            - cell "芝1,600メートル" [ref=e3383]
+            - cell "良" [ref=e3384]
+            - cell "1:32.6" [ref=e3385]
+      - generic [ref=e3386]:
+        - generic [ref=e3387]:
+          - link "開催選択へ戻る" [ref=e3388] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e3389]: 
+            - text: 開催選択へ戻る
+          - link "レース選択へ戻る" [ref=e3390] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e3391]: 
+            - text: レース選択へ戻る
+          - link "印刷用ページ" [ref=e3392] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e3393]: 
+            - text: 印刷用ページ
+        - link "更新" [ref=e3395] [cursor=pointer]:
+          - /url: /JRADB/accessD.html?CNAME=pw01dde0106202603031120260404/25
+          - generic [ref=e3396]: 
+          - text: 更新
+      - list [ref=e3397]:
+        - listitem [ref=e3398]:
+          - link "1レース" [ref=e3399] [cursor=pointer]:
+            - /url: /JRADB/accessD.html?CNAME=pw01dde0106202603030120260404/D3
+            - img "1レース" [ref=e3400]
+        - listitem [ref=e3401]:
+          - link "2レース" [ref=e3402] [cursor=pointer]:
+            - /url: /JRADB/accessD.html?CNAME=pw01dde0106202603030220260404/88
+            - img "2レース" [ref=e3403]
+        - listitem [ref=e3404]:
+          - link "3レース" [ref=e3405] [cursor=pointer]:
+            - /url: /JRADB/accessD.html?CNAME=pw01dde0106202603030320260404/3D
+            - img "3レース" [ref=e3406]
+        - listitem [ref=e3407]:
+          - link "4レース" [ref=e3408] [cursor=pointer]:
+            - /url: /JRADB/accessD.html?CNAME=pw01dde0106202603030420260404/F2
+            - img "4レース" [ref=e3409]
+        - listitem [ref=e3410]:
+          - link "5レース" [ref=e3411] [cursor=pointer]:
+            - /url: /JRADB/accessD.html?CNAME=pw01dde0106202603030520260404/A7
+            - img "5レース" [ref=e3412]
+        - listitem [ref=e3413]:
+          - link "6レース" [ref=e3414] [cursor=pointer]:
+            - /url: /JRADB/accessD.html?CNAME=pw01dde0106202603030620260404/5C
+            - img "6レース" [ref=e3415]
+        - listitem [ref=e3416]:
+          - link "7レース" [ref=e3417] [cursor=pointer]:
+            - /url: /JRADB/accessD.html?CNAME=pw01dde0106202603030720260404/11
+            - img "7レース" [ref=e3418]
+        - listitem [ref=e3419]:
+          - link "8レース" [ref=e3420] [cursor=pointer]:
+            - /url: /JRADB/accessD.html?CNAME=pw01dde0106202603030820260404/C6
+            - img "8レース" [ref=e3421]
+        - listitem [ref=e3422]:
+          - link "9レース" [ref=e3423] [cursor=pointer]:
+            - /url: /JRADB/accessD.html?CNAME=pw01dde0106202603030920260404/7B
+            - img "9レース" [ref=e3424]
+        - listitem [ref=e3425]:
+          - link "10レース" [ref=e3426] [cursor=pointer]:
+            - /url: /JRADB/accessD.html?CNAME=pw01dde0106202603031020260404/70
+            - img "10レース" [ref=e3427]
+        - listitem [ref=e3428]:
+          - link "11レース選択" [ref=e3429] [cursor=pointer]:
+            - /url: /JRADB/accessD.html?CNAME=pw01dde0106202603031120260404/25
+            - img "11レース選択" [ref=e3430]
+        - listitem [ref=e3431]:
+          - link "12レース" [ref=e3432] [cursor=pointer]:
+            - /url: /JRADB/accessD.html?CNAME=pw01dde0106202603031220260404/DA
+            - img "12レース" [ref=e3433]
+      - link "ページトップへ戻る" [ref=e3435] [cursor=pointer]:
+        - /url: "#"
+        - generic [ref=e3436]: 
+        - text: ページトップへ戻る
+  - generic [ref=e3437]:
+    - generic [ref=e3438]:
+      - img [ref=e3439]
+      - link "ページトップへ戻る " [ref=e3442] [cursor=pointer]:
+        - /url: "#"
+        - generic [ref=e3443]: ページトップへ戻る
+        - generic [ref=e3444]: 
+      - generic [ref=e3445]:
+        - heading "JRAからのお知らせ" [level=2] [ref=e3446]
+        - generic [ref=e3447]:
+          - link "JRAのギャンブル等依存症対策" [ref=e3449] [cursor=pointer]:
+            - /url: /company/social/disorder/
+            - generic [ref=e3450]:
+              - generic [ref=e3452]: 
+              - text: JRAのギャンブル等依存症対策
+          - link "お出かけ前にJRAホームページでご確認を！" [ref=e3454] [cursor=pointer]:
+            - /url: /news/other/odekake.html
+            - generic [ref=e3455]:
+              - generic [ref=e3457]: 
+              - text: お出かけ前にJRAホームページでご確認を！
+          - link "馬券は20歳になってから" [ref=e3459] [cursor=pointer]:
+            - /url: /kouza/baken/index.html#cat_info
+            - generic [ref=e3460]:
+              - generic [ref=e3462]: 
+              - text: 馬券は20歳になってから
+          - link "悪徳業者・違法インターネット賭事業者等にご注意ください！" [ref=e3464] [cursor=pointer]:
+            - /url: /facilities/informations/index.html#note6
+            - generic [ref=e3465]:
+              - generic [ref=e3467]: 
+              - text: 悪徳業者・違法インターネット賭事業者等にご注意ください！
+          - link "競馬場へ移動中の騎手に関するお願い" [ref=e3469] [cursor=pointer]:
+            - /url: /news/other/2024052402.html
+            - generic [ref=e3470]:
+              - generic [ref=e3472]: 
+              - text: 競馬場へ移動中の騎手に関するお願い
+          - link "払戻金の支払を受けた方へ" [ref=e3474] [cursor=pointer]:
+            - /url: /company/social/taxation/
+            - generic [ref=e3475]:
+              - generic [ref=e3477]: 
+              - text: 払戻金の支払を受けた方へ
+    - generic [ref=e3479]:
+      - generic [ref=e3480]:
+        - list [ref=e3481]:
+          - listitem [ref=e3482]:
+            - link "FAQ/お問い合わせ" [ref=e3483] [cursor=pointer]:
+              - /url: /faq/
+          - listitem [ref=e3484]:
+            - link "サイトマップ" [ref=e3485] [cursor=pointer]:
+              - /url: /sitemap/
+          - listitem [ref=e3486]:
+            - link "リンク" [ref=e3487] [cursor=pointer]:
+              - /url: /link/
+          - listitem [ref=e3488]:
+            - link "ご利用に際して" [ref=e3489] [cursor=pointer]:
+              - /url: /use/
+          - listitem [ref=e3490]:
+            - link "ウェブアクセシビリティについて" [ref=e3491] [cursor=pointer]:
+              - /url: /accessibility/
+        - list [ref=e3492]:
+          - listitem [ref=e3493]:
+            - link "レース情報" [ref=e3494] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e3495]:
+            - link "ニュース" [ref=e3496] [cursor=pointer]:
+              - /url: /news/
+          - listitem [ref=e3497]:
+            - link "企業情報" [ref=e3498] [cursor=pointer]:
+              - /url: /company/
+          - listitem [ref=e3499]:
+            - link "Horse Racing in Japan" [ref=e3500] [cursor=pointer]:
+              - /url: https://japanracing.jp/en/
+              - text: Horse Racing in Japan
+              - generic [ref=e3501]: 
+      - generic [ref=e3502]:
+        - img "日本中央競馬会" [ref=e3503]
+        - paragraph [ref=e3504]: Copyright © Japan Racing Association All rights reserved.

@@ -1,0 +1,175 @@
+{
+  "meta": {
+    "script": "backtest_conditionC_track.py",
+    "condition": "新潟×芝×1801-2100m×スタミナ系×10番人気以上",
+    "purpose": "馬場状態（良 vs 稍重以上）で的中率・回収率の差を検証",
+    "trigger": "2026-05-10新潟5R 良馬場で堅決着・全5頭外れ"
+  },
+  "overall": {
+    "total": 765,
+    "wins": 14,
+    "hit_rate": 1.83,
+    "roi": 112.6
+  },
+  "two_groups": [
+    {
+      "group": "良",
+      "total": 575,
+      "wins": 10,
+      "hit_rate": 1.74,
+      "roi": 113.8,
+      "avg_win_odds": 65.4
+    },
+    {
+      "group": "稍重以上",
+      "total": 190,
+      "wins": 4,
+      "hit_rate": 2.11,
+      "roi": 109.0,
+      "avg_win_odds": 51.8
+    }
+  ],
+  "by_track_cond": [
+    {
+      "track_cond": "良",
+      "total": 575,
+      "wins": 10,
+      "hit_rate": 1.74,
+      "roi": 113.8,
+      "avg_win_odds": 65.4
+    },
+    {
+      "track_cond": "稍",
+      "total": 146,
+      "wins": 3,
+      "hit_rate": 2.05,
+      "roi": 110.0,
+      "avg_win_odds": 53.5
+    },
+    {
+      "track_cond": "重",
+      "total": 20,
+      "wins": 0,
+      "hit_rate": 0.0,
+      "roi": 0.0,
+      "avg_win_odds": null
+    },
+    {
+      "track_cond": "不",
+      "total": 24,
+      "wins": 1,
+      "hit_rate": 4.17,
+      "roi": 193.8,
+      "avg_win_odds": 46.5
+    }
+  ],
+  "ryo_by_year": [
+    {
+      "year": "2017",
+      "total": 40,
+      "wins": 1,
+      "hit_rate": 2.5,
+      "roi": 151.5
+    },
+    {
+      "year": "2018",
+      "total": 40,
+      "wins": 1,
+      "hit_rate": 2.5,
+      "roi": 325.3
+    },
+    {
+      "year": "2019",
+      "total": 46,
+      "wins": 0,
+      "hit_rate": 0.0,
+      "roi": 0.0
+    },
+    {
+      "year": "2020",
+      "total": 86,
+      "wins": 1,
+      "hit_rate": 1.16,
+      "roi": 22.6
+    },
+    {
+      "year": "2021",
+      "total": 86,
+      "wins": 2,
+      "hit_rate": 2.33,
+      "roi": 120.9
+    },
+    {
+      "year": "2022",
+      "total": 62,
+      "wins": 1,
+      "hit_rate": 1.61,
+      "roi": 72.1
+    },
+    {
+      "year": "2023",
+      "total": 95,
+      "wins": 2,
+      "hit_rate": 2.11,
+      "roi": 165.6
+    },
+    {
+      "year": "2024",
+      "total": 80,
+      "wins": 1,
+      "hit_rate": 1.25,
+      "roi": 129.5
+    },
+    {
+      "year": "2025",
+      "total": 36,
+      "wins": 1,
+      "hit_rate": 2.78,
+      "roi": 95.8
+    }
+  ],
+  "ryo_by_month": [
+    {
+      "month": "4月",
+      "total": 27,
+      "wins": 0,
+      "hit_rate": 0.0,
+      "roi": 0.0
+    },
+    {
+      "month": "5月",
+      "total": 122,
+      "wins": 4,
+      "hit_rate": 3.28,
+      "roi": 222.9
+    },
+    {
+      "month": "7月",
+      "total": 39,
+      "wins": 0,
+      "hit_rate": 0.0,
+      "roi": 0.0
+    },
+    {
+      "month": "8月",
+      "total": 220,
+      "wins": 4,
+      "hit_rate": 1.82,
+      "roi": 118.1
+    },
+    {
+      "month": "9月",
+      "total": 75,
+      "wins": 1,
+      "hit_rate": 1.33,
+      "roi": 57.1
+    },
+    {
+      "month": "10月",
+      "total": 92,
+      "wins": 1,
+      "hit_rate": 1.09,
+      "roi": 86.5
+    }
+  ]
+}

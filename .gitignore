@@ -1,0 +1,32 @@
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# 大容量ファイル（GitHubへはpush不可）
+*.pkl
+*.db
+
+# データ・ログ（ローカル専用）
+data/
+logs/
+cache/
+
+# Playwrightログ
+.playwright-mcp/
+
+# 生成物（HTMLレポート・日次JSON）
+output/*.html
+candidates_*.json
+predictions_*.json
+*_input_*.json
+*.yml
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Office一時ファイル
+~$*
+*.~*
