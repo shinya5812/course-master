@@ -164,3 +164,45 @@
 - [ ] 補正案Z（G2穴馬戦略優先）検証
 
 ---
+
+## 2026-06-08（Vercelトップページ・自動push実装）
+
+### 完了タスク
+1. **GitHubリポジトリ初回push**
+   - .gitignore整備（*.db/*.pkl/.playwright-mcp/logs/cache/output/*.html/candidates_*.json/predictions_*.json除外）
+   - orphan branch（clean-main）でクリーン履歴を作成しpush
+   - data/をgit管理から除外
+   - ブランチをclean-main→mainに整理
+   - リモート: https://github.com/shinya5812/course-master.git
+
+2. **Vercel用 index.html 作成**
+   - デザイン: ダーク背景(#1a1a2e)×ゴールド(#c9a84c)
+   - ファーストビュー: output/latest_data.jsonをfetchして◎馬名・エッジ値・判定を動的表示
+   - JSONが存在しない場合は「次回予測準備中」と表示
+   - スクロール後: バックテスト実績（35.3%的中率・回収率227%・黒字年75%）
+   - フッター: 毎週土日9:30自動更新・免責
+
+3. **make_latest.py 新規作成**
+   - predictions_*.json（最新ファイル）から◎馬名・エッジ値・荒れ指数等を抽出
+   - output/latest_data.json を生成（index.htmlがfetchして表示）
+
+4. **run_saturday.ps1 / run_sunday.ps1 更新**
+   - 成功時に output/latest.html へHTMLコピー
+   - make_latest.py を実行してlatest_data.json生成
+   - git add + commit + push origin main を自動実行
+
+5. **.gitignore 更新**
+   - !output/latest.html / !output/latest_data.json を追加（除外対象から外す）
+
+### 結果・数値
+- GitHubリポジトリ: https://github.com/shinya5812/course-master.git
+- git commit: 2927e24 feat: トップページ・自動push実装
+- 現在のoutput/latest_data.json: 安田記念G1 ◎トロヴァトーレ edge=-0.021 🔴見送り（6/7分）
+
+### 次のアクション
+- [ ] Vercel(https://course-master.vercel.app)でindex.htmlが表示されることを確認
+- [ ] **6/13（土）・6/14（日）**: 週次フロー実行時にrun_saturday.ps1の自動pushを実際に確認
+- [ ] TARGET JV CSV更新（2026-04-20〜分・最優先継続課題）
+- [ ] 2200m超サンプル累計: 5R（目標30R）
+
+---
