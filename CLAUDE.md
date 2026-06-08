@@ -1254,16 +1254,29 @@ verify: pkl読み込みテストを実行して統計件数を確認
 |------|------|
 | GitHubリポジトリ | https://github.com/shinya5812/course-master.git |
 | Vercel公開URL | **https://course-master-fawn.vercel.app** |
+| Framework | **Next.js**（v0.app生成・2026-06-08統合） |
+| デザイン | ダーク×ゴールド・latest_data.json連携済み |
 | デプロイトリガー | mainブランチへのpushで自動デプロイ |
-| トップページ | index.html（ダーク×ゴールドデザイン） |
-| 予測データ | output/latest_data.json（make_latest.pyが生成） |
+| トップページ | app/page.tsx（Next.js App Router） |
+| 予測データ | output/latest_data.json（make_latest.pyが生成・app/page.tsxがサーバーサイドで読み込み） |
 | 予測HTML | output/latest.html（run_saturday/sunday.ps1が自動コピー） |
+
+### Next.js 構成（2026-06-08 統合）
+
+| ディレクトリ/ファイル | 内容 |
+|---------------------|------|
+| `app/page.tsx` | ルートページ・latest_data.json読み込み・Heroにprops渡し |
+| `app/layout.tsx` | フォント（Noto Sans/Serif JP）・Analytics |
+| `components/hero.tsx` | ヒーローセクション・最新レース予測カード（latest_data.json連携） |
+| `components/*.tsx` | 週次予測・エッジランキング・レーダーチャート等 |
+| `lib/data.ts` | 静的サンプルデータ（数値はデモ用） |
+| `public/images/` | hero-horse.png・course-master-logo.png |
 
 ### 自動更新フロー
 1. run_saturday.ps1 / run_sunday.ps1 が予測HTMLを生成
 2. output/latest.html へコピー + make_latest.py で latest_data.json 生成
 3. git add + commit + push origin main
-4. Vercel が自動デプロイ → https://course-master-fawn.vercel.app に反映
+4. Vercel が自動デプロイ（Next.js build）→ https://course-master-fawn.vercel.app に反映
 
 ---
 

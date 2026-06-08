@@ -225,3 +225,43 @@
 - [ ] 2200m超サンプル累計: 5R（目標30R）
 
 ---
+
+## 2026-06-08（v0.app Next.jsデザイン統合）
+
+### 完了タスク
+1. **v0.app生成 Next.jsプロジェクトをリポジトリに統合**
+   - `web_data/coursemaster-top-page/` のZIPから展開済みファイルを確認
+   - `app/` `components/` `lib/` `public/` `next.config.mjs` `tsconfig.json` `postcss.config.mjs` をリポジトリルートにコピー
+   - CLAUDE.md等のCOURSE MASTERファイルは保持確認済み
+
+2. **package.json をNext.js構成に更新**
+   - Next.js 16.2.6 / React 19 / Tailwind v4 / Recharts / Shadcn等を追加
+   - 既存の `docx` 依存も保持
+
+3. **`output/latest_data.json` 連携実装**
+   - `app/page.tsx`: サーバーサイドで `fs.readFileSync` により読み込み
+   - `components/hero.tsx`: `latestData` propsを受け取り、ヒーローカードにレース名・馬名・人気・オッズ・エッジ・判定を動的表示
+   - データなし時は「データ準備中」フォールバック表示
+
+4. **`.gitignore` 更新**: `.next/` / `.env*.local` を追加
+
+5. **ローカル動作確認**（localhost:3001）
+   - 安田記念G1・トロヴァトーレ・🔴見送り・単勝4.7倍・エッジ-2.1% が正常表示
+
+6. **CLAUDE.md更新**: GitHub/Vercel連携情報にNext.js構成情報・ディレクトリ説明を追記
+
+7. **git push完了**: コミット `5e9aed1`
+
+### 結果・数値
+- npm install: 433パッケージ追加
+- 変更ファイル: 33ファイル（7,727行追加）
+- コンソールエラー: favicon.ico 404（軽微）・Rechartsサイズ警告のみ
+- Vercel自動デプロイ: push完了（VercelでFramework=Next.jsを確認推奨）
+
+### 次のアクション
+- [ ] **Vercelダッシュボード確認**: Framework Preset が「Next.js」になっているか確認（「Static」のままだとビルド失敗）
+- [ ] **6/13（土）**: 週次フロー実行→自動push→Vercel自動デプロイを実動確認
+- [ ] `lib/data.ts` のサンプルデータを実績値に更新（的中率・回収率等）
+- [ ] TARGET JV CSV更新（2026-04-20〜分・最優先継続課題）
+
+---
