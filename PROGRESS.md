@@ -226,6 +226,60 @@
 
 ---
 
+## 2026-06-09（全セクション実データ連携 A-1完了）
+
+### 完了タスク
+
+1. **make_latest.py 拡張フォーマット対応**
+   - 旧→新フォーマット両対応（`normalize()` で統一スキーマ化）
+   - `races[]`: 直近14日の重賞予測一覧（重複排除・actual_result優先）
+   - `stats{}`: actual_result 記録済みR から累計◎的中率・複勝率を集計
+   - `edge_ranking[]`: 正エッジ馬TOP5（est_win_prob/mkt_win_prob付き）
+   - 後方互換フィールド（Hero用12フィールド）を保持
+
+2. **app/page.tsx 型拡張**
+   - `LatestData` 型に `races?/stats?/edge_ranking?` を追加
+   - `RaceEntry / StatsData / EdgeRankEntry / HonmeiHorse / ActualResult` 型を新規定義
+   - 各コンポーネントに実データを渡すよう修正
+
+3. **WeeklyRaces 実データ対応**
+   - `races: RaceEntry[]` props に切り替え
+   - グレードバッジ: G1=赤 / G2=黄 / G3=青
+   - 荒れ指数プログレスバー（0-100・色分け 緑/黄/オレンジ/赤）
+   - ◎馬名を中央大表示・エッジ値 +0.XXX 形式
+   - 判定バッジ: 強推奨=緑グロー / 推奨=緑 / 様子見=黄 / 見送り=赤
+   - 穴馬★バッジ（anaba_flag=true の場合）
+   - actual_result 表示（◎X着 的中/複勝圏/外れ＋1着馬名）
+
+4. **PerformanceSection 実データ対応**
+   - `stats: StatsData | null` props に切り替え
+   - 統計グリッド: ◎的中率 / 複勝率 / 検証R数 / 公開開始
+   - 10R未満: 「※公開後X週間・サンプル蓄積中」バッジ＋蓄積中メッセージ
+   - ハードコード値（27.1%・248R・148.8%等）全廃
+
+5. **RankingTable 実データ対応**
+   - `ranking: EdgeRankEntry[]` props に切り替え
+   - エッジ色分け: >=0.06=緑 / >=0=黄 / <0=赤
+   - 推定勝率・市場確率を併記
+   - ハードコード値（サンプルホース等）全廃
+
+### 結果・数値
+- ビルド: ✅ 成功（Next.js 16.2.6 Turbopack）
+- ブラウザ確認（localhost:3001）:
+  - WeeklyRaces: 安田記念G1（ADIバー56.9・🔴見送り・actual_result: ◎9着外れ）表示確認
+  - PerformanceSection: 0.0% / 1R / 04/19 / ※公開後7週間・サンプル蓄積中 表示確認
+  - RankingTable: ルクソールカフェ+5.9% / シックスペンス+5.6% / ワールズエンド+5.2% 等表示確認
+- git commit: `a81e3c8` feat: A-1完了・全セクション実データ連携
+- GitHub push: 成功
+
+### 次のアクション
+- [ ] **6/13（土）**: 週次フロー実行 → make_latest.py自動実行 → races[]に今週レースが反映されることを確認
+- [ ] TARGET JV CSV更新（2026-04-20〜分・最優先継続課題）
+- [ ] 2200m超サンプル累計: 5R（目標30R）
+- [ ] app/page.tsx の RadarSection も実データ連携（次フェーズ）
+
+---
+
 ## 2026-06-08（v0.app Next.jsデザイン統合）
 
 ### 完了タスク
