@@ -10,5 +10,246 @@
   "edge": -0.021,
   "verdict": "🔴 見送り",
   "adi": 56.9,
-  "adi_label": "波乱の可能性あり（50〜70帯）"
+  "adi_label": "波乱の可能性あり（50〜70帯）",
+  "races": [
+    {
+      "race_name": "安田記念 G1",
+      "race_date": "2026-06-07",
+      "venue": "東京",
+      "surface": "芝",
+      "distance": 1600,
+      "grade": "G1",
+      "heads": 17,
+      "track_cond": "良",
+      "adi": 56.9,
+      "adi_label": "波乱の可能性あり（50〜70帯）",
+      "anaba_flag": false,
+      "verdict": "🔴 見送り",
+      "verdict_detail": "◎エッジマイナス・穴馬戦略非該当（2人気）",
+      "prediction": {
+        "honmei": {
+          "horse_no": 17,
+          "horse_name": "トロヴァトーレ",
+          "popularity": 2,
+          "odds": 4.7,
+          "edge": -0.021
+        },
+        "renpuku": [
+          {
+            "horse_no": 16,
+            "horse_name": "パンジャタワー",
+            "popularity": 4,
+            "odds": 9.0,
+            "edge": 0.024
+          },
+          {
+            "horse_no": 1,
+            "horse_name": "レーベンスティール",
+            "popularity": 3,
+            "odds": 8.7,
+            "edge": 0.015
+          },
+          {
+            "horse_no": 11,
+            "horse_name": "ワールズエンド",
+            "popularity": 7,
+            "odds": 20.0,
+            "edge": 0.052
+          }
+        ],
+        "santen": [
+          {
+            "horse_no": 4,
+            "horse_name": "シックスペンス",
+            "popularity": 8,
+            "odds": 24.7,
+            "edge": 0.056
+          },
+          {
+            "horse_no": 10,
+            "horse_name": "ルクソールカフェ",
+            "popularity": 14,
+            "odds": 71.4,
+            "edge": 0.059
+          },
+          {
+            "horse_no": 14,
+            "horse_name": "ガイアフォース",
+            "popularity": 1,
+            "odds": 2.8,
+            "edge": -0.233
+          },
+          {
+            "horse_no": 13,
+            "horse_name": "セイウンハーデス",
+            "popularity": 6,
+            "odds": 12.4,
+            "edge": -0.017
+          },
+          {
+            "horse_no": 6,
+            "horse_name": "ステレンボッシュ",
+            "popularity": 5,
+            "odds": 9.3,
+            "edge": -0.045
+          }
+        ]
+      },
+      "actual_result": {
+        "recorded_at": "2026-06-07",
+        "result": [
+          {
+            "finish": 1,
+            "horse_no": 4,
+            "horse_name": "シックスペンス",
+            "popularity": 8,
+            "tansho_odds": 21.6,
+            "engine_mark": "▲",
+            "engine_edge": 0.056
+          },
+          {
+            "finish": 2,
+            "horse_no": 11,
+            "horse_name": "ワールズエンド",
+            "popularity": 7,
+            "tansho_odds": 15.1,
+            "engine_mark": "○",
+            "engine_edge": 0.052,
+            "note": "同着"
+          },
+          {
+            "finish": 2,
+            "horse_no": 14,
+            "horse_name": "ガイアフォース",
+            "popularity": 1,
+            "tansho_odds": 2.9,
+            "engine_mark": "▲",
+            "engine_edge": -0.233,
+            "note": "同着"
+          },
+          {
+            "finish": 4,
+            "horse_no": 13,
+            "horse_name": "セイウンハーデス",
+            "popularity": 6,
+            "tansho_odds": 11.0,
+            "engine_mark": "▲",
+            "engine_edge": -0.017
+          },
+          {
+            "finish": 5,
+            "horse_no": 16,
+            "horse_name": "パンジャタワー",
+            "popularity": 4,
+            "tansho_odds": 8.3,
+            "engine_mark": "○",
+            "engine_edge": 0.024
+          },
+          {
+            "finish": 7,
+            "horse_no": 1,
+            "horse_name": "レーベンスティール",
+            "popularity": 3,
+            "tansho_odds": 7.9,
+            "engine_mark": "○",
+            "engine_edge": 0.015
+          },
+          {
+            "finish": 9,
+            "horse_no": 17,
+            "horse_name": "トロヴァトーレ",
+            "popularity": 2,
+            "tansho_odds": 4.9,
+            "engine_mark": "◎",
+            "engine_edge": -0.021
+          }
+        ],
+        "honmei_finish": 9,
+        "verdict_result": "見送り正解（◎9着大敗）",
+        "edge_accuracy_note": "エッジ上位2頭（▲シックスペンス+0.056→1着、○ワールズエンド+0.052→2着同着）が的中。エッジマイナス◎は9着敗退。エッジフィルターが有効に機能。",
+        "pnl": {
+          "invested": 0,
+          "returned": 0,
+          "net": 0
+        }
+      }
+    }
+  ],
+  "stats": {
+    "total_races": 1,
+    "honmei_wins": 0,
+    "honmei_win_rate": 0.0,
+    "honmei_place_rate": 0.0,
+    "tansho_roi": null,
+    "public_start_date": "2026-04-19",
+    "last_updated": "2026-06-09",
+    "note": "◎的中 0/1R（実績記録済み）"
+  },
+  "edge_ranking": [
+    {
+      "horse_no": 10,
+      "horse_name": "ルクソールカフェ",
+      "race_name": "安田記念 G1",
+      "race_date": "2026-06-07",
+      "mark": "▲",
+      "popularity": 14,
+      "odds": 71.4,
+      "edge": 0.059,
+      "est_win_prob": "7.3%",
+      "mkt_win_prob": "1.4%",
+      "rank": 1
+    },
+    {
+      "horse_no": 4,
+      "horse_name": "シックスペンス",
+      "race_name": "安田記念 G1",
+      "race_date": "2026-06-07",
+      "mark": "▲",
+      "popularity": 8,
+      "odds": 24.7,
+      "edge": 0.056,
+      "est_win_prob": "9.7%",
+      "mkt_win_prob": "4.0%",
+      "rank": 2
+    },
+    {
+      "horse_no": 11,
+      "horse_name": "ワールズエンド",
+      "race_name": "安田記念 G1",
+      "race_date": "2026-06-07",
+      "mark": "○",
+      "popularity": 7,
+      "odds": 20.0,
+      "edge": 0.052,
+      "est_win_prob": "10.2%",
+      "mkt_win_prob": "5.0%",
+      "rank": 3
+    },
+    {
+      "horse_no": 16,
+      "horse_name": "パンジャタワー",
+      "race_name": "安田記念 G1",
+      "race_date": "2026-06-07",
+      "mark": "○",
+      "popularity": 4,
+      "odds": 9.0,
+      "edge": 0.024,
+      "est_win_prob": "13.5%",
+      "mkt_win_prob": "11.1%",
+      "rank": 4
+    },
+    {
+      "horse_no": 1,
+      "horse_name": "レーベンスティール",
+      "race_name": "安田記念 G1",
+      "race_date": "2026-06-07",
+      "mark": "○",
+      "popularity": 3,
+      "odds": 8.7,
+      "edge": 0.015,
+      "est_win_prob": "13.0%",
+      "mkt_win_prob": "11.5%",
+      "rank": 5
+    }
+  ]
 }

@@ -9,7 +9,82 @@ import { RadarSection } from "@/components/radar-section"
 import { FeaturesNews } from "@/components/features-news"
 import { SiteFooter } from "@/components/site-footer"
 
+// ── 型定義 ──────────────────────────────────────────────
+
+export type HonmeiHorse = {
+  horse_no: number
+  horse_name: string
+  popularity: number
+  odds: number
+  edge: number
+}
+
+export type ActualResult = {
+  honmei_finish: number
+  verdict_result?: string
+  edge_accuracy_note?: string
+  result?: Array<{
+    finish: number
+    horse_no: number
+    horse_name: string
+    popularity: number
+    tansho_odds: number
+    engine_mark: string
+    engine_edge: number
+    note?: string
+  }>
+  pnl?: { invested: number; returned: number; net: number }
+}
+
+export type RaceEntry = {
+  race_name: string
+  race_date: string
+  venue: string
+  surface: string
+  distance: number
+  grade: string
+  heads: number
+  track_cond: string
+  adi: number
+  adi_label: string
+  anaba_flag: boolean
+  verdict: string
+  verdict_detail: string
+  prediction: {
+    honmei: HonmeiHorse
+    renpuku: HonmeiHorse[]
+    santen: HonmeiHorse[]
+  }
+  actual_result?: ActualResult
+}
+
+export type StatsData = {
+  total_races: number
+  honmei_wins: number
+  honmei_win_rate: number
+  honmei_place_rate: number
+  tansho_roi: number | null
+  public_start_date: string
+  last_updated: string
+  note: string
+}
+
+export type EdgeRankEntry = {
+  rank: number
+  horse_no: number
+  horse_name: string
+  race_name: string
+  race_date: string
+  mark: string
+  popularity: number
+  odds: number
+  edge: number
+  est_win_prob: string
+  mkt_win_prob: string
+}
+
 export type LatestData = {
+  // 後方互換フィールド（Hero コンポーネント用）
   race_name: string
   race_date: string
   venue: string
@@ -22,7 +97,13 @@ export type LatestData = {
   verdict: string
   adi: number
   adi_label: string
+  // 拡張セクション
+  races?: RaceEntry[]
+  stats?: StatsData
+  edge_ranking?: EdgeRankEntry[]
 }
+
+// ── データ読み込み ────────────────────────────────────────
 
 function loadLatestData(): LatestData | null {
   try {
@@ -34,17 +115,19 @@ function loadLatestData(): LatestData | null {
   }
 }
 
+// ── ページ ───────────────────────────────────────────────
+
 export default function Page() {
-  const latestData = loadLatestData()
+  const data = loadLatestData()
   return (
     <div className="min-h-screen bg-background text-foreground">
       <SiteHeader />
       <main>
-        <Hero latestData={latestData} />
-        <PerformanceSection />
-        <WeeklyRaces />
+        <Hero latestData={data} />
+        <PerformanceSection stats={data?.stats ?? null} />
+        <WeeklyRaces races={data?.races ?? []} />
         <section className="mx-auto grid max-w-[1180px] grid-cols-1 gap-6 px-5 py-8 lg:grid-cols-[1.5fr_1fr]">
-          <RankingTable />
+          <RankingTable ranking={data?.edge_ranking ?? []} />
           <RadarSection />
         </section>
         <FeaturesNews />
