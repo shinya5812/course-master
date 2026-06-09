@@ -103,11 +103,17 @@ const adiZones = [
   },
 ]
 
-const backtestStats = [
-  { label: "バックテストR数", value: "1,544", unit: "R", sub: "重賞G1/G2/G3" },
+const backtestFull = [
+  { label: "対象R数", value: "1,544", unit: "R", sub: "重賞G1/G2/G3" },
   { label: "◎的中率", value: "35.3", unit: "%", sub: "1番人気比 +5.8%超" },
   { label: "穴馬戦略ROI", value: "227", unit: "%", sub: "◎4番人気以上×2200m未満" },
   { label: "黒字年率", value: "75", unit: "%", sub: "9/12年（2015〜2026）" },
+]
+
+const backtestClean = [
+  { label: "対象R数", value: "588", unit: "R", sub: "重賞G1/G2/G3" },
+  { label: "◎的中率", value: "28.1", unit: "%", sub: "リークなし真値" },
+  { label: "単勝ROI", value: "133.1", unit: "%", sub: "アプローチC完成版" },
 ]
 
 export default function AnalysisPage() {
@@ -300,29 +306,74 @@ export default function AnalysisPage() {
         <section className="rounded-xl border border-gold-faint bg-card/60 p-6 sm:p-8">
           <h2 className="font-serif text-xl font-semibold">バックテスト実績</h2>
           <p className="mt-2 text-xs text-muted-foreground">
-            2015〜2023年の重賞レースを対象に時系列分離検証を実施（学習データとテストデータを分割）。
+            2種類の検証を実施しています。信頼性の観点から時系列分離検証を正式な評価値としています。
           </p>
 
-          <div className="mt-5 grid grid-cols-2 gap-4 sm:grid-cols-4">
-            {backtestStats.map((stat) => (
-              <div key={stat.label} className="rounded-lg border border-gold-faint/60 bg-background/40 p-3 text-center">
-                <p className="text-[10px] text-muted-foreground leading-snug">{stat.label}</p>
-                <p className="mt-1.5 font-serif text-2xl font-bold text-gold-gradient">
-                  {stat.value}
-                  <span className="text-sm font-normal ml-0.5">{stat.unit}</span>
-                </p>
-                <p className="mt-1 text-[10px] text-muted-foreground">{stat.sub}</p>
+          <div className="mt-5 grid grid-cols-1 gap-4 sm:grid-cols-2">
+            {/* 参考値カード */}
+            <div className="rounded-lg border border-gold-faint/60 bg-background/40 p-4">
+              <div className="flex items-center justify-between gap-2 mb-3">
+                <p className="text-sm font-semibold text-foreground/80">全期間バックテスト</p>
+                <span className="shrink-0 rounded border border-muted-foreground/30 bg-muted-foreground/10 px-2 py-0.5 text-[10px] text-muted-foreground">
+                  ※参考
+                </span>
               </div>
-            ))}
+              <p className="text-[11px] text-muted-foreground mb-3">
+                対象: 2015〜2026年 重賞1,544R（G1/G2/G3）
+              </p>
+              <div className="grid grid-cols-2 gap-2">
+                {backtestFull.map((stat) => (
+                  <div key={stat.label} className="rounded border border-gold-faint/40 bg-card/40 p-2 text-center">
+                    <p className="text-[10px] text-muted-foreground leading-snug">{stat.label}</p>
+                    <p className="mt-1 font-serif text-xl font-bold text-foreground/70">
+                      {stat.value}
+                      <span className="text-xs font-normal ml-0.5">{stat.unit}</span>
+                    </p>
+                    <p className="mt-0.5 text-[9px] text-muted-foreground/70">{stat.sub}</p>
+                  </div>
+                ))}
+              </div>
+              <p className="mt-3 text-[10px] text-muted-foreground/80 leading-relaxed">
+                ⚠ 統計構築データと検証データが重複するため、実態より高く出る参考値です。
+              </p>
+            </div>
+
+            {/* 時系列分離カード（強調） */}
+            <div className="rounded-lg border border-gold/40 bg-gold/5 p-4 ring-1 ring-gold/20">
+              <div className="flex items-center justify-between gap-2 mb-3">
+                <p className="text-sm font-semibold text-gold">時系列分離検証</p>
+                <span className="shrink-0 rounded border border-positive/40 bg-positive/15 px-2 py-0.5 text-[10px] font-medium text-positive">
+                  ✓ 正式評価値
+                </span>
+              </div>
+              <p className="text-[11px] text-muted-foreground mb-3">
+                対象: 2022〜2026年 588R（G1/G2/G3）
+              </p>
+              <div className="grid grid-cols-3 gap-2">
+                {backtestClean.map((stat) => (
+                  <div key={stat.label} className="rounded border border-gold/25 bg-background/60 p-2 text-center">
+                    <p className="text-[10px] text-muted-foreground leading-snug">{stat.label}</p>
+                    <p className="mt-1 font-serif text-xl font-bold text-gold-gradient">
+                      {stat.value}
+                      <span className="text-xs font-normal ml-0.5">{stat.unit}</span>
+                    </p>
+                    <p className="mt-0.5 text-[9px] text-muted-foreground">{stat.sub}</p>
+                  </div>
+                ))}
+              </div>
+              <p className="mt-3 text-[10px] text-foreground/70 leading-relaxed">
+                ✓ 学習データとテストデータを時系列で完全分離。データリークなしの検証値です。
+              </p>
+            </div>
           </div>
 
-          <div className="mt-5 rounded-lg border border-gold-faint/60 bg-background/40 p-4 text-sm text-foreground/80 leading-relaxed">
-            <p className="font-medium text-foreground/90 mb-2">主要な検証結果</p>
-            <ul className="space-y-1.5 text-xs text-foreground/75 list-disc list-inside">
-              <li>重賞バックテスト 1,544R で◎的中率 35.3%（1番人気比 +5.8%）</li>
+          <div className="mt-4 rounded-lg border border-gold-faint/60 bg-background/40 p-4">
+            <p className="text-xs font-medium text-foreground/80 mb-2">主要な検証知見</p>
+            <ul className="space-y-1.5 text-xs text-foreground/70 list-disc list-inside">
               <li>7軸化（BF/HP除外）で 9軸比 +3.1% 改善（32.2% → 35.3%）</li>
-              <li>穴馬戦略（◎4番人気以上×2200m未満）の単勝回収率 227.7%（150R）</li>
+              <li>穴馬戦略（◎4番人気以上×2200m未満）: 単勝ROI 227.7%（150R）</li>
               <li>G2 での穴馬戦略回収率 310.7% が最も高い</li>
+              <li>時系列分離後の真ROI 133.1%（条件C・全軸リーク排除版）</li>
             </ul>
           </div>
         </section>
