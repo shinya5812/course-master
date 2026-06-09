@@ -83,7 +83,7 @@ export function RankingTable({ ranking }: Props) {
       </div>
 
       <a
-        href="#"
+        href="/weekly"
         className="mx-auto mt-5 flex w-fit items-center gap-2 rounded-md border border-gold-faint px-6 py-2.5 text-xs text-foreground/90 transition-colors hover:border-gold hover:text-gold"
       >
         すべてのランキングを見る

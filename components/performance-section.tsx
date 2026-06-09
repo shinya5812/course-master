@@ -169,7 +169,7 @@ export function PerformanceSection({ stats }: Props) {
                   </div>
                 )}
                 <a
-                  href="#"
+                  href="/results"
                   className="flex items-center justify-between border-t border-gold-faint pt-3 text-xs text-foreground/80 transition-colors hover:text-gold"
                 >
                   詳細を表示

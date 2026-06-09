@@ -262,7 +262,7 @@ export default function AnalysisPage() {
         </section>
 
         {/* Section 4: 荒れ指数（ADI） */}
-        <section className="rounded-xl border border-gold-faint bg-card/60 p-6 sm:p-8">
+        <section id="adi" className="rounded-xl border border-gold-faint bg-card/60 p-6 sm:p-8">
           <h2 className="font-serif text-xl font-semibold">
             荒れ指数（ADI）とは
           </h2>

@@ -42,14 +42,14 @@ export function Hero({ latestData }: Props) {
           </p>
           <div className="mt-9 flex flex-wrap items-center gap-4">
             <a
-              href="#"
+              href="/weekly"
               className="bg-gold-gradient inline-flex items-center gap-3 rounded-md px-7 py-3.5 text-sm font-semibold text-primary-foreground shadow-lg shadow-gold/20 transition-transform hover:-translate-y-0.5"
             >
               今週の予測を見る
               <ChevronRight className="h-4 w-4" />
             </a>
             <a
-              href="#"
+              href="/results"
               className="inline-flex items-center gap-2 rounded-md border border-gold-faint px-7 py-3.5 text-sm font-medium text-foreground/90 transition-colors hover:border-gold hover:text-gold"
             >
               的中実績を見る
@@ -109,7 +109,7 @@ export function Hero({ latestData }: Props) {
               </>
             )}
             <a
-              href="#"
+              href="/results"
               className="mt-4 flex items-center justify-center gap-2 rounded-md border border-gold-faint py-2.5 text-xs text-foreground/90 transition-colors hover:border-gold hover:text-gold"
             >
               レース結果一覧へ

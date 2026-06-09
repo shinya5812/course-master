@@ -4,6 +4,34 @@
 
 ---
 
+## 2026-06-10（サイト全リンク設定・暫定ページ作成）
+
+### 完了タスク
+
+1. **全13件リンク設定（`#` → 実URL）**
+   - `lib/data.ts` ナビ: 今週の予測→`/weekly`・荒れ指数→`/analysis#adi`・的中実績→`/results`・プラン→`/plan`
+   - `components/hero.tsx`: 今週の予測を見る→`/weekly`・的中実績を見る→`/results`・レース結果一覧へ→`/results`
+   - `components/weekly-races.tsx`: すべてのレースを見る→`/weekly`
+   - `components/ranking-table.tsx`: すべてのランキングを見る→`/weekly`
+   - `components/performance-section.tsx`: 詳細を表示→`/results`
+   - `components/site-footer.tsx`: 利用規約→`/legal/terms`・プライバシーポリシー→`/legal/privacy`・特定商取引法→`/legal/tokusho`・お問い合わせ→`mailto:shinya.wa5812@gmail.com`
+
+2. **`app/analysis/page.tsx` ADIセクションに `id="adi"` 追加**（`/analysis#adi` アンカー対応）
+
+3. **暫定ページ新規作成（6ページ）**
+   - `app/weekly/page.tsx`・`app/results/page.tsx`・`app/plan/page.tsx`
+   - `app/legal/terms/page.tsx`・`app/legal/privacy/page.tsx`・`app/legal/tokusho/page.tsx`
+   - デザイン統一: ダーク×ゴールド・「準備中」・トップに戻るボタン
+
+4. **ビルド確認**: `next build` 成功・全10ページ静的生成確認
+
+### 次のアクション
+- [ ] **6/13（土）**: 週次フロー実行・Vercel自動デプロイ確認
+- [ ] TARGET JV CSV更新（2026-04-20〜分・最優先継続課題）
+- [ ] 2200m超サンプル累計: 5R（目標30R）
+
+---
+
 ## 2026-06-09（分析ページ バックテスト実績セクション修正）
 
 ### 完了タスク

@@ -1,10 +1,10 @@
 export const nav = [
   { label: "トップ", href: "/", active: true },
-  { label: "今週の予測", href: "/#weekly" },
-  { label: "荒れ指数", href: "#" },
-  { label: "的中実績", href: "#" },
+  { label: "今週の予測", href: "/weekly" },
+  { label: "荒れ指数", href: "/analysis#adi" },
+  { label: "的中実績", href: "/results" },
   { label: "分析メソッド", href: "/analysis" },
-  { label: "プラン", href: "#" },
+  { label: "プラン", href: "/plan" },
   { label: "ログイン", href: "#" },
 ]
 

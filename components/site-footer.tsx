@@ -1,6 +1,11 @@
 import Image from "next/image"
 
-const footerLinks = ["利用規約", "プライバシーポリシー", "特定商取引法に基づく表記", "お問い合わせ"]
+const footerLinks = [
+  { label: "利用規約", href: "/legal/terms" },
+  { label: "プライバシーポリシー", href: "/legal/privacy" },
+  { label: "特定商取引法に基づく表記", href: "/legal/tokusho" },
+  { label: "お問い合わせ", href: "mailto:shinya.wa5812@gmail.com" },
+]
 
 export function SiteFooter() {
   return (
@@ -28,11 +33,11 @@ export function SiteFooter() {
           <nav className="flex flex-wrap items-center gap-x-6 gap-y-2">
             {footerLinks.map((link) => (
               <a
-                key={link}
-                href="#"
+                key={link.label}
+                href={link.href}
                 className="text-xs text-foreground/75 transition-colors hover:text-gold"
               >
-                {link}
+                {link.label}
               </a>
             ))}
           </nav>

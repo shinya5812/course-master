@@ -165,7 +165,7 @@ export function WeeklyRaces({ races }: Props) {
       <div className="flex items-center justify-between">
         <h2 className="font-serif text-2xl font-semibold">今週の重賞予測</h2>
         <a
-          href="#"
+          href="/weekly"
           className="flex items-center gap-1 text-xs text-foreground/80 transition-colors hover:text-gold"
         >
           すべてのレースを見る
