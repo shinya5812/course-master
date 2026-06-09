@@ -1,5 +1,5 @@
-import { ChevronRight, Network, BarChart3, Crosshair, RefreshCw } from "lucide-react"
-import { features, news } from "@/lib/data"
+import { Network, BarChart3, Crosshair, RefreshCw } from "lucide-react"
+import { features } from "@/lib/data"
 
 const icons = [Network, BarChart3, Crosshair, RefreshCw]
 
@@ -33,23 +33,14 @@ export function FeaturesNews() {
         {/* News */}
         <div>
           <h2 className="font-serif text-xl font-semibold">お知らせ</h2>
-          <ul className="mt-6 space-y-4">
-            {news.map((item) => (
-              <li key={item.date} className="flex flex-col gap-0.5">
-                <span className="font-mono text-[11px] text-gold">{item.date}</span>
-                <a href="#" className="text-sm text-foreground/85 transition-colors hover:text-gold">
-                  {item.text}
-                </a>
-              </li>
-            ))}
-          </ul>
-          <a
-            href="#"
-            className="mt-6 flex items-center gap-1 text-xs text-foreground/80 transition-colors hover:text-gold"
-          >
-            お知らせ一覧へ
-            <ChevronRight className="h-3.5 w-3.5" />
-          </a>
+          <div className="mt-6 flex flex-col items-center justify-center gap-3 rounded-lg border border-gold-faint/60 bg-card/40 px-6 py-10 text-center">
+            <span className="text-2xl">📋</span>
+            <p className="text-sm font-medium text-foreground/70">準備中</p>
+            <p className="text-xs leading-relaxed text-muted-foreground">
+              お知らせ機能は近日公開予定です。<br />
+              重賞予測の更新情報などをこちらでお届けします。
+            </p>
+          </div>
         </div>
       </div>
     </section>

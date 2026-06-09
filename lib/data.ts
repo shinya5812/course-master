@@ -1,11 +1,11 @@
 export const nav = [
-  { label: "トップ", active: true },
-  { label: "今週の予測" },
-  { label: "荒れ指数" },
-  { label: "的中実績" },
-  { label: "分析メソッド" },
-  { label: "プラン" },
-  { label: "ログイン" },
+  { label: "トップ", href: "/", active: true },
+  { label: "今週の予測", href: "/#weekly" },
+  { label: "荒れ指数", href: "#" },
+  { label: "的中実績", href: "#" },
+  { label: "分析メソッド", href: "/analysis" },
+  { label: "プラン", href: "#" },
+  { label: "ログイン", href: "#" },
 ]
 
 export const performance = [

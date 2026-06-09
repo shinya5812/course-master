@@ -28,7 +28,7 @@ export function SiteHeader() {
           {nav.map((item) => (
             <a
               key={item.label}
-              href="#"
+              href={item.href ?? "#"}
               className={`relative text-sm transition-colors hover:text-gold ${
                 item.active ? "text-gold" : "text-foreground/80"
               }`}

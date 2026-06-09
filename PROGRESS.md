@@ -4,6 +4,41 @@
 
 ---
 
+## 2026-06-09（Next.js サイト 修正3点 + 分析ページ新規作成）
+
+### 完了タスク
+
+1. **お知らせセクション ハードコード削除**
+   - `components/features-news.tsx`: `news` インポートを削除し、お知らせ欄を「準備中」プレースホルダーに変更
+
+2. **ナビゲーションリンク修正**
+   - `lib/data.ts`: `nav` 配列に `href` フィールドを追加（「分析メソッド」→ `/analysis`）
+   - `components/site-header.tsx`: `href="#"` 固定から `item.href ?? "#"` に変更
+
+3. **分析メソッドページ新規作成**
+   - `app/analysis/page.tsx` を新規作成（6セクション構成）
+   - Section 1: システム概要（v7.3・552,365件・2015〜2026）
+   - Section 2: 7軸スコアリング表＋4チーム合議制（I/O/U/S）
+   - Section 3: エッジ値の定義・計算式・5段階判定表
+   - Section 4: 荒れ指数（ADI）の4ゾーン戦略（ADIバー付き）
+   - Section 5: バックテスト実績（1,544R・35.3%・227%・75%）
+   - Section 6: 免責事項
+
+4. **ビルド確認**: `next build` 成功・`/analysis` 静的ページ生成確認
+
+### 変更ファイル
+- `lib/data.ts`（nav href追加）
+- `components/features-news.tsx`（news→準備中プレースホルダー）
+- `components/site-header.tsx`（item.href 使用）
+- `app/analysis/page.tsx`（新規作成）
+
+### 次のアクション
+- [ ] **6/13（土）・6/14（日）**: 次週重賞確認・週次フロー実行（自動push→Vercel自動デプロイ確認）
+- [ ] TARGET JV CSV更新（2026-04-20〜分・最優先継続課題）
+- [ ] 2200m超サンプル累計: 5R（目標30R）
+
+---
+
 ## 2026-06-07（安田記念G1 当日フロー完了・日付フィルター実装）
 
 ### 完了タスク（セッション後半: 日付フィルター修正）
