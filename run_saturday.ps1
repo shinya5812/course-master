@@ -75,7 +75,7 @@ try {
         $pyOut | Out-File -Append -Encoding UTF8 $logFile
         Write-MainLog "make_latest.py: $pyOut"
 
-        # GitHub push
+        # GitHub push（予測のみ）※ レース後の照合・actual_result 更新は result_checker.py が push
         Set-Location $BASE
         git add "output\latest.html" "output\latest_data.json"
         $commitMsg = "prediction: $todayISO 予測更新（土）"

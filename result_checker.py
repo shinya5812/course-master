@@ -18,6 +18,12 @@ result_checker.py - 購入候補 当日結果照合スクリプト（Playwright 
   # 【レース後】Playwright MCP で取得した結果を渡して照合
   python result_checker.py --results '{"8":[12,"チムグクル",3.1],"11":[18,"アイサンサン",27.6]}'
 
+  # 【レース後】重賞予測の actual_result を更新してサイトに反映
+  # --honmei-results で JSON を渡す（条件戦と同時指定可）
+  # [{"race_name":"安田記念 G1","honmei_finish":9,"winner_name":"シックスペンス",
+  #   "winner_no":4,"winner_popularity":8,"winner_odds":21.6,
+  #   "verdict_result":"見送り正解（◎9着大敗）","edge_accuracy_note":"..."}]
+
   # 【レース後】手動入力モード
   python result_checker.py --manual
 
@@ -37,7 +43,9 @@ result_checker.py - 購入候補 当日結果照合スクリプト（Playwright 
   ※ 購入候補がない場合は "candidates": [] とする。
 """
 
+import glob
 import os
+import subprocess
 import sys
 import re
 import json
@@ -369,10 +377,158 @@ def judge_and_record(conn, candidates, venue, race_date, race_results):
 
 
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# predictions_*.json 更新 + サイト自動反映
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+def find_prediction_file(race_name: str, race_date: str):
+    """race_name と race_date に対応する predictions_YYYYMMDD_*.json を返す。
+    見つからない場合は None を返す。"""
+    from datetime import date as date_cls, timedelta
+
+    date_str = race_date.replace('-', '')
+    # 当日 ± 2日の範囲で検索（土日またぎ対応）
+    try:
+        base_day = date_cls.fromisoformat(race_date)
+        search_dates = [date_str] + [
+            (base_day + timedelta(days=d)).strftime('%Y%m%d')
+            for d in [-1, 1, -2, 2]
+        ]
+    except Exception:
+        search_dates = [date_str]
+
+    for ds in search_dates:
+        pattern = os.path.join(BASE_DIR, f'predictions_{ds}_*.json')
+        for f in sorted(glob.glob(pattern)):
+            try:
+                with open(f, encoding='utf-8') as fh:
+                    data = json.load(fh)
+                if data.get('race_name') == race_name:
+                    return f
+            except Exception:
+                pass
+    return None
+
+
+def update_honmei_actual_result(honmei_results: list) -> list:
+    """honmei_results リストに基づいて predictions_*.json の actual_result を更新する。
+    更新したファイルパスのリストを返す。
+
+    各エントリの必須フィールド:
+      race_name, honmei_finish, winner_name, winner_popularity, winner_odds, verdict_result
+    任意フィールド:
+      race_date（省略時: 当日）, winner_no, edge_accuracy_note
+    """
+    updated = []
+    for entry in honmei_results:
+        race_name = entry.get('race_name', '')
+        race_date_val = entry.get('race_date', str(date.today()))
+
+        pred_file = find_prediction_file(race_name, race_date_val)
+        if not pred_file:
+            print(f'[警告] {race_name} に対応する predictions_*.json が見つかりません')
+            continue
+
+        try:
+            with open(pred_file, encoding='utf-8') as fh:
+                pred_data = json.load(fh)
+        except Exception as e:
+            print(f'[エラー] {os.path.basename(pred_file)} 読み込み失敗: {e}')
+            continue
+
+        actual = {
+            'recorded_at': str(date.today()),
+            'honmei_finish': entry.get('honmei_finish'),
+            'result': [
+                {
+                    'finish': 1,
+                    'horse_no': entry.get('winner_no', 0),
+                    'horse_name': entry.get('winner_name', ''),
+                    'popularity': entry.get('winner_popularity', 0),
+                    'tansho_odds': entry.get('winner_odds', 0.0),
+                    'engine_mark': '',
+                    'engine_edge': 0,
+                }
+            ],
+            'verdict_result': entry.get('verdict_result', ''),
+        }
+        if 'edge_accuracy_note' in entry:
+            actual['edge_accuracy_note'] = entry['edge_accuracy_note']
+
+        pred_data['actual_result'] = actual
+
+        with open(pred_file, 'w', encoding='utf-8') as fh:
+            json.dump(pred_data, fh, ensure_ascii=False, indent=2)
+
+        print(f'[更新] {os.path.basename(pred_file)} → actual_result 書き込み完了')
+        print(f'       ◎{entry.get("honmei_finish")}着  1着: {entry.get("winner_name")}（{entry.get("winner_odds")}倍）')
+        updated.append(pred_file)
+
+    return updated
+
+
+def run_make_latest_and_push(race_date: str, race_name: str = ''):
+    """make_latest.py を実行して latest_data.json を更新し、git add/commit/push する。
+    変更がない場合は push をスキップする。"""
+    make_py = os.path.join(BASE_DIR, 'make_latest.py')
+
+    # make_latest.py 実行
+    try:
+        result = subprocess.run(
+            [sys.executable, make_py],
+            capture_output=True, text=True, encoding='utf-8', cwd=BASE_DIR
+        )
+        if result.returncode == 0:
+            for line in (result.stdout or '').strip().splitlines():
+                print(f'[make_latest] {line}')
+        else:
+            print(f'[エラー] make_latest.py 失敗:\n{result.stderr}')
+            return
+    except Exception as e:
+        print(f'[エラー] make_latest.py 実行失敗: {e}')
+        return
+
+    # git add / commit / push
+    latest_json = os.path.join('output', 'latest_data.json')
+    latest_html = os.path.join('output', 'latest.html')
+    try:
+        subprocess.run(['git', 'add', latest_json, latest_html],
+                       cwd=BASE_DIR, check=True)
+
+        commit_msg = f'result: {race_date} {race_name} 結果反映'.strip()
+        commit_res = subprocess.run(
+            ['git', 'commit', '-m', commit_msg],
+            cwd=BASE_DIR, capture_output=True, text=True, encoding='utf-8'
+        )
+        if commit_res.returncode == 0:
+            print(f'[git] commit: {commit_msg}')
+            subprocess.run(['git', 'push', 'origin', 'main'], cwd=BASE_DIR, check=True)
+            print('[git] push 完了 → Vercel 自動デプロイ開始')
+        elif 'nothing to commit' in (commit_res.stdout + commit_res.stderr):
+            print('[git] 変更なし・push スキップ')
+        else:
+            print(f'[git] commit エラー: {commit_res.stderr}')
+    except subprocess.CalledProcessError as e:
+        print(f'[エラー] git 操作失敗: {e}')
+    except Exception as e:
+        print(f'[エラー] push 処理失敗: {e}')
+
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 # メイン
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 def main():
     args = sys.argv[1:]
+
+    # ── --honmei-results 解析（早期に行い、全モードで共用） ──
+    honmei_results = None
+    if '--honmei-results' in args:
+        idx = args.index('--honmei-results')
+        if idx + 1 < len(args):
+            try:
+                raw = json.loads(args[idx + 1])
+                honmei_results = raw if isinstance(raw, list) else [raw]
+            except Exception as e:
+                print(f'[エラー] --honmei-results の JSON 解析失敗: {e}')
 
     # ── --save モード: 購入候補を JSON ファイルに保存して終了 ──
     if '--save' in args:
@@ -401,6 +557,11 @@ def main():
     else:
         print('  （本日の購入候補はありません）')
         conn.close()
+        # 条件戦候補がなくても重賞 actual_result の更新・push は行う
+        if honmei_results:
+            update_honmei_actual_result(honmei_results)
+            first_name = honmei_results[0].get('race_name', '') if honmei_results else ''
+            run_make_latest_and_push(str(date.today()), first_name)
         return
 
     # ── モード判定 ──
@@ -446,6 +607,12 @@ def main():
 
     judge_and_record(conn, candidates, venue, race_date, race_results)
     conn.close()
+
+    # ── predictions_*.json 更新 + make_latest.py + git push ──
+    if honmei_results:
+        update_honmei_actual_result(honmei_results)
+    first_name = honmei_results[0].get('race_name', '') if honmei_results else ''
+    run_make_latest_and_push(race_date, first_name)
 
 
 if __name__ == '__main__':

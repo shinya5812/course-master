@@ -4,6 +4,47 @@
 
 ---
 
+## 2026-06-10（result_checker.py 自動サイト更新フロー完成）
+
+### 完了タスク
+
+1. **`result_checker.py` 修正（修正1-A/1-B/1-C）**
+   - `find_prediction_file()` 追加: race_name + race_date から `predictions_*.json` を自動特定（±2日範囲で検索）
+   - `update_honmei_actual_result()` 追加: `--honmei-results` で渡したJSONを `actual_result` として書き込み。`result[]` 配列（1着馬）も生成するので `/results` ページの `winner` 表示と互換
+   - `run_make_latest_and_push()` 追加: `make_latest.py` を subprocess 実行 → `git add/commit/push` → Vercel 自動デプロイ
+   - `main()` に `--honmei-results` 引数を追加（条件戦照合と同時指定可）
+   - 候補なし早期 return でも `--honmei-results` があれば更新・push を実行
+
+2. **`run_saturday.ps1` / `run_sunday.ps1` コメント追記**
+   - push のコメントを「予測のみ ※照合後は result_checker.py が push」と明示（コードは変更なし）
+
+### 使い方（重賞 actual_result 更新）
+
+```
+python result_checker.py --results '...' --honmei-results '[{"race_name":"安田記念 G1","honmei_finish":9,"winner_name":"シックスペンス","winner_no":4,"winner_popularity":8,"winner_odds":21.6,"verdict_result":"見送り正解（◎9着大敗）","edge_accuracy_note":"..."}]'
+```
+
+条件戦候補がない日でも重賞 actual_result のみ更新可能:
+```
+python result_checker.py --honmei-results '[{...}]'
+```
+（candidates_*.json が必要なため `--save` で空リスト保存済みが前提）
+
+### 自動更新フロー（完成形）
+```
+result_checker.py（--honmei-results）
+  → predictions_YYYYMMDD_*.json の actual_result を更新
+  → make_latest.py → latest_data.json 更新
+  → git push → Vercel 自動デプロイ → サイトに反映
+```
+
+### 次のアクション
+- [ ] **6/13（土）**: 週次フロー実行・result_checker.py + --honmei-results で Vercel 更新を実動確認
+- [ ] TARGET JV CSV更新（2026-04-20〜分・最優先継続課題）
+- [ ] 2200m超サンプル累計: 5R（目標30R）
+
+---
+
 ## 2026-06-10（サイト全リンク設定・暫定ページ作成）
 
 ### 完了タスク
