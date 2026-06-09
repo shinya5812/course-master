@@ -108,9 +108,9 @@ function RaceCard({ race }: { race: RaceEntry }) {
             )}
           </div>
           <p className="mt-1.5 text-xs text-muted-foreground">
-            {formatDate(race.race_date)}&ensp;{race.venue}&ensp;{race.surface}{race.distance}m
+            {formatDate(race.race_date)} {race.venue} {race.surface}{race.distance}m
             {race.track_cond ? `（${race.track_cond}）` : ""}
-            {race.heads ? `&ensp;${race.heads}頭立て` : ""}
+            {race.heads ? ` ${race.heads}頭立て` : ""}
           </p>
 
           {/* 荒れ指数バー */}
@@ -152,7 +152,7 @@ function RaceCard({ race }: { race: RaceEntry }) {
                   <p className="font-serif text-base font-semibold leading-snug">{honmei.horse_name}</p>
                   <p className="mt-0.5 text-[11px] text-muted-foreground">
                     {honmei.popularity > 0 ? `${honmei.popularity}番人気` : ""}
-                    {honmei.odds > 0 ? `&ensp;${honmei.odds}倍` : ""}
+                    {honmei.odds > 0 ? ` ${honmei.odds}倍` : ""}
                   </p>
                 </div>
               </div>
@@ -178,7 +178,7 @@ function RaceCard({ race }: { race: RaceEntry }) {
                     <span className="truncate text-sm text-foreground/90">{h.horse_name}</span>
                     <span className="shrink-0 text-[10px] text-muted-foreground">
                       {h.popularity > 0 ? `${h.popularity}人気` : ""}
-                      {h.odds > 0 ? `&ensp;${h.odds}倍` : ""}
+                      {h.odds > 0 ? ` ${h.odds}倍` : ""}
                     </span>
                   </div>
                   <span className={`shrink-0 font-mono text-xs ${edgeValueClass(h.edge)}`}>
