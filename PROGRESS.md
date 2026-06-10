@@ -4,6 +4,25 @@
 
 ---
 
+## 2026-06-11（ロゴ画像差し替え）
+
+### 完了タスク
+
+1. **site-header.tsx ロゴを画像に差し替え**
+   - `web_data/sashikae-Image-2026年6月11日-07_41_19.png` を `public/logo.png` にコピー
+   - `components/site-header.tsx`: テキストロゴ（COURSE MASTER + サブテキスト）→ `<Link href="/"><Image src="/logo.png" ...></Link>` に変更
+   - `import Link from "next/link"` を追加
+   - ビルド確認: `next build` 成功・全10ページ静的生成
+
+2. **git push完了**: コミット `733fcc5` feat: ロゴ画像差し替え・クリックでトップ遷移
+
+### 次のアクション
+- [ ] **6/13（土）**: 週次フロー実行・Vercel自動デプロイ後にロゴ表示を確認
+- [ ] TARGET JV CSV更新（2026-04-20〜分・最優先継続課題）
+- [ ] 2200m超サンプル累計: 5R（目標30R）
+
+---
+
 ## 2026-06-10（result_checker.py 自動サイト更新フロー完成）
 
 ### 完了タスク
