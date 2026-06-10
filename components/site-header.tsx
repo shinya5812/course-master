@@ -1,28 +1,21 @@
 import Image from "next/image"
+import Link from "next/link"
 import { nav } from "@/lib/data"
 
 export function SiteHeader() {
   return (
     <header className="sticky top-0 z-50 border-b border-gold-faint bg-background/85 backdrop-blur-md">
       <div className="mx-auto flex h-20 max-w-[1180px] items-center justify-between px-5">
-        <div className="flex items-center gap-3">
+        <Link href="/">
           <Image
-            src="/images/course-master-logo.png"
-            alt="COURSE MASTER ロゴ"
-            width={120}
-            height={120}
-            className="h-12 w-12 object-contain"
+            src="/logo.png"
+            alt="COURSE MASTER"
+            width={300}
+            height={60}
             priority
+            className="h-12 w-auto"
           />
-          <div className="leading-tight">
-            <p className="font-serif text-xl font-semibold tracking-wide text-gold-gradient">
-              COURSE MASTER
-            </p>
-            <p className="text-[11px] text-muted-foreground">
-              競馬市場の歪みを指数化する予測エンジン
-            </p>
-          </div>
-        </div>
+        </Link>
 
         <nav className="hidden items-center gap-7 lg:flex">
           {nav.map((item) => (
