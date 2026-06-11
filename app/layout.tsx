@@ -1,6 +1,7 @@
 import { Analytics } from '@vercel/analytics/next'
 import type { Metadata } from 'next'
 import { Geist_Mono, Noto_Sans_JP, Noto_Serif_JP } from 'next/font/google'
+import { ScrollToTop } from '@/components/scroll-to-top'
 import './globals.css'
 
 const notoSansJp = Noto_Sans_JP({
@@ -37,6 +38,7 @@ export default function RootLayout({
     >
       <body className="font-sans antialiased">
         {children}
+        <ScrollToTop />
         {process.env.NODE_ENV === 'production' && <Analytics />}
       </body>
     </html>

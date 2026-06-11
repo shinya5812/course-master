@@ -22,12 +22,16 @@ export function SiteHeader() {
             <a
               key={item.label}
               href={item.href ?? "#"}
-              className={`relative text-sm transition-colors hover:text-gold ${
-                item.active ? "text-gold" : "text-foreground/80"
-              }`}
+              className={
+                item.highlight
+                  ? "relative rounded border border-yellow-500 px-2.5 py-0.5 text-sm text-yellow-400 transition-colors hover:bg-yellow-500/10"
+                  : `relative text-sm transition-colors hover:text-gold ${
+                      item.active ? "text-gold" : "text-foreground/80"
+                    }`
+              }
             >
               {item.label}
-              {item.active && (
+              {item.active && !item.highlight && (
                 <span className="absolute -bottom-[26px] left-0 h-0.5 w-full bg-gold" />
               )}
             </a>
