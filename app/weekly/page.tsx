@@ -241,23 +241,61 @@ function RaceCard({ race }: { race: RaceEntry }) {
   )
 }
 
+// ── 過去レース折りたたみカード ────────────────────────────
+
+function CollapsedRaceCard({ race }: { race: RaceEntry }) {
+  const ar = race.actual_result!
+  const honmei = race.prediction.honmei
+  const fi = finishLabel(ar.honmei_finish)
+
+  return (
+    <details className="rounded-xl border border-gold-faint/50 overflow-hidden">
+      {/* 折りたたみヘッダー（常時表示） */}
+      <summary className="list-none cursor-pointer px-5 py-3 bg-card/50 hover:bg-card/80 transition-colors">
+        <div className="flex flex-wrap items-center gap-x-3 gap-y-1.5">
+          <span className="text-xs text-muted-foreground">{formatDate(race.race_date)}</span>
+          <span className={`shrink-0 rounded px-2 py-0.5 text-xs font-bold ${gradeBadgeClass(race.grade)}`}>
+            {race.grade}
+          </span>
+          <span className="font-serif text-sm font-semibold">{race.race_name}</span>
+          <span className="text-xs text-muted-foreground">◎{honmei.horse_name}</span>
+          <span className={`text-sm font-medium ${fi.cls}`}>{fi.text}</span>
+          <span className={`ml-auto shrink-0 rounded-md border px-2.5 py-0.5 text-xs font-medium ${verdictClass(race.verdict)}`}>
+            {race.verdict}
+          </span>
+          <span className="shrink-0 text-[10px] text-muted-foreground/60">詳細 ▼</span>
+        </div>
+      </summary>
+      {/* 展開時コンテンツ */}
+      <div className="border-t border-gold-faint/30">
+        <RaceCard race={race} />
+      </div>
+    </details>
+  )
+}
+
 // ── ページ ───────────────────────────────────────────────
 
 export default function WeeklyPage() {
   const { races, stats, last_updated } = loadData()
 
+  // 日付降順ソート（最新レースを上位に）
+  const sortedRaces = [...races].sort(
+    (a, b) => new Date(b.race_date).getTime() - new Date(a.race_date).getTime(),
+  )
+
   // サマリー計算
-  const strongCount = races.filter((r) => r.verdict.includes("強推奨")).length
-  const recommendCount = races.filter(
+  const strongCount = sortedRaces.filter((r) => r.verdict.includes("強推奨")).length
+  const recommendCount = sortedRaces.filter(
     (r) => r.verdict.includes("推奨") && !r.verdict.includes("強推奨"),
   ).length
   const avgEdge =
-    races.length > 0
-      ? races.reduce((sum, r) => sum + r.prediction.honmei.edge, 0) / races.length
+    sortedRaces.length > 0
+      ? sortedRaces.reduce((sum, r) => sum + r.prediction.honmei.edge, 0) / sortedRaces.length
       : 0
 
-  const dates = [...new Set(races.map((r) => r.race_date))].sort()
-  const grades = [...new Set(races.map((r) => r.grade))].sort()
+  const dates = [...new Set(sortedRaces.map((r) => r.race_date))].sort().reverse()
+  const grades = [...new Set(sortedRaces.map((r) => r.grade))].sort()
 
   return (
     <div className="min-h-screen bg-background text-foreground">
@@ -292,7 +330,7 @@ export default function WeeklyPage() {
         </div>
 
         {/* 空データ */}
-        {races.length === 0 ? (
+        {sortedRaces.length === 0 ? (
           <div className="rounded-xl border border-gold-faint bg-card/60 p-16 text-center">
             <p className="text-sm text-muted-foreground">今週の予測は準備中です</p>
             <p className="mt-2 text-xs text-muted-foreground/70">
@@ -301,11 +339,15 @@ export default function WeeklyPage() {
           </div>
         ) : (
           <div className="grid grid-cols-1 gap-6 lg:grid-cols-[1fr_260px]">
-            {/* メイン: レースカード一覧 */}
+            {/* メイン: レースカード一覧（最新順・過去レースは折りたたみ） */}
             <div className="space-y-5">
-              {races.map((race) => (
-                <RaceCard key={`${race.race_name}-${race.race_date}`} race={race} />
-              ))}
+              {sortedRaces.map((race) =>
+                race.actual_result ? (
+                  <CollapsedRaceCard key={`${race.race_name}-${race.race_date}`} race={race} />
+                ) : (
+                  <RaceCard key={`${race.race_name}-${race.race_date}`} race={race} />
+                ),
+              )}
             </div>
 
             {/* サイドバー: サマリー */}
@@ -317,7 +359,7 @@ export default function WeeklyPage() {
                   <div className="flex items-baseline justify-between">
                     <span className="text-xs text-muted-foreground">レース数</span>
                     <span className="font-serif text-2xl font-bold text-gold-gradient">
-                      {races.length}
+                      {sortedRaces.length}
                       <span className="text-sm font-normal">R</span>
                     </span>
                   </div>
