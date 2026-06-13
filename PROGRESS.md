@@ -4,6 +4,23 @@
 
 ---
 
+## 2026-06-13（事前確認・自動実行チェック）
+
+### 完了タスク
+
+1. **明日の自動実行（run_sunday.ps1）事前確認**
+   - `save_predictions_json()` 存在・呼び出し確認: ✅
+   - run_sunday.ps1 の make_latest.py / git add / git push / 順序: ✅ 全項目OK
+   - .gitignore の predictions_*.json 除外: ✅ 意図的設計（latest_data.json 経由で反映）
+   - **修正不要・明日の自動実行は問題なく動作する**
+
+### 次のアクション
+- [ ] **6/14（日）**: 自動実行結果を確認（run_sunday.ps1）
+- [ ] TARGET JV CSV更新（2026-04-20〜分・最優先継続課題）
+- [ ] 一時ファイル削除: `tmp_hakodate_sprint.json` / `tmp_honmei_result.json` / `tmp_run_checker.py` / `tmp_save_candidates.json`
+
+---
+
 ## 2026-06-13（函館スプリントS 結果照合・サイト更新）
 
 ### 完了タスク
