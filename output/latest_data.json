@@ -229,18 +229,33 @@
           }
         ]
       },
-      "actual_result": null
+      "actual_result": {
+        "recorded_at": "2026-06-13",
+        "honmei_finish": 10,
+        "result": [
+          {
+            "finish": 1,
+            "horse_no": 7,
+            "horse_name": "ピューロマジック",
+            "popularity": 6,
+            "tansho_odds": 8.1,
+            "engine_mark": "",
+            "engine_edge": 0
+          }
+        ],
+        "verdict_result": "外れ（◎インビンシブルパパ10着）"
+      }
     }
   ],
   "stats": {
-    "total_races": 1,
+    "total_races": 2,
     "honmei_wins": 0,
     "honmei_win_rate": 0.0,
     "honmei_place_rate": 0.0,
     "tansho_roi": null,
     "public_start_date": "2026-04-19",
     "last_updated": "2026-06-13",
-    "note": "◎的中 0/1R（実績記録済み）"
+    "note": "◎的中 0/2R（実績記録済み）"
   },
   "edge_ranking": [
     {
