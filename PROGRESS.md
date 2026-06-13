@@ -533,3 +533,28 @@ result_checker.py（--honmei-results）
 - [ ] 2200m超サンプル累計: 5R（目標30R）
 
 ---
+
+## 2026-06-13（Webサイト UI 改善：表示順・折りたたみ）
+
+### 完了タスク
+
+1. **`app/weekly/page.tsx` 最新順表示 + 過去レース折りたたみ**（commit `97f01ea`）
+   - races[] を `race_date` 降順ソートして表示（函館スプリントS 6/13 が上位）
+   - `actual_result` ありのレースは `<details>/<summary>` で折りたたみ表示
+   - `CollapsedRaceCard` 関数を追加（1行コンパクト: 日付/グレード/レース名/◎着順/判定）
+   - 「詳細 ▼」クリックで全カード展開・Server Component のまま（useState 不要）
+
+2. **`app/page.tsx` トップページ重賞カードを新しい順に表示**（commit `a724f80`）
+   - `WeeklyRaces` に渡す前に `race_date` 降順ソート
+   - 函館スプリントS（6/13）が左側・安田記念（6/7）が右側に表示
+
+### 結果・数値
+- `next build` 成功（7/7ページ生成）×2回確認
+
+### 次のアクション
+- [ ] **本日レース後**: result_checker.py で函館スプリントS 結果照合（`--honmei-results`）
+- [ ] **6/14（日）**: 宝塚記念G1（阪神芝2200m）予測のみ（ベット保留）
+- [ ] TARGET JV CSV更新（2026-04-20〜分・最優先継続課題）
+- [ ] 2200m超サンプル累計: 5R（目標30R）
+
+---
