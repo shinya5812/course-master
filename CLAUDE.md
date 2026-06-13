@@ -1272,11 +1272,14 @@ verify: pkl読み込みテストを実行して統計件数を確認
 | `lib/data.ts` | 静的サンプルデータ（数値はデモ用） |
 | `public/images/` | hero-horse.png・course-master-logo.png |
 
-### 自動更新フロー
-1. run_saturday.ps1 / run_sunday.ps1 が予測HTMLを生成
-2. output/latest.html へコピー + make_latest.py で latest_data.json 生成
-3. git add + commit + push origin main
-4. Vercel が自動デプロイ（Next.js build）→ https://course-master-fawn.vercel.app に反映
+### 自動更新フロー（2026-06-13 更新）
+1. run_saturday.ps1 / run_sunday.ps1 が `grade_race_predictor.py` を実行
+2. `grade_race_predictor.py` が HTML 保存と同時に `predictions_YYYYMMDD_レース名.json` を自動生成（`save_predictions_json()` 関数・2026-06-13実装）
+3. output/latest.html へコピー + `make_latest.py` で `latest_data.json` 生成（predictions_*.json を読み込んで races[] を構築）
+4. git add + commit + push origin main
+5. Vercel が自動デプロイ → https://course-master-fawn.vercel.app に反映
+   - app/page.tsx・app/weekly/page.tsx・app/results/page.tsx はすべて `force-dynamic`（2026-06-13実装）
+   - アクセスのたびに latest_data.json を読み込む（SSR）・push 後即反映
 
 ---
 

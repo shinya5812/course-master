@@ -492,3 +492,44 @@ result_checker.py（--honmei-results）
 - [ ] TARGET JV CSV更新（2026-04-20〜分・最優先継続課題）
 
 ---
+
+## 2026-06-13（週次フロー・predictions JSON自動保存・Vercelキャッシュ修正）
+
+### 完了タスク
+
+1. **函館スプリントS GⅢ 週次フロー実行**（自動フローは09:30完了済み）
+   - ◎ 馬番11 インビンシブルパパ 6人気 11.6倍 エッジ+0.121 🟢🟢 強推奨
+   - 荒れ指数: 67.5（50〜70帯）・馬連なし（○全員エッジ不足）
+   - candidates_20260613.json 保存済み・commit `487fd1f`
+
+2. **latest_data.json 手動修正（函館スプリントS追加）**
+   - 原因: `grade_race_predictor.py` は HTML のみ保存・`predictions_*.json` を生成しないため `make_latest.py` が取り込めていなかった
+   - 対処: `predictions_20260613_hakodate.json` を手動作成 → `make_latest.py` 再実行 → races[] 2件（安田記念G1 + 函館スプリントS）
+   - commit `0069034`
+
+3. **全ページ force-dynamic 化（SSG→SSR）**
+   - 対象: `app/page.tsx` / `app/weekly/page.tsx` / `app/results/page.tsx`
+   - `export const dynamic = 'force-dynamic'` を追加
+   - 効果: `latest_data.json` 更新→push 後にアクセス毎に即反映（ビルドキャッシュ不要）
+   - commit `71ed4b2`
+
+4. **`grade_race_predictor.py` predictions JSON 自動保存機能追加**
+   - `save_predictions_json()` 関数を追加（97行・HTML保存直後に呼び出し）
+   - 保存フォーマット: `predictions_YYYYMMDD_レース名.json`（新フォーマット・make_latest.py互換）
+   - `prediction['◎']` を dict 形式で出力（make_latest.py の `is_new` 判定条件を満たす）
+   - `strategy.verdict` に短い判定ラベル（🟢🟢 強推奨 / 🔴 見送り 等）を保存
+   - デモ実行で動作確認済み（predictions_20260613_愛知杯.json 生成・make_latest.py 読み込みOK）
+   - commit `ab0f1bb`
+
+### 結果・数値
+- races[] 2件（安田記念G1・函館スプリントS）
+- 全ページ dynamic 化完了（push→Vercel自動デプロイ後に即反映）
+- grade_race_predictor.py: `save_predictions_json()` +97行
+
+### 次のアクション
+- [ ] **本日レース後**: result_checker.py で函館スプリントS 結果照合（`--honmei-results`）
+- [ ] **6/14（日）**: 宝塚記念G1（阪神芝2200m）予測のみ（ベット保留）
+- [ ] TARGET JV CSV更新（2026-04-20〜分・最優先継続課題）
+- [ ] 2200m超サンプル累計: 5R（目標30R）
+
+---
