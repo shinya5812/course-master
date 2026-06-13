@@ -520,6 +520,102 @@ def print_result(race: dict, prediction: dict, chaos: dict):
 
 
 # ─────────────────────────────────────────────────────────
+# predictions JSON 保存
+# ─────────────────────────────────────────────────────────
+def save_predictions_json(race: dict, prediction: dict, chaos: dict, summary: dict) -> str:
+    """
+    予測結果を predictions_YYYYMMDD_racename.json に保存する。
+    make_latest.py が読み込む新フォーマット（prediction['◎'] が dict）で出力する。
+    """
+    import re
+    from datetime import date as _date
+
+    horse_map = {h['horse_name']: h for h in race['horses']}
+
+    # 短い判定ラベル（long verdict の "  " 前半部分を取る）
+    verdict_long  = summary.get('verdict', '')
+    verdict_short = verdict_long.split('  ')[0] if '  ' in verdict_long else verdict_long
+
+    # verdict_detail（Webページ表示用の短い説明）
+    is_anaba = summary.get('is_anaba', False)
+    edge_ok  = summary.get('edge_ok', False)
+    honmei_edge = None
+    if prediction.get('◎'):
+        _, _, _, _, honmei_edge = prediction['◎'][0]
+    if '保留' in verdict_short:
+        verdict_detail = f'2200m超ルール・検証専用（ベット保留）'
+    elif is_anaba and edge_ok:
+        verdict_detail = f'穴馬戦略＋エッジ{honmei_edge:+.3f}'
+    elif edge_ok:
+        verdict_detail = f'エッジ{honmei_edge:+.3f}（閾値以上）'
+    elif is_anaba:
+        verdict_detail = f'穴馬戦略該当・エッジ基準未達（{honmei_edge:+.3f}）'
+    elif honmei_edge is not None and honmei_edge < 0:
+        h_main = horse_map.get(prediction['◎'][0][0] if prediction.get('◎') else '', {})
+        pop = h_main.get('popularity', 0)
+        verdict_detail = f'◎エッジマイナス・穴馬戦略非該当（{pop}人気）'
+    else:
+        verdict_detail = verdict_long[:60]
+
+    # 馬情報 dict を生成するヘルパー
+    def _horse_dict(mark_tuple):
+        horse_name, score, win_prob, idx, edge = mark_tuple
+        h = horse_map.get(horse_name, {})
+        return {
+            'horse_no':   h.get('horse_no', 0),
+            'horse_name': horse_name,
+            'popularity': int(h.get('popularity') or 0),
+            'odds':       float(h.get('odds') or 0),
+            'edge':       round(edge, 4) if edge is not None else None,
+        }
+
+    honmei_list  = [_horse_dict(t) for t in prediction.get('◎', [])]
+    renpuku_list = [_horse_dict(t) for t in prediction.get('○', [])]
+    santen_list  = [_horse_dict(t) for t in prediction.get('▲', [])]
+
+    race_date = race.get('race_date') or str(_date.today())
+
+    output = {
+        'date':       race_date,
+        'race_name':  race.get('race_name', ''),
+        'race_date':  race_date,
+        'venue':      race.get('venue', ''),
+        'surface':    race.get('surface', ''),
+        'distance':   int(race.get('distance', 0)),
+        'track_cond': race.get('track_cond', ''),
+        'heads':      len(race.get('horses', [])),
+        'chaos_index': chaos['score'],
+        'chaos_label': chaos['label'],
+        'prediction': {
+            '◎': honmei_list[0] if honmei_list else {},
+            '○': renpuku_list,
+            '▲': santen_list,
+        },
+        'strategy': {
+            'anaba_apply':    is_anaba,
+            'edge_ok':        edge_ok,
+            'verdict':        verdict_short,
+            'verdict_detail': verdict_detail,
+        },
+        'actual_result': None,
+    }
+
+    # ファイル名: predictions_YYYYMMDD_racename.json
+    date_slug = race_date.replace('-', '')
+    name_slug = re.sub(r'\s*[GgＧ][ⅠⅡⅢ１２３IVX123]+\s*$', '', race.get('race_name', 'race')).strip()
+    name_slug = re.sub(r'[\s　]', '', name_slug)
+    name_slug = re.sub(r'[\\/:*?"<>|]', '', name_slug)[:20]
+    fname = f'predictions_{date_slug}_{name_slug}.json'
+    fpath = os.path.join(BASE_DIR, fname)
+
+    with open(fpath, 'w', encoding='utf-8') as f:
+        json.dump(output, f, ensure_ascii=False, indent=2)
+
+    print(f'[JSON保存] {fname}')
+    return fpath
+
+
+# ─────────────────────────────────────────────────────────
 # HTML レポート生成
 # ─────────────────────────────────────────────────────────
 def generate_html_block(race: dict, prediction: dict, chaos: dict, summary: dict) -> str:
@@ -893,6 +989,7 @@ def main():
         pred    = run_prediction(engine, race)
         summary = print_result(race, pred, chaos)
         save_html_report(race, pred, chaos, summary)
+        save_predictions_json(race, pred, chaos, summary)
 
     if '--demo' in args:
         # ── デモモード（愛知杯 2026-03-22）──────────────────
