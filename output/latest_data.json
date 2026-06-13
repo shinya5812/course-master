@@ -1,15 +1,15 @@
 {
-  "race_name": "安田記念 G1",
-  "race_date": "2026-06-07",
-  "venue": "東京",
+  "race_name": "函館スプリントステークス GⅢ",
+  "race_date": "2026-06-13",
+  "venue": "函館",
   "surface": "芝",
-  "distance": 1600,
-  "horse_name": "トロヴァトーレ",
-  "popularity": 2,
-  "odds": 4.7,
-  "edge": -0.021,
-  "verdict": "🔴 見送り",
-  "adi": 56.9,
+  "distance": 1200,
+  "horse_name": "インビンシブルパパ",
+  "popularity": 6,
+  "odds": 11.6,
+  "edge": 0.121,
+  "verdict": "🟢🟢 強推奨",
+  "adi": 67.5,
   "adi_label": "波乱の可能性あり（50〜70帯）",
   "races": [
     {
@@ -173,6 +173,63 @@
           "net": 0
         }
       }
+    },
+    {
+      "race_name": "函館スプリントステークス GⅢ",
+      "race_date": "2026-06-13",
+      "venue": "函館",
+      "surface": "芝",
+      "distance": 1200,
+      "grade": "重賞",
+      "heads": 13,
+      "track_cond": "良",
+      "adi": 67.5,
+      "adi_label": "波乱の可能性あり（50〜70帯）",
+      "anaba_flag": true,
+      "verdict": "🟢🟢 強推奨",
+      "verdict_detail": "穴馬戦略＋エッジ+0.121",
+      "prediction": {
+        "honmei": {
+          "horse_no": 11,
+          "horse_name": "インビンシブルパパ",
+          "popularity": 6,
+          "odds": 11.6,
+          "edge": 0.121
+        },
+        "renpuku": [
+          {
+            "horse_no": 3,
+            "horse_name": "レイピア",
+            "popularity": 1,
+            "odds": 3.7,
+            "edge": -0.077
+          },
+          {
+            "horse_no": 4,
+            "horse_name": "カルプスペルシュ",
+            "popularity": 2,
+            "odds": 4.9,
+            "edge": -0.033
+          },
+          {
+            "horse_no": 7,
+            "horse_name": "ピューロマジック",
+            "popularity": 3,
+            "odds": 6.3,
+            "edge": -0.013
+          }
+        ],
+        "santen": [
+          {
+            "horse_no": 12,
+            "horse_name": "ルシード",
+            "popularity": 4,
+            "odds": 7.2,
+            "edge": -0.032
+          }
+        ]
+      },
+      "actual_result": null
     }
   ],
   "stats": {
@@ -187,6 +244,19 @@
   },
   "edge_ranking": [
     {
+      "horse_no": 11,
+      "horse_name": "インビンシブルパパ",
+      "race_name": "函館スプリントステークス GⅢ",
+      "race_date": "2026-06-13",
+      "mark": "◎",
+      "popularity": 6,
+      "odds": 11.6,
+      "edge": 0.121,
+      "est_win_prob": "20.7%",
+      "mkt_win_prob": "8.6%",
+      "rank": 1
+    },
+    {
       "horse_no": 10,
       "horse_name": "ルクソールカフェ",
       "race_name": "安田記念 G1",
@@ -197,7 +267,7 @@
       "edge": 0.059,
       "est_win_prob": "7.3%",
       "mkt_win_prob": "1.4%",
-      "rank": 1
+      "rank": 2
     },
     {
       "horse_no": 4,
@@ -210,7 +280,7 @@
       "edge": 0.056,
       "est_win_prob": "9.7%",
       "mkt_win_prob": "4.0%",
-      "rank": 2
+      "rank": 3
     },
     {
       "horse_no": 11,
@@ -223,7 +293,7 @@
       "edge": 0.052,
       "est_win_prob": "10.2%",
       "mkt_win_prob": "5.0%",
-      "rank": 3
+      "rank": 4
     },
     {
       "horse_no": 16,
@@ -236,19 +306,6 @@
       "edge": 0.024,
       "est_win_prob": "13.5%",
       "mkt_win_prob": "11.1%",
-      "rank": 4
-    },
-    {
-      "horse_no": 1,
-      "horse_name": "レーベンスティール",
-      "race_name": "安田記念 G1",
-      "race_date": "2026-06-07",
-      "mark": "○",
-      "popularity": 3,
-      "odds": 8.7,
-      "edge": 0.015,
-      "est_win_prob": "13.0%",
-      "mkt_win_prob": "11.5%",
       "rank": 5
     }
   ]
