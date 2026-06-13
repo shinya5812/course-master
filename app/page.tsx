@@ -121,13 +121,16 @@ function loadLatestData(): LatestData | null {
 
 export default function Page() {
   const data = loadLatestData()
+  const sortedRaces = [...(data?.races ?? [])].sort(
+    (a, b) => new Date(b.race_date).getTime() - new Date(a.race_date).getTime(),
+  )
   return (
     <div className="min-h-screen bg-background text-foreground">
       <SiteHeader />
       <main>
         <Hero latestData={data} />
         <PerformanceSection stats={data?.stats ?? null} />
-        <WeeklyRaces races={data?.races ?? []} />
+        <WeeklyRaces races={sortedRaces} />
         <section className="mx-auto grid max-w-[1180px] grid-cols-1 gap-6 px-5 py-8 lg:grid-cols-[1.5fr_1fr]">
           <RankingTable ranking={data?.edge_ranking ?? []} />
           <RadarSection />
