@@ -9,6 +9,8 @@ import { RadarSection } from "@/components/radar-section"
 import { FeaturesNews } from "@/components/features-news"
 import { SiteFooter } from "@/components/site-footer"
 
+export const dynamic = 'force-dynamic'
+
 // ── 型定義 ──────────────────────────────────────────────
 
 export type HonmeiHorse = {

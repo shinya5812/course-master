@@ -5,6 +5,8 @@ import { SiteFooter } from "@/components/site-footer"
 import { ChevronLeft } from "lucide-react"
 import type { RaceEntry, StatsData } from "@/app/page"
 
+export const dynamic = 'force-dynamic'
+
 // ── データ読み込み ─────────────────────────────────────────
 
 function loadData(): { races: RaceEntry[]; stats: StatsData | null } {
