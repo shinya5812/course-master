@@ -1,16 +1,16 @@
 {
-  "race_name": "函館スプリントステークス GⅢ",
-  "race_date": "2026-06-13",
-  "venue": "函館",
+  "race_name": "宝塚記念 GⅠ",
+  "race_date": "2026-06-14",
+  "venue": "阪神",
   "surface": "芝",
-  "distance": 1200,
-  "horse_name": "インビンシブルパパ",
-  "popularity": 6,
-  "odds": 11.6,
-  "edge": 0.121,
-  "verdict": "🟢🟢 強推奨",
-  "adi": 67.5,
-  "adi_label": "波乱の可能性あり（50〜70帯）",
+  "distance": 2200,
+  "horse_name": "ミュージアムマイル",
+  "popularity": 3,
+  "odds": 7.2,
+  "edge": 0.1637,
+  "verdict": "🟡 様子見",
+  "adi": 26.5,
+  "adi_label": "安定（本命有力）",
   "races": [
     {
       "race_name": "安田記念 G1",
@@ -245,6 +245,91 @@
         ],
         "verdict_result": "外れ（◎インビンシブルパパ10着）"
       }
+    },
+    {
+      "race_name": "宝塚記念 GⅠ",
+      "race_date": "2026-06-14",
+      "venue": "阪神",
+      "surface": "芝",
+      "distance": 2200,
+      "grade": "重賞",
+      "heads": 18,
+      "track_cond": "良",
+      "adi": 26.5,
+      "adi_label": "安定（本命有力）",
+      "anaba_flag": false,
+      "verdict": "🟡 様子見",
+      "verdict_detail": "🟡 様子見  ◎ミュージアムマイル（エッジ+0.06（標準）未満）",
+      "prediction": {
+        "honmei": {
+          "horse_no": 2,
+          "horse_name": "ミュージアムマイル",
+          "popularity": 3,
+          "odds": 7.2,
+          "edge": 0.1637
+        },
+        "renpuku": [
+          {
+            "horse_no": 17,
+            "horse_name": "レガレイラ",
+            "popularity": 4,
+            "odds": 7.4,
+            "edge": 0.0636
+          },
+          {
+            "horse_no": 3,
+            "horse_name": "シュガークン",
+            "popularity": 17,
+            "odds": 259.0,
+            "edge": 0.1693
+          },
+          {
+            "horse_no": 5,
+            "horse_name": "クロワデュノール",
+            "popularity": 1,
+            "odds": 1.8,
+            "edge": -0.3239
+          }
+        ],
+        "santen": [
+          {
+            "horse_no": 14,
+            "horse_name": "スティンガーグラス",
+            "popularity": 13,
+            "odds": 134.1,
+            "edge": 0.0345
+          },
+          {
+            "horse_no": 16,
+            "horse_name": "メイショウタバル",
+            "popularity": 2,
+            "odds": 7.0,
+            "edge": -0.0745
+          },
+          {
+            "horse_no": 1,
+            "horse_name": "ダノンデサイル",
+            "popularity": 5,
+            "odds": 8.8,
+            "edge": -0.0557
+          },
+          {
+            "horse_no": 4,
+            "horse_name": "ミクニインスパイア",
+            "popularity": 10,
+            "odds": 69.2,
+            "edge": 0.0168
+          },
+          {
+            "horse_no": 15,
+            "horse_name": "マイユニバース",
+            "popularity": 6,
+            "odds": 19.7,
+            "edge": -0.0164
+          }
+        ]
+      },
+      "actual_result": null
     }
   ],
   "stats": {
@@ -254,10 +339,36 @@
     "honmei_place_rate": 0.0,
     "tansho_roi": null,
     "public_start_date": "2026-04-19",
-    "last_updated": "2026-06-13",
+    "last_updated": "2026-06-14",
     "note": "◎的中 0/2R（実績記録済み）"
   },
   "edge_ranking": [
+    {
+      "horse_no": 3,
+      "horse_name": "シュガークン",
+      "race_name": "宝塚記念 GⅠ",
+      "race_date": "2026-06-14",
+      "mark": "○",
+      "popularity": 17,
+      "odds": 259.0,
+      "edge": 0.1693,
+      "est_win_prob": "17.3%",
+      "mkt_win_prob": "0.4%",
+      "rank": 1
+    },
+    {
+      "horse_no": 2,
+      "horse_name": "ミュージアムマイル",
+      "race_name": "宝塚記念 GⅠ",
+      "race_date": "2026-06-14",
+      "mark": "◎",
+      "popularity": 3,
+      "odds": 7.2,
+      "edge": 0.1637,
+      "est_win_prob": "30.3%",
+      "mkt_win_prob": "13.9%",
+      "rank": 2
+    },
     {
       "horse_no": 11,
       "horse_name": "インビンシブルパパ",
@@ -269,7 +380,20 @@
       "edge": 0.121,
       "est_win_prob": "20.7%",
       "mkt_win_prob": "8.6%",
-      "rank": 1
+      "rank": 3
+    },
+    {
+      "horse_no": 17,
+      "horse_name": "レガレイラ",
+      "race_name": "宝塚記念 GⅠ",
+      "race_date": "2026-06-14",
+      "mark": "○",
+      "popularity": 4,
+      "odds": 7.4,
+      "edge": 0.0636,
+      "est_win_prob": "19.9%",
+      "mkt_win_prob": "13.5%",
+      "rank": 4
     },
     {
       "horse_no": 10,
@@ -282,45 +406,6 @@
       "edge": 0.059,
       "est_win_prob": "7.3%",
       "mkt_win_prob": "1.4%",
-      "rank": 2
-    },
-    {
-      "horse_no": 4,
-      "horse_name": "シックスペンス",
-      "race_name": "安田記念 G1",
-      "race_date": "2026-06-07",
-      "mark": "▲",
-      "popularity": 8,
-      "odds": 24.7,
-      "edge": 0.056,
-      "est_win_prob": "9.7%",
-      "mkt_win_prob": "4.0%",
-      "rank": 3
-    },
-    {
-      "horse_no": 11,
-      "horse_name": "ワールズエンド",
-      "race_name": "安田記念 G1",
-      "race_date": "2026-06-07",
-      "mark": "○",
-      "popularity": 7,
-      "odds": 20.0,
-      "edge": 0.052,
-      "est_win_prob": "10.2%",
-      "mkt_win_prob": "5.0%",
-      "rank": 4
-    },
-    {
-      "horse_no": 16,
-      "horse_name": "パンジャタワー",
-      "race_name": "安田記念 G1",
-      "race_date": "2026-06-07",
-      "mark": "○",
-      "popularity": 4,
-      "odds": 9.0,
-      "edge": 0.024,
-      "est_win_prob": "13.5%",
-      "mkt_win_prob": "11.1%",
       "rank": 5
     }
   ]
