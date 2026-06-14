@@ -329,18 +329,34 @@
           }
         ]
       },
-      "actual_result": null
+      "actual_result": {
+        "recorded_at": "2026-06-14",
+        "honmei_finish": 9,
+        "result": [
+          {
+            "finish": 1,
+            "horse_no": 16,
+            "horse_name": "メイショウタバル",
+            "popularity": 2,
+            "tansho_odds": 3.9,
+            "engine_mark": "",
+            "engine_edge": 0
+          }
+        ],
+        "verdict_result": "保留正解（2200m超ルール・◎9着大敗）",
+        "edge_accuracy_note": "◎ミュージアムマイルはエッジ+0.164と高評価だったが9着大敗。メイショウタバル（▲2人気3.9倍）が重馬場を制して1着。荒れ指数26.5の堅い予想だったが重馬場で逆転"
+      }
     }
   ],
   "stats": {
-    "total_races": 2,
+    "total_races": 3,
     "honmei_wins": 0,
     "honmei_win_rate": 0.0,
     "honmei_place_rate": 0.0,
     "tansho_roi": null,
     "public_start_date": "2026-04-19",
     "last_updated": "2026-06-14",
-    "note": "◎的中 0/2R（実績記録済み）"
+    "note": "◎的中 0/3R（実績記録済み）"
   },
   "edge_ranking": [
     {
