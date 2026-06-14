@@ -19,9 +19,10 @@ function formatEdge(edge: number): string {
 }
 
 function gradeBadgeClass(grade: string): string {
-  if (grade === "G1") return "bg-danger/15 text-danger border border-danger/40"
-  if (grade === "G2") return "bg-warn/15 text-warn border border-warn/40"
-  return "bg-[oklch(0.6_0.13_250/15%)] text-chart-3 border border-[oklch(0.6_0.13_250/40%)]"
+  if (grade === "G1") return "bg-red-600 text-white"
+  if (grade === "G2") return "bg-purple-600 text-white"
+  if (grade === "G3") return "bg-blue-600 text-white"
+  return "bg-muted text-muted-foreground border border-border"
 }
 
 function adiBarClass(adi: number): string {

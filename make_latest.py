@@ -24,9 +24,12 @@ WINDOW  = 14  # 直近何日を "今週/今月" とするか
 # ユーティリティ
 # ──────────────────────────────────────────────
 def grade_from_name(race_name: str) -> str:
-    for g in ('G1', 'G2', 'G3'):
-        if g in race_name:
-            return g
+    if 'G1' in race_name or 'GⅠ' in race_name:
+        return 'G1'
+    if 'G2' in race_name or 'GⅡ' in race_name:
+        return 'G2'
+    if 'G3' in race_name or 'GⅢ' in race_name:
+        return 'G3'
     return '重賞'
 
 
